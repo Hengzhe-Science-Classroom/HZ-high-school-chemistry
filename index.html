@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High School Chemistry · Interactive</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <button id="sidebar-toggle" aria-label="Toggle sidebar">&#9776;</button>
+        <aside id="sidebar">
+            <div id="sidebar-header">
+                <h1>High School Chemistry</h1>
+                <p class="author">Chinese National Curriculum (Ren Jiao Ban)</p>
+                <div id="progress-container">
+                    <div id="progress-bar"><div id="progress-fill"></div></div>
+                    <span id="progress-text">0%</span>
+                </div>
+            </div>
+            <div id="search-container">
+                <input type="text" id="search-input" placeholder="Search topics...">
+            </div>
+            <nav id="chapter-nav"></nav>
+            <div id="sidebar-footer"><p class="copyright-notice" style="font-size:0.7rem;color:#888;margin-top:12px;text-align:center;">&copy; 2026 Hengzhe Zhao · AGPL-3.0 &amp; Commercial</p>
+                <button id="reset-progress">Reset Progress</button>
+            </div>
+        </aside>
+        <main id="main-content">
+            <div id="welcome-screen">
+                <div class="welcome-hero">
+                    <h1>High School Chemistry</h1>
+                    <h2>An Interactive Journey into the World of Molecules</h2>
+                    <p class="welcome-description">
+                        Explore chemistry through vivid visualizations and hands-on simulations.
+                        From atomic structure to organic chemistry — discover how the elements shape our world!
+                    </p>
+                </div>
+                <div class="roadmap">
+                    <h3>What You'll Explore</h3>
+                    <div class="roadmap-parts">
+                        <div class="roadmap-part">
+                            <h4>Part A: Foundations of Matter</h4>
+                            <ul>
+                                <li>Ch 0: Introduction to Chemistry</li>
+                                <li>Ch 1: Classification & Transformation</li>
+                                <li>Ch 2: Chemical Stoichiometry</li>
+                                <li>Ch 3: Ionic Reactions</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-part">
+                            <h4>Part B: Atoms & Periodic Law</h4>
+                            <ul>
+                                <li>Ch 4: Atomic Structure</li>
+                                <li>Ch 5: Periodic Table & Periodic Law</li>
+                                <li>Ch 6: Chemical Bonds</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-part">
+                            <h4>Part C: Reaction Principles</h4>
+                            <ul>
+                                <li>Ch 7: Reactions & Energy</li>
+                                <li>Ch 8: Reaction Rates</li>
+                                <li>Ch 9: Chemical Equilibrium</li>
+                                <li>Ch 10: Electrochemistry</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-part">
+                            <h4>Part D: Common Substances</h4>
+                            <ul>
+                                <li>Ch 11: Metals & Their Compounds</li>
+                                <li>Ch 12: Nonmetals & Their Compounds</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-part">
+                            <h4>Part E: Organic Chemistry</h4>
+                            <ul>
+                                <li>Ch 13: Introduction to Organic Compounds</li>
+                                <li>Ch 14: Hydrocarbons</li>
+                                <li>Ch 15: Hydrocarbon Derivatives</li>
+                                <li>Ch 16: Biological Macromolecules</li>
+                            </ul>
+                        </div>
+                        <div class="roadmap-part">
+                            <h4>Part F: Chemistry in Life</h4>
+                            <ul>
+                                <li>Ch 17: Chemistry & Sustainability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <p class="welcome-start">Select a chapter from the sidebar to begin your journey!</p>
+            </div>
+            <div id="chapter-content" style="display:none;">
+                <div id="chapter-header">
+                    <div id="chapter-number-badge"></div>
+                    <h1 id="chapter-title"></h1>
+                    <p id="chapter-subtitle"></p>
+                </div>
+                <div id="section-tabs"></div>
+                <article id="section-content"></article>
+                <div id="exercises-panel" style="display:none;">
+                    <h3>Practice Time!</h3>
+                    <div id="exercises-list"></div>
+                </div>
+                <div id="chapter-nav-buttons">
+                    <button id="prev-btn" disabled>&larr; Previous</button>
+                    <span id="section-indicator"></span>
+                    <button id="next-btn">Next &rarr;</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <script src="viz-engine.js"></script>
+
+    <!-- Chapter manifest for lazy loading -->
+    <script>
+    window.CHAPTER_MANIFEST = [
+        {number:0,  id:'ch00', title:'Introduction to Chemistry',          file:'ch00-intro-chemistry'},
+        {number:1,  id:'ch01', title:'Classification & Transformation',    file:'ch01-classification'},
+        {number:2,  id:'ch02', title:'Chemical Stoichiometry',             file:'ch02-stoichiometry'},
+        {number:3,  id:'ch03', title:'Ionic Reactions',                    file:'ch03-ionic-reactions'},
+        {number:4,  id:'ch04', title:'Atomic Structure',                   file:'ch04-atomic-structure'},
+        {number:5,  id:'ch05', title:'Periodic Table & Periodic Law',      file:'ch05-periodic-table'},
+        {number:6,  id:'ch06', title:'Chemical Bonds',                     file:'ch06-chemical-bonds'},
+        {number:7,  id:'ch07', title:'Reactions & Energy',                 file:'ch07-reactions-energy'},
+        {number:8,  id:'ch08', title:'Reaction Rates',                     file:'ch08-reaction-rates'},
+        {number:9,  id:'ch09', title:'Chemical Equilibrium',               file:'ch09-chemical-equilibrium'},
+        {number:10, id:'ch10', title:'Electrochemistry',                   file:'ch10-electrochemistry'},
+        {number:11, id:'ch11', title:'Metals & Their Compounds',           file:'ch11-metals'},
+        {number:12, id:'ch12', title:'Nonmetals & Their Compounds',        file:'ch12-nonmetals'},
+        {number:13, id:'ch13', title:'Introduction to Organic Compounds',  file:'ch13-organic-intro'},
+        {number:14, id:'ch14', title:'Hydrocarbons',                       file:'ch14-hydrocarbons'},
+        {number:15, id:'ch15', title:'Hydrocarbon Derivatives',            file:'ch15-hydrocarbon-derivatives'},
+        {number:16, id:'ch16', title:'Biological Macromolecules',          file:'ch16-biomolecules'},
+        {number:17, id:'ch17', title:'Chemistry & Sustainability',         file:'ch17-sustainability'}
+    ];
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>
