@@ -6,11 +6,11 @@ subtitle: 'Functional Groups and Their Reactions',
 sections: [
 
 // ─────────────────────────────────────────────
-// SECTION 1: Halogenated Hydrocarbons (卤代烃)
+// SECTION 1: Halogenated Hydrocarbons
 // ─────────────────────────────────────────────
 {
 id: 'ch15-sec01',
-title: 'Halogenated Hydrocarbons (卤代烃)',
+title:'Halogenated Hydrocarbons',
 content: `
 <h2>Hydrocarbon Derivatives — Overview of Functional Groups</h2>
 
@@ -21,18 +21,18 @@ content: `
     <tr><th>Class</th><th>Functional Group</th><th>Example</th><th>Key Feature</th></tr>
   </thead>
   <tbody>
-    <tr><td>Halogenated HC (卤代烃)</td><td>–X (X = F, Cl, Br, I)</td><td>CH₃CH₂Cl</td><td>C–X bond polarized; undergoes substitution/elimination</td></tr>
-    <tr><td>Alcohol (醇)</td><td>–OH</td><td>CH₃CH₂OH</td><td>Hydrogen bonding; oxidizable</td></tr>
-    <tr><td>Aldehyde (醛)</td><td>–CHO</td><td>CH₃CHO</td><td>Easily oxidized; reducing agent</td></tr>
-    <tr><td>Carboxylic Acid (羧酸)</td><td>–COOH</td><td>CH₃COOH</td><td>Acidic; forms esters</td></tr>
-    <tr><td>Ester (酯)</td><td>–COO–</td><td>CH₃COOC₂H₅</td><td>Fragrant; formed by acid + alcohol</td></tr>
+ <tr><td>Halogenated HC </td><td>–X (X = F, Cl, Br, I)</td><td>CH₃CH₂Cl</td><td>C–X bond polarized; undergoes substitution/elimination</td></tr>
+ <tr><td>Alcohol </td><td>–OH</td><td>CH₃CH₂OH</td><td>Hydrogen bonding; oxidizable</td></tr>
+ <tr><td>Aldehyde </td><td>–CHO</td><td>CH₃CHO</td><td>Easily oxidized; reducing agent</td></tr>
+ <tr><td>Carboxylic Acid </td><td>–COOH</td><td>CH₃COOH</td><td>Acidic; forms esters</td></tr>
+ <tr><td>Ester </td><td>–COO–</td><td>CH₃COOC₂H₅</td><td>Fragrant; formed by acid + alcohol</td></tr>
   </tbody>
 </table>
 
 <h2>Halogenated Hydrocarbons — Introducing the C–X Bond</h2>
 
 <div class="env-definition">
-<strong>Definition:</strong> A <strong>halogenated hydrocarbon (卤代烃)</strong> is an organic compound in which one or more hydrogen atoms of a hydrocarbon have been replaced by halogen atoms (F, Cl, Br, or I). The C–X bond is the key functional group.
+<strong>Definition:</strong> A <strong>halogenated hydrocarbon </strong> is an organic compound in which one or more hydrogen atoms of a hydrocarbon have been replaced by halogen atoms (F, Cl, Br, or I). The C–X bond is the key functional group.
 </div>
 
 <p>The most important halogenated hydrocarbon in the high-school curriculum is <strong>chloroethane (CH₃CH₂Cl)</strong>, but the same reactions apply to all members of this family.</p>
@@ -40,9 +40,9 @@ content: `
 <h3>Naming and Structure</h3>
 <p>Halogenated hydrocarbons are classified by the hydrocarbon backbone:</p>
 <ul>
-  <li><strong>Halogenoalkanes (卤代烷)</strong> — saturated backbone, e.g. CH₃Cl, CH₃CH₂Br</li>
-  <li><strong>Halogenoalkenes (卤代烯)</strong> — unsaturated backbone, e.g. CH₂=CHCl (vinyl chloride)</li>
-  <li><strong>Halogenoarenes (卤代芳烃)</strong> — aromatic backbone, e.g. C₆H₅Cl (chlorobenzene)</li>
+ <li><strong>Halogenoalkanes </strong> — saturated backbone, e.g. CH₃Cl, CH₃CH₂Br</li>
+ <li><strong>Halogenoalkenes </strong> — unsaturated backbone, e.g. CH₂=CHCl (vinyl chloride)</li>
+ <li><strong>Halogenoarenes </strong> — aromatic backbone, e.g. C₆H₅Cl (chlorobenzene)</li>
 </ul>
 
 <div class="env-intuition">
@@ -51,7 +51,7 @@ content: `
 
 <h3>Two Key Reactions</h3>
 
-<h4>1. Nucleophilic Substitution (亲核取代, S_N)</h4>
+<h4>1. Nucleophilic Substitution (S_N)</h4>
 <p>A nucleophile (Nu⁻) attacks the carbon bearing the halogen and displaces X⁻:</p>
 <p style="text-align:center;">\\( \\text{R–X} + \\text{Nu}^- \\rightarrow \\text{R–Nu} + \\text{X}^- \\)</p>
 
@@ -62,7 +62,7 @@ content: `
 <strong>Example:</strong> When 1-bromobutane reacts with aqueous NaOH, the hydroxide ion (OH⁻) acts as the nucleophile and substitutes Br⁻, producing butan-1-ol. The reaction is facilitated by heating.
 </div>
 
-<h4>2. Elimination Reaction (消去反应, E)</h4>
+<h4>2. Elimination Reaction (E)</h4>
 <p>With a base in alcoholic solution, an H atom is removed from the adjacent carbon together with the halogen, forming a C=C double bond:</p>
 <p style="text-align:center;">\\( \\text{CH}_3\\text{CH}_2\\text{Br} + \\text{NaOH}_{(alc)} \\xrightarrow{\\Delta} \\text{CH}_2{=}\\text{CH}_2\\uparrow + \\text{NaBr} + \\text{H}_2\\text{O} \\)</p>
 
@@ -86,9 +86,9 @@ content: `
 <div class="env-definition">
 <strong>Key Vocabulary:</strong>
 <ul>
-  <li>亲核取代 (nucleophilic substitution) — Nu⁻ attacks carbon bearing X</li>
-  <li>消去反应 (elimination) — loss of HX to form C=C</li>
-  <li>水解 (hydrolysis) — reaction with water (or aqueous NaOH)</li>
+ <li>(nucleophilic substitution) — Nu⁻ attacks carbon bearing X</li>
+ <li>(elimination) — loss of HX to form C=C</li>
+ <li>(hydrolysis) — reaction with water (or aqueous NaOH)</li>
 </ul>
 </div>
 `,
@@ -271,16 +271,16 @@ exercises: [
 },
 
 // ─────────────────────────────────────────────
-// SECTION 2: Alcohols (醇)
+// SECTION 2: Alcohols
 // ─────────────────────────────────────────────
 {
 id: 'ch15-sec02',
-title: 'Alcohols (醇)',
+title:'Alcohols',
 content: `
 <h2>Alcohols — The Hydroxyl Functional Group</h2>
 
 <div class="env-definition">
-<strong>Definition:</strong> An <strong>alcohol (醇)</strong> is an organic compound containing one or more hydroxyl groups (–OH) bonded directly to a saturated carbon atom. The general formula for monohydric alcohols is CₙH₂ₙ₊₁OH.
+<strong>Definition:</strong> An <strong>alcohol </strong> is an organic compound containing one or more hydroxyl groups (–OH) bonded directly to a saturated carbon atom. The general formula for monohydric alcohols is CₙH₂ₙ₊₁OH.
 </div>
 
 <h3>Ethanol (CH₃CH₂OH) — The Prototypical Alcohol</h3>
@@ -478,16 +478,16 @@ exercises: [
 },
 
 // ─────────────────────────────────────────────
-// SECTION 3: Aldehydes (醛)
+// SECTION 3: Aldehydes
 // ─────────────────────────────────────────────
 {
 id: 'ch15-sec03',
-title: 'Aldehydes (醛)',
+title:'Aldehydes',
 content: `
 <h2>Aldehydes — The –CHO Functional Group</h2>
 
 <div class="env-definition">
-<strong>Definition:</strong> An <strong>aldehyde (醛)</strong> contains the formyl group –CHO, where a carbonyl carbon (C=O) is bonded to at least one hydrogen. The simplest aldehyde is methanal (HCHO, formaldehyde); the most important at this level is ethanal (CH₃CHO, acetaldehyde).
+<strong>Definition:</strong> An <strong>aldehyde </strong> contains the formyl group –CHO, where a carbonyl carbon (C=O) is bonded to at least one hydrogen. The simplest aldehyde is methanal (HCHO, formaldehyde); the most important at this level is ethanal (CH₃CHO, acetaldehyde).
 </div>
 
 <h3>Structure of Acetaldehyde (CH₃CHO)</h3>
@@ -495,7 +495,7 @@ content: `
 
 <h3>Key Reactions</h3>
 
-<h4>1. Silver Mirror Reaction (银镜反应) — Tollens' Test</h4>
+<h4>1. Silver Mirror Reaction — Tollens' Test</h4>
 <p>Aldehyde + Tollens' reagent (silver–ammonia complex Ag(NH₃)₂⁺OH⁻):</p>
 <p style="text-align:center;">\\( \\text{CH}_3\\text{CHO} + 2\\,\\text{Ag}(\\text{NH}_3)_2^+ + 2\\,\\text{OH}^- \\xrightarrow{\\Delta,\\text{water bath}} \\text{CH}_3\\text{COO}^- + 2\\,\\text{Ag}\\downarrow + \\text{NH}_3 + \\text{H}_2\\text{O} \\)</p>
 <p>A brilliant silver mirror forms on the inside of the test tube. This is the classic <strong>positive test for aldehydes</strong>.</p>
@@ -541,7 +541,7 @@ visualizations: [
 
     function drawScene(prog) {
       viz.clear();
-      viz.screenText('Silver Mirror Reaction (银镜反应)', viz.width/2, 28, c.blue, 16);
+ viz.screenText('Silver Mirror Reaction', viz.width/2, 28, c.blue, 16);
       viz.screenText('CH\u2083CHO + 2 Ag(NH\u2083)\u2082\u207a + 2 OH\u207b \u2192 CH\u2083COO\u207b + 2 Ag\u2193 + H\u2082O', viz.width/2, 52, c.text, 12);
 
       // Test tube outline
@@ -673,20 +673,20 @@ exercises: [
 },
 
 // ─────────────────────────────────────────────
-// SECTION 4: Carboxylic Acids (羧酸)
+// SECTION 4: Carboxylic Acids
 // ─────────────────────────────────────────────
 {
 id: 'ch15-sec04',
-title: 'Carboxylic Acids (羧酸)',
+title:'Carboxylic Acids',
 content: `
 <h2>Carboxylic Acids — The –COOH Functional Group</h2>
 
 <div class="env-definition">
-<strong>Definition:</strong> A <strong>carboxylic acid (羧酸)</strong> contains the carboxyl group –COOH, which consists of a carbonyl (C=O) and a hydroxyl (–OH) on the same carbon. General formula for monocarboxylic acids: CₙH₂ₙ₊₁COOH.
+<strong>Definition:</strong> A <strong>carboxylic acid </strong> contains the carboxyl group –COOH, which consists of a carbonyl (C=O) and a hydroxyl (–OH) on the same carbon. General formula for monocarboxylic acids: CₙH₂ₙ₊₁COOH.
 </div>
 
 <h3>Acetic Acid (CH₃COOH, Ethanoic Acid)</h3>
-<p>Pure acetic acid (glacial acetic acid, 冰醋酸) is a colourless liquid with a sharp, pungent smell. It freezes at 16.6°C (hence "glacial"). Vinegar is 3–8% acetic acid in water.</p>
+<p>Pure acetic acid (glacial acetic acid) is a colourless liquid with a sharp, pungent smell. It freezes at 16.6°C (hence"glacial"). Vinegar is 3–8% acetic acid in water.</p>
 
 <h3>Acetic Acid as a Weak Acid</h3>
 <p>Acetic acid is a <strong>weak acid</strong> — it only partially dissociates in water:</p>
@@ -717,7 +717,7 @@ content: `
 
 <div class="env-example">
 <strong>Bond-breaking in esterification:</strong><br>
-The –OH is lost from the carboxylic acid side, and H is lost from the alcohol's –OH. This is called <strong>acid–alcohol condensation</strong> (酸失去OH，醇失去H).
+The –OH is lost from the carboxylic acid side, and H is lost from the alcohol's –OH. This is called <strong>acid–alcohol condensation</strong> (OHH).
 </div>
 
 <div class="env-warning">
@@ -749,18 +749,18 @@ exercises: [
 // ─────────────────────────────────────────────
 {
 id: 'ch15-sec05',
-title: 'Esters & Organic Reaction Map (酯)',
+title:'Esters & Organic Reaction Map',
 content: `
 <h2>Esters — Formation, Properties, and Applications</h2>
 
 <div class="env-definition">
-<strong>Definition:</strong> An <strong>ester (酯)</strong> is an organic compound formed by the condensation of a carboxylic acid and an alcohol, with the elimination of water. The general structure is R–COO–R', where the –COO– linkage is the ester functional group.
+<strong>Definition:</strong> An <strong>ester </strong> is an organic compound formed by the condensation of a carboxylic acid and an alcohol, with the elimination of water. The general structure is R–COO–R', where the –COO– linkage is the ester functional group.
 </div>
 
 <h3>Formation: Esterification</h3>
 <p style="text-align:center;">\\( \\underbrace{\\text{CH}_3\\text{CO}\\!\\!\\underbrace{\\text{OH}}_{\\text{lost from acid}}}_{\\text{acetic acid}} + \\underbrace{\\text{H}}_{\\text{lost from alcohol}}\\!\\!\\underbrace{\\text{OC}_2\\text{H}_5}_{\\text{remains}}_{\\text{ethanol}} \\underset{\\Delta}{\\overset{\\text{H}_2\\text{SO}_4}{\\rightleftharpoons}} \\text{CH}_3\\text{COOC}_2\\text{H}_5 + \\text{H}_2\\text{O} \\)</p>
 
-<p><strong>Product:</strong> Ethyl acetate (乙酸乙酯, CH₃COOC₂H₅) — a sweet-smelling, colourless liquid used as a solvent and food flavouring.</p>
+<p><strong>Product:</strong> Ethyl acetate (CH₃COOC₂H₅) — a sweet-smelling, colourless liquid used as a solvent and food flavouring.</p>
 
 <h3>Physical Properties of Esters</h3>
 <ul>
@@ -1040,13 +1040,13 @@ visualizations: [
     var c = viz.colors;
 
     var nodes = [
-      {id:'alkane',  label:'Alkane\n(烷烃)',   x:-4.5, y: 2.5, col:c.text},
-      {id:'alkene',  label:'Alkene\n(烯烃)',   x:-2.0, y: 2.5, col:c.purple},
-      {id:'halo',    label:'Halide\n(卤代烃)', x: 0.5, y: 2.5, col:c.green},
-      {id:'alcohol', label:'Alcohol\n(醇)',    x: 0.5, y: 0.0, col:c.blue},
-      {id:'aldehyde',label:'Aldehyde\n(醛)',   x: 3.0, y: 0.0, col:c.orange},
-      {id:'acid',    label:'Acid\n(羧酸)',     x: 5.5, y: 0.0, col:c.red},
-      {id:'ester',   label:'Ester\n(酯)',      x: 5.5, y:-2.5, col:c.teal},
+ {id:'alkane', label:'Alkane\n', x:-4.5, y: 2.5, col:c.text},
+ {id:'alkene', label:'Alkene\n', x:-2.0, y: 2.5, col:c.purple},
+ {id:'halo', label:'Halide\n', x: 0.5, y: 2.5, col:c.green},
+ {id:'alcohol', label:'Alcohol\n', x: 0.5, y: 0.0, col:c.blue},
+ {id:'aldehyde',label:'Aldehyde\n', x: 3.0, y: 0.0, col:c.orange},
+ {id:'acid', label:'Acid\n', x: 5.5, y: 0.0, col:c.red},
+ {id:'ester', label:'Ester\n', x: 5.5, y:-2.5, col:c.teal},
       {id:'water',   label:'H\u2082O',         x: 3.0, y:-2.5, col:c.white}
     ];
 
@@ -1210,7 +1210,7 @@ exercises: [
 {
   question: 'In the reaction network: alkene \u2192 [A] \u2192 alcohol \u2192 [B] \u2192 carboxylic acid \u2192 [C] + H\u2082O. Identify [A], [B], and [C].',
   hint: 'Follow the oxidation/substitution pathway from the chapter map.',
-  solution: '[A] = Halogenated hydrocarbon (卤代烃): alkene + HX \u2192 R\u2013X, then R\u2013X + NaOH(aq) \u2192 alcohol. [B] = Aldehyde (醛): alcohol is oxidised ([O], Cu catalyst) to aldehyde, then further oxidised to carboxylic acid. [C] = Ester (酯): carboxylic acid + alcohol (in the presence of conc. H\u2082SO\u2084 and heat) \u2192 ester + H\u2082O.'
+ solution:'[A] = Halogenated hydrocarbon : alkene + HX \u2192 R\u2013X, then R\u2013X + NaOH(aq) \u2192 alcohol. [B] = Aldehyde : alcohol is oxidised ([O], Cu catalyst) to aldehyde, then further oxidised to carboxylic acid. [C] = Ester : carboxylic acid + alcohol (in the presence of conc. H\u2082SO\u2084 and heat) \u2192 ester + H\u2082O.'
 }
 ]
 }

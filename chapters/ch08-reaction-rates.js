@@ -15,7 +15,7 @@ window.CHAPTERS.push({
 <h2>How Fast Is the Reaction?</h2>
 <p>
   When a chemical reaction occurs, the concentrations of reactants decrease
-  and products increase over time. <strong>Reaction rate</strong> (化学反应速率)
+ and products increase over time. <strong>Reaction rate</strong>
   measures how quickly this change happens.
 </p>
 
@@ -243,7 +243,7 @@ window.CHAPTERS.push({
       id: 'ch08-sec02',
       title: 'Collision Theory & Activation Energy',
       content: `
-<h2>Collision Theory (碰撞理论)</h2>
+<h2>Collision Theory </h2>
 <p>
   The <strong>collision theory</strong> explains reaction rates at the molecular level.
   For a reaction to occur, reactant molecules must:
@@ -255,7 +255,7 @@ window.CHAPTERS.push({
 </ol>
 
 <div class="concept-box">
-  <h3>Effective Collisions (有效碰撞)</h3>
+ <h3>Effective Collisions </h3>
   <p>
     Only collisions that satisfy both the energy and orientation requirements
     lead to products — these are called <strong>effective collisions</strong>.
@@ -532,7 +532,7 @@ window.CHAPTERS.push({
   <h3>Rate Law</h3>
   <p>
     For an elementary reaction or an experimentally determined reaction, the
-    <strong>rate law</strong> (速率方程) expresses rate as:
+ <strong>rate law</strong> expresses rate as:
   </p>
   <p style="text-align:center;">
     \\(v = k[\\text{A}]^m[\\text{B}]^n\\)
@@ -563,7 +563,7 @@ window.CHAPTERS.push({
 <div class="info-box">
   <h3>At the High School Level</h3>
   <p>
-    Chinese national curriculum (人教版) focuses on the <em>qualitative rule</em>:
+ Chinese national curriculum focuses on the <em>qualitative rule</em>:
     increasing concentration → more collisions per second → faster rate.
     Pressure does NOT affect the rate of reactions involving only solids or pure
     liquids, because their concentrations are essentially fixed.
@@ -747,7 +747,7 @@ window.CHAPTERS.push({
 </p>
 
 <div class="concept-box">
-  <h3>Van't Hoff Rule of Thumb (经验规律)</h3>
+ <h3>Van't Hoff Rule of Thumb </h3>
   <p>
     For every <strong>10°C rise</strong> in temperature, the reaction rate
     approximately <strong>doubles to triples</strong> (2–3×). A rough factor of 2 is
@@ -1054,7 +1054,7 @@ window.CHAPTERS.push({
       content: `
 <h2>Catalysts: Lowering the Energy Barrier</h2>
 <p>
-  A <strong>catalyst</strong> (催化剂) is a substance that <em>increases</em> the
+ A <strong>catalyst</strong> is a substance that <em>increases</em> the
   reaction rate without itself being consumed in the overall reaction.
   It works by providing an alternative reaction pathway with a <strong>lower
   activation energy</strong> \\(E_a\\).
@@ -1082,12 +1082,12 @@ window.CHAPTERS.push({
   </thead>
   <tbody>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Homogeneous (均相)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Homogeneous </td>
       <td style="padding:8px;border:1px solid #30363d;">Same phase as reactants</td>
       <td style="padding:8px;border:1px solid #30363d;">H⁺ catalyzing ester hydrolysis</td>
     </tr>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Heterogeneous (多相)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Heterogeneous </td>
       <td style="padding:8px;border:1px solid #30363d;">Different phase from reactants</td>
       <td style="padding:8px;border:1px solid #30363d;">Fe catalyst in Haber process</td>
     </tr>
@@ -1096,7 +1096,7 @@ window.CHAPTERS.push({
 
 <h3>Enzymes — Nature's Catalysts</h3>
 <p>
-  <strong>Enzymes</strong> (酶) are biological catalysts — protein molecules that
+ <strong>Enzymes</strong> are biological catalysts — protein molecules that
   catalyze reactions in living cells with extraordinary specificity and efficiency.
   The active site is precisely shaped to bind its specific substrate, dramatically
   lowering the activation energy.
@@ -1104,7 +1104,7 @@ window.CHAPTERS.push({
 <ul>
   <li>Each enzyme catalyzes a specific reaction (lock-and-key model).</li>
   <li>Optimal temperature ~37°C for most human enzymes; high temperature denatures them.</li>
-  <li>Example: amylase (淀粉酶) breaks down starch; catalase (过氧化氢酶) decomposes H₂O₂.</li>
+ <li>Example: amylase breaks down starch; catalase decomposes H₂O₂.</li>
 </ul>
 
 <h3>Summary: All Factors Affecting Rate</h3>

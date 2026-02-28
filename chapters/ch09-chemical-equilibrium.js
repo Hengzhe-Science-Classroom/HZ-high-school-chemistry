@@ -10,9 +10,9 @@ window.CHAPTERS.push({
       id: 'ch09-sec01',
       title: 'Reversible Reactions',
       content: `
-<h2>Reversible Reactions (可逆反应)</h2>
+<h2>Reversible Reactions </h2>
 
-<p>Many chemical reactions can proceed in <strong>both directions</strong> simultaneously — forward and reverse. These are called <em>reversible reactions</em> (可逆反应).</p>
+<p>Many chemical reactions can proceed in <strong>both directions</strong> simultaneously — forward and reverse. These are called <em>reversible reactions</em> .</p>
 
 <div class="env-block concept">
 <strong>Definition:</strong> A reversible reaction is one in which the products can react with each other to regenerate the original reactants under the same conditions. We write them with a double arrow: ⇌
@@ -25,7 +25,7 @@ window.CHAPTERS.push({
 \\( \\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\)
 </div>
 
-<p>The top arrow represents the <strong>forward reaction</strong> (正反应); the bottom arrow represents the <strong>reverse reaction</strong> (逆反应).</p>
+<p>The top arrow represents the <strong>forward reaction</strong>; the bottom arrow represents the <strong>reverse reaction</strong> .</p>
 
 <h3>Classic Examples</h3>
 <ul>
@@ -46,7 +46,7 @@ window.CHAPTERS.push({
   <li>The <strong>reverse rate increases</strong> (product concentrations rise).</li>
   <li>Eventually: <strong>forward rate = reverse rate</strong>.</li>
 </ul>
-<p>This state is called <strong>dynamic equilibrium</strong> (动态平衡). Both reactions are still happening, just at equal rates. Concentrations remain constant, but molecules are constantly being converted in both directions.</p>
+<p>This state is called <strong>dynamic equilibrium</strong> . Both reactions are still happening, just at equal rates. Concentrations remain constant, but molecules are constantly being converted in both directions.</p>
 
 <h3>Irreversible vs. Reversible</h3>
 <table>
@@ -263,9 +263,9 @@ window.CHAPTERS.push({
       id: 'ch09-sec02',
       title: 'Chemical Equilibrium State',
       content: `
-<h2>Chemical Equilibrium State (化学平衡状态)</h2>
+<h2>Chemical Equilibrium State </h2>
 
-<p>When a reversible reaction is placed in a closed container and allowed to proceed, eventually it reaches a state called <strong>chemical equilibrium</strong> (化学平衡).</p>
+<p>When a reversible reaction is placed in a closed container and allowed to proceed, eventually it reaches a state called <strong>chemical equilibrium</strong> .</p>
 
 <h3>What is Chemical Equilibrium?</h3>
 <div class="env-block concept">
@@ -276,10 +276,10 @@ window.CHAPTERS.push({
 
 <h3>Four Key Characteristics of Equilibrium</h3>
 <ol>
-  <li><strong>Dynamic (动态):</strong> Both forward and reverse reactions are still occurring — this is a <em>dynamic equilibrium</em> (动态平衡).</li>
-  <li><strong>Equal rates (等速):</strong> The forward rate equals the reverse rate: \\( v_f = v_r \\)</li>
-  <li><strong>Constant concentrations (不变):</strong> Concentrations of all reactants and products remain unchanged.</li>
-  <li><strong>Condition-dependent (条件依赖):</strong> Changing conditions (temperature, pressure, concentration) shifts the equilibrium.</li>
+ <li><strong>Dynamic :</strong> Both forward and reverse reactions are still occurring — this is a <em>dynamic equilibrium</em> .</li>
+ <li><strong>Equal rates :</strong> The forward rate equals the reverse rate: \\( v_f = v_r \\)</li>
+ <li><strong>Constant concentrations :</strong> Concentrations of all reactants and products remain unchanged.</li>
+ <li><strong>Condition-dependent :</strong> Changing conditions (temperature, pressure, concentration) shifts the equilibrium.</li>
 </ol>
 
 <h3>How to Recognize Equilibrium</h3>
@@ -387,9 +387,9 @@ window.CHAPTERS.push({
             ctx.font = 'bold 13px sans-serif';
             ctx.textAlign = 'left';
             ctx.fillStyle = viz.colors.blue;
-            ctx.fillText('v forward (正反应速率)', ox + 8, oy - forwardStart * ah + 4);
+ ctx.fillText('v forward', ox + 8, oy - forwardStart * ah + 4);
             ctx.fillStyle = viz.colors.orange;
-            ctx.fillText('v reverse (逆反应速率)', ox + 8, oy - reverseStart * ah - 8);
+ ctx.fillText('v reverse', ox + 8, oy - reverseStart * ah - 8);
             ctx.fillStyle = viz.colors.green;
             ctx.textAlign = 'right';
             ctx.fillText('v\u2091 = v\u1d63  (Equilibrium)', ox + aw - 6, oy - eq * ah - 8);
@@ -523,7 +523,7 @@ window.CHAPTERS.push({
       id: 'ch09-sec03',
       title: 'Equilibrium Constant K',
       content: `
-<h2>Equilibrium Constant K (平衡常数)</h2>
+<h2>Equilibrium Constant K </h2>
 
 <p>For any reversible reaction at equilibrium, there is a specific mathematical relationship between the concentrations of products and reactants — the <strong>equilibrium constant K</strong>.</p>
 
@@ -912,9 +912,9 @@ window.CHAPTERS.push({
       id: 'ch09-sec04',
       title: 'Conversion Rate',
       content: `
-<h2>Conversion Rate (转化率)</h2>
+<h2>Conversion Rate </h2>
 
-<p>The <strong>conversion rate</strong> (转化率, α) tells us what fraction of a reactant has been consumed when equilibrium is reached.</p>
+<p>The <strong>conversion rate</strong> tells us what fraction of a reactant has been consumed when equilibrium is reached.</p>
 
 <div class="env-block formula">
 \\( \\alpha = \\frac{\\text{moles consumed at equilibrium}}{\\text{initial moles}} \\times 100\\% \\)
@@ -1063,13 +1063,13 @@ window.CHAPTERS.push({
       id: 'ch09-sec05',
       title: "Le Chatelier's Principle & Industrial Applications",
       content: `
-<h2>Le Chatelier's Principle (勒夏特列原理)</h2>
+<h2>Le Chatelier's Principle </h2>
 
 <p>When an equilibrium system is subjected to a stress (disturbance), it responds by <strong>shifting in the direction that partially relieves the stress</strong>.</p>
 
 <h3>Three Types of Stress</h3>
 
-<h4>1. Concentration Change (浓度变化)</h4>
+<h4>1. Concentration Change </h4>
 <table>
 <thead><tr><th>Stress</th><th>Shift Direction</th><th>Reason</th></tr></thead>
 <tbody>
@@ -1080,7 +1080,7 @@ window.CHAPTERS.push({
 </tbody>
 </table>
 
-<h4>2. Pressure Change (压强变化) — for gas reactions</h4>
+<h4>2. Pressure Change — for gas reactions</h4>
 <table>
 <thead><tr><th>Stress</th><th>Shift Direction</th><th>Condition</th></tr></thead>
 <tbody>
@@ -1091,7 +1091,7 @@ window.CHAPTERS.push({
 </tbody>
 </table>
 
-<h4>3. Temperature Change (温度变化)</h4>
+<h4>3. Temperature Change </h4>
 <table>
 <thead><tr><th>Reaction type</th><th>Increase T</th><th>Decrease T</th></tr></thead>
 <tbody>

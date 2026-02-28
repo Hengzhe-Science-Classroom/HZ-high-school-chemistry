@@ -6,17 +6,17 @@ window.CHAPTERS.push({
   sections: [
 
     // ─────────────────────────────────────────────────────────────
-    // SECTION 1: Alkanes (烷烃)
+ // SECTION 1: Alkanes
     // ─────────────────────────────────────────────────────────────
     {
       id: 'ch14-sec01',
-      title: 'Alkanes (烷烃)',
+ title:'Alkanes',
       content: `
 <h2>Alkanes — Saturated Hydrocarbons</h2>
 <p>
   Alkanes are hydrocarbons containing only C–C single bonds and C–H bonds.
   Because every carbon is bonded to the maximum number of atoms, alkanes are called
-  <strong>saturated hydrocarbons</strong> (饱和烃).
+ <strong>saturated hydrocarbons</strong> .
 </p>
 
 <div class="info-box">
@@ -30,13 +30,13 @@ window.CHAPTERS.push({
     <tr><th>n</th><th>Name</th><th>Formula</th><th>Boiling Point (°C)</th><th>State (25°C)</th></tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>Methane 甲烷</td><td>CH₄</td><td>−162</td><td>Gas</td></tr>
-    <tr><td>2</td><td>Ethane 乙烷</td><td>C₂H₆</td><td>−89</td><td>Gas</td></tr>
-    <tr><td>3</td><td>Propane 丙烷</td><td>C₃H₈</td><td>−42</td><td>Gas</td></tr>
-    <tr><td>4</td><td>Butane 丁烷</td><td>C₄H₁₀</td><td>−1</td><td>Gas</td></tr>
-    <tr><td>5</td><td>Pentane 戊烷</td><td>C₅H₁₂</td><td>36</td><td>Liquid</td></tr>
-    <tr><td>6</td><td>Hexane 己烷</td><td>C₆H₁₄</td><td>69</td><td>Liquid</td></tr>
-    <tr><td>8</td><td>Octane 辛烷</td><td>C₈H₁₈</td><td>126</td><td>Liquid</td></tr>
+ <tr><td>1</td><td>Methane</td><td>CH₄</td><td>−162</td><td>Gas</td></tr>
+ <tr><td>2</td><td>Ethane</td><td>C₂H₆</td><td>−89</td><td>Gas</td></tr>
+ <tr><td>3</td><td>Propane</td><td>C₃H₈</td><td>−42</td><td>Gas</td></tr>
+ <tr><td>4</td><td>Butane</td><td>C₄H₁₀</td><td>−1</td><td>Gas</td></tr>
+ <tr><td>5</td><td>Pentane</td><td>C₅H₁₂</td><td>36</td><td>Liquid</td></tr>
+ <tr><td>6</td><td>Hexane</td><td>C₆H₁₄</td><td>69</td><td>Liquid</td></tr>
+ <tr><td>8</td><td>Octane</td><td>C₈H₁₈</td><td>126</td><td>Liquid</td></tr>
     <tr><td>16+</td><td>Hexadecane+</td><td>C₁₆H₃₄+</td><td>>280</td><td>Solid</td></tr>
   </tbody>
 </table>
@@ -48,7 +48,7 @@ window.CHAPTERS.push({
   <li>At room temperature: C₁–C₄ are gases, C₅–C₁₅ are liquids, C₁₆+ are solids</li>
 </ul>
 
-<h3>Structural Isomerism (同分异构体)</h3>
+<h3>Structural Isomerism </h3>
 <p>Starting from butane (n = 4), the same molecular formula can correspond to different <strong>structural isomers</strong> — compounds with the same molecular formula but different connectivity.</p>
 <ul>
   <li><strong>n-butane</strong>: CH₃–CH₂–CH₂–CH₃ (straight chain, bp −1°C)</li>
@@ -65,7 +65,7 @@ window.CHAPTERS.push({
 </ol>
 <p><strong>Example:</strong> CH₃–CH(CH₃)–CH₂–CH₃ is <em>2-methylbutane</em>: the parent chain is butane (4 C), with a methyl group at carbon 2.</p>
 
-<h3>Chemical Properties — Substitution Reaction (取代反应)</h3>
+<h3>Chemical Properties — Substitution Reaction </h3>
 <p>
   Alkanes are chemically stable, but they react with halogens under ultraviolet (UV) light.
   In a substitution reaction, a hydrogen atom is replaced by a halogen atom:
@@ -74,7 +74,7 @@ window.CHAPTERS.push({
 <div class="equation-box">
   \\(CH_4 + Cl_2 \\xrightarrow{h\\nu} CH_3Cl + HCl\\)
 </div>
-<p style="text-align:center">Chloromethane (氯甲烷) + Hydrogen chloride</p>
+<p style="text-align:center">Chloromethane + Hydrogen chloride</p>
 
 <p>The reaction can continue in excess Cl₂:</p>
 <div class="equation-box">
@@ -86,12 +86,12 @@ window.CHAPTERS.push({
 <div class="info-box warning">
   <strong>Key Feature of Substitution Reactions:</strong>
   One atom or group in the molecule is replaced by another atom or group.
-  The halogen atom takes the place of a hydrogen atom — this is why it is called substitution (取代).
+ The halogen atom takes the place of a hydrogen atom — this is why it is called substitution .
 </div>
 
 <h3>Combustion</h3>
 <div class="equation-box">
-  \\(CH_4 + 2O_2 \\xrightarrow{点燃} CO_2 + 2H_2O\\)
+ \\(CH_4 + 2O_2 \\xrightarrow{} CO_2 + 2H_2O\\)
 </div>
 <p>All hydrocarbons burn in oxygen to produce CO₂ and H₂O (complete combustion).</p>
       `,
@@ -378,11 +378,11 @@ window.CHAPTERS.push({
     },
 
     // ─────────────────────────────────────────────────────────────
-    // SECTION 2: Alkenes (烯烃)
+ // SECTION 2: Alkenes
     // ─────────────────────────────────────────────────────────────
     {
       id: 'ch14-sec02',
-      title: 'Alkenes (烯烃)',
+ title:'Alkenes',
       content: `
 <h2>Alkenes — The Carbon–Carbon Double Bond</h2>
 <p>
@@ -395,13 +395,13 @@ window.CHAPTERS.push({
   <strong>General Formula:</strong> \\(C_nH_{2n}\\) &nbsp;(n ≥ 2)
 </div>
 
-<h3>Ethylene (乙烯) — The Simplest Alkene</h3>
+<h3>Ethylene — The Simplest Alkene</h3>
 <p>
   Ethylene (CH₂=CH₂) is a planar molecule. All 6 atoms lie in the same plane.
   Bond angle: ~120° (sp² hybridization).
 </p>
 
-<h3>Addition Reactions (加成反应)</h3>
+<h3>Addition Reactions </h3>
 <p>
   In an addition reaction, the \\(\\pi\\)-bond breaks and two atoms or groups add
   across the double bond, forming a single bond. No atoms are lost — all atoms
@@ -409,17 +409,17 @@ window.CHAPTERS.push({
 </p>
 
 <div class="equation-box">
-  <strong>Hydrogenation (氢化):</strong><br>
+ <strong>Hydrogenation :</strong><br>
   \\(CH_2=CH_2 + H_2 \\xrightarrow{Ni, \\Delta} CH_3-CH_3\\)<br><br>
-  <strong>Halogenation (卤化):</strong><br>
+ <strong>Halogenation :</strong><br>
   \\(CH_2=CH_2 + Br_2 \\rightarrow CH_2Br-CH_2Br\\)&nbsp;&nbsp;&nbsp;(decolorizes bromine water!)<br><br>
-  <strong>Hydrohalogenation (氢卤化):</strong><br>
+ <strong>Hydrohalogenation :</strong><br>
   \\(CH_2=CH_2 + HCl \\rightarrow CH_3CH_2Cl\\)<br><br>
-  <strong>Hydration (水合):</strong><br>
+ <strong>Hydration :</strong><br>
   \\(CH_2=CH_2 + H_2O \\xrightarrow{H^+, \\Delta} CH_3CH_2OH\\)&nbsp;&nbsp;&nbsp;(ethanol!)
 </div>
 
-<h3>Markovnikov's Rule (马氏规则)</h3>
+<h3>Markovnikov's Rule </h3>
 <p>
   When HX adds to an <em>asymmetric</em> alkene, the hydrogen adds to the carbon bearing <em>more</em> hydrogens
   (the less-substituted carbon), and X adds to the more-substituted carbon. This follows from
@@ -436,19 +436,19 @@ window.CHAPTERS.push({
   Alkenes also decolorize acidified KMnO₄ (purple → colorless).
 </div>
 
-<h3>Polymerization (聚合反应)</h3>
+<h3>Polymerization </h3>
 <p>
   Under high temperature, pressure, and catalyst, many ethylene molecules join together
-  (addition polymerization) to form polyethylene (聚乙烯, PE):
+ (addition polymerization) to form polyethylene (PE):
 </p>
 <div class="equation-box">
-  \\(nCH_2=CH_2 \\xrightarrow{催化剂} [-CH_2-CH_2-]_n\\)
+ \\(nCH_2=CH_2 \\xrightarrow{} [-CH_2-CH_2-]_n\\)
 </div>
 <p>Polyethylene is one of the world's most common plastics (plastic bags, bottles, etc.)</p>
 
 <h3>Combustion of Ethylene</h3>
 <div class="equation-box">
-  \\(C_2H_4 + 3O_2 \\xrightarrow{点燃} 2CO_2 + 2H_2O\\)
+ \\(C_2H_4 + 3O_2 \\xrightarrow{} 2CO_2 + 2H_2O\\)
 </div>
       `,
       visualizations: [
@@ -735,7 +735,7 @@ window.CHAPTERS.push({
         },
         {
           question: 'What type of reaction is ethylene polymerization? Why is it different from a typical addition reaction?',
-          answer: 'Ethylene polymerization is an addition polymerization (加聚反应). Like a regular addition reaction, the π bond of each C=C breaks and no atoms are lost. The difference is that n monomers link together into one macromolecule, rather than just two small molecules reacting.'
+ answer:'Ethylene polymerization is an addition polymerization . Like a regular addition reaction, the π bond of each C=C breaks and no atoms are lost. The difference is that n monomers link together into one macromolecule, rather than just two small molecules reacting.'
         },
         {
           question: 'Apply Markovnikov\'s rule: what is the major product when propene (CH₃–CH=CH₂) reacts with HBr?',
@@ -745,26 +745,26 @@ window.CHAPTERS.push({
     },
 
     // ─────────────────────────────────────────────────────────────
-    // SECTION 3: Alkynes (炔烃)
+ // SECTION 3: Alkynes
     // ─────────────────────────────────────────────────────────────
     {
       id: 'ch14-sec03',
-      title: 'Alkynes (炔烃)',
+ title:'Alkynes',
       content: `
 <h2>Alkynes — The Carbon–Carbon Triple Bond</h2>
 <p>
   Alkynes contain a C≡C triple bond (one \\(\\sigma\\)-bond and two \\(\\pi\\)-bonds).
-  The simplest alkyne is acetylene (乙炔, C₂H₂), a linear molecule.
+ The simplest alkyne is acetylene (C₂H₂), a linear molecule.
 </p>
 
 <div class="info-box">
   <strong>General Formula:</strong> \\(C_nH_{2n-2}\\) &nbsp;(n ≥ 2)
 </div>
 
-<h3>Acetylene (乙炔) — Structure and Properties</h3>
+<h3>Acetylene — Structure and Properties</h3>
 <p>
   Acetylene is linear: H–C≡C–H, with all four atoms collinear (180° bond angle, sp hybridization).
-  It is a colorless, slightly soluble gas. Industrially, it is made from calcium carbide (电石):
+ It is a colorless, slightly soluble gas. Industrially, it is made from calcium carbide :
 </p>
 <div class="equation-box">
   \\(CaC_2 + 2H_2O \\rightarrow Ca(OH)_2 + C_2H_2\\uparrow\\)
@@ -799,23 +799,23 @@ window.CHAPTERS.push({
   \\(HC \\equiv CH + 2[Ag(NH_3)_2]^+ \\rightarrow AgC \\equiv CAg \\downarrow + 2NH_4^+\\)
 </div>
 <p>
-  A white precipitate of silver acetylide (银乙炔化物) forms. This reaction is positive for terminal alkynes
+ A white precipitate of silver acetylide forms. This reaction is positive for terminal alkynes
   but negative for alkenes — so it can distinguish the two types of unsaturated compound.
 </p>
 
 <h3>Combustion</h3>
 <div class="equation-box">
-  \\(2C_2H_2 + 5O_2 \\xrightarrow{点燃} 4CO_2 + 2H_2O\\)
+ \\(2C_2H_2 + 5O_2 \\xrightarrow{} 4CO_2 + 2H_2O\\)
 </div>
 <p>
   Acetylene burns with a very hot flame (~3000°C in oxygen). This is used in
-  <strong>oxy-acetylene welding</strong> (氧炔焰焊接).
+ <strong>oxy-acetylene welding</strong> .
 </p>
 
 <h3>Comparing Alkanes, Alkenes, and Alkynes</h3>
 <table class="data-table">
   <thead>
-    <tr><th>Property</th><th>Alkane (烷烃)</th><th>Alkene (烯烃)</th><th>Alkyne (炔烃)</th></tr>
+ <tr><th>Property</th><th>Alkane </th><th>Alkene </th><th>Alkyne </th></tr>
   </thead>
   <tbody>
     <tr><td>Formula</td><td>CₙH₂ₙ₊₂</td><td>CₙH₂ₙ</td><td>CₙH₂ₙ₋₂</td></tr>
@@ -840,7 +840,7 @@ window.CHAPTERS.push({
         },
         {
           question: 'Acetylene burns in air to produce a yellow-orange flame, while in pure oxygen the flame is extremely hot and blue. What industrial process uses this property?',
-          answer: 'Oxy-acetylene welding (氧炔焊接). The oxy-acetylene flame reaches ~3000°C, hot enough to melt and cut metals. It is widely used in metalworking, welding, and cutting steel.'
+ answer:'Oxy-acetylene welding . The oxy-acetylene flame reaches ~3000°C, hot enough to melt and cut metals. It is widely used in metalworking, welding, and cutting steel.'
         },
         {
           question: 'How can you use AgNO₃/NH₃ solution to distinguish propyne (HC≡C–CH₃) from propene (CH₃–CH=CH₂)? Describe the expected results.',
@@ -850,22 +850,22 @@ window.CHAPTERS.push({
     },
 
     // ─────────────────────────────────────────────────────────────
-    // SECTION 4: Benzene and Aromatics (苯及芳烃)
+ // SECTION 4: Benzene and Aromatics
     // ─────────────────────────────────────────────────────────────
     {
       id: 'ch14-sec04',
-      title: 'Benzene and Aromatics (苯及芳烃)',
+ title:'Benzene and Aromatics',
       content: `
 <h2>Benzene — A Special Ring Structure</h2>
 <p>
-  Benzene (苯, C₆H₆) has a regular hexagonal ring of 6 carbon atoms.
+ Benzene (C₆H₆) has a regular hexagonal ring of 6 carbon atoms.
   Its structure puzzled chemists for decades. In 1865, August Kekulé proposed
   alternating single and double bonds — the famous <strong>Kekulé structure</strong>.
 </p>
 
 <h3>Kekulé Structure vs Reality</h3>
 <p>
-  The Kekulé structures (两种可能的Kekulé结构) predict two different types of C–C bonds
+ The Kekulé structures (Kekulé) predict two different types of C–C bonds
   in the ring. However, experiments show <em>all six C–C bonds in benzene are identical</em>:
 </p>
 <ul>
@@ -876,15 +876,15 @@ window.CHAPTERS.push({
 
 <div class="info-box">
   <strong>Modern Picture:</strong> The 6 \\(\\pi\\) electrons are <em>delocalized</em> equally
-  around the entire ring (大π键). This is shown by a circle inside the hexagon.
-  Delocalization makes benzene <em>unusually stable</em> (aromatic stability / 芳香性).
+ around the entire ring . This is shown by a circle inside the hexagon.
+ Delocalization makes benzene <em>unusually stable</em> (aromatic stability /).
 </div>
 
 <h3>Physical Properties of Benzene</h3>
 <ul>
   <li>Colorless liquid with sweet odor, boiling point 80°C</li>
   <li>Insoluble in water; density 0.879 g/mL (less than water)</li>
-  <li>Highly flammable; <strong>carcinogenic</strong> (致癌) — handle with care!</li>
+ <li>Highly flammable; <strong>carcinogenic</strong> — handle with care!</li>
   <li>Good solvent for organic substances</li>
 </ul>
 
@@ -896,13 +896,13 @@ window.CHAPTERS.push({
 </p>
 
 <div class="equation-box">
-  <strong>Nitration (硝化反应):</strong><br>
+ <strong>Nitration :</strong><br>
   \\(C_6H_6 + HNO_3 \\xrightarrow{H_2SO_4, 50{-}60°C} C_6H_5NO_2 + H_2O\\)<br>
-  (benzene → nitrobenzene, 硝基苯)<br><br>
-  <strong>Halogenation (卤代反应):</strong><br>
+ (benzene → nitrobenzene)<br><br>
+ <strong>Halogenation :</strong><br>
   \\(C_6H_6 + Cl_2 \\xrightarrow{FeCl_3} C_6H_5Cl + HCl\\)<br>
-  (benzene → chlorobenzene, 氯苯)<br><br>
-  <strong>Sulfonation (磺化反应):</strong><br>
+ (benzene → chlorobenzene)<br><br>
+ <strong>Sulfonation :</strong><br>
   \\(C_6H_6 + H_2SO_4(fuming) \\xrightarrow{\\Delta} C_6H_5SO_3H + H_2O\\)
 </div>
 
@@ -922,10 +922,10 @@ window.CHAPTERS.push({
 
 <h3>Combustion</h3>
 <div class="equation-box">
-  \\(2C_6H_6 + 15O_2 \\xrightarrow{点燃} 12CO_2 + 6H_2O\\)
+ \\(2C_6H_6 + 15O_2 \\xrightarrow{} 12CO_2 + 6H_2O\\)
 </div>
 <p>
-  Benzene burns with a very sooty flame (多炭黑) because of its high carbon-to-hydrogen ratio.
+ Benzene burns with a very sooty flame because of its high carbon-to-hydrogen ratio.
 </p>
       `,
       visualizations: [
@@ -1073,7 +1073,7 @@ window.CHAPTERS.push({
       exercises: [
         {
           question: 'Benzene does not decolorize bromine water, but it does react with Br₂ in the presence of FeBr₃ catalyst. What type of reaction is this, and why is it different from what alkenes do?',
-          answer: 'With FeBr₃, benzene undergoes a substitution reaction: C₆H₆ + Br₂ → C₆H₅Br + HBr. A hydrogen on the ring is replaced by Br. Unlike alkenes, benzene does not undergo addition with Br₂ because that would destroy the delocalized π system (芳香性). Benzene prefers substitution to preserve its aromatic stability.'
+ answer:'With FeBr₃, benzene undergoes a substitution reaction: C₆H₆ + Br₂ → C₆H₅Br + HBr. A hydrogen on the ring is replaced by Br. Unlike alkenes, benzene does not undergo addition with Br₂ because that would destroy the delocalized π system . Benzene prefers substitution to preserve its aromatic stability.'
         },
         {
           question: 'The C–C bond length in benzene is 139 pm, between a single bond (154 pm) and double bond (134 pm). What does this tell us about benzene\'s structure?',
@@ -1081,32 +1081,32 @@ window.CHAPTERS.push({
         },
         {
           question: 'Write the balanced equation for the nitration of benzene. What is the product, and what conditions are required?',
-          answer: 'C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O. Conditions: concentrated H₂SO₄ as catalyst, temperature 50–60°C. Product: nitrobenzene (硝基苯), a pale yellow liquid with almond-like odor. This is a substitution reaction where –NO₂ replaces –H.'
+ answer:'C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O. Conditions: concentrated H₂SO₄ as catalyst, temperature 50–60°C. Product: nitrobenzene, a pale yellow liquid with almond-like odor. This is a substitution reaction where –NO₂ replaces –H.'
         },
         {
           question: 'Why does benzene prefer electrophilic substitution over addition reactions?',
-          answer: 'The delocalized π system of benzene confers approximately 150 kJ/mol extra stability (aromatic stabilization / 芳香性). Addition reactions would destroy this delocalization, costing this stabilization energy. Substitution reactions replace one H with another group while preserving the aromatic ring, so they are strongly favored. This is why benzene does not decolorize bromine water at room temperature.'
+ answer:'The delocalized π system of benzene confers approximately 150 kJ/mol extra stability (aromatic stabilization /). Addition reactions would destroy this delocalization, costing this stabilization energy. Substitution reactions replace one H with another group while preserving the aromatic ring, so they are strongly favored. This is why benzene does not decolorize bromine water at room temperature.'
         }
       ]
     },
 
     // ─────────────────────────────────────────────────────────────
-    // SECTION 5: Petroleum and Natural Gas (石油与天然气)
+ // SECTION 5: Petroleum and Natural Gas
     // ─────────────────────────────────────────────────────────────
     {
       id: 'ch14-sec05',
-      title: 'Petroleum and Natural Gas (石油与天然气)',
+ title:'Petroleum and Natural Gas',
       content: `
 <h2>Petroleum — A Mixture of Hydrocarbons</h2>
 <p>
-  Crude oil (原油) is not a pure substance — it is a complex mixture of hundreds of
+ Crude oil is not a pure substance — it is a complex mixture of hundreds of
   different hydrocarbons, primarily alkanes, cycloalkanes, and aromatic hydrocarbons.
   The hydrocarbons are separated and upgraded through three key processes.
 </p>
 
-<h3>1. Fractional Distillation (分馏)</h3>
+<h3>1. Fractional Distillation </h3>
 <p>
-  Crude oil is heated and the vapors are separated in a distillation column (分馏塔)
+ Crude oil is heated and the vapors are separated in a distillation column
   based on boiling point differences. Lower fractions (smaller molecules, lower boiling points)
   exit near the top; heavier fractions exit at the bottom.
 </p>
@@ -1116,34 +1116,34 @@ window.CHAPTERS.push({
     <tr><th>Fraction</th><th>Carbon Range</th><th>Boiling Point (°C)</th><th>Main Use</th></tr>
   </thead>
   <tbody>
-    <tr><td>Petroleum gas (石油气)</td><td>C₁–C₄</td><td>below 40</td><td>Fuel (LPG)</td></tr>
-    <tr><td>Gasoline (汽油)</td><td>C₅–C₁₀</td><td>40–180</td><td>Car fuel</td></tr>
-    <tr><td>Kerosene (煤油)</td><td>C₁₀–C₁₆</td><td>180–250</td><td>Jet fuel, lamps</td></tr>
-    <tr><td>Diesel (柴油)</td><td>C₁₅–C₂₀</td><td>250–350</td><td>Truck/ship fuel</td></tr>
-    <tr><td>Lubricants (润滑油)</td><td>C₂₀–C₃₅</td><td>350–500</td><td>Lubrication</td></tr>
+ <tr><td>Petroleum gas </td><td>C₁–C₄</td><td>below 40</td><td>Fuel (LPG)</td></tr>
+ <tr><td>Gasoline </td><td>C₅–C₁₀</td><td>40–180</td><td>Car fuel</td></tr>
+ <tr><td>Kerosene </td><td>C₁₀–C₁₆</td><td>180–250</td><td>Jet fuel, lamps</td></tr>
+ <tr><td>Diesel </td><td>C₁₅–C₂₀</td><td>250–350</td><td>Truck/ship fuel</td></tr>
+ <tr><td>Lubricants </td><td>C₂₀–C₃₅</td><td>350–500</td><td>Lubrication</td></tr>
     <tr><td>Heavy fuel oil / Asphalt</td><td>C₃₅+</td><td>>500</td><td>Road paving</td></tr>
   </tbody>
 </table>
 
-<h3>2. Cracking (裂化)</h3>
+<h3>2. Cracking </h3>
 <p>
   Cracking breaks large, less-useful heavy oil molecules into smaller, more valuable ones
   (especially gasoline-range molecules). Demand for petrol and ethylene (for plastics)
   far exceeds the natural supply from distillation.
 </p>
 <ul>
-  <li><strong>Thermal cracking (热裂化):</strong> High temperature (450–750°C), produces alkenes</li>
-  <li><strong>Catalytic cracking (催化裂化):</strong> Zeolite catalyst (~450°C), higher octane gasoline</li>
+ <li><strong>Thermal cracking :</strong> High temperature (450–750°C), produces alkenes</li>
+ <li><strong>Catalytic cracking :</strong> Zeolite catalyst (~450°C), higher octane gasoline</li>
 </ul>
 <div class="equation-box">
-  Example: \\(C_{16}H_{34} \\xrightarrow{催化剂, \\Delta} C_8H_{18} + C_8H_{16}\\)<br>
+ Example: \\(C_{16}H_{34} \\xrightarrow{, \\Delta} C_8H_{18} + C_8H_{16}\\)<br>
   (hexadecane → octane + 1-octene)
 </div>
 
-<h3>3. Reforming (重整)</h3>
+<h3>3. Reforming </h3>
 <p>
   Reforming converts straight-chain alkanes into branched-chain alkanes and
-  aromatic compounds to increase octane number (辛烷值) — how resistant the
+ aromatic compounds to increase octane number — how resistant the
   fuel is to engine knocking.
 </p>
 
@@ -1164,13 +1164,13 @@ window.CHAPTERS.push({
   </tbody>
 </table>
 
-<h3>Natural Gas (天然气)</h3>
+<h3>Natural Gas </h3>
 <p>
   Natural gas is primarily methane (CH₄, about 85–95%), with small amounts of
   ethane, propane, and other gases. It is a clean-burning fuel:
 </p>
 <div class="equation-box">
-  \\(CH_4 + 2O_2 \\xrightarrow{点燃} CO_2 + 2H_2O\\)
+ \\(CH_4 + 2O_2 \\xrightarrow{} CO_2 + 2H_2O\\)
 </div>
 <p>
   Natural gas produces less CO₂ per unit energy than coal or oil, and no SO₂ or particulates.
@@ -1217,7 +1217,7 @@ window.CHAPTERS.push({
 
               // Title
               ctx.fillStyle=c.text; ctx.font='13px sans-serif'; ctx.textAlign='center';
-              ctx.fillText('Fractional Distillation Tower (分馏塔)', W/2, 18);
+ ctx.fillText('Fractional Distillation Tower', W/2, 18);
 
               // Tower body
               ctx.fillStyle = '#1a1a40';
@@ -1237,7 +1237,7 @@ window.CHAPTERS.push({
               ctx.strokeStyle = c.red; ctx.lineWidth=3;
               ctx.beginPath(); ctx.moveTo(towerL-60, heatY); ctx.lineTo(towerL, heatY); ctx.stroke();
               ctx.fillStyle=c.red; ctx.font='bold 10px sans-serif'; ctx.textAlign='right';
-              ctx.fillText('Crude oil (热)', towerL-5, heatY+14);
+ ctx.fillText('Crude oil', towerL-5, heatY+14);
               // Arrow
               ctx.fillStyle=c.red;
               ctx.beginPath(); ctx.moveTo(towerL,heatY); ctx.lineTo(towerL-8,heatY-5); ctx.lineTo(towerL-8,heatY+5); ctx.closePath(); ctx.fill();
@@ -1267,9 +1267,9 @@ window.CHAPTERS.push({
 
               // Temperature labels on left
               ctx.fillStyle=c.blue; ctx.font='10px sans-serif'; ctx.textAlign='right';
-              ctx.fillText('Cool (低温)', towerL-5, towerT+20);
+ ctx.fillText('Cool', towerL-5, towerT+20);
               ctx.fillStyle=c.red;
-              ctx.fillText('Hot (高温)', towerL-5, towerB-10);
+ ctx.fillText('Hot', towerL-5, towerB-10);
 
               // Flame at bottom
               const fx = towerL + towerW/2, fb = towerB+8;
@@ -1283,7 +1283,7 @@ window.CHAPTERS.push({
                 ctx.closePath(); ctx.fill();
               }
               ctx.fillStyle=c.text; ctx.font='10px sans-serif'; ctx.textAlign='center';
-              ctx.fillText('Heat 加热', fx, fb+18);
+ ctx.fillText('Heat', fx, fb+18);
             }
 
             function loop(ts) {
@@ -1314,11 +1314,11 @@ window.CHAPTERS.push({
         },
         {
           question: 'Identify the type of reaction for each: (a) CH₄ + Cl₂ → CH₃Cl + HCl (UV); (b) CH₂=CH₂ + H₂O → CH₃CH₂OH; (c) C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O; (d) nCH₂=CH₂ → polyethylene.',
-          answer: '(a) Substitution reaction (取代反应) — H is replaced by Cl. (b) Addition reaction (加成反应) — H and OH add across the C=C double bond. (c) Substitution reaction (取代反应) — H on benzene is replaced by NO₂. (d) Addition polymerization (加聚反应) — π bonds of n monomers open to form a chain.'
+ answer:'(a) Substitution reaction — H is replaced by Cl. (b) Addition reaction — H and OH add across the C=C double bond. (c) Substitution reaction — H on benzene is replaced by NO₂. (d) Addition polymerization — π bonds of n monomers open to form a chain.'
         },
         {
           question: 'Which fraction from petroleum distillation is used as aviation (jet) fuel, and what is its carbon range?',
-          answer: 'Kerosene (煤油) is used as jet fuel. It has a carbon range of C₁₀–C₁₆ and a boiling point range of 180–250°C.'
+ answer:'Kerosene is used as jet fuel. It has a carbon range of C₁₀–C₁₆ and a boiling point range of 180–250°C.'
         }
       ]
     }

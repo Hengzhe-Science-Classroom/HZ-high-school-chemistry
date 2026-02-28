@@ -13,7 +13,7 @@ window.CHAPTERS.push({
       id: 'ch04-sec01',
       title: 'Atomic Composition',
       content: `
-<h2>原子的构成 · Atomic Composition</h2>
+<h2>Atomic Composition</h2>
 
 <p>Every atom consists of a tiny, dense <strong>nucleus</strong> surrounded by rapidly moving <strong>electrons</strong>.</p>
 
@@ -215,7 +215,7 @@ window.CHAPTERS.push({
       id: 'ch04-sec02',
       title: 'Electron Shell Configuration',
       content: `
-<h2>核外电子排布 · Electron Shell Configuration</h2>
+<h2>Electron Shell Configuration</h2>
 
 <p>Electrons in atoms are arranged in concentric <strong>shells</strong>, labeled K, L, M, N … (or n = 1, 2, 3, 4 …) in order of increasing distance from the nucleus.</p>
 
@@ -428,7 +428,7 @@ window.CHAPTERS.push({
       id: 'ch04-sec03',
       title: 'Energy Levels and Orbitals',
       content: `
-<h2>能级与轨道 · Energy Levels and Orbitals</h2>
+<h2>Energy Levels and Orbitals</h2>
 
 <p>Within each electron shell, electrons occupy <strong>subshells</strong> labeled s, p, d, f, and within subshells they occupy individual <strong>orbitals</strong>.</p>
 
@@ -443,7 +443,7 @@ window.CHAPTERS.push({
   </tbody>
 </table>
 
-<h3>The Aufbau Principle (构造原理)</h3>
+<h3>The Aufbau Principle </h3>
 <p>Electrons fill orbitals in order of <em>increasing energy</em>. For most atoms, the approximate filling order is:</p>
 <div class="formula-box">1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → …</div>
 
@@ -644,7 +644,7 @@ window.CHAPTERS.push({
       id: 'ch04-sec04',
       title: 'Electron Clouds and Atomic Models',
       content: `
-<h2>电子云与原子模型 · Electron Clouds and Atomic Models</h2>
+<h2>Electron Clouds and Atomic Models</h2>
 
 <h3>The History of Atomic Models</h3>
 
@@ -671,7 +671,7 @@ window.CHAPTERS.push({
   </div>
 </div>
 
-<h3>Electron Cloud (电子云)</h3>
+<h3>Electron Cloud </h3>
 <p>The electron cloud is a visual representation of the probability of finding an electron at different locations around the nucleus. Denser regions mean higher probability.</p>
 
 <ul>
@@ -987,13 +987,13 @@ window.CHAPTERS.push({
       id: 'ch04-sec05',
       title: 'Isotopes and Nuclides',
       content: `
-<h2>同位素与核素 · Isotopes and Nuclides</h2>
+<h2>Isotopes and Nuclides</h2>
 
 <h3>Definitions</h3>
 
 <div class="info-box">
-  <p><strong>Nuclide (核素)</strong>: a specific atomic species defined by both its atomic number Z and mass number A. Written as \\(^{A}_{Z}\\text{X}\\).</p>
-  <p><strong>Isotopes (同位素)</strong>: nuclides of the <em>same element</em> (same Z) but different mass numbers (different number of neutrons). Isotopes of an element have <em>identical chemical properties</em> but slightly different physical properties.</p>
+ <p><strong>Nuclide </strong>: a specific atomic species defined by both its atomic number Z and mass number A. Written as \\(^{A}_{Z}\\text{X}\\).</p>
+ <p><strong>Isotopes </strong>: nuclides of the <em>same element</em> (same Z) but different mass numbers (different number of neutrons). Isotopes of an element have <em>identical chemical properties</em> but slightly different physical properties.</p>
 </div>
 
 <h3>Hydrogen Isotopes — A Classic Example</h3>
@@ -1017,7 +1017,7 @@ window.CHAPTERS.push({
 </table>
 
 <h3>Relative Atomic Mass</h3>
-<p>The <em>relative atomic mass</em> (原子量) of an element is the weighted average of all its naturally occurring isotopes:</p>
+<p>The <em>relative atomic mass</em> of an element is the weighted average of all its naturally occurring isotopes:</p>
 <div class="formula-box">\\(A_r = \\sum_i f_i \\cdot A_i\\)</div>
 <p>where \\(f_i\\) is the fractional abundance and \\(A_i\\) is the mass number of isotope \\(i\\).</p>
 

@@ -8,13 +8,13 @@ window.CHAPTERS.push({
         {
             id: 'ch00-sec01',
             title: 'What Is Chemistry?',
-            content: `<h2>What Is Chemistry? 化学是什么？</h2>
+ content:`<h2>What Is Chemistry?</h2>
                 <p>Chemistry is the science of <strong>matter</strong> — its composition, structure, properties, and transformations. Everything around you — the air you breathe, the water you drink, the food you eat — is made of chemicals. Chemistry helps us understand these substances and create new ones.</p>
                 <div class="env-block definition">
                     <div class="env-title">Definition (Chemistry)</div>
-                    <div class="env-body"><p>Chemistry (化学) is the branch of science concerned with the substances of which matter is composed, the investigation of their properties and reactions, and the use of such reactions to form new substances.</p></div>
+ <div class="env-body"><p>Chemistry is the branch of science concerned with the substances of which matter is composed, the investigation of their properties and reactions, and the use of such reactions to form new substances.</p></div>
                 </div>
-                <h3>Why Study Chemistry? 为什么学习化学？</h3>
+ <h3>Why Study Chemistry?</h3>
                 <p>Chemistry is central to our modern world. It underpins:</p>
                 <ul>
                     <li><strong>Medicine</strong> — drugs, vaccines, and diagnostic tools</li>
@@ -51,12 +51,12 @@ window.CHAPTERS.push({
                     var ctx = viz.ctx;
 
                     var eras = [
-                        {year: -3000, label: 'Ancient\nCraft', color: viz.colors.orange, detail: '远古时代: Fire, pottery,\nsmelting — chemistry\nas craft'},
-                        {year: 500,   label: 'Alchemy',        color: viz.colors.purple, detail: '炼金术: Search for\ngold and immortality.\nDiscovered acids & bases'},
-                        {year: 1700,  label: 'Phlogiston',     color: viz.colors.yellow, detail: '燃素说: Wrong theory\nof combustion, but\nspurred experimentation'},
-                        {year: 1800,  label: 'Atomic\nTheory', color: viz.colors.teal,   detail: '原子论: Dalton, Mendeleev.\nPeriodic Table created\nin 1869'},
-                        {year: 1900,  label: 'Quantum\nChem',  color: viz.colors.blue,   detail: '量子化学: Bonds,\norbitals, spectroscopy.\nModern chemistry born'},
-                        {year: 2000,  label: 'Green\nChem',    color: viz.colors.green,  detail: '绿色化学: Sustainable\nprocesses, nanomaterials,\nbiotechnology'}
+ {year: -3000, label:'Ancient\nCraft', color: viz.colors.orange, detail:': Fire, pottery,\nsmelting — chemistry\nas craft'},
+ {year: 500, label:'Alchemy', color: viz.colors.purple, detail:': Search for\ngold and immortality.\nDiscovered acids & bases'},
+ {year: 1700, label:'Phlogiston', color: viz.colors.yellow, detail:': Wrong theory\nof combustion, but\nspurred experimentation'},
+ {year: 1800, label:'Atomic\nTheory', color: viz.colors.teal, detail:': Dalton, Mendeleev.\nPeriodic Table created\nin 1869'},
+ {year: 1900, label:'Quantum\nChem', color: viz.colors.blue, detail:': Bonds,\norbitals, spectroscopy.\nModern chemistry born'},
+ {year: 2000, label:'Green\nChem', color: viz.colors.green, detail:': Sustainable\nprocesses, nanomaterials,\nbiotechnology'}
                     ];
 
                     var selected = 0;
@@ -332,24 +332,24 @@ window.CHAPTERS.push({
         {
             id: 'ch00-sec02',
             title: 'Laboratory Safety',
-            content: `<h2>Laboratory Safety 实验室安全</h2>
+ content:`<h2>Laboratory Safety</h2>
                 <p>Chemistry is an experimental science. The laboratory is where ideas are tested and discoveries are made — but it can also be dangerous if proper precautions are not followed. Safety is always the first priority.</p>
                 <div class="env-block warning">
                     <div class="env-title">Warning: General Lab Rules</div>
                     <div class="env-body">
                         <ul>
-                            <li>Always wear <strong>safety goggles</strong> (防护眼镜) when working with chemicals.</li>
-                            <li>Wear <strong>gloves</strong> (手套) when handling corrosive, toxic, or irritating substances.</li>
-                            <li>Wear a <strong>lab coat</strong> (实验服) to protect skin and clothing.</li>
+ <li>Always wear <strong>safety goggles</strong> when working with chemicals.</li>
+ <li>Wear <strong>gloves</strong> when handling corrosive, toxic, or irritating substances.</li>
+ <li>Wear a <strong>lab coat</strong> to protect skin and clothing.</li>
                             <li>Never eat, drink, or apply cosmetics in the laboratory.</li>
-                            <li>Know the location of the <strong>fire extinguisher</strong> (灭火器), <strong>eyewash station</strong> (洗眼台), and <strong>emergency shower</strong>.</li>
-                            <li>Work in a <strong>fume hood</strong> (通风橱) when handling volatile or toxic chemicals.</li>
+ <li>Know the location of the <strong>fire extinguisher</strong>, <strong>eyewash station</strong>, and <strong>emergency shower</strong>.</li>
+ <li>Work in a <strong>fume hood</strong> when handling volatile or toxic chemicals.</li>
                             <li>Never pipette by mouth.</li>
                             <li>Dispose of chemical waste in designated containers.</li>
                         </ul>
                     </div>
                 </div>
-                <h3>Fire Safety 防火安全</h3>
+ <h3>Fire Safety</h3>
                 <p>Many chemicals are flammable. Rules for working with flames and flammable substances:</p>
                 <ul>
                     <li>Keep flammable solvents away from open flames.</li>
@@ -357,7 +357,7 @@ window.CHAPTERS.push({
                     <li>When igniting a Bunsen burner, use a striker — never a lighter held sideways.</li>
                     <li>If a fire breaks out: alert others, use the correct fire extinguisher (dry chemical or CO₂ for most lab fires), evacuate if necessary.</li>
                 </ul>
-                <h3>Chemical Handling 化学品处理</h3>
+ <h3>Chemical Handling</h3>
                 <p>Different chemicals require different precautions:</p>
                 <table style="width:100%; border-collapse:collapse; font-size:0.92em;">
                     <tr style="background:#1a1a40;">
@@ -366,29 +366,29 @@ window.CHAPTERS.push({
                         <th style="padding:8px; text-align:left;">Precautions</th>
                     </tr>
                     <tr style="border-bottom:1px solid #2a2a50;">
-                        <td style="padding:8px;">Corrosive (腐蚀性)</td>
+ <td style="padding:8px;">Corrosive </td>
                         <td style="padding:8px;">H₂SO₄, NaOH, HCl</td>
                         <td style="padding:8px;">Gloves, goggles; add acid to water (never water to acid)</td>
                     </tr>
                     <tr style="border-bottom:1px solid #2a2a50;">
-                        <td style="padding:8px;">Flammable (易燃)</td>
+ <td style="padding:8px;">Flammable </td>
                         <td style="padding:8px;">Ethanol, acetone, diethyl ether</td>
                         <td style="padding:8px;">Keep away from flames; use fume hood</td>
                     </tr>
                     <tr style="border-bottom:1px solid #2a2a50;">
-                        <td style="padding:8px;">Toxic (有毒)</td>
+ <td style="padding:8px;">Toxic </td>
                         <td style="padding:8px;">Chlorine gas, lead compounds</td>
                         <td style="padding:8px;">Fume hood; gloves; minimal quantities</td>
                     </tr>
                     <tr>
-                        <td style="padding:8px;">Oxidizing (氧化性)</td>
+ <td style="padding:8px;">Oxidizing </td>
                         <td style="padding:8px;">KMnO₄, H₂O₂, HNO₃</td>
                         <td style="padding:8px;">Keep away from flammables and reducers</td>
                     </tr>
                 </table>
                 <div class="env-block remark">
                     <div class="env-title">Important: Diluting Sulfuric Acid</div>
-                    <div class="env-body"><p>When diluting concentrated sulfuric acid (浓硫酸), always add the acid slowly to water, never water to acid. This is because dissolution releases enormous heat. Adding water to acid can cause violent boiling and splashing of the corrosive acid. Remember: "Add acid to water, like you oughta" (酸入水，防飞溅).</p></div>
+ <div class="env-body"><p>When diluting concentrated sulfuric acid, always add the acid slowly to water, never water to acid. This is because dissolution releases enormous heat. Adding water to acid can cause violent boiling and splashing of the corrosive acid. Remember:"Add acid to water, like you oughta" .</p></div>
                 </div>
                 <div class="viz-placeholder" data-viz="viz-lab-safety"></div>`,
             visualizations: [{
@@ -400,19 +400,19 @@ window.CHAPTERS.push({
                     var selected = null;
 
                     var items = [
-                        {x: 100, y: 120, r: 40, color: '#58a6ff', label: 'Goggles', ch: '防护眼镜',
+ {x: 100, y: 120, r: 40, color:'#58a6ff', label:'Goggles', ch:'',
                          desc: 'Safety goggles protect your eyes from chemical splashes, flying debris, and UV radiation. Always wear them in the lab, even if you think you are only observing.'},
-                        {x: 250, y: 120, r: 40, color: '#3fb950', label: 'Gloves', ch: '手套',
+ {x: 250, y: 120, r: 40, color:'#3fb950', label:'Gloves', ch:'',
                          desc: 'Nitrile gloves protect your skin from corrosive, toxic, or irritating chemicals. Check gloves for holes before use. Dispose of used gloves in chemical waste bins.'},
-                        {x: 400, y: 120, r: 40, color: '#f0883e', label: 'Fire Ext.', ch: '灭火器',
+ {x: 400, y: 120, r: 40, color:'#f0883e', label:'Fire Ext.', ch:'',
                          desc: 'The fire extinguisher is used to put out small fires. For lab fires: use CO\u2082 or dry chemical extinguishers. Never use water on chemical or electrical fires.'},
-                        {x: 580, y: 120, r: 40, color: '#bc8cff', label: 'Fume Hood', ch: '通风橱',
+ {x: 580, y: 120, r: 40, color:'#bc8cff', label:'Fume Hood', ch:'',
                          desc: 'The fume hood removes toxic or flammable vapors from the work area. Always work inside the fume hood when using volatile, toxic, or strongly smelling chemicals. Keep the sash at the correct height.'},
-                        {x: 175, y: 280, r: 40, color: '#f778ba', label: 'Eyewash', ch: '洗眼台',
+ {x: 175, y: 280, r: 40, color:'#f778ba', label:'Eyewash', ch:'',
                          desc: 'The eyewash station delivers a gentle stream of water to flush chemical splashes from the eyes. If chemicals contact your eyes, immediately flush for at least 15 minutes and seek medical attention.'},
-                        {x: 350, y: 280, r: 40, color: '#d29922', label: 'Lab Coat', ch: '实验服',
+ {x: 350, y: 280, r: 40, color:'#d29922', label:'Lab Coat', ch:'',
                          desc: 'The lab coat protects your skin and clothing from chemical splashes and spills. It should be made of cotton or other flame-resistant material. Always button it fully.'},
-                        {x: 525, y: 280, r: 40, color: '#f85149', label: 'First Aid', ch: '急救箱',
+ {x: 525, y: 280, r: 40, color:'#f85149', label:'First Aid', ch:'',
                          desc: 'The first aid kit contains bandages, antiseptic, and burn treatment for minor injuries. Know its location. For serious injuries, chemical burns or inhalation, call for emergency help immediately.'}
                     ];
 
@@ -439,7 +439,7 @@ window.CHAPTERS.push({
                             ctx.fillText(item.label, item.x, item.y - 6);
                             ctx.font = '10px -apple-system,sans-serif';
                             ctx.fillStyle = isSelected ? viz.colors.white : viz.colors.text;
-                            ctx.fillText(item.ch, item.x, item.y + 8);
+                            if (item.ch) ctx.fillText(item.ch, item.x, item.y + 8);
                         });
 
                         if (selected !== null) {
@@ -454,7 +454,7 @@ window.CHAPTERS.push({
                             ctx.font = 'bold 13px -apple-system,sans-serif';
                             ctx.textAlign = 'left';
                             ctx.textBaseline = 'top';
-                            ctx.fillText(item.label + ' (' + item.ch + ')', 34, boxY + 10);
+                            ctx.fillText(item.ch ? item.label + ' (' + item.ch + ')' : item.label, 34, boxY + 10);
                             ctx.fillStyle = viz.colors.white;
                             ctx.font = '11px -apple-system,sans-serif';
                             // Wrap text
@@ -680,7 +680,7 @@ window.CHAPTERS.push({
                     solution: 'Immediately rinse the affected area with large amounts of running water for at least 15 minutes to dilute and remove the NaOH. Then wash gently with dilute boric acid solution (for alkali burns). Seek medical attention if the burn is significant. Do not neutralize with strong acid directly on skin.'
                 },
                 {
-                    question: 'You need to work with diethyl ether (乙醚), a highly flammable solvent. List at least four safety precautions you should take.',
+ question:'You need to work with diethyl ether, a highly flammable solvent. List at least four safety precautions you should take.',
                     hint: 'Think about fire, fumes, storage, and protective equipment.',
                     solution: 'At least four of: (1) Work inside the fume hood to contain vapors; (2) Ensure no open flames or sparks nearby; (3) Wear nitrile gloves and safety goggles; (4) Store in a cool, well-ventilated area away from oxidizers; (5) Use minimum quantities necessary; (6) Have a CO\u2082 fire extinguisher accessible; (7) Do not pour waste down the drain — dispose in labeled waste container.'
                 }
@@ -689,20 +689,20 @@ window.CHAPTERS.push({
         {
             id: 'ch00-sec03',
             title: 'Filtration and Evaporation',
-            content: `<h2>Filtration and Evaporation 过滤与蒸发</h2>
+ content:`<h2>Filtration and Evaporation</h2>
                 <p>Two of the most fundamental separation techniques in chemistry involve exploiting differences in <strong>solubility</strong> and <strong>boiling point</strong>. In this section we examine filtration and evaporation/crystallization.</p>
-                <h3>Filtration 过滤</h3>
-                <p>Filtration separates an <strong>insoluble solid</strong> from a liquid. The mixture is poured through filter paper held in a funnel. The liquid (filtrate, 滤液) passes through; the solid (residue, 残渣) is retained on the paper.</p>
+ <h3>Filtration</h3>
+ <p>Filtration separates an <strong>insoluble solid</strong> from a liquid. The mixture is poured through filter paper held in a funnel. The liquid (filtrate) passes through; the solid (residue) is retained on the paper.</p>
                 <div class="env-block definition">
                     <div class="env-title">Definition (Filtration)</div>
-                    <div class="env-body"><p>Filtration (过滤) is a separation technique used to separate an insoluble solid from a liquid by passing the mixture through a porous filter medium. It works because solid particles are too large to pass through the pores of the filter paper.</p></div>
+ <div class="env-body"><p>Filtration is a separation technique used to separate an insoluble solid from a liquid by passing the mixture through a porous filter medium. It works because solid particles are too large to pass through the pores of the filter paper.</p></div>
                 </div>
                 <h3>Setting Up Filtration: The Three Touches Rule</h3>
-                <p>Correct filtration setup requires remembering "<strong>一贴二低三靠</strong>" (one touch, two lows, three contacts):</p>
+ <p>Correct filtration setup requires remembering"<strong></strong>" (one touch, two lows, three contacts):</p>
                 <ul>
-                    <li><strong>一贴 (One touch)</strong>: The filter paper must be wetted and pressed flat against the funnel — no air bubbles between paper and glass.</li>
-                    <li><strong>二低 (Two lows)</strong>: (1) The edge of the filter paper must be slightly below the rim of the funnel. (2) The liquid level in the funnel must be below the top of the filter paper.</li>
-                    <li><strong>三靠 (Three contacts)</strong>: (1) The lower tip of the funnel touches the inner wall of the beaker (so liquid runs smoothly). (2) The glass rod touches the triple-layer side of the folded filter paper. (3) The liquid is poured along the glass rod.</li>
+ <li><strong>(One touch)</strong>: The filter paper must be wetted and pressed flat against the funnel — no air bubbles between paper and glass.</li>
+ <li><strong>(Two lows)</strong>: (1) The edge of the filter paper must be slightly below the rim of the funnel. (2) The liquid level in the funnel must be below the top of the filter paper.</li>
+ <li><strong>(Three contacts)</strong>: (1) The lower tip of the funnel touches the inner wall of the beaker (so liquid runs smoothly). (2) The glass rod touches the triple-layer side of the folded filter paper. (3) The liquid is poured along the glass rod.</li>
                 </ul>
                 <div class="env-block example">
                     <div class="env-title">Example: Purifying Rock Salt</div>
@@ -716,18 +716,18 @@ window.CHAPTERS.push({
                         <p>This is a classic application combining filtration and evaporation.</p>
                     </div>
                 </div>
-                <h3>Evaporation Crystallization 蒸发结晶</h3>
-                <p>When a dissolved solid needs to be recovered from solution, we can evaporate the solvent. As the solution becomes more concentrated, the dissolved solid eventually crystallizes out (超过溶解度后析出晶体).</p>
+ <h3>Evaporation Crystallization</h3>
+ <p>When a dissolved solid needs to be recovered from solution, we can evaporate the solvent. As the solution becomes more concentrated, the dissolved solid eventually crystallizes out .</p>
                 <p>Two common approaches:</p>
                 <ul>
-                    <li><strong>Complete evaporation</strong> (蒸干): Heat until all solvent is gone. Used for salts that don't decompose on heating (e.g., NaCl).</li>
-                    <li><strong>Evaporation to near-dryness, then cooling</strong> (蒸发浓缩，冷却结晶): Used for salts whose solubility drops sharply with temperature (e.g., KNO₃, Na₂SO₄·10H₂O).</li>
+ <li><strong>Complete evaporation</strong> : Heat until all solvent is gone. Used for salts that don't decompose on heating (e.g., NaCl).</li>
+ <li><strong>Evaporation to near-dryness, then cooling</strong> : Used for salts whose solubility drops sharply with temperature (e.g., KNO₃, Na₂SO₄·10H₂O).</li>
                 </ul>
                 <div class="env-block remark">
                     <div class="env-title">Which Method to Use?</div>
                     <div class="env-body">
-                        <p>Use <strong>evaporation to dryness</strong> (蒸发结晶) for salts like NaCl whose solubility changes little with temperature.</p>
-                        <p>Use <strong>cooling crystallization</strong> (冷却热饱和溶液结晶) for salts like KNO₃ whose solubility drops greatly at lower temperatures.</p>
+ <p>Use <strong>evaporation to dryness</strong> for salts like NaCl whose solubility changes little with temperature.</p>
+ <p>Use <strong>cooling crystallization</strong> for salts like KNO₃ whose solubility drops greatly at lower temperatures.</p>
                     </div>
                 </div>
                 <div class="viz-placeholder" data-viz="viz-filtration"></div>`,
@@ -778,7 +778,7 @@ window.CHAPTERS.push({
                         var W = viz.width;
 
                         // Labels at top
-                        viz.screenText('Filtration Setup (过滤装置)', W/2, 18, viz.colors.white, 14, 'center', 'top');
+ viz.screenText('Filtration Setup', W/2, 18, viz.colors.white, 14,'center','top');
 
                         // Ring stand (simplified)
                         ctx.strokeStyle = viz.colors.text;
@@ -837,7 +837,7 @@ window.CHAPTERS.push({
                         ctx.stroke();
 
                         viz.screenText('Filtrate', cbx, cby + 12, viz.colors.teal, 10, 'center', 'top');
-                        viz.screenText('(滤液)', cbx, cby + 24, viz.colors.teal, 10, 'center', 'top');
+                        // (filtrate label - removed duplicate)
 
                         // Pouring beaker on left
                         var pbx = 480, pby = 200;
@@ -900,7 +900,7 @@ window.CHAPTERS.push({
                                 ctx.arc(fx - 15 + j * 8, fy + 60 + (j % 2) * 6, 3, 0, Math.PI*2);
                                 ctx.fill();
                             }
-                            viz.screenText('Sand (残渣)', fx + 75, fy + 70, viz.colors.yellow, 10, 'left', 'middle');
+ viz.screenText('Sand', fx + 75, fy + 70, viz.colors.yellow, 10,'left','middle');
                         }
 
                         // Filtrate collected
@@ -926,7 +926,7 @@ window.CHAPTERS.push({
             }],
             exercises: [
                 {
-                    question: 'In filtration, what is the purpose of the glass rod (玻璃棒)?',
+ question:'In filtration, what is the purpose of the glass rod ?',
                     hint: 'Think about what happens when liquid is poured freely onto filter paper.',
                     solution: 'The glass rod is used to guide the liquid gently onto the filter paper. Without it, the direct pouring force could break the filter paper. The liquid should be poured along the glass rod to distribute it gently over the triple-fold side of the filter paper.'
                 },
@@ -936,47 +936,47 @@ window.CHAPTERS.push({
                     solution: '(1) The filter paper has a hole or tear — replace the filter paper and re-filter through a new one. (2) The filtrate was poured too fast, disturbing the filter cake and causing particles to pass through — re-filter more slowly. Also check that the filter paper was properly seated against the funnel with no gaps.'
                 },
                 {
-                    question: 'You have a solution of KNO\u2083 (solubility 高度随温度变化) and a solution of NaCl (solubility 随温度变化不大). Describe the best crystallization method for each.',
+ question:'You have a solution of KNO\u2083 (solubility) and a solution of NaCl (solubility). Describe the best crystallization method for each.',
                     hint: 'Consider how solubility vs temperature curve affects the chosen method.',
-                    solution: 'For KNO\u2083: Use cooling crystallization (冷却热饱和溶液结晶). Since KNO\u2083 solubility drops sharply with temperature, a hot saturated solution cooled to room temperature will deposit large crystals while impurities (with different solubility profiles) remain in solution. For NaCl: Use evaporation crystallization (蒸发结晶) by heating the solution until most water evaporates, causing NaCl to crystallize. Since NaCl solubility barely changes with temperature, cooling alone would not work well.'
+ solution:'For KNO\u2083: Use cooling crystallization . Since KNO\u2083 solubility drops sharply with temperature, a hot saturated solution cooled to room temperature will deposit large crystals while impurities (with different solubility profiles) remain in solution. For NaCl: Use evaporation crystallization by heating the solution until most water evaporates, causing NaCl to crystallize. Since NaCl solubility barely changes with temperature, cooling alone would not work well.'
                 }
             ]
         },
         {
             id: 'ch00-sec04',
             title: 'Distillation and Extraction',
-            content: `<h2>Distillation and Extraction 蒸馏与萃取</h2>
+ content:`<h2>Distillation and Extraction</h2>
                 <p>When two miscible liquids are mixed, or when a solid is dissolved in a solvent and we need to recover a pure compound from a mixture of solvents, more advanced separation techniques are required.</p>
-                <h3>Distillation 蒸馏</h3>
+ <h3>Distillation</h3>
                 <p>Distillation separates <strong>miscible liquids</strong> that have sufficiently different boiling points. The mixture is heated; the component with the lower boiling point vaporizes preferentially, the vapor travels through a condenser where it is cooled and condensed back to liquid, and is collected separately.</p>
                 <div class="env-block definition">
                     <div class="env-title">Definition (Distillation)</div>
-                    <div class="env-body"><p>Distillation (蒸馏) is a separation technique that exploits differences in boiling point between the components of a liquid mixture. The mixture is heated to vaporize the more volatile component, which is then condensed and collected.</p></div>
+ <div class="env-body"><p>Distillation is a separation technique that exploits differences in boiling point between the components of a liquid mixture. The mixture is heated to vaporize the more volatile component, which is then condensed and collected.</p></div>
                 </div>
                 <h3>Distillation Apparatus</h3>
                 <p>Key components:</p>
                 <ul>
-                    <li><strong>Distillation flask</strong> (蒸馏烧瓶): Holds the liquid mixture, has a side arm for vapor exit.</li>
-                    <li><strong>Thermometer</strong> (温度计): Placed with the bulb at the side arm opening to measure vapor temperature.</li>
-                    <li><strong>Condenser</strong> (冷凝器): Cool water flows through the outer jacket; vapor condenses on the cool inner tube.</li>
-                    <li><strong>Collection flask</strong> (锥形瓶): Receives the distillate.</li>
-                    <li><strong>Boiling chips</strong> (沸石/碎瓷片): Added to prevent bumping (过热剧烈沸腾).</li>
+ <li><strong>Distillation flask</strong> : Holds the liquid mixture, has a side arm for vapor exit.</li>
+ <li><strong>Thermometer</strong> : Placed with the bulb at the side arm opening to measure vapor temperature.</li>
+ <li><strong>Condenser</strong> : Cool water flows through the outer jacket; vapor condenses on the cool inner tube.</li>
+ <li><strong>Collection flask</strong> : Receives the distillate.</li>
+ <li><strong>Boiling chips</strong> : Added to prevent bumping .</li>
                 </ul>
                 <div class="env-block warning">
                     <div class="env-title">Important: Thermometer Placement</div>
                     <div class="env-body"><p>The thermometer bulb must be positioned at the junction of the side arm — not submerged in the liquid. It measures the temperature of the <em>vapor</em> as it exits, not the liquid. When the vapor temperature equals the boiling point of the target compound, collection begins.</p></div>
                 </div>
                 <h3>Example: Separating Ethanol and Water</h3>
-                <p>Ethanol (乙醇) boils at 78.4°C; water boils at 100°C. When a mixture is distilled, ethanol-rich vapor distills first. Pure ethanol cannot be obtained by simple distillation alone (an azeotrope forms at 95.6% ethanol), but distillation can enrich the ethanol fraction significantly.</p>
+ <p>Ethanol boils at 78.4°C; water boils at 100°C. When a mixture is distilled, ethanol-rich vapor distills first. Pure ethanol cannot be obtained by simple distillation alone (an azeotrope forms at 95.6% ethanol), but distillation can enrich the ethanol fraction significantly.</p>
                 <div class="viz-placeholder" data-viz="viz-distillation"></div>
-                <h3>Extraction 萃取</h3>
-                <p>Extraction (萃取) uses a second solvent (萃取剂/extractant) that is <strong>immiscible</strong> with the original solvent and that dissolves the target compound much better. The target compound preferentially moves into the extractant layer.</p>
+ <h3>Extraction</h3>
+ <p>Extraction uses a second solvent (/extractant) that is <strong>immiscible</strong> with the original solvent and that dissolves the target compound much better. The target compound preferentially moves into the extractant layer.</p>
                 <div class="env-block definition">
                     <div class="env-title">Definition (Extraction)</div>
-                    <div class="env-body"><p>Extraction (萃取) is a separation technique based on the different solubility of a substance in two immiscible solvents. The substance distributes between the two liquid layers according to its partition coefficient.</p></div>
+ <div class="env-body"><p>Extraction is a separation technique based on the different solubility of a substance in two immiscible solvents. The substance distributes between the two liquid layers according to its partition coefficient.</p></div>
                 </div>
                 <h3>Separating Funnel Technique</h3>
-                <p>Extraction is performed in a <strong>separating funnel</strong> (分液漏斗):</p>
+ <p>Extraction is performed in a <strong>separating funnel</strong> :</p>
                 <ol>
                     <li>Add the aqueous solution and the extractant to the separating funnel.</li>
                     <li>Stopper and shake gently, releasing pressure frequently by inverting and opening the stopcock.</li>
@@ -986,7 +986,7 @@ window.CHAPTERS.push({
                 <div class="env-block example">
                     <div class="env-title">Example: Extracting Bromine from Water</div>
                     <div class="env-body">
-                        <p>Bromine (溴, Br₂) dissolves in both water and organic solvents. Since Br₂ is much more soluble in CCl₄ (四氯化碳) than in water, adding CCl₄ to bromine-water causes Br₂ to transfer into the CCl₄ layer. After shaking and separation: the lower CCl₄ layer is orange-red (Br₂-rich), the upper water layer becomes nearly colorless.</p>
+ <p>Bromine (Br₂) dissolves in both water and organic solvents. Since Br₂ is much more soluble in CCl₄ than in water, adding CCl₄ to bromine-water causes Br₂ to transfer into the CCl₄ layer. After shaking and separation: the lower CCl₄ layer is orange-red (Br₂-rich), the upper water layer becomes nearly colorless.</p>
                     </div>
                 </div>
                 <div class="viz-placeholder" data-viz="viz-extraction"></div>`,
@@ -1012,7 +1012,7 @@ window.CHAPTERS.push({
                             var ctx = viz.ctx;
                             var W = viz.width, H = viz.height;
 
-                            viz.screenText('Distillation Apparatus (蒸馏装置)', W/2, 14, viz.colors.white, 13, 'center', 'top');
+ viz.screenText('Distillation Apparatus', W/2, 14, viz.colors.white, 13,'center','top');
 
                             var temp = heatLevel * 1.05; // 0-105 scale
 
@@ -1227,7 +1227,7 @@ window.CHAPTERS.push({
                             viz.clear();
                             var ctx = viz.ctx;
                             var W = viz.width, H = viz.height;
-                            viz.screenText('Liquid-Liquid Extraction (液液萃取)', W/2, 14, viz.colors.white, 13, 'center', 'top');
+ viz.screenText('Liquid-Liquid Extraction', W/2, 14, viz.colors.white, 13,'center','top');
 
                             // Separating funnel shape
                             var fx = W/2, fy = 50;
@@ -1344,7 +1344,7 @@ window.CHAPTERS.push({
             ],
             exercises: [
                 {
-                    question: 'What is the purpose of the boiling chips (沸石) added to the distillation flask?',
+ question:'What is the purpose of the boiling chips added to the distillation flask?',
                     hint: 'Consider what happens to superheated liquid without nucleation sites.',
                     solution: 'Boiling chips (or broken porcelain pieces) provide nucleation sites that allow smooth, continuous bubble formation during boiling. Without them, the liquid can superheat (go above its boiling point without boiling) and then suddenly release all its vapor at once in a violent "bump" that can shatter glassware and cause spills.'
                 },
@@ -1354,7 +1354,7 @@ window.CHAPTERS.push({
                     solution: 'The thermometer bulb must be placed at the side arm opening of the distillation flask (at the exit point for vapor), not submerged in the liquid. It measures the temperature of the vapor as it exits. The correct fraction is collected when the thermometer reads the known boiling point of the target compound.'
                 },
                 {
-                    question: 'A solution of iodine (碘) in water needs to be concentrated. Would you use ethanol (乙醇) or carbon tetrachloride (CCl\u2084) as an extractant? Justify your choice.',
+ question:'A solution of iodine in water needs to be concentrated. Would you use ethanol or carbon tetrachloride (CCl\u2084) as an extractant? Justify your choice.',
                     hint: 'Think about miscibility with water and relative solubility of I\u2082.',
                     solution: 'CCl\u2084 is the better extractant. Ethanol is miscible with water, so it cannot form two separate layers — mixing ethanol with aqueous iodine would give a single solution and extraction cannot occur. CCl\u2084 is immiscible with water and dissolves iodine much better than water does, so the iodine transfers to the CCl\u2084 layer, which can then be separated.'
                 }
@@ -1363,38 +1363,38 @@ window.CHAPTERS.push({
         {
             id: 'ch00-sec05',
             title: 'Separation Methods Compared',
-            content: `<h2>Comparing Separation Methods 分离方法比较</h2>
+ content:`<h2>Comparing Separation Methods</h2>
                 <p>Choosing the right separation technique depends on the physical properties of the substances involved. The four core methods are related to different physical properties that allow the components to be separated.</p>
                 <div class="env-block definition">
                     <div class="env-title">The Four Core Methods</div>
                     <div class="env-body">
                         <table style="width:100%; border-collapse:collapse; font-size:0.9em;">
                             <tr style="background:#1a1a40;">
-                                <th style="padding:8px;">Method (方法)</th>
-                                <th style="padding:8px;">Principle (原理)</th>
+ <th style="padding:8px;">Method </th>
+ <th style="padding:8px;">Principle </th>
                                 <th style="padding:8px;">Applicable When...</th>
                                 <th style="padding:8px;">Example</th>
                             </tr>
                             <tr style="border-bottom:1px solid #2a2a50;">
-                                <td style="padding:8px;"><strong>Filtration 过滤</strong></td>
+ <td style="padding:8px;"><strong>Filtration</strong></td>
                                 <td style="padding:8px;">Particle size difference</td>
                                 <td style="padding:8px;">Solid is insoluble in the liquid</td>
                                 <td style="padding:8px;">Sand from salt water</td>
                             </tr>
                             <tr style="border-bottom:1px solid #2a2a50;">
-                                <td style="padding:8px;"><strong>Evaporation 蒸发</strong></td>
+ <td style="padding:8px;"><strong>Evaporation</strong></td>
                                 <td style="padding:8px;">Solvent is volatile, solute is not</td>
                                 <td style="padding:8px;">Recovering dissolved solid</td>
                                 <td style="padding:8px;">NaCl from saltwater</td>
                             </tr>
                             <tr style="border-bottom:1px solid #2a2a50;">
-                                <td style="padding:8px;"><strong>Distillation 蒸馏</strong></td>
+ <td style="padding:8px;"><strong>Distillation</strong></td>
                                 <td style="padding:8px;">Different boiling points</td>
                                 <td style="padding:8px;">Miscible liquids with different bp</td>
                                 <td style="padding:8px;">Ethanol from water</td>
                             </tr>
                             <tr>
-                                <td style="padding:8px;"><strong>Extraction 萃取</strong></td>
+ <td style="padding:8px;"><strong>Extraction</strong></td>
                                 <td style="padding:8px;">Different solubility in two solvents</td>
                                 <td style="padding:8px;">Immiscible solvents; compound prefers one</td>
                                 <td style="padding:8px;">Br\u2082 from water using CCl\u2084</td>
@@ -1402,7 +1402,7 @@ window.CHAPTERS.push({
                         </table>
                     </div>
                 </div>
-                <h3>Decision Framework 判断框架</h3>
+ <h3>Decision Framework</h3>
                 <p>When given a separation problem, ask:</p>
                 <ol>
                     <li>Is one component a solid and the other a liquid? → Is the solid soluble?
@@ -1414,7 +1414,7 @@ window.CHAPTERS.push({
                     <li>Are both components liquids?
                         <ul>
                             <li>Miscible liquids with different boiling points → <strong>Distillation</strong></li>
-                            <li>Immiscible liquids → <strong>Separating funnel</strong> (液液萃取后分液)</li>
+ <li>Immiscible liquids → <strong>Separating funnel</strong> </li>
                         </ul>
                     </li>
                     <li>Is the target compound dissolved in the wrong solvent? → Can a better, immiscible solvent be found? → <strong>Extraction</strong></li>
@@ -1424,25 +1424,25 @@ window.CHAPTERS.push({
                     <div class="env-body">
                         <p>Drinking water purification uses several separation steps in sequence:</p>
                         <ol>
-                            <li><strong>Sedimentation</strong> (沉淀): Large particles settle by gravity.</li>
-                            <li><strong>Filtration</strong> (过滤): Fine sand filtration removes remaining solids.</li>
-                            <li><strong>Adsorption</strong> (吸附): Activated carbon removes dissolved organic impurities and odors.</li>
-                            <li><strong>Disinfection</strong> (消毒): Chlorination or UV treatment kills microorganisms.</li>
+ <li><strong>Sedimentation</strong> : Large particles settle by gravity.</li>
+ <li><strong>Filtration</strong> : Fine sand filtration removes remaining solids.</li>
+ <li><strong>Adsorption</strong> : Activated carbon removes dissolved organic impurities and odors.</li>
+ <li><strong>Disinfection</strong> : Chlorination or UV treatment kills microorganisms.</li>
                         </ol>
                         <p>Each step removes different types of impurities using different principles.</p>
                     </div>
                 </div>
                 <div class="viz-placeholder" data-viz="viz-methods-comparison"></div>
-                <h3>Common Lab Equipment Review 常见仪器</h3>
+ <h3>Common Lab Equipment Review</h3>
                 <p>Knowing which equipment to use is as important as knowing which technique to apply:</p>
                 <ul>
-                    <li><strong>Beaker (烧杯)</strong>: General container for mixing; not for precise measurement.</li>
-                    <li><strong>Erlenmeyer flask / Conical flask (锥形瓶)</strong>: Reduces evaporation; swirling without spilling; used in titrations.</li>
-                    <li><strong>Burette (滴定管)</strong>: Precise volume delivery, accurate to ±0.01 mL.</li>
-                    <li><strong>Volumetric flask (容量瓶)</strong>: Prepares exact concentration solutions; marked at one specific volume.</li>
-                    <li><strong>Separating funnel (分液漏斗)</strong>: Extraction and layer separation.</li>
-                    <li><strong>Condenser (冷凝器)</strong>: Converts vapor back to liquid in distillation.</li>
-                    <li><strong>Crucible (坩埚)</strong>: High-temperature reactions; ignition of substances.</li>
+ <li><strong>Beaker </strong>: General container for mixing; not for precise measurement.</li>
+ <li><strong>Erlenmeyer flask / Conical flask </strong>: Reduces evaporation; swirling without spilling; used in titrations.</li>
+ <li><strong>Burette </strong>: Precise volume delivery, accurate to ±0.01 mL.</li>
+ <li><strong>Volumetric flask </strong>: Prepares exact concentration solutions; marked at one specific volume.</li>
+ <li><strong>Separating funnel </strong>: Extraction and layer separation.</li>
+ <li><strong>Condenser </strong>: Converts vapor back to liquid in distillation.</li>
+ <li><strong>Crucible </strong>: High-temperature reactions; ignition of substances.</li>
                 </ul>`,
             visualizations: [{
                 id: 'viz-methods-comparison',
@@ -1455,10 +1455,10 @@ window.CHAPTERS.push({
                     var animId = null;
 
                     var methods = [
-                        {name: 'Filtration', ch: '过滤', color: '#58a6ff'},
-                        {name: 'Evaporation', ch: '蒸发', color: '#f0883e'},
-                        {name: 'Distillation', ch: '蒸馏', color: '#3fb9a0'},
-                        {name: 'Extraction', ch: '萃取', color: '#bc8cff'}
+ {name:'Filtration', ch:'', color:'#58a6ff'},
+ {name:'Evaporation', ch:'', color:'#f0883e'},
+ {name:'Distillation', ch:'', color:'#3fb9a0'},
+ {name:'Extraction', ch:'', color:'#bc8cff'}
                     ];
 
                     methods.forEach(function(m, i) {
@@ -1474,7 +1474,7 @@ window.CHAPTERS.push({
                         var W = viz.width, H = viz.height;
                         var m = methods[selected];
 
-                        viz.screenText(m.name + ' (' + m.ch + ')', W/2, 20, m.color, 16, 'center', 'top');
+                        viz.screenText(m.ch ? m.name + ' (' + m.ch + ')' : m.name, W/2, 20, m.color, 16, 'center', 'top');
 
                         if (selected === 0) {
                             // Filtration: particle animation
@@ -1620,12 +1620,12 @@ window.CHAPTERS.push({
                             // Water layer (top)
                             ctx.fillStyle = viz.colors.blue + '44';
                             ctx.fillRect(150, 80, 400, midY - 80);
-                            viz.screenText('Aqueous layer (水层)', W/2, 95, viz.colors.blue, 11, 'center', 'top');
+ viz.screenText('Aqueous layer', W/2, 95, viz.colors.blue, 11,'center','top');
 
                             // CCl4 layer (bottom)
                             ctx.fillStyle = viz.colors.orange + '44';
                             ctx.fillRect(150, midY, 400, 130);
-                            viz.screenText('CCl\u2084 layer (有机层)', W/2, midY + 60, viz.colors.orange, 11, 'center', 'middle');
+ viz.screenText('CCl\u2084 layer', W/2, midY + 60, viz.colors.orange, 11,'center','middle');
 
                             // Interface
                             ctx.strokeStyle = viz.colors.white + '55';
@@ -1679,16 +1679,16 @@ window.CHAPTERS.push({
                 },
                 {
                     question: 'Explain why distillation cannot produce 100% pure ethanol from an ethanol-water mixture.',
-                    hint: 'Look up the concept of an azeotrope (共沸物).',
-                    solution: 'Ethanol and water form a minimum-boiling azeotrope at about 95.6% ethanol (by mass) and 78.1\u00b0C. At this composition, both ethanol and water have exactly the same vapor composition as the liquid, so they evaporate together and cannot be separated further by simple distillation. The distillate approaches 95.6% ethanol but cannot exceed it. To obtain absolute ethanol (无水乙醇, 100%), a chemical desiccant like CaO (quicklime) must be added to react with the residual water, then the ethanol is distilled off.'
+ hint:'Look up the concept of an azeotrope .',
+ solution:'Ethanol and water form a minimum-boiling azeotrope at about 95.6% ethanol (by mass) and 78.1\u00b0C. At this composition, both ethanol and water have exactly the same vapor composition as the liquid, so they evaporate together and cannot be separated further by simple distillation. The distillate approaches 95.6% ethanol but cannot exceed it. To obtain absolute ethanol (100%), a chemical desiccant like CaO (quicklime) must be added to react with the residual water, then the ethanol is distilled off.'
                 },
                 {
                     question: 'A chemist needs to separate: (A) a mixture of ethanol and water; (B) a mixture of salt and sand in water; (C) iodine dissolved in water. State the most suitable separation technique for each and the key physical property it exploits.',
                     hint: 'Use the decision framework: solid/liquid? miscible liquids? immiscible solvents?',
-                    solution: '(A) Ethanol/water (miscible liquids with different boiling points): Use distillation (蒸馏). Exploits difference in boiling point (78.4\u00b0C vs 100\u00b0C). (B) Salt and sand in water: Use filtration (过滤) first to remove insoluble sand, then evaporation (蒸发) to recover NaCl from the filtrate. Exploits particle size (filtration) and solvent volatility (evaporation). (C) Iodine in water: Use extraction (萃取) with an appropriate organic solvent like CCl\u2084 or hexane that is immiscible with water and dissolves iodine much better. Exploits the partition coefficient of I\u2082 between two immiscible solvents.'
+ solution:'(A) Ethanol/water (miscible liquids with different boiling points): Use distillation . Exploits difference in boiling point (78.4\u00b0C vs 100\u00b0C). (B) Salt and sand in water: Use filtration first to remove insoluble sand, then evaporation to recover NaCl from the filtrate. Exploits particle size (filtration) and solvent volatility (evaporation). (C) Iodine in water: Use extraction with an appropriate organic solvent like CCl\u2084 or hexane that is immiscible with water and dissolves iodine much better. Exploits the partition coefficient of I\u2082 between two immiscible solvents.'
                 },
                 {
-                    question: 'Why must a volumetric flask (容量瓶) never be heated or used to mix solutions with vigorous stirring?',
+ question:'Why must a volumetric flask never be heated or used to mix solutions with vigorous stirring?',
                     hint: 'Consider what the flask is designed to measure and what heat would do to it.',
                     solution: 'A volumetric flask is calibrated to contain an exact volume only at a specific temperature (usually 20\u00b0C). Heating the flask causes the glass to expand, changing its volume and making the calibration mark inaccurate — solutions prepared in a heated flask will have incorrect concentration. The flask is also designed for one specific volume only, so it is not suitable for mixing reactions that generate heat or require stirring (use a beaker for mixing, then transfer).'
                 }

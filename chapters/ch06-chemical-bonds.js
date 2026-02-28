@@ -7,13 +7,13 @@ window.CHAPTERS.push({
     sections: [
 
         // ============================================================
-        // SECTION 1: Ionic Bonds (离子键)
+ // SECTION 1: Ionic Bonds
         // ============================================================
         {
             id: 'ch06-sec01',
             title: 'Ionic Bonds',
             content: `
-                <h2>Ionic Bonds (离子键)</h2>
+ <h2>Ionic Bonds </h2>
 
                 <p>Atoms are social creatures — they rarely exist alone! When atoms combine, they form <strong>chemical bonds</strong>. The first type we'll explore is the <strong>ionic bond</strong>, where one atom hands off an electron to another, creating an electrostatic attraction between the resulting ions.</p>
 
@@ -196,13 +196,13 @@ window.CHAPTERS.push({
         },
 
         // ============================================================
-        // SECTION 2: Covalent Bonds (共价键)
+ // SECTION 2: Covalent Bonds
         // ============================================================
         {
             id: 'ch06-sec02',
             title: 'Covalent Bonds',
             content: `
-                <h2>Covalent Bonds (共价键)</h2>
+ <h2>Covalent Bonds </h2>
 
                 <p>Not all atoms want to give or take electrons. When two nonmetal atoms meet, it's more efficient to <strong>share</strong> electrons. The result is a <strong>covalent bond</strong> — the backbone of most of chemistry's most important molecules.</p>
 
@@ -487,13 +487,13 @@ window.CHAPTERS.push({
         },
 
         // ============================================================
-        // SECTION 3: Metallic Bonds (金属键)
+ // SECTION 3: Metallic Bonds
         // ============================================================
         {
             id: 'ch06-sec03',
             title: 'Metallic Bonds',
             content: `
-                <h2>Metallic Bonds (金属键)</h2>
+ <h2>Metallic Bonds </h2>
 
                 <p>When metal atoms pack together, neither ionic nor covalent bonding fully explains what holds them together. The answer is the <strong>metallic bond</strong> — a unique type of bonding where valence electrons become free to roam throughout the entire metal.</p>
 
@@ -674,13 +674,13 @@ window.CHAPTERS.push({
         },
 
         // ============================================================
-        // SECTION 4: Intermolecular Forces (分子间作用力)
+ // SECTION 4: Intermolecular Forces
         // ============================================================
         {
             id: 'ch06-sec04',
             title: 'Intermolecular Forces',
             content: `
-                <h2>Intermolecular Forces (分子间作用力)</h2>
+ <h2>Intermolecular Forces </h2>
 
                 <p>Inside molecules, atoms are held together by strong intramolecular bonds. But what holds <em>molecules</em> to each other? These weaker forces, called <strong>intermolecular forces (IMF)</strong>, determine whether a substance is a gas, liquid, or solid at room temperature.</p>
 
@@ -704,7 +704,7 @@ window.CHAPTERS.push({
                     <li>Explain why boiling points of noble gases increase: He (-269°C) < Ne (-246°C) < Ar (-186°C) < Kr (-153°C)</li>
                 </ul>
 
-                <h3>Hydrogen Bonds (氢键)</h3>
+ <h3>Hydrogen Bonds </h3>
 
                 <p>The hydrogen bond occurs when H is bonded to F, O, or N and is attracted to a lone pair on another F, O, or N:</p>
                 <p style="text-align:center;">\\(\\text{X}-\\text{H} \\cdots \\text{Y} \\quad \\text{where X, Y} \\in \\{\\text{F, O, N}\\}\\)</p>
@@ -884,13 +884,13 @@ window.CHAPTERS.push({
         },
 
         // ============================================================
-        // SECTION 5: Molecular Geometry (分子空间构型)
+ // SECTION 5: Molecular Geometry
         // ============================================================
         {
             id: 'ch06-sec05',
             title: 'Molecular Geometry',
             content: `
-                <h2>Molecular Geometry (分子空间构型)</h2>
+ <h2>Molecular Geometry </h2>
 
                 <p>Molecules aren't flat! The three-dimensional shape of a molecule determines its polarity, reactivity, and biological function. The <strong>VSEPR theory</strong> (Valence Shell Electron Pair Repulsion) gives us a simple, powerful way to predict molecular shapes.</p>
 

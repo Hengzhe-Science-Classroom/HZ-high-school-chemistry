@@ -20,7 +20,7 @@ A <em>redox reaction</em> is any chemical reaction in which electrons are transf
 Memory aid: <strong>OIL RIG</strong> — Oxidation Is Loss, Reduction Is Gain.
 </div>
 
-<h3>Oxidation Numbers (化合价 / 氧化数)</h3>
+<h3>Oxidation Numbers </h3>
 <p>The <strong>oxidation number</strong> (also called oxidation state) is a bookkeeping device that tracks how electrons are distributed among atoms in a compound. Rules for assigning oxidation numbers:</p>
 <ol>
   <li>Pure elements have oxidation number = 0. e.g., \\(\\text{Fe}^0\\), \\(\\text{O}_2^0\\), \\(\\text{Zn}^0\\)</li>
@@ -266,18 +266,18 @@ Overall: \\[ \\text{MnO}_4^- + 5\\text{Fe}^{2+} + 8\\text{H}^+ \\rightarrow \\te
     // ==================== SECTION 2: Galvanic Cells ====================
     {
       id: 'ch10-sec02',
-      title: 'Galvanic Cells (原电池)',
+ title:'Galvanic Cells',
       content: `
 <div class="env-definition">
-<strong>Galvanic Cell (原电池 / Voltaic Cell)</strong><br>
+<strong>Galvanic Cell (/ Voltaic Cell)</strong><br>
 A <em>galvanic cell</em> is a device that converts chemical energy from a spontaneous redox reaction into electrical energy. It consists of two <strong>electrodes</strong> (conductors) immersed in <strong>electrolyte</strong> solutions, connected externally by a wire and internally by a <strong>salt bridge</strong>.
 </div>
 
 <h3>The Daniell Cell: Zn-Cu Cell</h3>
 <p>The classic galvanic cell uses zinc and copper:</p>
 <ul>
-  <li><strong>Anode (负极, negative electrode):</strong> Zinc strip in ZnSO₄ solution → Oxidation occurs here</li>
-  <li><strong>Cathode (正极, positive electrode):</strong> Copper strip in CuSO₄ solution → Reduction occurs here</li>
+ <li><strong>Anode (negative electrode):</strong> Zinc strip in ZnSO₄ solution → Oxidation occurs here</li>
+ <li><strong>Cathode (positive electrode):</strong> Copper strip in CuSO₄ solution → Reduction occurs here</li>
   <li><strong>Salt bridge:</strong> Contains KCl or KNO₃ solution; allows ion flow to maintain electrical neutrality</li>
   <li><strong>External circuit:</strong> Electrons flow from anode (Zn) to cathode (Cu) through the wire</li>
 </ul>
@@ -289,7 +289,7 @@ Cathode (reduction): \\[ \\text{Cu}^{2+}(aq) + 2e^- \\rightarrow \\text{Cu}(s) \
 Overall cell reaction: \\[ \\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\rightarrow \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\]
 </div>
 
-<h3>Cell Notation (电池符号)</h3>
+<h3>Cell Notation </h3>
 <p>The international shorthand for writing galvanic cells:</p>
 \\[ \\text{Zn}(s) | \\text{ZnSO}_4(aq) || \\text{CuSO}_4(aq) | \\text{Cu}(s) \\]
 <ul>
@@ -299,7 +299,7 @@ Overall cell reaction: \\[ \\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\rightarrow \\te
   <li>Cathode (reduction) is always written on the RIGHT</li>
 </ul>
 
-<h3>Electromotive Force (EMF, 电动势)</h3>
+<h3>Electromotive Force (EMF)</h3>
 <p>The <strong>electromotive force (EMF)</strong>, symbol \\(\\mathcal{E}\\) or \\(E_{cell}\\), is the maximum potential difference (voltage) the cell can produce. It is measured in volts (V).</p>
 \\[ E_{cell} = E_{cathode} - E_{anode} = E_{Cu^{2+}/Cu} - E_{Zn^{2+}/Zn} \\]
 <p>Using standard reduction potentials (at 25°C, 1 M, 1 atm):</p>
@@ -609,19 +609,19 @@ Overall cell reaction: \\[ \\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\rightarrow \\te
     // ==================== SECTION 3: Electrolytic Cells ====================
     {
       id: 'ch10-sec03',
-      title: 'Electrolytic Cells (电解池)',
+ title:'Electrolytic Cells',
       content: `
 <div class="env-definition">
-<strong>Electrolytic Cell (电解池)</strong><br>
-An <em>electrolytic cell</em> uses an external electrical energy source to force a <em>non-spontaneous</em> redox reaction to occur. This process is called <strong>electrolysis (电解)</strong>. Unlike galvanic cells, electrolytic cells consume electrical energy to produce chemical change.
+<strong>Electrolytic Cell </strong><br>
+An <em>electrolytic cell</em> uses an external electrical energy source to force a <em>non-spontaneous</em> redox reaction to occur. This process is called <strong>electrolysis </strong>. Unlike galvanic cells, electrolytic cells consume electrical energy to produce chemical change.
 </div>
 
 <h3>Comparison: Galvanic vs. Electrolytic Cell</h3>
 <table style="width:100%;border-collapse:collapse;margin:12px 0;">
   <tr style="background:#1a1a40;">
     <th style="padding:8px;border:1px solid #30363d;"></th>
-    <th style="padding:8px;border:1px solid #30363d;">Galvanic Cell (原电池)</th>
-    <th style="padding:8px;border:1px solid #30363d;">Electrolytic Cell (电解池)</th>
+ <th style="padding:8px;border:1px solid #30363d;">Galvanic Cell </th>
+ <th style="padding:8px;border:1px solid #30363d;">Electrolytic Cell </th>
   </tr>
   <tr>
     <td style="padding:8px;border:1px solid #30363d;">Energy conversion</td>
@@ -667,10 +667,10 @@ An <em>electrolytic cell</em> uses an external electrical energy source to force
 <p>Products: H₂ (fuel), Cl₂ (disinfectant, PVC), NaOH (important base).</p>
 
 <div class="env-warning">
-<strong>Why Cl₂ instead of O₂ at anode?</strong> Though water oxidation (→ O₂) is thermodynamically preferred, the kinetic overpotential for O₂ evolution at carbon anodes is high. Also, at high [Cl⁻], Cl⁻ is preferentially oxidized. This is called <em>overpotential</em> (超电位) effect.
+<strong>Why Cl₂ instead of O₂ at anode?</strong> Though water oxidation (→ O₂) is thermodynamically preferred, the kinetic overpotential for O₂ evolution at carbon anodes is high. Also, at high [Cl⁻], Cl⁻ is preferentially oxidized. This is called <em>overpotential</em> effect.
 </div>
 
-<h3>Faraday's Law of Electrolysis (法拉第电解定律)</h3>
+<h3>Faraday's Law of Electrolysis </h3>
 <div class="env-definition">
 <strong>Faraday's Law:</strong> The amount of substance deposited at an electrode is directly proportional to the quantity of electric charge passed.<br><br>
 \\[ m = \\frac{M \\cdot I \\cdot t}{n \\cdot F} \\]
@@ -694,8 +694,8 @@ where:
 
 <h3>Applications of Electrolysis</h3>
 <ul>
-  <li><strong>Electroplating (电镀):</strong> Coat objects with thin metal layers (Ni, Cr, Au, Ag) for corrosion protection or aesthetics. Object to be plated = cathode; plating metal = anode.</li>
-  <li><strong>Electrorefining (电解精炼):</strong> Purify metals. Crude copper anode dissolves; pure copper deposits at cathode.</li>
+ <li><strong>Electroplating :</strong> Coat objects with thin metal layers (Ni, Cr, Au, Ag) for corrosion protection or aesthetics. Object to be plated = cathode; plating metal = anode.</li>
+ <li><strong>Electrorefining :</strong> Purify metals. Crude copper anode dissolves; pure copper deposits at cathode.</li>
   <li><strong>Aluminum production (Hall-Héroult process):</strong> Electrolysis of Al₂O₃ dissolved in molten cryolite (Na₃AlF₆) at ~950°C.</li>
 </ul>
       `,
@@ -931,19 +931,19 @@ where:
     // ==================== SECTION 4: Metal Corrosion ====================
     {
       id: 'ch10-sec04',
-      title: 'Metal Corrosion & Protection (金属腐蚀与防护)',
+ title:'Metal Corrosion & Protection',
       content: `
 <div class="env-definition">
-<strong>Metal Corrosion (金属腐蚀)</strong><br>
+<strong>Metal Corrosion </strong><br>
 Corrosion is the spontaneous oxidation of metals caused by their reaction with environmental substances (oxygen, water, acids, etc.). It is an electrochemical process in which the metal acts as the anode of a microscopic galvanic cell formed at the metal surface.
 </div>
 
 <h3>Types of Corrosion</h3>
-<h4>1. Chemical Corrosion (化学腐蚀)</h4>
+<h4>1. Chemical Corrosion </h4>
 <p>Direct reaction of metal with a corrosive substance without electron flow through an external circuit. Example: steel pipe in dry HCl gas.</p>
 \\[ \\text{Fe} + 2\\text{HCl} \\rightarrow \\text{FeCl}_2 + \\text{H}_2 \\]
 
-<h4>2. Electrochemical Corrosion (电化学腐蚀)</h4>
+<h4>2. Electrochemical Corrosion </h4>
 <p>More common and more serious. Occurs when two different metals (or different regions of the same metal) form a galvanic couple in the presence of an electrolyte.</p>
 
 <h3>Iron Corrosion in Neutral/Weakly Acidic Conditions: Oxygen Absorption Corrosion</h3>
@@ -964,17 +964,17 @@ Corrosion is the spontaneous oxidation of metals caused by their reaction with e
 
 <h3>Methods of Corrosion Protection</h3>
 
-<h4>1. Sacrificial Anode Protection (牺牲阳极法)</h4>
+<h4>1. Sacrificial Anode Protection </h4>
 <p>Attach a more active metal (Mg, Zn, Al) to the iron structure. The active metal becomes the anode and dissolves preferentially, while iron becomes the cathode and is protected.</p>
 \\[ \\text{Mg} \\rightarrow \\text{Mg}^{2+} + 2e^- \\quad \\text{(Mg sacrificed)} \\]
 
-<h4>2. Impressed Current Cathodic Protection (外加电流法)</h4>
+<h4>2. Impressed Current Cathodic Protection </h4>
 <p>Connect the structure to the negative terminal of a DC power source — making it the cathode. An inert anode (graphite or Pt) completes the circuit.</p>
 
-<h4>3. Protective Coating (覆盖层法)</h4>
+<h4>3. Protective Coating </h4>
 <ul>
-  <li><strong>Galvanizing (镀锌):</strong> Coating iron with zinc. Zinc corrodes preferentially (more active), protecting iron even at scratches — sacrificial protection.</li>
-  <li><strong>Tin plating (镀锡):</strong> Used in food cans. If coating is scratched, iron becomes the anode and corrodes rapidly.</li>
+ <li><strong>Galvanizing :</strong> Coating iron with zinc. Zinc corrodes preferentially (more active), protecting iron even at scratches — sacrificial protection.</li>
+ <li><strong>Tin plating :</strong> Used in food cans. If coating is scratched, iron becomes the anode and corrodes rapidly.</li>
   <li><strong>Alloying:</strong> Stainless steel (Fe + Cr + Ni) — chromium forms a stable Cr₂O₃ passivation layer.</li>
 </ul>
 
@@ -1147,14 +1147,14 @@ Tin-plated iron (Sn coating): Sn is LESS active than Fe. If the coating is intac
     // ==================== SECTION 5: Battery Technology ====================
     {
       id: 'ch10-sec05',
-      title: 'Battery Technology (电池技术)',
+ title:'Battery Technology',
       content: `
 <div class="env-definition">
 <strong>Battery</strong><br>
-A battery is one or more electrochemical cells that convert stored chemical energy into electrical energy. <em>Primary batteries</em> (一次电池) are non-rechargeable; <em>secondary batteries</em> (二次电池/蓄电池) are rechargeable; <em>fuel cells</em> (燃料电池) convert fuel energy continuously.
+A battery is one or more electrochemical cells that convert stored chemical energy into electrical energy. <em>Primary batteries</em> are non-rechargeable; <em>secondary batteries</em> are rechargeable; <em>fuel cells</em> convert fuel energy continuously.
 </div>
 
-<h3>1. Dry Cell (干电池) — Leclanché Cell</h3>
+<h3>1. Dry Cell — Leclanché Cell</h3>
 <p>The common carbon-zinc dry cell used in remotes and flashlights.</p>
 <ul>
   <li><strong>Anode:</strong> Zn case</li>
@@ -1168,7 +1168,7 @@ Anode: \\(\\text{Zn} \\rightarrow \\text{Zn}^{2+} + 2e^-\\)<br>
 Cathode: \\(2\\text{MnO}_2 + 2\\text{NH}_4^+ + 2e^- \\rightarrow \\text{Mn}_2\\text{O}_3 + 2\\text{NH}_3 + \\text{H}_2\\text{O}\\)
 </div>
 
-<h3>2. Lead-Acid Battery (铅酸电池)</h3>
+<h3>2. Lead-Acid Battery </h3>
 <p>The classic rechargeable battery used in cars. Composed of multiple cells (~2 V each) in series.</p>
 <div class="env-definition">
 <strong>Discharge reactions:</strong><br>
@@ -1183,7 +1183,7 @@ Overall discharge: \\(\\text{Pb} + \\text{PbO}_2 + 2\\text{H}_2\\text{SO}_4 \\ri
   <li><strong>Cons:</strong> Heavy, contains toxic Pb and H₂SO₄, low energy density</li>
 </ul>
 
-<h3>3. Lithium-Ion Battery (锂离子电池)</h3>
+<h3>3. Lithium-Ion Battery </h3>
 <p>The dominant technology in smartphones, laptops, and electric vehicles.</p>
 <div class="env-definition">
 <strong>Discharge reactions:</strong><br>
@@ -1197,7 +1197,7 @@ Cathode: \\(\\text{CoO}_2 + \\text{Li}^+ + e^- \\rightarrow \\text{LiCoO}_2\\)
   <li><strong>Cons:</strong> Expensive, safety concerns (thermal runaway), supply chain issues for Co</li>
 </ul>
 
-<h3>4. Fuel Cells (燃料电池)</h3>
+<h3>4. Fuel Cells </h3>
 <p>A fuel cell continuously converts the chemical energy of a fuel (H₂, CH₃OH, etc.) into electricity. Unlike batteries, they never "run out" as long as fuel is supplied.</p>
 <div class="env-definition">
 <strong>Hydrogen-Oxygen Fuel Cell:</strong><br>

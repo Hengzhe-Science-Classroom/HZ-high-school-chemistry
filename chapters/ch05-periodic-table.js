@@ -10,7 +10,7 @@ window.CHAPTERS.push({
             id: 'ch05-sec01',
             title: 'Structure of the Periodic Table',
             content: `
-<h2>元素周期表的结构 (Structure of the Periodic Table)</h2>
+<h2>(Structure of the Periodic Table)</h2>
 
 <p>The periodic table arranges all known elements in order of increasing <strong>atomic number</strong> (proton number), revealing the periodic pattern of element properties.</p>
 
@@ -42,7 +42,7 @@ window.CHAPTERS.push({
 </ul>
 
 <h3>Metal / Nonmetal Boundary</h3>
-<p>A diagonal staircase along B–Si–As–Te–At divides metals (left) from nonmetals (right). Elements along the boundary (Si, Ge, As, etc.) are <strong>metalloids (半导体)</strong> — crucial for modern electronics.</p>
+<p>A diagonal staircase along B–Si–As–Te–At divides metals (left) from nonmetals (right). Elements along the boundary (Si, Ge, As, etc.) are <strong>metalloids </strong> — crucial for modern electronics.</p>
             `,
             visualizations: [
                 {
@@ -196,7 +196,7 @@ window.CHAPTERS.push({
                 {
                     id: 'ch05-ex01',
                     type: 'mcq',
-                    question: 'Which of the following correctly describes elements in the same group (族) of the periodic table?',
+ question:'Which of the following correctly describes elements in the same group of the periodic table?',
                     options: [
                         'They have the same number of electron shells',
                         'They have the same number of valence (outer-shell) electrons',
@@ -229,7 +229,7 @@ window.CHAPTERS.push({
             id: 'ch05-sec02',
             title: 'Atomic Radius Trends',
             content: `
-<h2>原子半径的变化规律 (Trends in Atomic Radius)</h2>
+<h2>(Trends in Atomic Radius)</h2>
 
 <p>Atomic radius is governed by two competing effects:</p>
 
@@ -380,7 +380,7 @@ window.CHAPTERS.push({
             content: `
 <h2>Ionization Energy & Metallic/Nonmetallic Character</h2>
 
-<p><strong>Metallic character (金属性):</strong> tendency to <em>lose</em> electrons. <strong>Nonmetallic character (非金属性):</strong> tendency to <em>gain</em> electrons. Both are quantified by ionization energy and electronegativity.</p>
+<p><strong>Metallic character :</strong> tendency to <em>lose</em> electrons. <strong>Nonmetallic character :</strong> tendency to <em>gain</em> electrons. Both are quantified by ionization energy and electronegativity.</p>
 
 <h3>First Ionization Energy (IE₁)</h3>
 
@@ -397,7 +397,7 @@ window.CHAPTERS.push({
 <h3>Successive Ionization Energies — Confirming Valence</h3>
 <p>A large jump in successive IEs occurs after all valence electrons are removed. For Na: IE₁ = 496, IE₂ = 4562 kJ/mol — the jump after 1st confirms valence = +1.</p>
 
-<h3>Electronegativity (电负性)</h3>
+<h3>Electronegativity </h3>
 <table class="chem-table">
   <thead><tr><th>Element</th><th>F</th><th>O</th><th>N</th><th>Cl</th><th>C</th><th>H</th><th>Na</th><th>K</th></tr></thead>
   <tbody>
@@ -551,21 +551,21 @@ window.CHAPTERS.push({
 
 <p>The periodic law states: <strong>properties of elements vary periodically with increasing atomic number.</strong></p>
 
-<h3>Judging Metallic Character (金属性)</h3>
+<h3>Judging Metallic Character </h3>
 <ul>
   <li>More vigorous reaction with water or acid → stronger metallic character</li>
   <li>Stronger basicity of highest-oxide hydroxide → stronger metallic character</li>
   <li>Displacement: stronger metal displaces weaker from salt solution</li>
 </ul>
 
-<h3>Judging Nonmetallic Character (非金属性)</h3>
+<h3>Judging Nonmetallic Character </h3>
 <ul>
   <li>Reacts with H₂ under milder conditions → stronger nonmetallic character</li>
   <li>More stable hydride → stronger nonmetallic character</li>
   <li>Stronger highest-oxide acid → stronger nonmetallic character (e.g., HClO₄ > H₂SO₄ > H₃PO₄)</li>
 </ul>
 
-<h3>Diagonal Relationship (对角线规则)</h3>
+<h3>Diagonal Relationship </h3>
 <table class="chem-table">
   <thead><tr><th>Diagonal Pair</th><th>Similarity</th></tr></thead>
   <tbody>

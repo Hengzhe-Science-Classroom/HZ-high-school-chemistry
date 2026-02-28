@@ -12,7 +12,7 @@ window.CHAPTERS.push({
       id: 'ch02-sec01',
       title: '1. The Mole Concept',
       content: `
-<h2>物质的量与摩尔 — Amount of Substance and the Mole</h2>
+<h2>Amount of Substance and the Mole</h2>
 
 <div class="env-intuition">
 <strong>Why do we need the mole?</strong><br>
@@ -20,14 +20,14 @@ Atoms and molecules are unimaginably tiny. A single water molecule has a mass of
 </div>
 
 <h3>Avogadro's Number</h3>
-<p>One <strong>mole</strong> (摩尔, symbol <strong>mol</strong>) is defined as exactly</p>
+<p>One <strong>mole</strong> (symbol <strong>mol</strong>) is defined as exactly</p>
 
 \\[ N_A = 6.022 \\times 10^{23} \\text{ entities} \\]
 
-<p>This is <strong>Avogadro's number</strong> (阿伏伽德罗常数). The "entities" can be atoms, molecules, ions, electrons — any elementary particle you specify.</p>
+<p>This is <strong>Avogadro's number</strong> . The"entities" can be atoms, molecules, ions, electrons — any elementary particle you specify.</p>
 
 <div class="env-definition">
-<strong>Definition — Amount of Substance (物质的量)</strong><br>
+<strong>Definition — Amount of Substance </strong><br>
 The amount of substance \\(n\\) of a sample is defined by
 \\[ n = \\frac{N}{N_A} \\]
 where \\(N\\) is the number of specified entities and \\(N_A = 6.022 \\times 10^{23}\\,\\text{mol}^{-1}\\).
@@ -280,14 +280,14 @@ Always multiply the subscript by the number of moles.
       id: 'ch02-sec02',
       title: '2. Molar Mass',
       content: `
-<h2>摩尔质量 — Molar Mass</h2>
+<h2>Molar Mass</h2>
 
 <div class="env-intuition">
 <strong>The key connection:</strong> Avogadro's number links particles to moles. Molar mass links moles to <em>grams</em> — the unit we can actually measure on a balance.
 </div>
 
 <div class="env-definition">
-<strong>Definition — Molar Mass (摩尔质量)</strong><br>
+<strong>Definition — Molar Mass </strong><br>
 The <strong>molar mass</strong> \\(M\\) of a substance is the mass of one mole of that substance.
 \\[ M = \\frac{m}{n} \\quad \\Longrightarrow \\quad m = nM \\quad \\text{and} \\quad n = \\frac{m}{M} \\]
 Units: g/mol (or kg/mol in SI). Numerically, \\(M\\) in g/mol equals the atomic/molecular mass in atomic mass units (u).
@@ -541,26 +541,26 @@ If you get g²/mol or other nonsense, you multiplied when you should have divide
       id: 'ch02-sec03',
       title: '3. Molar Volume of Gases',
       content: `
-<h2>气体摩尔体积 — Molar Volume of Gases</h2>
+<h2>Molar Volume of Gases</h2>
 
 <h3>Avogadro's Law</h3>
 
 <div class="env-definition">
-<strong>Avogadro's Law (阿伏伽德罗定律):</strong><br>
+<strong>Avogadro's Law :</strong><br>
 At the same temperature and pressure, equal volumes of gases contain equal numbers of molecules (or moles).
 \\[ \\frac{V_1}{n_1} = \\frac{V_2}{n_2} \\quad (\\text{same } T, P) \\]
 This means gas volume is determined by the amount of gas, not by the identity of the gas.
 </div>
 
 <h3>Standard Temperature and Pressure (STP)</h3>
-<p>The <strong>standard temperature and pressure (标准状况, STP)</strong> is defined as:</p>
+<p>The <strong>standard temperature and pressure (STP)</strong> is defined as:</p>
 <ul>
   <li>Temperature: 0°C = 273.15 K</li>
   <li>Pressure: 1 atm = 101.325 kPa</li>
 </ul>
 
 <div class="env-definition">
-<strong>Molar Volume at STP (气体摩尔体积):</strong><br>
+<strong>Molar Volume at STP :</strong><br>
 At STP, any ideal gas occupies exactly
 \\[ V_m = 22.4\\,\\text{L/mol} \\]
 This is the <strong>molar volume of an ideal gas at STP</strong>.
@@ -761,10 +761,10 @@ Gas molecules at room temperature are so far apart that the actual size of the m
       id: 'ch02-sec04',
       title: '4. Molar Concentration',
       content: `
-<h2>物质的量浓度 — Molar Concentration</h2>
+<h2>Molar Concentration</h2>
 
 <div class="env-definition">
-<strong>Definition — Molar Concentration (物质的量浓度):</strong><br>
+<strong>Definition — Molar Concentration :</strong><br>
 The <strong>molar concentration</strong> (also called <em>molarity</em>) of a solution is the number of moles of solute per liter of solution:
 \\[ c = \\frac{n}{V} \\quad \\Longrightarrow \\quad n = cV \\quad \\text{and} \\quad V = \\frac{n}{c} \\]
 Units: mol/L (sometimes written as M, meaning mol per liter).
@@ -784,7 +784,7 @@ Units: mol/L (sometimes written as M, meaning mol per liter).
 </div>
 
 <h3>Dilution Formula</h3>
-<p>When a concentrated solution (stock solution, 母液) is diluted by adding solvent, the number of moles of solute stays constant:</p>
+<p>When a concentrated solution (stock solution) is diluted by adding solvent, the number of moles of solute stays constant:</p>
 
 \\[ n_{\\text{before}} = n_{\\text{after}} \\]
 \\[ c_1 V_1 = c_2 V_2 \\]
@@ -807,8 +807,8 @@ When diluting concentrated acids (especially H₂SO₄), <em>always add the acid
 <h3>Mass Concentration vs. Molar Concentration</h3>
 <p>Don't confuse these two!</p>
 <ul>
-  <li><strong>Mass concentration</strong> (质量浓度): \\(\\rho = m/V\\) in g/L</li>
-  <li><strong>Molar concentration</strong> (物质的量浓度): \\(c = n/V\\) in mol/L</li>
+ <li><strong>Mass concentration</strong> : \\(\\rho = m/V\\) in g/L</li>
+ <li><strong>Molar concentration</strong> : \\(c = n/V\\) in mol/L</li>
 </ul>
 <p>Converting: \\(c = \\rho / M\\) where \\(M\\) is molar mass in g/mol.</p>
 
@@ -1040,21 +1040,21 @@ Consider 1 L (1000 mL) of solution:
       id: 'ch02-sec05',
       title: '5. Solution Preparation',
       content: `
-<h2>溶液配制 — Solution Preparation Procedure</h2>
+<h2>Solution Preparation Procedure</h2>
 
-<p>Preparing a solution of precisely known concentration is a fundamental lab skill. The key tool is the <strong>volumetric flask</strong> (容量瓶) — a flask calibrated to contain an exact volume at a specific temperature.</p>
+<p>Preparing a solution of precisely known concentration is a fundamental lab skill. The key tool is the <strong>volumetric flask</strong> — a flask calibrated to contain an exact volume at a specific temperature.</p>
 
 <h3>Standard Procedure for Preparing a Solution from Solid Solute</h3>
 
 <div class="env-definition">
-<strong>Step-by-Step Procedure (固体溶质):</strong>
+<strong>Step-by-Step Procedure :</strong>
 <ol>
   <li><strong>Calculate:</strong> Determine the required mass: \\(m = n \\times M = c \\times V \\times M\\)</li>
   <li><strong>Weigh:</strong> Accurately weigh the solid on an analytical balance into a small beaker.</li>
   <li><strong>Dissolve:</strong> Add a small amount of distilled water (less than half the target volume) and stir until fully dissolved. Allow to cool to room temperature if dissolution is exothermic.</li>
   <li><strong>Transfer:</strong> Carefully pour the solution into a volumetric flask using a glass funnel and stirring rod. Rinse the beaker <em>at least 3 times</em> with small amounts of distilled water, adding the rinse water to the flask.</li>
   <li><strong>Dilute:</strong> Add distilled water to about 1–2 cm below the calibration mark.</li>
-  <li><strong>Adjust:</strong> Use a dropper (胶头滴管) to add water drop by drop until the bottom of the meniscus exactly reaches the calibration mark at eye level.</li>
+ <li><strong>Adjust:</strong> Use a dropper to add water drop by drop until the bottom of the meniscus exactly reaches the calibration mark at eye level.</li>
   <li><strong>Mix:</strong> Stopper the flask and invert/swirl at least 10 times to ensure homogeneity.</li>
   <li><strong>Label:</strong> Transfer to a reagent bottle and label with: name, concentration, date, preparer.</li>
 </ol>

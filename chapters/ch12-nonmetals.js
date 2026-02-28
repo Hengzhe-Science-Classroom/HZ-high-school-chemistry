@@ -7,7 +7,7 @@ window.CHAPTERS.push({
     sections: [
 
         // ============================================================
-        // SECTION 1: Silicon and Its Compounds (硅及其化合物)
+ // SECTION 1: Silicon and Its Compounds
         // ============================================================
         {
             id: 'ch12-sec01',
@@ -216,7 +216,7 @@ window.CHAPTERS.push({
         },
 
         // ============================================================
-        // SECTION 2: Chlorine and Its Compounds (氯及其化合物)
+ // SECTION 2: Chlorine and Its Compounds
         // ============================================================
         {
             id: 'ch12-sec02',
@@ -457,7 +457,7 @@ window.CHAPTERS.push({
         },
 
         // ============================================================
-        // SECTION 3: Sulfur and Its Compounds (硫及其化合物)
+ // SECTION 3: Sulfur and Its Compounds
         // ============================================================
         {
             id: 'ch12-sec03',
@@ -885,7 +885,7 @@ window.CHAPTERS.push({
         },
 
         // ============================================================
-        // SECTION 4: Nitrogen and Its Compounds (氮及其化合物)
+ // SECTION 4: Nitrogen and Its Compounds
         // ============================================================
         {
             id: 'ch12-sec04',
@@ -1166,7 +1166,7 @@ window.CHAPTERS.push({
         },
 
         // ============================================================
-        // SECTION 5: Environmental Issues (环境问题)
+ // SECTION 5: Environmental Issues
         // ============================================================
         {
             id: 'ch12-sec05',
@@ -1176,7 +1176,7 @@ window.CHAPTERS.push({
 
                 <p>The nonmetals we have studied — sulfur, nitrogen, and chlorine — are also central players in serious environmental problems. Understanding the chemistry helps us understand both the problems and potential solutions.</p>
 
-                <h3>Acid Rain (酸雨)</h3>
+ <h3>Acid Rain </h3>
                 <p>Normal rain has pH ≈ 5.6 (naturally slightly acidic from dissolved CO₂). Acid rain has pH &lt; 5.6, often 4–5, sometimes even lower near industrial areas.</p>
 
                 <div class="env-block intuition">
@@ -1217,7 +1217,7 @@ window.CHAPTERS.push({
                 <p>\\(\\text{ClO}^\\cdot + \\text{O} \\rightarrow \\text{Cl}^\\cdot + \\text{O}_2\\) (Cl· is regenerated — it is a catalyst)</p>
                 <p>One Cl atom can destroy ~100,000 ozone molecules! The Montreal Protocol (1987) banned CFCs.</p>
 
-                <h3>Photochemical Smog (光化学烟雾)</h3>
+ <h3>Photochemical Smog </h3>
                 <p>In cities with intense sunlight and heavy traffic, NOₓ and unburned hydrocarbons undergo photochemical reactions to produce ozone (near ground level — harmful!), PAN (peroxyacetyl nitrate), and aldehydes. This creates the brown haze characteristic of photochemical smog.</p>
                 <ul>
                     <li>\\(\\text{NO}_2 \\xrightarrow{h\\nu} \\text{NO} + \\text{O}\\)</li>

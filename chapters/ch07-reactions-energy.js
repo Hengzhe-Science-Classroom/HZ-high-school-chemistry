@@ -8,7 +8,7 @@ window.CHAPTERS.push({
     // ─── SECTION 1 ──────────────────────────────────────────────────────────
     {
       id: 'ch07-sec01',
-      title: '化学反应中的能量变化',
+ title:'',
       content: `
 <h2>Energy Changes in Chemical Reactions</h2>
 
@@ -17,8 +17,8 @@ window.CHAPTERS.push({
 <div class="chem-highlight">
 <strong>Two fundamental types of reactions:</strong>
 <ul>
-  <li><span style="color:#f85149"><strong>Exothermic (放热反应)</strong></span>: releases energy to surroundings → surroundings get hotter. \\(\\Delta H < 0\\)</li>
-  <li><span style="color:#58a6ff"><strong>Endothermic (吸热反应)</strong></span>: absorbs energy from surroundings → surroundings get colder. \\(\\Delta H > 0\\)</li>
+ <li><span style="color:#f85149"><strong>Exothermic </strong></span>: releases energy to surroundings → surroundings get hotter. \\(\\Delta H < 0\\)</li>
+ <li><span style="color:#58a6ff"><strong>Endothermic </strong></span>: absorbs energy from surroundings → surroundings get colder. \\(\\Delta H> 0\\)</li>
 </ul>
 </div>
 
@@ -264,11 +264,11 @@ window.CHAPTERS.push({
     // ─── SECTION 2 ──────────────────────────────────────────────────────────
     {
       id: 'ch07-sec02',
-      title: '键能与反应热',
+ title:'',
       content: `
 <h2>Bond Energy and Reaction Enthalpy</h2>
 
-<p>Bond energy (键能) is the energy required to break one mole of a particular covalent bond in the gaseous phase, producing gaseous atoms. It is always a <strong>positive value</strong> (breaking bonds takes energy).</p>
+<p>Bond energy is the energy required to break one mole of a particular covalent bond in the gaseous phase, producing gaseous atoms. It is always a <strong>positive value</strong> (breaking bonds takes energy).</p>
 
 <div class="chem-highlight">
 <strong>Key formula:</strong>
@@ -487,11 +487,11 @@ window.CHAPTERS.push({
     // ─── SECTION 3 ──────────────────────────────────────────────────────────
     {
       id: 'ch07-sec03',
-      title: '热化学方程式',
+ title:'',
       content: `
 <h2>Thermochemical Equations</h2>
 
-<p>A <strong>thermochemical equation</strong> (热化学方程式) is a balanced chemical equation that also specifies:</p>
+<p>A <strong>thermochemical equation</strong> is a balanced chemical equation that also specifies:</p>
 <ol>
   <li>The <strong>physical state</strong> of every substance: (g) gas, (l) liquid, (s) solid, (aq) aqueous</li>
   <li>The <strong>enthalpy change</strong> \\(\\Delta H\\) for the reaction as written</li>
@@ -523,8 +523,8 @@ window.CHAPTERS.push({
 
 <p>By definition, \\(\\Delta H_f^\\circ\\) for any element in its standard state = 0.</p>
 
-<h3>Enthalpy of Combustion (燃烧热) and Neutralisation</h3>
-<p>The <em>enthalpy of combustion</em> (燃烧热) is the heat released when <strong>1 mol</strong> of a substance is completely burned in O₂, with products in their stable standard states:</p>
+<h3>Enthalpy of Combustion and Neutralisation</h3>
+<p>The <em>enthalpy of combustion</em> is the heat released when <strong>1 mol</strong> of a substance is completely burned in O₂, with products in their stable standard states:</p>
 <ul>
   <li>Methane: −890 kJ/mol</li>
   <li>Ethanol: −1367 kJ/mol</li>
@@ -769,7 +769,7 @@ window.CHAPTERS.push({
               const label = `ΔH = ${(deltaH * 10).toFixed(0)} kJ/mol`;
               viz.screenText(label, ...viz.toScreen(6.5, deltaH / 2), isExo ? C.orange : C.blue, 12);
 
-              viz.screenText(isExo ? 'EXOTHERMIC (放热)' : 'ENDOTHERMIC (吸热)',
+ viz.screenText(isExo ?'EXOTHERMIC' :'ENDOTHERMIC',
                 viz.width / 2, 18, isExo ? C.orange : C.blue, 13, 'center', 'middle');
             }
 
@@ -823,13 +823,13 @@ window.CHAPTERS.push({
     // ─── SECTION 4 ──────────────────────────────────────────────────────────
     {
       id: 'ch07-sec04',
-      title: '盖斯定律',
+ title:'',
       content: `
 <h2>Hess's Law</h2>
 
 <p>Hess's Law states: <strong>The enthalpy change of a reaction is independent of the pathway taken</strong> — it depends only on the initial and final states.</p>
 
-<p>This is a direct consequence of enthalpy being a <em>state function</em> (状态函数): its value depends only on the current state of the system, not on how it got there.</p>
+<p>This is a direct consequence of enthalpy being a <em>state function</em> : its value depends only on the current state of the system, not on how it got there.</p>
 
 <div class="chem-highlight">
 <strong>Practical application:</strong> If you cannot measure a ΔH directly, combine known reactions to construct the desired reaction and add their ΔH values.
@@ -1017,7 +1017,7 @@ window.CHAPTERS.push({
     // ─── SECTION 5 ──────────────────────────────────────────────────────────
     {
       id: 'ch07-sec05',
-      title: '能源与社会',
+ title:'',
       content: `
 <h2>Energy Sources and Society</h2>
 
@@ -1037,7 +1037,7 @@ window.CHAPTERS.push({
   </tbody>
 </table>
 
-<h3>Hydrogen as a Clean Energy Carrier (氢能)</h3>
+<h3>Hydrogen as a Clean Energy Carrier </h3>
 <p>Hydrogen has the highest mass energy density of any fuel and produces only water:</p>
 <div class="chem-formula">
 \\[\\text{H}_2(g) + \\frac{1}{2}\\text{O}_2(g) \\rightarrow \\text{H}_2\\text{O}(l) \\quad \\Delta H = -285.8 \\text{ kJ/mol}\\]
@@ -1173,7 +1173,7 @@ window.CHAPTERS.push({
               if (mixing && mixT > 0.6) {
                 const sign = rxn.deltaH < 0 ? '' : '+';
                 viz.screenText(`ΔH = ${sign}${rxn.deltaH} kJ/mol`, gx + gw / 2, gy + gh - 16, rxn.color, 12);
-                viz.screenText(rxn.dT > 0 ? 'EXOTHERMIC 放热' : 'ENDOTHERMIC 吸热',
+ viz.screenText(rxn.dT> 0 ?'EXOTHERMIC' :'ENDOTHERMIC',
                   gx + gw / 2, gy + 16, rxn.color, 12);
               }
             }

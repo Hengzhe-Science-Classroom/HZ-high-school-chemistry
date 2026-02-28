@@ -2,7 +2,7 @@ window.CHAPTERS.push({
   id: 'ch01',
   number: 1,
   title: 'Classification & Transformation',
-  subtitle: '物质的分类与转化 — Organizing the chemical world and understanding how substances interconvert',
+ subtitle:'Organizing the chemical world and understanding how substances interconvert',
   sections: [
 
     // ─── SECTION 1 ────────────────────────────────────────────────────────────
@@ -10,13 +10,13 @@ window.CHAPTERS.push({
       id: 'ch01-sec01',
       title: '1. Pure Substances & Mixtures',
       content: `
-<h2>纯净物与混合物 — Pure Substances & Mixtures</h2>
+<h2>Pure Substances & Mixtures</h2>
 
 <div class="definition">
-  <strong>Pure Substance (纯净物)</strong>: Matter composed of only one kind of particle (one element or one compound).
+ <strong>Pure Substance </strong>: Matter composed of only one kind of particle (one element or one compound).
   It has a fixed composition and definite physical properties (fixed melting point, boiling point, density, etc.).
   <br><br>
-  <strong>Mixture (混合物)</strong>: Matter composed of two or more pure substances physically combined.
+ <strong>Mixture </strong>: Matter composed of two or more pure substances physically combined.
   Its composition is variable and its properties are not fixed — they depend on proportions.
 </div>
 
@@ -67,8 +67,8 @@ window.CHAPTERS.push({
 <h3>Homogeneous vs. Heterogeneous Mixtures</h3>
 <p>Mixtures are further divided by uniformity:</p>
 <ul>
-  <li><strong>Homogeneous mixture (均匀混合物)</strong> — uniform throughout; same composition in every part. Example: saltwater, alcohol in water.</li>
-  <li><strong>Heterogeneous mixture (非均匀混合物)</strong> — composition varies from place to place. Example: sand in water, oil in water.</li>
+ <li><strong>Homogeneous mixture </strong> — uniform throughout; same composition in every part. Example: saltwater, alcohol in water.</li>
+ <li><strong>Heterogeneous mixture </strong> — composition varies from place to place. Example: sand in water, oil in water.</li>
 </ul>
 
 <div class="intuition">
@@ -77,36 +77,36 @@ window.CHAPTERS.push({
 </div>
 
 <div class="warning">
-  <strong>Common Mistake:</strong> Alloys (合金) like steel, brass, and bronze are <em>mixtures</em>, not pure substances, even though they look uniform. They are solid solutions of metals.
+ <strong>Common Mistake:</strong> Alloys like steel, brass, and bronze are <em>mixtures</em>, not pure substances, even though they look uniform. They are solid solutions of metals.
 </div>
 
 <h3>Methods to Separate Mixtures</h3>
 <table style="width:100%;border-collapse:collapse;margin:1rem 0;">
   <thead>
     <tr style="background:#1a1a40;">
-      <th style="padding:8px;border:1px solid #30363d;color:#58a6ff;">Method (方法)</th>
+ <th style="padding:8px;border:1px solid #30363d;color:#58a6ff;">Method </th>
       <th style="padding:8px;border:1px solid #30363d;color:#58a6ff;">Principle</th>
       <th style="padding:8px;border:1px solid #30363d;color:#58a6ff;">Example</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Filtration (过滤)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Filtration </td>
       <td style="padding:8px;border:1px solid #30363d;">Particle size difference</td>
       <td style="padding:8px;border:1px solid #30363d;">Remove sand from water</td>
     </tr>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Distillation (蒸馏)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Distillation </td>
       <td style="padding:8px;border:1px solid #30363d;">Different boiling points</td>
       <td style="padding:8px;border:1px solid #30363d;">Separate alcohol from water</td>
     </tr>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Evaporation (蒸发结晶)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Evaporation </td>
       <td style="padding:8px;border:1px solid #30363d;">Solubility — solute left behind</td>
       <td style="padding:8px;border:1px solid #30363d;">Get salt from seawater</td>
     </tr>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Chromatography (色谱法)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Chromatography </td>
       <td style="padding:8px;border:1px solid #30363d;">Different affinities for stationary phase</td>
       <td style="padding:8px;border:1px solid #30363d;">Separate ink pigments</td>
     </tr>
@@ -125,17 +125,17 @@ window.CHAPTERS.push({
             const viz = new VizEngine(wrap, { width: 700, height: 420 });
 
             const nodes = [
-              { id: 'matter', label: '物质 Matter', x: 350, y: 40, color: '#bc8cff', w: 140, h: 36 },
-              { id: 'pure', label: '纯净物 Pure Substance', x: 175, y: 130, color: '#58a6ff', w: 180, h: 36 },
-              { id: 'mix', label: '混合物 Mixture', x: 525, y: 130, color: '#f0883e', w: 160, h: 36 },
-              { id: 'element', label: '单质 Element', x: 80, y: 230, color: '#3fb950', w: 130, h: 36 },
-              { id: 'compound', label: '化合物 Compound', x: 270, y: 230, color: '#3fb9a0', w: 160, h: 36 },
-              { id: 'homo', label: '均匀混合物\nHomogeneous', x: 455, y: 230, color: '#d29922', w: 155, h: 36 },
-              { id: 'hete', label: '非均匀混合物\nHeterogeneous', x: 620, y: 230, color: '#f85149', w: 155, h: 36 },
-              { id: 'metal', label: '金属 Metal\nFe, Cu, Au', x: 40, y: 340, color: '#3fb950', w: 120, h: 48 },
-              { id: 'nonmetal', label: '非金属 Non-metal\nO₂, C, S', x: 175, y: 340, color: '#3fb950', w: 130, h: 48 },
-              { id: 'oxide', label: '氧化物 Oxide\nH₂O, CO₂', x: 320, y: 340, color: '#3fb9a0', w: 130, h: 48 },
-              { id: 'acidsalt', label: '酸/碱/盐\nAcid/Base/Salt', x: 470, y: 340, color: '#3fb9a0', w: 140, h: 48 },
+ { id:'matter', label:'Matter', x: 350, y: 40, color:'#bc8cff', w: 140, h: 36 },
+ { id:'pure', label:'Pure Substance', x: 175, y: 130, color:'#58a6ff', w: 180, h: 36 },
+ { id:'mix', label:'Mixture', x: 525, y: 130, color:'#f0883e', w: 160, h: 36 },
+ { id:'element', label:'Element', x: 80, y: 230, color:'#3fb950', w: 130, h: 36 },
+ { id:'compound', label:'Compound', x: 270, y: 230, color:'#3fb9a0', w: 160, h: 36 },
+ { id:'homo', label:'\nHomogeneous', x: 455, y: 230, color:'#d29922', w: 155, h: 36 },
+ { id:'hete', label:'\nHeterogeneous', x: 620, y: 230, color:'#f85149', w: 155, h: 36 },
+ { id:'metal', label:'Metal\nFe, Cu, Au', x: 40, y: 340, color:'#3fb950', w: 120, h: 48 },
+ { id:'nonmetal', label:'Non-metal\nO₂, C, S', x: 175, y: 340, color:'#3fb950', w: 130, h: 48 },
+ { id:'oxide', label:'Oxide\nH₂O, CO₂', x: 320, y: 340, color:'#3fb9a0', w: 130, h: 48 },
+ { id:'acidsalt', label:'\nAcid/Base/Salt', x: 470, y: 340, color:'#3fb9a0', w: 140, h: 48 },
             ];
 
             const edges = [
@@ -229,26 +229,26 @@ window.CHAPTERS.push({
         {
           id: 'ch01-sec01-ex01',
           type: 'mcq',
-          question: '下列物质中属于纯净物的是 (Which of the following is a pure substance?)',
-          options: ['空气 Air', '盐水 Saltwater', '液态氧 Liquid oxygen (O₂)', '合金钢 Steel alloy'],
+ question:'(Which of the following is a pure substance?)',
+ options: ['Air','Saltwater','Liquid oxygen (O₂)','Steel alloy'],
           answer: 2,
-          explanation: 'Liquid oxygen (液态氧) consists only of O₂ molecules — it is a pure substance. Air is a mixture of N₂, O₂, Ar, etc. Saltwater contains water and dissolved salts. Steel is an alloy (mixture of iron and carbon).'
+ explanation:'Liquid oxygen consists only of O₂ molecules — it is a pure substance. Air is a mixture of N₂, O₂, Ar, etc. Saltwater contains water and dissolved salts. Steel is an alloy (mixture of iron and carbon).'
         },
         {
           id: 'ch01-sec01-ex02',
           type: 'mcq',
-          question: '下列分离方法中，用于分离沸点不同的液态混合物的是 (Which separation method is used for liquids with different boiling points?)',
-          options: ['过滤 Filtration', '蒸馏 Distillation', '蒸发结晶 Evaporation crystallization', '磁性分离 Magnetic separation'],
+ question:'(Which separation method is used for liquids with different boiling points?)',
+ options: ['Filtration','Distillation','Evaporation crystallization','Magnetic separation'],
           answer: 1,
-          explanation: 'Distillation (蒸馏) exploits different boiling points to separate liquid mixtures, such as separating ethanol (b.p. 78°C) from water (b.p. 100°C).'
+ explanation:'Distillation exploits different boiling points to separate liquid mixtures, such as separating ethanol (b.p. 78°C) from water (b.p. 100°C).'
         },
         {
           id: 'ch01-sec01-ex03',
           type: 'mcq',
-          question: '食盐水属于 (Saltwater is classified as):',
-          options: ['纯净物 Pure substance', '单质 Element', '均匀混合物 Homogeneous mixture', '非均匀混合物 Heterogeneous mixture'],
+ question:'(Saltwater is classified as):',
+ options: ['Pure substance','Element','Homogeneous mixture','Heterogeneous mixture'],
           answer: 2,
-          explanation: 'Saltwater (NaCl dissolved in water) has a uniform composition throughout — it is a homogeneous mixture (均匀混合物). However, its composition can vary depending on how much salt was dissolved.'
+ explanation:'Saltwater (NaCl dissolved in water) has a uniform composition throughout — it is a homogeneous mixture . However, its composition can vary depending on how much salt was dissolved.'
         }
       ]
     },
@@ -258,26 +258,26 @@ window.CHAPTERS.push({
       id: 'ch01-sec02',
       title: '2. Elements & Compounds',
       content: `
-<h2>单质与化合物 — Elements & Compounds</h2>
+<h2>Elements & Compounds</h2>
 
 <div class="definition">
-  <strong>Element (单质, elemental form)</strong>: A pure substance made of only <em>one</em> kind of element.
+ <strong>Element (elemental form)</strong>: A pure substance made of only <em>one</em> kind of element.
   Examples: Fe (iron), O₂ (oxygen), S (sulfur), Na (sodium), C (carbon — as diamond or graphite).
   <br><br>
-  <strong>Compound (化合物)</strong>: A pure substance made of <em>two or more</em> different elements chemically bonded in a fixed ratio.
+ <strong>Compound </strong>: A pure substance made of <em>two or more</em> different elements chemically bonded in a fixed ratio.
   Examples: H₂O, CO₂, NaCl, H₂SO₄, NaOH.
 </div>
 
 <div class="remark">
   <strong>Important Distinction:</strong><br>
-  "元素 (element)" refers to the <em>type</em> of atom — an abstract concept about atomic identity (e.g., "oxygen element").<br>
-  "单质 (elemental substance)" refers to a <em>real substance</em> made entirely of one element (e.g., O₂ gas, liquid oxygen, ozone O₃).
+"(element)" refers to the <em>type</em> of atom — an abstract concept about atomic identity (e.g.,"oxygen element").<br>
+"(elemental substance)" refers to a <em>real substance</em> made entirely of one element (e.g., O₂ gas, liquid oxygen, ozone O₃).
   <br><br>
   Ozone (O₃) and oxygen (O₂) are both elemental forms of the oxygen element — different substances, same element.
-  This is called <strong>allotropy (同素异形体)</strong>.
+ This is called <strong>allotropy </strong>.
 </div>
 
-<h3>Common Allotropes (同素异形体)</h3>
+<h3>Common Allotropes </h3>
 <table style="width:100%;border-collapse:collapse;margin:1rem 0;">
   <thead>
     <tr style="background:#1a1a40;">
@@ -311,13 +311,13 @@ window.CHAPTERS.push({
 </table>
 
 <div class="example">
-  <strong>Example 2:</strong> Among the following, identify elements (单质) and compounds (化合物):
+ <strong>Example 2:</strong> Among the following, identify elements and compounds :
   <br>CO₂, N₂, NaOH, Fe, KMnO₄, H₂, O₃
   <br><br>
   <strong>Answer:</strong>
   <ul>
-    <li><strong>Elements (单质)</strong>: N₂, Fe, H₂, O₃ — each is made of only one type of element</li>
-    <li><strong>Compounds (化合物)</strong>: CO₂, NaOH, KMnO₄ — each contains two or more types of elements</li>
+ <li><strong>Elements </strong>: N₂, Fe, H₂, O₃ — each is made of only one type of element</li>
+ <li><strong>Compounds </strong>: CO₂, NaOH, KMnO₄ — each contains two or more types of elements</li>
   </ul>
 </div>
 
@@ -345,7 +345,7 @@ window.CHAPTERS.push({
             const viz = new VizEngine(wrap, { width: 700, height: 380 });
 
             let selected = 0;
-            const labels = ['Diamond (金刚石)', 'Graphite (石墨)', 'Fullerene C₆₀'];
+ const labels = ['Diamond','Graphite','Fullerene C₆₀'];
 
             function drawDiamond(ctx, cx, cy) {
               const r = 30;
@@ -476,34 +476,34 @@ window.CHAPTERS.push({
         {
           id: 'ch01-sec02-ex01',
           type: 'mcq',
-          question: '下列关于单质和化合物的说法正确的是 (Which statement about elements and compounds is correct?)',
+ question:'(Which statement about elements and compounds is correct?)',
           options: [
-            'O₂和O₃是氧元素的两种化合物 (O₂ and O₃ are two compounds of oxygen)',
-            '单质一定是由同种元素组成的纯净物 (An elemental substance must be a pure substance of one element type)',
-            '化合物中只含有一种元素 (A compound contains only one type of element)',
-            '混合物也可以是化合物 (A mixture can also be a compound)'
+'O₂O₃(O₂ and O₃ are two compounds of oxygen)',
+'(An elemental substance must be a pure substance of one element type)',
+'(A compound contains only one type of element)',
+'(A mixture can also be a compound)'
           ],
           answer: 1,
-          explanation: 'An elemental substance (单质) is indeed a pure substance made of only one type of element. O₂ and O₃ are allotropes (同素异形体) — elemental forms, not compounds. Compounds contain two or more elements. Mixtures and compounds are mutually exclusive categories.'
+ explanation:'An elemental substance is indeed a pure substance made of only one type of element. O₂ and O₃ are allotropes — elemental forms, not compounds. Compounds contain two or more elements. Mixtures and compounds are mutually exclusive categories.'
         },
         {
           id: 'ch01-sec02-ex02',
           type: 'mcq',
-          question: '下列互为同素异形体的是 (Which pair are allotropes of each other?)',
+ question:'(Which pair are allotropes of each other?)',
           options: [
-            'H₂O 和 H₂O₂',
-            '金刚石 和 石墨 (Diamond and Graphite)',
-            'O₂ 和 CO₂',
-            '白磷 和 氯化磷 (White phosphorus and phosphorus chloride)'
+'H₂O H₂O₂',
+'(Diamond and Graphite)',
+'O₂ CO₂',
+'(White phosphorus and phosphorus chloride)'
           ],
           answer: 1,
-          explanation: 'Diamond (金刚石) and graphite (石墨) are both pure carbon substances — they are allotropes (同素异形体). H₂O and H₂O₂ are different compounds. O₂ and CO₂ contain different elements. Phosphorus chloride is a compound, not an allotrope.'
+ explanation:'Diamond and graphite are both pure carbon substances — they are allotropes . H₂O and H₂O₂ are different compounds. O₂ and CO₂ contain different elements. Phosphorus chloride is a compound, not an allotrope.'
         },
         {
           id: 'ch01-sec02-ex03',
           type: 'mcq',
-          question: 'KMnO₄（高锰酸钾）中包含的元素种类数为 (How many types of elements does KMnO₄ contain?)',
-          options: ['1种', '2种', '3种', '4种'],
+ question:'KMnO₄(How many types of elements does KMnO₄ contain?)',
+ options: ['1','2','3','4'],
           answer: 2,
           explanation: 'KMnO₄ contains potassium (K), manganese (Mn), and oxygen (O) — 3 types of elements. Therefore it is a compound with 3 element types.'
         }
@@ -515,25 +515,25 @@ window.CHAPTERS.push({
       id: 'ch01-sec03',
       title: '3. Acid–Base–Salt–Oxide System',
       content: `
-<h2>酸碱盐氧化物分类体系 — The Acid–Base–Salt–Oxide Classification System</h2>
+<h2>The Acid–Base–Salt–Oxide Classification System</h2>
 
 <p>Compounds in chemistry are classified into four major categories based on their composition and properties:</p>
 
 <div class="definition">
-  <strong>Oxide (氧化物)</strong>: A compound of an element with oxygen only. Formula: element + O.
+ <strong>Oxide </strong>: A compound of an element with oxygen only. Formula: element + O.
   <br>Examples: H₂O, CO₂, SO₃, Fe₂O₃, Na₂O, CaO
   <br><br>
-  <strong>Acid (酸)</strong>: A compound that produces H⁺ ions in water solution, or more precisely, a hydrogen-containing compound that donates protons.
+ <strong>Acid </strong>: A compound that produces H⁺ ions in water solution, or more precisely, a hydrogen-containing compound that donates protons.
   <br>Examples: HCl, H₂SO₄, HNO₃, H₃PO₄, CH₃COOH
   <br><br>
-  <strong>Base (碱)</strong>: A compound that produces OH⁻ ions in water. Contains metal + hydroxide group (OH).
+ <strong>Base </strong>: A compound that produces OH⁻ ions in water. Contains metal + hydroxide group (OH).
   <br>Examples: NaOH, Ca(OH)₂, KOH, NH₃·H₂O (ammonia hydrate)
   <br><br>
-  <strong>Salt (盐)</strong>: An ionic compound formed from the reaction of an acid and a base (neutralization), composed of a metal cation and an acid anion.
+ <strong>Salt </strong>: An ionic compound formed from the reaction of an acid and a base (neutralization), composed of a metal cation and an acid anion.
   <br>Examples: NaCl, CaCO₃, Na₂SO₄, NH₄Cl, CuSO₄
 </div>
 
-<h3>Oxide Classification (氧化物细分)</h3>
+<h3>Oxide Classification </h3>
 <table style="width:100%;border-collapse:collapse;margin:1rem 0;">
   <thead>
     <tr style="background:#1a1a40;">
@@ -544,40 +544,40 @@ window.CHAPTERS.push({
   </thead>
   <tbody>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Acidic oxide (酸性氧化物)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Acidic oxide </td>
       <td style="padding:8px;border:1px solid #30363d;">Reacts with base to form salt + water</td>
       <td style="padding:8px;border:1px solid #30363d;">CO₂, SO₃, SO₂, P₂O₅, SiO₂</td>
     </tr>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Basic oxide (碱性氧化物)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Basic oxide </td>
       <td style="padding:8px;border:1px solid #30363d;">Reacts with acid to form salt + water</td>
       <td style="padding:8px;border:1px solid #30363d;">Na₂O, CaO, Fe₂O₃, CuO, MgO</td>
     </tr>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Amphoteric oxide (两性氧化物)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Amphoteric oxide </td>
       <td style="padding:8px;border:1px solid #30363d;">Reacts with both acid AND base</td>
       <td style="padding:8px;border:1px solid #30363d;">Al₂O₃ (aluminium oxide)</td>
     </tr>
     <tr>
-      <td style="padding:8px;border:1px solid #30363d;">Non-salt-forming oxide (不成盐氧化物)</td>
+ <td style="padding:8px;border:1px solid #30363d;">Non-salt-forming oxide </td>
       <td style="padding:8px;border:1px solid #30363d;">Does not react with acid or base</td>
       <td style="padding:8px;border:1px solid #30363d;">CO, NO (at room temperature)</td>
     </tr>
   </tbody>
 </table>
 
-<h3>Acid Classification (酸的细分)</h3>
+<h3>Acid Classification </h3>
 <ul>
-  <li><strong>Strong acids (强酸)</strong>: Fully ionize in water — HCl, H₂SO₄, HNO₃, HClO₄, HBr, HI</li>
-  <li><strong>Weak acids (弱酸)</strong>: Partially ionize — CH₃COOH (acetic), H₂CO₃ (carbonic), H₃PO₄</li>
-  <li><strong>Oxyacids (含氧酸)</strong>: Contain oxygen — H₂SO₄, HNO₃, H₃PO₄</li>
-  <li><strong>Hydroacids (无氧酸)</strong>: No oxygen — HCl, HBr, HI, H₂S</li>
+ <li><strong>Strong acids </strong>: Fully ionize in water — HCl, H₂SO₄, HNO₃, HClO₄, HBr, HI</li>
+ <li><strong>Weak acids </strong>: Partially ionize — CH₃COOH (acetic), H₂CO₃ (carbonic), H₃PO₄</li>
+ <li><strong>Oxyacids </strong>: Contain oxygen — H₂SO₄, HNO₃, H₃PO₄</li>
+ <li><strong>Hydroacids </strong>: No oxygen — HCl, HBr, HI, H₂S</li>
 </ul>
 
-<h3>Base Classification (碱的细分)</h3>
+<h3>Base Classification </h3>
 <ul>
-  <li><strong>Soluble bases (可溶性碱)</strong>: Dissolve in water — NaOH, KOH, Ba(OH)₂, NH₃·H₂O</li>
-  <li><strong>Insoluble bases (难溶性碱)</strong>: Don't dissolve easily — Fe(OH)₃, Cu(OH)₂, Al(OH)₃, Ca(OH)₂ (slightly)</li>
+ <li><strong>Soluble bases </strong>: Dissolve in water — NaOH, KOH, Ba(OH)₂, NH₃·H₂O</li>
+ <li><strong>Insoluble bases </strong>: Don't dissolve easily — Fe(OH)₃, Cu(OH)₂, Al(OH)₃, Ca(OH)₂ (slightly)</li>
 </ul>
 
 <div class="example">
@@ -613,28 +613,28 @@ window.CHAPTERS.push({
             const viz = new VizEngine(wrap, { width: 700, height: 400 });
 
             const reactions = [
-              { from: 'Acid\n(酸)', to: 'Salt\n(盐)', via: '+ Base / Metal / Metal Oxide', color: '#58a6ff' },
-              { from: 'Base\n(碱)', to: 'Salt\n(盐)', via: '+ Acid / Acidic Oxide', color: '#3fb950' },
-              { from: 'Acidic Oxide\n(酸性氧化物)', to: 'Acid\n(酸)', via: '+ H₂O', color: '#f0883e' },
-              { from: 'Basic Oxide\n(碱性氧化物)', to: 'Base\n(碱)', via: '+ H₂O', color: '#bc8cff' },
-              { from: 'Acidic Oxide\n(酸性氧化物)', to: 'Salt\n(盐)', via: '+ Basic Oxide / Base', color: '#d29922' },
-              { from: 'Basic Oxide\n(碱性氧化物)', to: 'Salt\n(盐)', via: '+ Acidic Oxide / Acid', color: '#3fb9a0' },
+ { from:'Acid\n', to:'Salt\n', via:'+ Base / Metal / Metal Oxide', color:'#58a6ff' },
+ { from:'Base\n', to:'Salt\n', via:'+ Acid / Acidic Oxide', color:'#3fb950' },
+ { from:'Acidic Oxide\n', to:'Acid\n', via:'+ H₂O', color:'#f0883e' },
+ { from:'Basic Oxide\n', to:'Base\n', via:'+ H₂O', color:'#bc8cff' },
+ { from:'Acidic Oxide\n', to:'Salt\n', via:'+ Basic Oxide / Base', color:'#d29922' },
+ { from:'Basic Oxide\n', to:'Salt\n', via:'+ Acidic Oxide / Acid', color:'#3fb9a0' },
             ];
 
             const nodeMap = {
-              'Acid\n(酸)': { x: 150, y: 130 },
-              'Base\n(碱)': { x: 550, y: 130 },
-              'Salt\n(盐)': { x: 350, y: 300 },
-              'Acidic Oxide\n(酸性氧化物)': { x: 110, y: 280 },
-              'Basic Oxide\n(碱性氧化物)': { x: 590, y: 280 },
+'Acid\n': { x: 150, y: 130 },
+'Base\n': { x: 550, y: 130 },
+'Salt\n': { x: 350, y: 300 },
+'Acidic Oxide\n': { x: 110, y: 280 },
+'Basic Oxide\n': { x: 590, y: 280 },
             };
 
             const nodeColors = {
-              'Acid\n(酸)': '#f85149',
-              'Base\n(碱)': '#3fb950',
-              'Salt\n(盐)': '#58a6ff',
-              'Acidic Oxide\n(酸性氧化物)': '#f0883e',
-              'Basic Oxide\n(碱性氧化物)': '#bc8cff',
+'Acid\n':'#f85149',
+'Base\n':'#3fb950',
+'Salt\n':'#58a6ff',
+'Acidic Oxide\n':'#f0883e',
+'Basic Oxide\n':'#bc8cff',
             };
 
             function draw() {
@@ -706,15 +706,15 @@ window.CHAPTERS.push({
         {
           id: 'ch01-sec03-ex01',
           type: 'mcq',
-          question: '下列氧化物中属于碱性氧化物的是 (Which oxide below is a basic oxide?)',
+ question:'(Which oxide below is a basic oxide?)',
           options: ['CO₂', 'SO₃', 'Na₂O', 'Al₂O₃'],
           answer: 2,
-          explanation: 'Na₂O (sodium oxide) is a basic oxide — it reacts with water to form NaOH: Na₂O + H₂O → 2NaOH. CO₂ and SO₃ are acidic oxides. Al₂O₃ is amphoteric (两性氧化物).'
+ explanation:'Na₂O (sodium oxide) is a basic oxide — it reacts with water to form NaOH: Na₂O + H₂O → 2NaOH. CO₂ and SO₃ are acidic oxides. Al₂O₃ is amphoteric .'
         },
         {
           id: 'ch01-sec03-ex02',
           type: 'mcq',
-          question: '下列物质中属于盐的是 (Which of the following is a salt?)',
+ question:'(Which of the following is a salt?)',
           options: ['NaOH', 'H₂SO₄', 'CuSO₄', 'SO₃'],
           answer: 2,
           explanation: 'CuSO₄ (copper sulfate) is a salt — formed from Cu²⁺ cation and SO₄²⁻ anion. NaOH is a base, H₂SO₄ is an acid, SO₃ is an acidic oxide.'
@@ -722,7 +722,7 @@ window.CHAPTERS.push({
         {
           id: 'ch01-sec03-ex03',
           type: 'mcq',
-          question: 'Al₂O₃与NaOH溶液反应的产物是 (Products of Al₂O₃ reacting with NaOH solution are):',
+ question:'Al₂O₃NaOH(Products of Al₂O₃ reacting with NaOH solution are):',
           options: [
             'Al(OH)₃ + Na₂O',
             'NaAlO₂ + H₂O',
@@ -735,10 +735,10 @@ window.CHAPTERS.push({
         {
           id: 'ch01-sec03-ex04',
           type: 'mcq',
-          question: 'HCl属于 (HCl is classified as):',
-          options: ['含氧酸 Oxyacid', '无氧强酸 Non-oxyacid strong acid', '弱酸 Weak acid', '碱 Base'],
+ question:'HCl(HCl is classified as):',
+ options: ['Oxyacid','Non-oxyacid strong acid','Weak acid','Base'],
           answer: 1,
-          explanation: 'HCl is hydrochloric acid — a strong acid (完全电离) that contains no oxygen, so it is a non-oxyacid (无氧酸). It is not a weak acid because it fully ionizes in water: HCl → H⁺ + Cl⁻.'
+ explanation:'HCl is hydrochloric acid — a strong acid that contains no oxygen, so it is a non-oxyacid . It is not a weak acid because it fully ionizes in water: HCl → H⁺ + Cl⁻.'
         }
       ]
     },
@@ -748,7 +748,7 @@ window.CHAPTERS.push({
       id: 'ch01-sec04',
       title: '4. Transformation Relationships',
       content: `
-<h2>物质间的转化关系 — Transformation Relationships Between Substances</h2>
+<h2>Transformation Relationships Between Substances</h2>
 
 <p>One of the most powerful ideas in chemistry is that substances can be <em>interconverted</em> through chemical reactions.
 Understanding these pathways is essential for both predicting reactions and for industrial synthesis.</p>
@@ -756,7 +756,7 @@ Understanding these pathways is essential for both predicting reactions and for 
 <h3>The Four Big Transformation Chains</h3>
 
 <div class="definition">
-  <strong>Metal Transformation Chain (金属转化链):</strong>
+ <strong>Metal Transformation Chain :</strong>
   <br>
   \\[\\text{Metal} \\xrightarrow{+O_2} \\text{Basic Oxide} \\xrightarrow{+H_2O} \\text{Base} \\xrightarrow{+\\text{Acid}} \\text{Salt}\\]
   <br>
@@ -765,7 +765,7 @@ Understanding these pathways is essential for both predicting reactions and for 
 </div>
 
 <div class="definition">
-  <strong>Nonmetal Transformation Chain (非金属转化链):</strong>
+ <strong>Nonmetal Transformation Chain :</strong>
   <br>
   \\[\\text{Nonmetal} \\xrightarrow{+O_2} \\text{Acidic Oxide} \\xrightarrow{+H_2O} \\text{Acid} \\xrightarrow{+\\text{Base}} \\text{Salt}\\]
   <br>
@@ -943,7 +943,7 @@ Understanding these pathways is essential for both predicting reactions and for 
         {
           id: 'ch01-sec04-ex01',
           type: 'mcq',
-          question: 'Na在充足O₂中点燃后得到的产物是 (Burning Na in excess O₂ produces):',
+ question:'NaO₂(Burning Na in excess O₂ produces):',
           options: ['Na₂O', 'Na₂O₂', 'NaOH', 'Na₂CO₃'],
           answer: 1,
           explanation: 'When sodium burns in excess O₂, it produces sodium peroxide (Na₂O₂): 2Na + O₂ → Na₂O₂. Na₂O is only formed when Na reacts with a limited amount of O₂ at room temperature.'
@@ -951,12 +951,12 @@ Understanding these pathways is essential for both predicting reactions and for 
         {
           id: 'ch01-sec04-ex02',
           type: 'mcq',
-          question: '向澄清石灰水中通入过量CO₂后，现象是 (Passing excess CO₂ into clear limewater):',
+ question:'CO₂(Passing excess CO₂ into clear limewater):',
           options: [
-            '产生白色沉淀，沉淀不消失 (White precipitate forms, does not dissolve)',
-            '溶液变蓝色 (Solution turns blue)',
-            '先产生白色沉淀，后沉淀消失变澄清 (White precipitate first, then dissolves to clear)',
-            '没有明显现象 (No visible change)'
+'(White precipitate forms, does not dissolve)',
+'(Solution turns blue)',
+'(White precipitate first, then dissolves to clear)',
+'(No visible change)'
           ],
           answer: 2,
           explanation: 'First, CO₂ + Ca(OH)₂ → CaCO₃↓ + H₂O (white precipitate). Then excess CO₂ dissolves the precipitate: CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂ (soluble). The solution clears.'
@@ -964,7 +964,7 @@ Understanding these pathways is essential for both predicting reactions and for 
         {
           id: 'ch01-sec04-ex03',
           type: 'mcq',
-          question: '以下转化中不能一步实现的是 (Which transformation CANNOT be achieved in one step?)',
+ question:'(Which transformation CANNOT be achieved in one step?)',
           options: [
             'Na → NaOH',
             'Na₂O → NaOH',
@@ -982,17 +982,17 @@ Understanding these pathways is essential for both predicting reactions and for 
       id: 'ch01-sec05',
       title: '5. Dispersions & Colloids',
       content: `
-<h2>分散系与胶体 — Dispersions and Colloids</h2>
+<h2>Dispersions and Colloids</h2>
 
-<p>When one substance is spread through another, we call the system a <strong>dispersion (分散系)</strong>.
-The substance being dispersed is the <em>dispersed phase (分散质)</em>,
-and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
+<p>When one substance is spread through another, we call the system a <strong>dispersion </strong>.
+The substance being dispersed is the <em>dispersed phase </em>,
+and the medium it's spread in is the <em>dispersion medium </em>.</p>
 
 <h3>Three Types of Dispersions</h3>
 <table style="width:100%;border-collapse:collapse;margin:1rem 0;">
   <thead>
     <tr style="background:#1a1a40;">
-      <th style="padding:8px;border:1px solid #30363d;color:#58a6ff;">Type (类型)</th>
+ <th style="padding:8px;border:1px solid #30363d;color:#58a6ff;">Type </th>
       <th style="padding:8px;border:1px solid #30363d;color:#58a6ff;">Particle Size</th>
       <th style="padding:8px;border:1px solid #30363d;color:#58a6ff;">Appearance</th>
       <th style="padding:8px;border:1px solid #30363d;color:#58a6ff;">Stability</th>
@@ -1001,21 +1001,21 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
   </thead>
   <tbody>
     <tr style="background:#1a2a1a;">
-      <td style="padding:8px;border:1px solid #30363d;"><strong>True solution (溶液)</strong></td>
+ <td style="padding:8px;border:1px solid #30363d;"><strong>True solution </strong></td>
       <td style="padding:8px;border:1px solid #30363d;">&lt; 1 nm (ions/molecules)</td>
       <td style="padding:8px;border:1px solid #30363d;">Clear, transparent</td>
       <td style="padding:8px;border:1px solid #30363d;">Very stable, no settling</td>
       <td style="padding:8px;border:1px solid #30363d;">NaCl(aq), sugar water</td>
     </tr>
     <tr style="background:#1a1a2a;">
-      <td style="padding:8px;border:1px solid #30363d;"><strong>Colloid (胶体)</strong></td>
+ <td style="padding:8px;border:1px solid #30363d;"><strong>Colloid </strong></td>
       <td style="padding:8px;border:1px solid #30363d;">1–100 nm (clusters)</td>
       <td style="padding:8px;border:1px solid #30363d;">Clear or slightly cloudy</td>
       <td style="padding:8px;border:1px solid #30363d;">Stable (charged particles repel)</td>
       <td style="padding:8px;border:1px solid #30363d;">Fe(OH)₃ sol, blood, milk, fog, jelly</td>
     </tr>
     <tr style="background:#2a1a1a;">
-      <td style="padding:8px;border:1px solid #30363d;"><strong>Suspension (浊液)</strong></td>
+ <td style="padding:8px;border:1px solid #30363d;"><strong>Suspension </strong></td>
       <td style="padding:8px;border:1px solid #30363d;">&gt; 100 nm (visible)</td>
       <td style="padding:8px;border:1px solid #30363d;">Cloudy, opaque</td>
       <td style="padding:8px;border:1px solid #30363d;">Unstable — settles on standing</td>
@@ -1024,10 +1024,10 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
   </tbody>
 </table>
 
-<h3>The Tyndall Effect (丁达尔效应)</h3>
+<h3>The Tyndall Effect </h3>
 
 <div class="definition">
-  <strong>Tyndall Effect (丁达尔效应)</strong>: When a beam of light passes through a colloid, the path of the beam becomes visible as a bright cone or column of scattered light.
+ <strong>Tyndall Effect </strong>: When a beam of light passes through a colloid, the path of the beam becomes visible as a bright cone or column of scattered light.
   <br><br>
   This occurs because colloid particles (1–100 nm) are large enough to scatter visible light (wavelength ~400–700 nm).
   Solution particles are too small (ionic/molecular) to scatter light noticeably.
@@ -1044,14 +1044,14 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
 
 <h3>Properties of Colloids</h3>
 <ul>
-  <li><strong>Tyndall effect (丁达尔效应)</strong>: Distinguishes from solutions</li>
-  <li><strong>Brownian motion (布朗运动)</strong>: Particles move randomly, do not settle</li>
-  <li><strong>Electrophoresis (电泳)</strong>: Charged colloidal particles migrate in electric field</li>
-  <li><strong>Coagulation (聚沉)</strong>: Adding electrolytes (or heating) causes particles to aggregate and precipitate</li>
-  <li><strong>Dialysis (渗析)</strong>: Semi-permeable membrane lets solvent/ions through but not colloid particles — used to purify colloids</li>
+ <li><strong>Tyndall effect </strong>: Distinguishes from solutions</li>
+ <li><strong>Brownian motion </strong>: Particles move randomly, do not settle</li>
+ <li><strong>Electrophoresis </strong>: Charged colloidal particles migrate in electric field</li>
+ <li><strong>Coagulation </strong>: Adding electrolytes (or heating) causes particles to aggregate and precipitate</li>
+ <li><strong>Dialysis </strong>: Semi-permeable membrane lets solvent/ions through but not colloid particles — used to purify colloids</li>
 </ul>
 
-<h3>Preparation of Fe(OH)₃ Colloid (重要实验)</h3>
+<h3>Preparation of Fe(OH)₃ Colloid </h3>
 <div class="example">
   <strong>Method:</strong> Add FeCl₃ solution dropwise to boiling distilled water (not FeCl₃ solution!):
   \\[\\text{FeCl}_3 + 3\\text{H}_2\\text{O} \\xrightarrow{\\Delta} \\text{Fe(OH)}_3\\text{(sol)} + 3\\text{HCl}\\]
@@ -1061,10 +1061,10 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
 <div class="warning">
   <strong>Common Exam Question:</strong> Why does adding salt (NaCl) destroy a Fe(OH)₃ colloid?
   <br>
-  Electrolytes neutralize the charges on colloidal particles, causing them to aggregate → precipitate (coagulation, 聚沉).
+ Electrolytes neutralize the charges on colloidal particles, causing them to aggregate → precipitate (coagulation).
 </div>
 
-<h3>Real-World Colloids (生活中的胶体)</h3>
+<h3>Real-World Colloids </h3>
 <table style="width:100%;border-collapse:collapse;margin:1rem 0;">
   <thead>
     <tr style="background:#1a1a40;">
@@ -1073,11 +1073,11 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
     </tr>
   </thead>
   <tbody>
-    <tr><td style="padding:8px;border:1px solid #30363d;">Sol (液溶胶)</td><td style="padding:8px;border:1px solid #30363d;">Fe(OH)₃ sol, ink, paint</td></tr>
-    <tr><td style="padding:8px;border:1px solid #30363d;">Gel (凝胶)</td><td style="padding:8px;border:1px solid #30363d;">Jelly, silica gel, agar</td></tr>
-    <tr><td style="padding:8px;border:1px solid #30363d;">Aerosol — liquid (气溶胶)</td><td style="padding:8px;border:1px solid #30363d;">Fog, clouds, mist</td></tr>
+ <tr><td style="padding:8px;border:1px solid #30363d;">Sol </td><td style="padding:8px;border:1px solid #30363d;">Fe(OH)₃ sol, ink, paint</td></tr>
+ <tr><td style="padding:8px;border:1px solid #30363d;">Gel </td><td style="padding:8px;border:1px solid #30363d;">Jelly, silica gel, agar</td></tr>
+ <tr><td style="padding:8px;border:1px solid #30363d;">Aerosol — liquid </td><td style="padding:8px;border:1px solid #30363d;">Fog, clouds, mist</td></tr>
     <tr><td style="padding:8px;border:1px solid #30363d;">Aerosol — solid</td><td style="padding:8px;border:1px solid #30363d;">Smoke, dust in air</td></tr>
-    <tr><td style="padding:8px;border:1px solid #30363d;">Emulsion (乳浊液)</td><td style="padding:8px;border:1px solid #30363d;">Milk, mayonnaise</td></tr>
+ <tr><td style="padding:8px;border:1px solid #30363d;">Emulsion </td><td style="padding:8px;border:1px solid #30363d;">Milk, mayonnaise</td></tr>
   </tbody>
 </table>
 `,
@@ -1106,9 +1106,9 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
               btn.addEventListener('click', () => { mode = m; });
               btnRow.appendChild(btn);
             }
-            makeBtn('溶液 Solution (NaCl)', 'solution', '#3fb9a0');
-            makeBtn('胶体 Colloid (Fe(OH)₃)', 'colloid', '#f0883e');
-            makeBtn('浊液 Suspension', 'suspension', '#8b949e');
+ makeBtn('Solution (NaCl)','solution','#3fb9a0');
+ makeBtn('Colloid (Fe(OH)₃)','colloid','#f0883e');
+ makeBtn(' Suspension','suspension','#8b949e');
 
             function draw(ts) {
               t = ts / 1000;
@@ -1200,20 +1200,20 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
               ctx.fillStyle = '#f0f6fc'; ctx.font = 'bold 13px sans-serif'; ctx.textAlign = 'center';
               if (mode === 'solution') {
                 ctx.fillStyle = '#3fb9a0';
-                ctx.fillText('溶液 (Solution)', bx + bw / 2, by - 15);
+ ctx.fillText('(Solution)', bx + bw / 2, by - 15);
                 ctx.fillStyle = '#8b949e'; ctx.font = '11px sans-serif';
                 ctx.fillText('Beam passes through invisible — no Tyndall Effect', bx + bw / 2, by + bh + 20);
                 ctx.fillText('Particles < 1 nm: ions and molecules', bx + bw / 2, by + bh + 38);
               } else if (mode === 'colloid') {
                 ctx.fillStyle = '#f0883e';
-                ctx.fillText('胶体 Fe(OH)₃ (Colloid)', bx + bw / 2, by - 15);
+ ctx.fillText('Fe(OH)₃ (Colloid)', bx + bw / 2, by - 15);
                 ctx.fillStyle = '#f0883e'; ctx.font = '12px sans-serif';
-                ctx.fillText('Tyndall Effect! Bright light cone visible (丁达尔效应)', bx + bw / 2, by + bh + 20);
+ ctx.fillText('Tyndall Effect! Bright light cone visible', bx + bw / 2, by + bh + 20);
                 ctx.fillStyle = '#8b949e'; ctx.font = '11px sans-serif';
                 ctx.fillText('Particles 1–100 nm: scatter visible light', bx + bw / 2, by + bh + 38);
               } else {
                 ctx.fillStyle = '#8b949e';
-                ctx.fillText('浊液 (Suspension)', bx + bw / 2, by - 15);
+ ctx.fillText('(Suspension)', bx + bw / 2, by - 15);
                 ctx.fillStyle = '#8b949e'; ctx.font = '11px sans-serif';
                 ctx.fillText('Beam blocked — particles settle over time', bx + bw / 2, by + bh + 20);
                 ctx.fillText('Particles > 100 nm: visible, unstable', bx + bw / 2, by + bh + 38);
@@ -1223,7 +1223,7 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
               ctx.fillStyle = '#ffff00';
               ctx.beginPath(); ctx.arc(50, beamY, 12, 0, Math.PI * 2); ctx.fill();
               ctx.fillStyle = '#0c0c20'; ctx.font = '10px sans-serif'; ctx.textAlign = 'center';
-              ctx.fillText('光源', 50, beamY);
+ ctx.fillText('', 50, beamY);
 
               animId = requestAnimationFrame(draw);
             }
@@ -1258,7 +1258,7 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
 
               const sections = [
                 {
-                  label: '溶液 Solution',
+ label:'Solution',
                   sublabel: 'particle < 1 nm\n(ions / molecules)',
                   x: 117, color: '#3fb9a0',
                   particles: Array.from({ length: 12 }, (_, i) => ({
@@ -1268,7 +1268,7 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
                   }))
                 },
                 {
-                  label: '胶体 Colloid',
+ label:'Colloid',
                   sublabel: '1 nm < particle < 100 nm\n(colloidal clusters)',
                   x: 350, color: '#f0883e',
                   particles: Array.from({ length: 6 }, (_, i) => ({
@@ -1278,7 +1278,7 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
                   }))
                 },
                 {
-                  label: '浊液 Suspension',
+ label:'Suspension',
                   sublabel: 'particle > 100 nm\n(visible chunks)',
                   x: 590, color: '#8b949e',
                   particles: Array.from({ length: 3 }, (_, i) => ({
@@ -1328,62 +1328,62 @@ and the medium it's spread in is the <em>dispersion medium (分散剂)</em>.</p>
         {
           id: 'ch01-sec05-ex01',
           type: 'mcq',
-          question: '区分溶液和胶体的最简便方法是 (The simplest method to distinguish a solution from a colloid is):',
+ question:'(The simplest method to distinguish a solution from a colloid is):',
           options: [
-            '过滤 Filtration',
-            '用激光笔照射，观察丁达尔效应 (Shine a laser — observe Tyndall effect)',
-            '加热 Heating',
-            '测量密度 Measuring density'
+'Filtration',
+'(Shine a laser — observe Tyndall effect)',
+'Heating',
+'Measuring density'
           ],
           answer: 1,
-          explanation: 'The Tyndall effect (丁达尔效应) is the definitive test: a laser beam shows a bright path through a colloid but not through a solution. This is because colloid particles (1–100 nm) scatter light, while solution particles (< 1 nm) do not.'
+ explanation:'The Tyndall effect is the definitive test: a laser beam shows a bright path through a colloid but not through a solution. This is because colloid particles (1–100 nm) scatter light, while solution particles (< 1 nm) do not.'
         },
         {
           id: 'ch01-sec05-ex02',
           type: 'mcq',
-          question: '下列分散系属于胶体的是 (Which of the following dispersions is a colloid?)',
-          options: ['食盐水 Saltwater', '泥水 Muddy water', '豆浆 Soy milk', '酒精水溶液 Alcohol solution'],
+ question:'(Which of the following dispersions is a colloid?)',
+ options: ['Saltwater','Muddy water','Soy milk','Alcohol solution'],
           answer: 2,
-          explanation: 'Soy milk (豆浆) is a colloid — it contains large protein and fat particles (1–100 nm) dispersed in water. Saltwater and alcohol solution are true solutions. Muddy water is a suspension (particles > 100 nm).'
+ explanation:'Soy milk is a colloid — it contains large protein and fat particles (1–100 nm) dispersed in water. Saltwater and alcohol solution are true solutions. Muddy water is a suspension (particles> 100 nm).'
         },
         {
           id: 'ch01-sec05-ex03',
           type: 'mcq',
-          question: '向Fe(OH)₃胶体中加入大量NaCl溶液会出现 (Adding excess NaCl solution to Fe(OH)₃ colloid causes):',
+ question:'Fe(OH)₃NaCl(Adding excess NaCl solution to Fe(OH)₃ colloid causes):',
           options: [
-            '无明显变化 No visible change',
-            '胶体分层 Colloid separates into layers',
-            '胶体聚沉，产生红褐色沉淀 Coagulation — red-brown precipitate forms',
-            '胶体变成溶液 Colloid becomes a solution'
+'No visible change',
+'Colloid separates into layers',
+'Coagulation — red-brown precipitate forms',
+'Colloid becomes a solution'
           ],
           answer: 2,
-          explanation: 'Adding an electrolyte like NaCl neutralizes the surface charges on Fe(OH)₃ colloidal particles, causing them to coagulate (聚沉) and settle as a red-brown precipitate. This process is irreversible.'
+ explanation:'Adding an electrolyte like NaCl neutralizes the surface charges on Fe(OH)₃ colloidal particles, causing them to coagulate and settle as a red-brown precipitate. This process is irreversible.'
         },
         {
           id: 'ch01-sec05-ex04',
           type: 'mcq',
-          question: '下列关于胶体的说法正确的是 (Which statement about colloids is correct?)',
+ question:'(Which statement about colloids is correct?)',
           options: [
-            '胶体能通过滤纸 (Colloid particles can pass through filter paper)',
-            '胶体粒子直径大于100nm (Colloid particles are larger than 100 nm)',
-            '胶体不稳定，静置后自然沉降 (Colloids are unstable and settle naturally)',
-            '胶体不能通过半透膜 (Colloid particles cannot pass through a semi-permeable membrane)'
+'(Colloid particles can pass through filter paper)',
+'100nm (Colloid particles are larger than 100 nm)',
+'(Colloids are unstable and settle naturally)',
+'(Colloid particles cannot pass through a semi-permeable membrane)'
           ],
           answer: 3,
-          explanation: 'Colloid particles (1–100 nm) cannot pass through semi-permeable membranes (dialysis membranes), which is why dialysis (渗析) is used to purify colloids. They CAN pass through ordinary filter paper (that is a key distinction — only suspensions are caught by filter paper). They do NOT settle naturally due to Brownian motion.'
+ explanation:'Colloid particles (1–100 nm) cannot pass through semi-permeable membranes (dialysis membranes), which is why dialysis is used to purify colloids. They CAN pass through ordinary filter paper (that is a key distinction — only suspensions are caught by filter paper). They do NOT settle naturally due to Brownian motion.'
         },
         {
           id: 'ch01-sec05-ex05',
           type: 'mcq',
-          question: '雾属于哪种分散系？(Fog is which type of dispersion?)',
+ question:'(Fog is which type of dispersion?)',
           options: [
-            '溶液 Solution',
-            '浊液(悬浊液) Suspension',
-            '气溶胶 Aerosol colloid',
-            '不是分散系 Not a dispersion'
+'Solution',
+'Suspension',
+'Aerosol colloid',
+'Not a dispersion'
           ],
           answer: 2,
-          explanation: 'Fog (雾) is an aerosol (气溶胶) — tiny liquid water droplets (1–100 nm range) dispersed in air (a gas). It is a colloid type. The Tyndall effect explains why fog beams are visible from car headlights!'
+ explanation:'Fog is an aerosol — tiny liquid water droplets (1–100 nm range) dispersed in air (a gas). It is a colloid type. The Tyndall effect explains why fog beams are visible from car headlights!'
         }
       ]
     }

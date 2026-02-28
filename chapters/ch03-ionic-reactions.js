@@ -12,28 +12,28 @@ window.CHAPTERS.push({
       id: 'ch03-sec01',
       title: 'Electrolytes & Non-Electrolytes',
       content: `
-<h2>电解质与非电解质 — Electrolytes and Non-Electrolytes</h2>
+<h2>Electrolytes and Non-Electrolytes</h2>
 
 <p>When a substance is dissolved in water (or melted), it may or may not allow electric current to pass. This fundamental distinction defines <strong>electrolytes</strong> and <strong>non-electrolytes</strong>.</p>
 
 <div class="info-box">
 <strong>Key Definitions</strong>
 <ul>
-  <li><strong>Electrolyte (电解质)</strong> — a compound that conducts electricity in aqueous solution or molten state, because it ionizes to produce free ions.</li>
-  <li><strong>Non-electrolyte (非电解质)</strong> — a compound that does NOT conduct electricity in solution or molten state.</li>
+ <li><strong>Electrolyte </strong> — a compound that conducts electricity in aqueous solution or molten state, because it ionizes to produce free ions.</li>
+ <li><strong>Non-electrolyte </strong> — a compound that does NOT conduct electricity in solution or molten state.</li>
 </ul>
 </div>
 
 <h3>Strong vs. Weak Electrolytes</h3>
 
-<p>Among electrolytes, the degree of ionization (电离程度) varies enormously:</p>
+<p>Among electrolytes, the degree of ionization varies enormously:</p>
 
 <table class="data-table">
   <thead><tr><th>Category</th><th>Ionization</th><th>Examples</th></tr></thead>
   <tbody>
-    <tr><td>Strong electrolyte (强电解质)</td><td>100% — completely ionized</td><td>HCl, H₂SO₄, HNO₃, NaOH, KOH, NaCl, KNO₃</td></tr>
-    <tr><td>Weak electrolyte (弱电解质)</td><td>Partial — equilibrium between ions and molecules</td><td>CH₃COOH (acetic acid), H₂CO₃, NH₃·H₂O, HF</td></tr>
-    <tr><td>Non-electrolyte (非电解质)</td><td>None — no ions form</td><td>C₂H₅OH (ethanol), C₆H₁₂O₆ (glucose), CO₂, SO₃</td></tr>
+ <tr><td>Strong electrolyte </td><td>100% — completely ionized</td><td>HCl, H₂SO₄, HNO₃, NaOH, KOH, NaCl, KNO₃</td></tr>
+ <tr><td>Weak electrolyte </td><td>Partial — equilibrium between ions and molecules</td><td>CH₃COOH (acetic acid), H₂CO₃, NH₃·H₂O, HF</td></tr>
+ <tr><td>Non-electrolyte </td><td>None — no ions form</td><td>C₂H₅OH (ethanol), C₆H₁₂O₆ (glucose), CO₂, SO₃</td></tr>
   </tbody>
 </table>
 
@@ -261,9 +261,9 @@ Record your observations and explain each result using the concept of ionization
       id: 'ch03-sec02',
       title: 'Ionization Equations',
       content: `
-<h2>电离方程式 — Ionization Equations</h2>
+<h2>Ionization Equations</h2>
 
-<p>An <strong>ionization equation</strong> (电离方程式) shows how an electrolyte breaks apart into ions in aqueous solution.</p>
+<p>An <strong>ionization equation</strong> shows how an electrolyte breaks apart into ions in aqueous solution.</p>
 
 <h3>Rules for Writing Ionization Equations</h3>
 
@@ -513,20 +513,20 @@ Record your observations and explain each result using the concept of ionization
       id: 'ch03-sec03',
       title: 'Ionic Reactions',
       content: `
-<h2>离子反应 — Ionic Reactions</h2>
+<h2>Ionic Reactions</h2>
 
-<p>When electrolyte solutions are mixed, the ions present may react with each other. Such reactions are called <strong>ionic reactions</strong> (离子反应).</p>
+<p>When electrolyte solutions are mixed, the ions present may react with each other. Such reactions are called <strong>ionic reactions</strong> .</p>
 
 <h3>Conditions for Ionic Reactions</h3>
 
 <p>Ionic reactions proceed when the ions combine to form a product that "escapes" the solution — removing ions from the equilibrium:</p>
 
 <div class="info-box">
-<strong>Three Driving Conditions (三个驱动条件):</strong>
+<strong>Three Driving Conditions :</strong>
 <ol>
-  <li><strong>Formation of a precipitate (生成沉淀)</strong> — an insoluble ionic compound forms and settles out.</li>
-  <li><strong>Formation of a gas (生成气体)</strong> — a volatile product escapes as bubbles.</li>
-  <li><strong>Formation of water or weak electrolyte (生成水或弱电解质)</strong> — ions combine into a molecule that stays mostly un-ionized.</li>
+ <li><strong>Formation of a precipitate </strong> — an insoluble ionic compound forms and settles out.</li>
+ <li><strong>Formation of a gas </strong> — a volatile product escapes as bubbles.</li>
+ <li><strong>Formation of water or weak electrolyte </strong> — ions combine into a molecule that stays mostly un-ionized.</li>
 </ol>
 </div>
 
@@ -543,7 +543,7 @@ Record your observations and explain each result using the concept of ionization
   </tbody>
 </table>
 
-<h3>Solubility Rules (溶解性规则) — Key to Predicting Precipitates</h3>
+<h3>Solubility Rules — Key to Predicting Precipitates</h3>
 
 <p>You must memorize which ionic compounds are insoluble (↓) vs. soluble:</p>
 
@@ -767,11 +767,11 @@ Record your observations and explain each result using the concept of ionization
       id: 'ch03-sec04',
       title: 'Net Ionic Equations',
       content: `
-<h2>离子方程式书写 — Writing Net Ionic Equations</h2>
+<h2>Writing Net Ionic Equations</h2>
 
-<p>A <strong>net ionic equation</strong> (离子方程式) shows only the ions and molecules that actually participate in the reaction — spectator ions are omitted.</p>
+<p>A <strong>net ionic equation</strong> shows only the ions and molecules that actually participate in the reaction — spectator ions are omitted.</p>
 
-<h3>Four-Step Process (四步法)</h3>
+<h3>Four-Step Process </h3>
 
 <div class="info-box">
 <ol>
@@ -814,7 +814,7 @@ Record your observations and explain each result using the concept of ionization
 
 \\[\\boxed{\\text{CH}_3\\text{COOH} + \\text{OH}^- \\rightarrow \\text{CH}_3\\text{COO}^- + \\text{H}_2\\text{O}}\\]
 
-<h3>What Stays as a Molecule? (不拆开的物质)</h3>
+<h3>What Stays as a Molecule? </h3>
 
 <div class="env-block" data-env="note">
 <strong>Do NOT split into ions:</strong>
@@ -977,11 +977,11 @@ Record your observations and explain each result using the concept of ionization
       id: 'ch03-sec05',
       title: 'Ion Coexistence',
       content: `
-<h2>离子共存 — Ion Coexistence in Solution</h2>
+<h2>Ion Coexistence in Solution</h2>
 
 <p>Not all ions can coexist peacefully in the same solution. Two ions <strong>cannot coexist</strong> if they would react with each other to form a precipitate, gas, or weak electrolyte.</p>
 
-<h3>When Ions CANNOT Coexist (不能共存)</h3>
+<h3>When Ions CANNOT Coexist </h3>
 
 <div class="info-box">
 <table class="data-table">
@@ -1006,8 +1006,8 @@ Record your observations and explain each result using the concept of ionization
 <p>Sometimes a problem specifies the solution environment:</p>
 
 <ul>
-  <li><strong>Acidic solution (酸性)</strong> — H⁺ is present. Ions that react with H⁺ cannot coexist: OH⁻, CO₃²⁻, S²⁻, HCO₃⁻…</li>
-  <li><strong>Basic solution (碱性)</strong> — OH⁻ is present. Ions that react with OH⁻ cannot coexist: H⁺, NH₄⁺, Fe³⁺, Al³⁺…</li>
+ <li><strong>Acidic solution </strong> — H⁺ is present. Ions that react with H⁺ cannot coexist: OH⁻, CO₃²⁻, S²⁻, HCO₃⁻…</li>
+ <li><strong>Basic solution </strong> — OH⁻ is present. Ions that react with OH⁻ cannot coexist: H⁺, NH₄⁺, Fe³⁺, Al³⁺…</li>
   <li><strong>Neutral solution</strong> — neither H⁺ nor OH⁻ in excess.</li>
   <li><strong>Oxidizing/reducing conditions</strong> — may impose additional incompatibilities.</li>
 </ul>

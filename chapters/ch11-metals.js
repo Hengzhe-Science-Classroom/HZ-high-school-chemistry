@@ -10,7 +10,7 @@ window.CHAPTERS.push({
       id: 'ch11-sec01',
       title: 'Sodium & Its Compounds',
       content: `
-<h2>钠及其化合物 — Sodium and Its Compounds</h2>
+<h2>Sodium and Its Compounds</h2>
 
 <p>Sodium (Na) is the quintessential alkali metal: soft, silvery, and intensely reactive with water and air. Understanding Na and its key compounds is a cornerstone of Chinese high-school chemistry.</p>
 
@@ -29,26 +29,26 @@ window.CHAPTERS.push({
 
 \\[ 2\\text{Na} + 2\\text{H}_2\\text{O} \\longrightarrow 2\\text{NaOH} + \\text{H}_2\\uparrow \\]
 
-<p><strong>Observations (记住"浮游嘶鸣红"):</strong></p>
+<p><strong>Observations :</strong></p>
 <ul>
-  <li>浮 — Na <em>floats</em> (density &lt; water)</li>
-  <li>游 — Na <em>moves</em> (scooted by H₂ bubbles)</li>
-  <li>嘶 — Na <em>hisses</em> (rapid H₂ release)</li>
-  <li>鸣 — Na <em>melts</em> into a shiny ball (heat generated melts it)</li>
-  <li>红 — Phenolphthalein turns <em>pink/red</em> (NaOH is basic)</li>
+ <li>Na <em>floats</em> (density &lt; water)</li>
+ <li>Na <em>moves</em> (scooted by H₂ bubbles)</li>
+ <li>Na <em>hisses</em> (rapid H₂ release)</li>
+ <li>Na <em>melts</em> into a shiny ball (heat generated melts it)</li>
+ <li>Phenolphthalein turns <em>pink/red</em> (NaOH is basic)</li>
 </ul>
 
 <h3>Na Reacting with O₂</h3>
 <table class="data-table">
   <thead><tr><th>Condition</th><th>Product</th><th>Equation</th></tr></thead>
   <tbody>
-    <tr><td>Excess O₂, room temp</td><td>Na₂O (白色)</td><td>\\(4\\text{Na} + \\text{O}_2 \\to 2\\text{Na}_2\\text{O}\\)</td></tr>
-    <tr><td>Burning in O₂</td><td>Na₂O₂ (淡黄色)</td><td>\\(2\\text{Na} + \\text{O}_2 \\xrightarrow{\\Delta} \\text{Na}_2\\text{O}_2\\)</td></tr>
+ <tr><td>Excess O₂, room temp</td><td>Na₂O </td><td>\\(4\\text{Na} + \\text{O}_2 \\to 2\\text{Na}_2\\text{O}\\)</td></tr>
+ <tr><td>Burning in O₂</td><td>Na₂O₂ </td><td>\\(2\\text{Na} + \\text{O}_2 \\xrightarrow{\\Delta} \\text{Na}_2\\text{O}_2\\)</td></tr>
   </tbody>
 </table>
 
 <div class="concept-block">
-  <h3>Na₂O₂ — Sodium Peroxide (重点!)</h3>
+ <h3>Na₂O₂ — Sodium Peroxide </h3>
   <p>Na₂O₂ contains the peroxide ion O₂²⁻. It reacts vigorously with both water and CO₂, <strong>releasing O₂</strong> — making it useful in oxygen masks and submarines.</p>
 
   \\[ 2\\text{Na}_2\\text{O}_2 + 2\\text{H}_2\\text{O} \\longrightarrow 4\\text{NaOH} + \\text{O}_2\\uparrow \\]
@@ -57,7 +57,7 @@ window.CHAPTERS.push({
   <p><strong>Electron-transfer analysis:</strong> In Na₂O₂, oxygen has oxidation state −1. When it reacts with water, one O is oxidized to 0 (in O₂) and one is reduced to −2 (in OH⁻). It is a <em>disproportionation reaction</em>.</p>
 </div>
 
-<h3>NaOH — Caustic Soda (烧碱)</h3>
+<h3>NaOH — Caustic Soda </h3>
 <ul>
   <li>Strong base, highly corrosive — handle with care!</li>
   <li>Reacts with acids: \\(\\text{NaOH} + \\text{HCl} \\to \\text{NaCl} + \\text{H}_2\\text{O}\\)</li>
@@ -67,7 +67,7 @@ window.CHAPTERS.push({
 
 <h3>Na₂CO₃ vs NaHCO₃</h3>
 <table class="data-table">
-  <thead><tr><th>Property</th><th>Na₂CO₃ (纯碱/苏打)</th><th>NaHCO₃ (小苏打)</th></tr></thead>
+ <thead><tr><th>Property</th><th>Na₂CO₃ </th><th>NaHCO₃ </th></tr></thead>
   <tbody>
     <tr><td>Solubility</td><td>More soluble</td><td>Less soluble</td></tr>
     <tr><td>Alkalinity</td><td>Stronger (CO₃²⁻)</td><td>Weaker (HCO₃⁻)</td></tr>
@@ -245,9 +245,9 @@ window.CHAPTERS.push({
       id: 'ch11-sec02',
       title: 'Aluminum & Its Compounds',
       content: `
-<h2>铝及其化合物 — Aluminum and Its Compounds</h2>
+<h2>Aluminum and Its Compounds</h2>
 
-<p>Aluminum is the most abundant metal in Earth's crust and a marvel of modern materials science. Its key chemical trait is <strong>amphotericity (两性)</strong> — it can react with both acids <em>and</em> bases.</p>
+<p>Aluminum is the most abundant metal in Earth's crust and a marvel of modern materials science. Its key chemical trait is <strong>amphotericity </strong> — it can react with both acids <em>and</em> bases.</p>
 
 <div class="concept-block">
   <h3>Physical Properties of Al</h3>
@@ -266,18 +266,18 @@ window.CHAPTERS.push({
 \\[ 2\\text{Al} + 2\\text{NaOH} + 2\\text{H}_2\\text{O} \\longrightarrow 2\\text{NaAlO}_2 + 3\\text{H}_2\\uparrow \\quad (\\text{base}) \\]
 
 <div class="highlight-box warning">
-  <strong>Passivation (钝化):</strong> Al does NOT dissolve in concentrated H₂SO₄ or concentrated HNO₃ at room temperature — it forms an inert oxide layer. This is why Al tanks can store concentrated HNO₃!
+ <strong>Passivation :</strong> Al does NOT dissolve in concentrated H₂SO₄ or concentrated HNO₃ at room temperature — it forms an inert oxide layer. This is why Al tanks can store concentrated HNO₃!
 </div>
 
-<h3>Al₂O₃ — Amphoteric Oxide (两性氧化物)</h3>
+<h3>Al₂O₃ — Amphoteric Oxide </h3>
 <p>Al₂O₃ reacts with both acids and bases:</p>
 
 \\[ \\text{Al}_2\\text{O}_3 + 6\\text{HCl} \\longrightarrow 2\\text{AlCl}_3 + 3\\text{H}_2\\text{O} \\quad (\\text{acid}) \\]
 \\[ \\text{Al}_2\\text{O}_3 + 2\\text{NaOH} \\longrightarrow 2\\text{NaAlO}_2 + \\text{H}_2\\text{O} \\quad (\\text{base}) \\]
 
-<p>Natural Al₂O₃ crystals include ruby (红宝石, Cr³⁺ impurity → red) and sapphire (蓝宝石, Fe²⁺/Ti⁴⁺ → blue).</p>
+<p>Natural Al₂O₃ crystals include ruby (Cr³⁺ impurity → red) and sapphire (Fe²⁺/Ti⁴⁺ → blue).</p>
 
-<h3>Al(OH)₃ — Amphoteric Hydroxide (两性氢氧化物)</h3>
+<h3>Al(OH)₃ — Amphoteric Hydroxide </h3>
 <p>Al(OH)₃ is a white, gelatinous precipitate that dissolves in both acids and bases:</p>
 
 \\[ \\text{Al(OH)}_3 + 3\\text{HCl} \\longrightarrow \\text{AlCl}_3 + 3\\text{H}_2\\text{O} \\quad (\\text{acts as base}) \\]
@@ -400,7 +400,7 @@ window.CHAPTERS.push({
 
               ctx.fillStyle = '#4a4a7a';
               ctx.font = '11px -apple-system,sans-serif';
-              ctx.fillText('(两性氢氧化物)', W / 2, 80);
+ ctx.fillText('', W / 2, 80);
             });
           }
         }
@@ -409,9 +409,9 @@ window.CHAPTERS.push({
         {
           question: 'Al(OH)₃ dissolves in both HCl and NaOH. What term describes this property?',
           type: 'multiple-choice',
-          choices: ['Oxidizing', 'Amphoteric (两性)', 'Reducing', 'Catalytic'],
+ choices: ['Oxidizing','Amphoteric','Reducing','Catalytic'],
           answer: 1,
-          explanation: 'Amphoteric (两性) means a substance can act as both an acid and a base. Al(OH)₃ acts as a base with HCl and as an acid with NaOH.'
+ explanation:'Amphoteric means a substance can act as both an acid and a base. Al(OH)₃ acts as a base with HCl and as an acid with NaOH.'
         },
         {
           question: 'To prepare Al(OH)₃ precipitate from AlCl₃ solution, which reagent should you add?',
@@ -435,7 +435,7 @@ window.CHAPTERS.push({
             'Al is soluble in dilute HNO₃ but not in concentrated HNO₃'
           ],
           answer: 2,
-          explanation: 'Concentrated HNO₃ passivates Al by forming a dense, inert Al₂O₃ film on its surface that blocks further reaction. This is called passivation (钝化). The same occurs with concentrated H₂SO₄.'
+ explanation:'Concentrated HNO₃ passivates Al by forming a dense, inert Al₂O₃ film on its surface that blocks further reaction. This is called passivation . The same occurs with concentrated H₂SO₄.'
         }
       ]
     },
@@ -445,19 +445,19 @@ window.CHAPTERS.push({
       id: 'ch11-sec03',
       title: 'Iron & Its Compounds',
       content: `
-<h2>铁及其化合物 — Iron and Its Compounds</h2>
+<h2>Iron and Its Compounds</h2>
 
-<p>Iron is the most used structural metal on Earth. Its chemistry is dominated by two oxidation states: <strong>Fe²⁺</strong> (ferrous, 亚铁) and <strong>Fe³⁺</strong> (ferric, 铁). Knowing how to interconvert and identify them is essential.</p>
+<p>Iron is the most used structural metal on Earth. Its chemistry is dominated by two oxidation states: <strong>Fe²⁺</strong> (ferrous) and <strong>Fe³⁺</strong> (ferric). Knowing how to interconvert and identify them is essential.</p>
 
 <div class="concept-block">
   <h3>Fe²⁺ vs Fe³⁺: Quick Reference</h3>
   <table class="data-table">
-    <thead><tr><th>Property</th><th>Fe²⁺ (亚铁离子)</th><th>Fe³⁺ (铁离子)</th></tr></thead>
+ <thead><tr><th>Property</th><th>Fe²⁺ </th><th>Fe³⁺ </th></tr></thead>
     <tbody>
-      <tr><td>Solution color</td><td>Light green (浅绿色)</td><td>Yellow-brown (棕黄色)</td></tr>
+ <tr><td>Solution color</td><td>Light green </td><td>Yellow-brown </td></tr>
       <tr><td>Precipitate with NaOH</td><td>Fe(OH)₂ — white</td><td>Fe(OH)₃ — red-brown</td></tr>
-      <tr><td>Test with KSCN</td><td>No color change</td><td>Blood red (血红色)</td></tr>
-      <tr><td>Oxidizing/Reducing</td><td>Reducing agent (还原性)</td><td>Oxidizing agent (氧化性)</td></tr>
+ <tr><td>Test with KSCN</td><td>No color change</td><td>Blood red </td></tr>
+ <tr><td>Oxidizing/Reducing</td><td>Reducing agent </td><td>Oxidizing agent </td></tr>
     </tbody>
   </table>
 </div>
@@ -482,7 +482,7 @@ window.CHAPTERS.push({
 \\[ \\text{FeCl}_3 + 3\\text{NaOH} \\longrightarrow \\text{Fe(OH)}_3\\downarrow(\\text{red-brown}) + 3\\text{NaCl} \\]
 
 <div class="concept-block">
-  <h3>The White → Gray-Green → Red-Brown Transformation (重点!)</h3>
+ <h3>The White → Gray-Green → Red-Brown Transformation </h3>
   <p>Freshly precipitated Fe(OH)₂ is white, but it rapidly oxidizes in air:</p>
   \\[ 4\\text{Fe(OH)}_2 + \\text{O}_2 + 2\\text{H}_2\\text{O} \\longrightarrow 4\\text{Fe(OH)}_3 \\]
   <p>You see: white → gray-green (intermediate) → red-brown Fe(OH)₃</p>
@@ -630,15 +630,15 @@ window.CHAPTERS.push({
       id: 'ch11-sec04',
       title: 'General Metallic Properties',
       content: `
-<h2>金属的通性 — General Properties of Metals</h2>
+<h2>General Properties of Metals</h2>
 
-<p>Metals share a characteristic set of physical and chemical properties, rooted in the presence of a "sea" of delocalized electrons (金属键, metallic bonding).</p>
+<p>Metals share a characteristic set of physical and chemical properties, rooted in the presence of a"sea" of delocalized electrons (metallic bonding).</p>
 
 <h3>Physical Properties</h3>
 <table class="data-table">
   <thead><tr><th>Property</th><th>Explanation</th><th>Exceptions / Notes</th></tr></thead>
   <tbody>
-    <tr><td>Metallic luster (金属光泽)</td><td>Free electrons reflect light</td><td>Powdered metals appear dull (大black)</td></tr>
+ <tr><td>Metallic luster </td><td>Free electrons reflect light</td><td>Powdered metals appear dull (black)</td></tr>
     <tr><td>Good conductors</td><td>Delocalized electrons carry charge</td><td>Ag best conductor; Hg is liquid at RT</td></tr>
     <tr><td>Thermal conductivity</td><td>Electrons transfer kinetic energy</td><td>Correlates with electrical conductivity</td></tr>
     <tr><td>Malleability & ductility</td><td>Metal layers slide without breaking bonds</td><td>Most malleable: Au; most ductile: Au</td></tr>
@@ -646,14 +646,14 @@ window.CHAPTERS.push({
   </tbody>
 </table>
 
-<h3>Chemical Activity — The Activity Series (活动性顺序)</h3>
+<h3>Chemical Activity — The Activity Series </h3>
 <p>The standard activity series for metals (from most to least reactive):</p>
 
 <div class="concept-block" style="text-align:center; font-family: monospace; font-size: 1.1em; letter-spacing: 2px;">
   K &gt; Ca &gt; Na &gt; Mg &gt; Al &gt; Zn &gt; Fe &gt; Ni &gt; Sn &gt; Pb &gt; (H) &gt; Cu &gt; Hg &gt; Ag &gt; Pt &gt; Au
 </div>
 
-<p>Mnemonic (记忆口诀): <strong>钾钙钠镁铝锌铁镍锡铅氢铜汞银铂金</strong></p>
+<p>Mnemonic : <strong></strong></p>
 
 <h3>Reactions of Metals with Acids</h3>
 <ul>
@@ -665,7 +665,7 @@ window.CHAPTERS.push({
 \\[ \\text{Cu} + 4\\text{HNO}_3(\\text{conc.}) \\longrightarrow \\text{Cu(NO}_3)_2 + 2\\text{NO}_2\\uparrow + 2\\text{H}_2\\text{O} \\]
 \\[ 3\\text{Cu} + 8\\text{HNO}_3(\\text{dilute}) \\longrightarrow 3\\text{Cu(NO}_3)_2 + 2\\text{NO}\\uparrow + 4\\text{H}_2\\text{O} \\]
 
-<h3>Displacement Reactions (置换反应)</h3>
+<h3>Displacement Reactions </h3>
 <p>A more active metal can displace a less active metal from its salt solution:</p>
 \\[ \\text{Fe} + \\text{CuSO}_4 \\longrightarrow \\text{FeSO}_4 + \\text{Cu} \\quad (\\text{iron displaces copper}) \\]
 \\[ \\text{Zn} + \\text{CuSO}_4 \\longrightarrow \\text{ZnSO}_4 + \\text{Cu} \\]
@@ -746,7 +746,7 @@ window.CHAPTERS.push({
               ctx.fillStyle = '#f0f6fc';
               ctx.font = 'bold 14px -apple-system,sans-serif';
               ctx.textAlign = 'center';
-              ctx.fillText('Metal Activity Series (活动性顺序)', viz.width / 2, 30);
+ ctx.fillText('Metal Activity Series', viz.width / 2, 30);
 
               // Arrow label
               ctx.fillStyle = '#4a4a7a';
@@ -920,9 +920,9 @@ window.CHAPTERS.push({
       id: 'ch11-sec05',
       title: 'Alloys & Metallurgy',
       content: `
-<h2>合金与冶炼 — Alloys and Metallurgy</h2>
+<h2>Alloys and Metallurgy</h2>
 
-<p>Pure metals are often too soft or too reactive for practical applications. Alloys (合金) — mixtures of a metal with other elements — dramatically improve mechanical, electrical, and chemical properties.</p>
+<p>Pure metals are often too soft or too reactive for practical applications. Alloys — mixtures of a metal with other elements — dramatically improve mechanical, electrical, and chemical properties.</p>
 
 <h3>What is an Alloy?</h3>
 <p>An alloy is a homogeneous mixture where metal atoms are mixed at the atomic level. The resulting material has properties different from (and usually superior to) the pure metals it contains.</p>
@@ -932,12 +932,12 @@ window.CHAPTERS.push({
   <table class="data-table">
     <thead><tr><th>Alloy</th><th>Main Components</th><th>Properties</th><th>Uses</th></tr></thead>
     <tbody>
-      <tr><td>Steel (钢)</td><td>Fe + C (0.03–2.14%)</td><td>Stronger & harder than pure Fe</td><td>Construction, machinery</td></tr>
-      <tr><td>Stainless steel (不锈钢)</td><td>Fe + Cr (≥12%) + Ni</td><td>Corrosion resistant</td><td>Cutlery, medical tools</td></tr>
-      <tr><td>Bronze (青铜)</td><td>Cu + Sn</td><td>Harder than Cu, lower melting pt</td><td>Bells, statues, bearings</td></tr>
-      <tr><td>Brass (黄铜)</td><td>Cu + Zn</td><td>Harder, golden color</td><td>Plumbing fittings, musical instruments</td></tr>
-      <tr><td>Duralumin (硬铝)</td><td>Al + Cu + Mg + Mn</td><td>Light & strong</td><td>Aircraft frames</td></tr>
-      <tr><td>Solder (焊锡)</td><td>Pb + Sn</td><td>Low melting point</td><td>Electronics soldering</td></tr>
+ <tr><td>Steel </td><td>Fe + C (0.03–2.14%)</td><td>Stronger & harder than pure Fe</td><td>Construction, machinery</td></tr>
+ <tr><td>Stainless steel </td><td>Fe + Cr (≥12%) + Ni</td><td>Corrosion resistant</td><td>Cutlery, medical tools</td></tr>
+ <tr><td>Bronze </td><td>Cu + Sn</td><td>Harder than Cu, lower melting pt</td><td>Bells, statues, bearings</td></tr>
+ <tr><td>Brass </td><td>Cu + Zn</td><td>Harder, golden color</td><td>Plumbing fittings, musical instruments</td></tr>
+ <tr><td>Duralumin </td><td>Al + Cu + Mg + Mn</td><td>Light & strong</td><td>Aircraft frames</td></tr>
+ <tr><td>Solder </td><td>Pb + Sn</td><td>Low melting point</td><td>Electronics soldering</td></tr>
     </tbody>
   </table>
 </div>
@@ -945,25 +945,25 @@ window.CHAPTERS.push({
 <h3>Why Are Alloys Stronger?</h3>
 <p>Different-sized atoms in an alloy disrupt the regular metal lattice, making it harder for layers to slide past each other. This increases hardness and tensile strength.</p>
 
-<h3>Methods of Metal Extraction (冶炼)</h3>
+<h3>Methods of Metal Extraction </h3>
 <p>The method used to extract a metal from its ore depends on the metal's position in the activity series:</p>
 
 <table class="data-table">
   <thead><tr><th>Activity Level</th><th>Metals</th><th>Extraction Method</th><th>Example</th></tr></thead>
   <tbody>
-    <tr><td>Very active</td><td>K, Ca, Na, Mg, Al</td><td>Electrolysis (电解) of molten ore</td><td>2Al₂O₃ → 4Al + 3O₂ (electrolysis)</td></tr>
-    <tr><td>Moderately active</td><td>Zn, Fe, Sn, Pb</td><td>Thermal reduction (热还原)</td><td>Fe₂O₃ + 3CO → 2Fe + 3CO₂</td></tr>
+ <tr><td>Very active</td><td>K, Ca, Na, Mg, Al</td><td>Electrolysis of molten ore</td><td>2Al₂O₃ → 4Al + 3O₂ (electrolysis)</td></tr>
+ <tr><td>Moderately active</td><td>Zn, Fe, Sn, Pb</td><td>Thermal reduction </td><td>Fe₂O₃ + 3CO → 2Fe + 3CO₂</td></tr>
     <tr><td>Less active</td><td>Cu</td><td>Reduction or hydrometallurgy</td><td>Cu₂S + O₂ → 2Cu + SO₂</td></tr>
-    <tr><td>Inactive</td><td>Hg, Ag, Au, Pt</td><td>Heating ore alone (热分解)</td><td>2HgO → 2Hg + O₂</td></tr>
+ <tr><td>Inactive</td><td>Hg, Ag, Au, Pt</td><td>Heating ore alone </td><td>2HgO → 2Hg + O₂</td></tr>
   </tbody>
 </table>
 
-<h3>Blast Furnace — Iron Smelting (高炉炼铁)</h3>
-<p>Iron is smelted in a blast furnace (高炉) using:</p>
+<h3>Blast Furnace — Iron Smelting </h3>
+<p>Iron is smelted in a blast furnace using:</p>
 <ul>
-  <li><strong>Iron ore (铁矿石):</strong> Fe₂O₃, Fe₃O₄</li>
-  <li><strong>Coke (焦炭):</strong> provides carbon for reduction</li>
-  <li><strong>Limestone (石灰石):</strong> removes impurity SiO₂ as slag</li>
+ <li><strong>Iron ore :</strong> Fe₂O₃, Fe₃O₄</li>
+ <li><strong>Coke :</strong> provides carbon for reduction</li>
+ <li><strong>Limestone :</strong> removes impurity SiO₂ as slag</li>
 </ul>
 
 <p><strong>Key reactions in the blast furnace:</strong></p>
@@ -971,20 +971,20 @@ window.CHAPTERS.push({
 \\[ \\text{CO}_2 + \\text{C} \\rightarrow 2\\text{CO} \\quad (\\text{main reducing agent}) \\]
 \\[ \\text{Fe}_2\\text{O}_3 + 3\\text{CO} \\rightarrow 2\\text{Fe} + 3\\text{CO}_2 \\]
 \\[ \\text{CaCO}_3 \\xrightarrow{\\Delta} \\text{CaO} + \\text{CO}_2 \\]
-\\[ \\text{CaO} + \\text{SiO}_2 \\rightarrow \\text{CaSiO}_3 \\quad (\\text{slag, 炉渣}) \\]
+\\[ \\text{CaO} + \\text{SiO}_2 \\rightarrow \\text{CaSiO}_3 \\quad (\\text{slag, }) \\]
 
 <div class="concept-block">
-  <h3>Thermite Reaction (铝热反应)</h3>
+ <h3>Thermite Reaction </h3>
   <p>Al is such a strong reducing agent that it can reduce metal oxides — releasing enormous heat. This is the thermite reaction:</p>
-  \\[ 2\\text{Al} + \\text{Fe}_2\\text{O}_3 \\xrightarrow{\\text{高温}} \\text{Al}_2\\text{O}_3 + 2\\text{Fe} + \\text{heat (>2000°C)} \\]
-  <p>Applications: field welding of railway tracks (铁轨焊接), incendiary materials</p>
+ \\[ 2\\text{Al} + \\text{Fe}_2\\text{O}_3 \\xrightarrow{\\text{}} \\text{Al}_2\\text{O}_3 + 2\\text{Fe} + \\text{heat (>2000°C)} \\]
+ <p>Applications: field welding of railway tracks, incendiary materials</p>
   <p>The reaction is triggered by burning Mg ribbon, which ignites the Al-Fe₂O₃ mixture.</p>
 </div>
 
 <h3>Aluminum Smelting — Hall-Héroult Process</h3>
 <p>Al cannot be smelted with carbon because Al₂O₃ + C → only at extremely high temperatures, and AlC product forms. Instead, electrolysis is used:</p>
 \\[ 2\\text{Al}_2\\text{O}_3 \\xrightarrow{\\text{electrolysis, cryolite}} 4\\text{Al} + 3\\text{O}_2 \\]
-<p>Cryolite (Na₃AlF₆, 冰晶石) is added to lower the melting point of Al₂O₃ from 2072°C to ~960°C.</p>
+<p>Cryolite (Na₃AlF₆) is added to lower the melting point of Al₂O₃ from 2072°C to ~960°C.</p>
 `,
       visualizations: [
         {

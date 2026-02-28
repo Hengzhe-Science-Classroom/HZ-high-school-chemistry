@@ -7,11 +7,11 @@ window.CHAPTERS.push({
         // ── Section 1: Characteristics of Organic Compounds ─────────────────────
         {
             id: 'ch13-sec01',
-            title: '有机物的特征',
+ title:'',
             content: `
-<h2>Characteristics of Organic Compounds (有机物的特征)</h2>
+<h2>Characteristics of Organic Compounds </h2>
 
-<p>Organic chemistry is the branch of chemistry that studies carbon-containing compounds. The vast majority of compounds containing carbon are classified as <strong>organic compounds (有机物)</strong>. Today there are over 30 million known organic compounds — far more than all inorganic compounds combined.</p>
+<p>Organic chemistry is the branch of chemistry that studies carbon-containing compounds. The vast majority of compounds containing carbon are classified as <strong>organic compounds </strong>. Today there are over 30 million known organic compounds — far more than all inorganic compounds combined.</p>
 
 <div class="info-box">
 <strong>Defining Organic Compounds</strong><br>
@@ -184,9 +184,9 @@ Carbon and hydrogen in the organic compound are oxidised to CO₂ and H₂O resp
         // ── Section 2: Carbon Bonding ────────────────────────────────────────────
         {
             id: 'ch13-sec02',
-            title: '碳的成键特点',
+ title:'',
             content: `
-<h2>Carbon Bonding (碳的成键特点)</h2>
+<h2>Carbon Bonding </h2>
 
 <p>Carbon is element number 6. Its electron configuration is \\(1s^22s^22p^2\\), giving it <strong>four valence electrons</strong> and a valence of four. This means every carbon atom forms exactly four covalent bonds — the cornerstone of organic chemistry.</p>
 
@@ -194,9 +194,9 @@ Carbon and hydrogen in the organic compound are oxidised to CO₂ and H₂O resp
 <table class="data-table">
 <thead><tr><th>Bond type</th><th>Notation</th><th>Bond order</th><th>Bond length</th><th>Bond energy</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Single bond (单键)</td><td>C−C</td><td>1</td><td>154 pm</td><td>346 kJ/mol</td><td>Ethane (C₂H₆)</td></tr>
-<tr><td>Double bond (双键)</td><td>C=C</td><td>2</td><td>134 pm</td><td>610 kJ/mol</td><td>Ethene (C₂H₄)</td></tr>
-<tr><td>Triple bond (三键)</td><td>C≡C</td><td>3</td><td>120 pm</td><td>835 kJ/mol</td><td>Ethyne (C₂H₂)</td></tr>
+<tr><td>Single bond </td><td>C−C</td><td>1</td><td>154 pm</td><td>346 kJ/mol</td><td>Ethane (C₂H₆)</td></tr>
+<tr><td>Double bond </td><td>C=C</td><td>2</td><td>134 pm</td><td>610 kJ/mol</td><td>Ethene (C₂H₄)</td></tr>
+<tr><td>Triple bond </td><td>C≡C</td><td>3</td><td>120 pm</td><td>835 kJ/mol</td><td>Ethyne (C₂H₂)</td></tr>
 </tbody>
 </table>
 
@@ -207,8 +207,8 @@ Carbon and hydrogen in the organic compound are oxidised to CO₂ and H₂O resp
 <h3>Carbon Skeleton Types</h3>
 <p>Carbon's ability to bond to itself creates two fundamental skeleton types:</p>
 <ul>
-<li><strong>Chain structures (链状结构):</strong> Open-chain (acyclic) — straight or branched. Examples: butane (n-C₄H₁₀), isobutane.</li>
-<li><strong>Ring structures (环状结构):</strong> Cyclic — carbon atoms form one or more closed rings. Examples: cyclohexane (C₆H₁₂), benzene (C₆H₆).</li>
+<li><strong>Chain structures :</strong> Open-chain (acyclic) — straight or branched. Examples: butane (n-C₄H₁₀), isobutane.</li>
+<li><strong>Ring structures :</strong> Cyclic — carbon atoms form one or more closed rings. Examples: cyclohexane (C₆H₁₂), benzene (C₆H₆).</li>
 </ul>
 
 <h3>Hybridisation Overview</h3>
@@ -368,25 +368,25 @@ Carbon and hydrogen in the organic compound are oxidised to CO₂ and H₂O resp
         // ── Section 3: Representing Organic Compounds ────────────────────────────
         {
             id: 'ch13-sec03',
-            title: '有机物的表示方法',
+ title:'',
             content: `
-<h2>Representing Organic Compounds (有机物的表示方法)</h2>
+<h2>Representing Organic Compounds </h2>
 
 <p>Chemists use several complementary notations to describe organic molecules. Each reveals different information. You need to be comfortable converting between all four.</p>
 
 <h3>The Four Representations</h3>
 
 <div class="example-block">
-<strong>Molecular formula (分子式):</strong> Shows the number of each type of atom — nothing about structure.<br>
+<strong>Molecular formula :</strong> Shows the number of each type of atom — nothing about structure.<br>
 Example: \\( \\text{C}_4\\text{H}_{10} \\)<br><br>
 
-<strong>Structural formula (结构式):</strong> Shows every bond explicitly. Each line represents one covalent bond.<br>
+<strong>Structural formula :</strong> Shows every bond explicitly. Each line represents one covalent bond.<br>
 Example: H–C–C–C–C–H with all H branches drawn out explicitly.<br><br>
 
-<strong>Condensed (semi-structural) formula (结构简式):</strong> Groups of atoms attached to each carbon are written in sequence; bonds within each group are implied.<br>
+<strong>Condensed (semi-structural) formula :</strong> Groups of atoms attached to each carbon are written in sequence; bonds within each group are implied.<br>
 Example: \\( \\text{CH}_3\\text{CH}_2\\text{CH}_2\\text{CH}_3 \\) or \\( \\text{CH}_3(\\text{CH}_2)_2\\text{CH}_3 \\)<br><br>
 
-<strong>Skeletal (line) formula (键线式):</strong> Each vertex and each endpoint is a carbon; H atoms on carbon are omitted (implied by valence). Only heteroatoms and their H are drawn.<br>
+<strong>Skeletal (line) formula :</strong> Each vertex and each endpoint is a carbon; H atoms on carbon are omitted (implied by valence). Only heteroatoms and their H are drawn.<br>
 Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H₁₀).
 </div>
 
@@ -567,11 +567,11 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
         // ── Section 4: Structural Isomers ────────────────────────────────────────
         {
             id: 'ch13-sec04',
-            title: '同分异构体',
+ title:'',
             content: `
-<h2>Structural Isomers (同分异构体)</h2>
+<h2>Structural Isomers </h2>
 
-<p><strong>Structural isomers (同分异构体)</strong> — also called constitutional isomers — are compounds that share the same molecular formula but differ in the connectivity of their atoms (i.e., they have different structural formulas). They are different compounds with different properties.</p>
+<p><strong>Structural isomers </strong> — also called constitutional isomers — are compounds that share the same molecular formula but differ in the connectivity of their atoms (i.e., they have different structural formulas). They are different compounds with different properties.</p>
 
 <div class="info-box">
 <strong>Key criterion:</strong> Same molecular formula, different structural arrangement of atoms. They are NOT the same compound.
@@ -579,7 +579,7 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
 
 <h3>Three Main Types of Structural Isomers</h3>
 
-<h4>1. Chain (Carbon-skeleton) Isomers (碳链异构)</h4>
+<h4>1. Chain (Carbon-skeleton) Isomers </h4>
 <p>Same functional groups, different carbon skeleton (straight vs branched chain).</p>
 <p>Example — C₄H₁₀ has two chain isomers:</p>
 <ul>
@@ -587,7 +587,7 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
 <li>Isobutane: (CH₃)₃CH (branched, bp −12°C)</li>
 </ul>
 
-<h4>2. Position Isomers (位置异构)</h4>
+<h4>2. Position Isomers </h4>
 <p>Same carbon skeleton and same functional group, but the functional group is at a different position on the chain.</p>
 <p>Example — C₃H₇Cl:</p>
 <ul>
@@ -595,7 +595,7 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
 <li>2-chloropropane: CH₃CHClCH₃</li>
 </ul>
 
-<h4>3. Functional Group Isomers (官能团异构)</h4>
+<h4>3. Functional Group Isomers </h4>
 <p>Same molecular formula, different functional groups entirely — so different chemical behavior.</p>
 <p>Example — C₂H₆O:</p>
 <ul>
@@ -790,7 +790,7 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
                     question: 'Ethanol (CH₃CH₂OH) and dimethyl ether (CH₃OCH₃) are both C₂H₆O. What type of isomers are they?',
                     choices: ['Chain isomers', 'Position isomers', 'Functional group isomers', 'They are the same compound'],
                     answer: 2,
-                    explanation: 'Ethanol contains a hydroxyl group (–OH, alcohol) while dimethyl ether contains an ether linkage (–O–). They have the same molecular formula but completely different functional groups — this is a functional group isomerism (官能团异构).'
+ explanation:'Ethanol contains a hydroxyl group (–OH, alcohol) while dimethyl ether contains an ether linkage (–O–). They have the same molecular formula but completely different functional groups — this is a functional group isomerism .'
                 },
                 {
                     id: 'ch13-sec04-ex04',
@@ -817,26 +817,26 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
         // ── Section 5: IUPAC Naming ──────────────────────────────────────────────
         {
             id: 'ch13-sec05',
-            title: '有机物命名 (IUPAC)',
+ title:'(IUPAC)',
             content: `
-<h2>Naming Organic Compounds — Alkanes (烷烃命名)</h2>
+<h2>Naming Organic Compounds — Alkanes </h2>
 
-<p>The IUPAC (International Union of Pure and Applied Chemistry) naming system provides a universal language for organic compounds. For Chinese high-school chemistry, the key focus is on <strong>alkane nomenclature</strong> (烷烃命名法).</p>
+<p>The IUPAC (International Union of Pure and Applied Chemistry) naming system provides a universal language for organic compounds. For Chinese high-school chemistry, the key focus is on <strong>alkane nomenclature</strong> .</p>
 
-<h3>Alkane Parent Names (碳链主体名称)</h3>
+<h3>Alkane Parent Names </h3>
 <table class="data-table">
 <thead><tr><th>Carbons</th><th>Prefix (Chinese)</th><th>IUPAC name</th><th>Formula</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>甲 (jiǎ)</td><td>Methane</td><td>CH₄</td></tr>
-<tr><td>2</td><td>乙 (yǐ)</td><td>Ethane</td><td>C₂H₆</td></tr>
-<tr><td>3</td><td>丙 (bǐng)</td><td>Propane</td><td>C₃H₈</td></tr>
-<tr><td>4</td><td>丁 (dīng)</td><td>Butane</td><td>C₄H₁₀</td></tr>
-<tr><td>5</td><td>戊 (wù)</td><td>Pentane</td><td>C₅H₁₂</td></tr>
-<tr><td>6</td><td>己 (jǐ)</td><td>Hexane</td><td>C₆H₁₄</td></tr>
-<tr><td>7</td><td>庚 (gēng)</td><td>Heptane</td><td>C₇H₁₆</td></tr>
-<tr><td>8</td><td>辛 (xīn)</td><td>Octane</td><td>C₈H₁₈</td></tr>
-<tr><td>9</td><td>壬 (rén)</td><td>Nonane</td><td>C₉H₂₀</td></tr>
-<tr><td>10</td><td>癸 (guǐ)</td><td>Decane</td><td>C₁₀H₂₂</td></tr>
+<tr><td>1</td><td>(jiǎ)</td><td>Methane</td><td>CH₄</td></tr>
+<tr><td>2</td><td>(yǐ)</td><td>Ethane</td><td>C₂H₆</td></tr>
+<tr><td>3</td><td>(bǐng)</td><td>Propane</td><td>C₃H₈</td></tr>
+<tr><td>4</td><td>(dīng)</td><td>Butane</td><td>C₄H₁₀</td></tr>
+<tr><td>5</td><td>(wù)</td><td>Pentane</td><td>C₅H₁₂</td></tr>
+<tr><td>6</td><td>(jǐ)</td><td>Hexane</td><td>C₆H₁₄</td></tr>
+<tr><td>7</td><td>(gēng)</td><td>Heptane</td><td>C₇H₁₆</td></tr>
+<tr><td>8</td><td>(xīn)</td><td>Octane</td><td>C₈H₁₈</td></tr>
+<tr><td>9</td><td>(rén)</td><td>Nonane</td><td>C₉H₂₀</td></tr>
+<tr><td>10</td><td>(guǐ)</td><td>Decane</td><td>C₁₀H₂₂</td></tr>
 </tbody>
 </table>
 
@@ -847,12 +847,12 @@ All alkanes have only single bonds (fully saturated). They are the simplest clas
 
 <h3>IUPAC Naming Rules — Step by Step</h3>
 <ol>
-<li><strong>Identify the longest carbon chain</strong> — this is the <em>parent chain</em> (主链). The name ends in "-ane" for alkanes.</li>
+<li><strong>Identify the longest carbon chain</strong> — this is the <em>parent chain</em> . The name ends in"-ane" for alkanes.</li>
 <li><strong>Number the chain</strong> — start from the end nearer to the first branch point, so substituents get the lowest possible numbers.</li>
-<li><strong>Name the substituents (取代基)</strong> — alkyl groups derived from alkanes: methyl (–CH₃, 甲基), ethyl (–CH₂CH₃, 乙基), propyl, etc.</li>
+<li><strong>Name the substituents </strong> — alkyl groups derived from alkanes: methyl (–CH₃), ethyl (–CH₂CH₃), propyl, etc.</li>
 <li><strong>Assemble the name</strong> — list substituents alphabetically (in IUPAC) with their position numbers, then the parent chain name.
    Format: [position-substituent]parent<br>
-   Example: 2-methylbutane (2-甲基丁烷)</li>
+ Example: 2-methylbutane (2-)</li>
 <li><strong>If two identical substituents are present</strong>, use prefixes di-, tri-, tetra- with both position numbers listed.</li>
 </ol>
 
@@ -862,7 +862,7 @@ All alkanes have only single bonds (fully saturated). They are the simplest clas
 Structure: CH₃–CH(CH₃)–CH₂–CH₃<br>
 Longest chain: 4 carbons → butane<br>
 Branch: –CH₃ at carbon 2<br>
-Name: <strong>2-methylbutane (2-甲基丁烷)</strong>
+Name: <strong>2-methylbutane (2-)</strong>
 </div>
 
 <div class="example-block">
@@ -870,7 +870,7 @@ Name: <strong>2-methylbutane (2-甲基丁烷)</strong>
 Structure: CH₃–CH(CH₃)–CH(CH₃)–CH₃<br>
 Longest chain: 4 carbons → butane<br>
 Two –CH₃ branches at C2 and C3<br>
-Name: <strong>2,3-dimethylbutane (2,3-二甲基丁烷)</strong>
+Name: <strong>2,3-dimethylbutane (2,3-)</strong>
 </div>
 
 <div class="example-block">
@@ -878,7 +878,7 @@ Name: <strong>2,3-dimethylbutane (2,3-二甲基丁烷)</strong>
 Structure: CH₃–C(CH₃)₂–CH₃ (neopentane)<br>
 Longest chain: 3 carbons → propane<br>
 Two –CH₃ branches, both at C2<br>
-Name: <strong>2,2-dimethylpropane (2,2-二甲基丙烷)</strong>
+Name: <strong>2,2-dimethylpropane (2,2-)</strong>
 </div>
 
 <p>Use the interactive Naming Practice Tool below to test your naming skills.</p>
@@ -893,7 +893,7 @@ Name: <strong>2,2-dimethylpropane (2,2-二甲基丙烷)</strong>
                         const problems = [
                             {
                                 name: '2-methylbutane',
-                                chinese: '2-甲基丁烷',
+ chinese:'2-',
                                 formula: 'CH₃CH(CH₃)CH₂CH₃',
                                 draw(v) {
                                     v.clear();
@@ -938,12 +938,12 @@ Name: <strong>2,2-dimethylpropane (2,2-二甲基丙烷)</strong>
                                     ctx.fillStyle = '#8b949e'; ctx.font = '12px sans-serif'; ctx.textAlign = 'center';
                                     ctx.fillText('Parent chain: 4 C = butane  |  Branch: –CH₃ at C2  →  2-methylbutane', W / 2, H - 52);
                                     ctx.fillStyle = '#f0f6fc'; ctx.font = 'bold 13px sans-serif';
-                                    ctx.fillText('Name: 2-methylbutane  (2-甲基丁烷)', W / 2, H - 28);
+ ctx.fillText('Name: 2-methylbutane (2-)', W / 2, H - 28);
                                 }
                             },
                             {
                                 name: '2,2-dimethylpropane',
-                                chinese: '2,2-二甲基丙烷',
+ chinese:'2,2-',
                                 formula: 'C(CH₃)₄',
                                 draw(v) {
                                     v.clear();
@@ -977,12 +977,12 @@ Name: <strong>2,2-dimethylpropane (2,2-二甲基丙烷)</strong>
                                     ctx.fillStyle = '#8b949e'; ctx.font = '12px sans-serif'; ctx.textAlign = 'center';
                                     ctx.fillText('Parent chain: 3 C = propane  |  Two –CH₃ at C2  →  2,2-dimethylpropane', W / 2, H - 52);
                                     ctx.fillStyle = '#f0f6fc'; ctx.font = 'bold 13px sans-serif';
-                                    ctx.fillText('Name: 2,2-dimethylpropane  (2,2-二甲基丙烷)', W / 2, H - 28);
+ ctx.fillText('Name: 2,2-dimethylpropane (2,2-)', W / 2, H - 28);
                                 }
                             },
                             {
                                 name: '2,3-dimethylbutane',
-                                chinese: '2,3-二甲基丁烷',
+ chinese:'2,3-',
                                 formula: '(CH₃)₂CHCH(CH₃)₂',
                                 draw(v) {
                                     v.clear();
@@ -1019,7 +1019,7 @@ Name: <strong>2,2-dimethylpropane (2,2-二甲基丙烷)</strong>
                                     ctx.fillStyle = '#8b949e'; ctx.font = '12px sans-serif'; ctx.textAlign = 'center';
                                     ctx.fillText('Parent chain: 4 C = butane  |  –CH₃ at C2 and C3  →  2,3-dimethylbutane', W / 2, H - 48);
                                     ctx.fillStyle = '#f0f6fc'; ctx.font = 'bold 13px sans-serif';
-                                    ctx.fillText('Name: 2,3-dimethylbutane  (2,3-二甲基丁烷)', W / 2, H - 24);
+ ctx.fillText('Name: 2,3-dimethylbutane (2,3-)', W / 2, H - 24);
                                 }
                             }
                         ];
@@ -1072,13 +1072,13 @@ Name: <strong>2,2-dimethylpropane (2,2-二甲基丙烷)</strong>
                     question: 'What is the general formula for all alkanes (saturated hydrocarbons with no rings)?',
                     choices: ['CₙH₂ₙ', 'CₙH₂ₙ₊₂', 'CₙH₂ₙ₋₂', 'CₙH₂ₙ₊₁'],
                     answer: 1,
-                    explanation: 'Alkanes (无环饱和烃) have the general formula CₙH₂ₙ₊₂. For example: methane CH₄ (n=1, 2×1+2=4), ethane C₂H₆ (n=2, 2×2+2=6).'
+ explanation:'Alkanes have the general formula CₙH₂ₙ₊₂. For example: methane CH₄ (n=1, 2×1+2=4), ethane C₂H₆ (n=2, 2×2+2=6).'
                 },
                 {
                     id: 'ch13-sec05-ex05',
                     type: 'short-answer',
                     question: 'Give the IUPAC name for: (CH₃)₂CHCH(CH₃)CH₂CH₃ and state the number of carbons in the longest chain.',
-                    answer: 'The longest continuous chain has 5 carbons: pentane. A methyl branch at C2, another methyl branch at C3 (numbering from the end nearest the first branch). IUPAC name: 2,3-dimethylpentane (2,3-二甲基戊烷).'
+ answer:'The longest continuous chain has 5 carbons: pentane. A methyl branch at C2, another methyl branch at C3 (numbering from the end nearest the first branch). IUPAC name: 2,3-dimethylpentane (2,3-).'
                 },
                 {
                     id: 'ch13-sec05-ex06',

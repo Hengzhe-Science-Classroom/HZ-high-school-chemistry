@@ -6,13 +6,13 @@ window.CHAPTERS.push({
   sections: [
 
     // ─────────────────────────────────────────────────────────────────────────
-    // Section 1: Water Pollution & Treatment (水污染与治理)
+ // Section 1: Water Pollution & Treatment
     // ─────────────────────────────────────────────────────────────────────────
     {
       id: 'ch17-sec01',
       title: 'Water Pollution & Treatment',
       content: `
-<h2>Water Pollution & Treatment (水污染与治理)</h2>
+<h2>Water Pollution & Treatment </h2>
 <p>
   Water is fundamental to all life, yet rapid industrialization and agriculture
   have introduced a wide range of pollutants into freshwater and marine systems.
@@ -378,13 +378,13 @@ window.CHAPTERS.push({
     },
 
     // ─────────────────────────────────────────────────────────────────────────
-    // Section 2: Air Pollution (大气污染)
+ // Section 2: Air Pollution
     // ─────────────────────────────────────────────────────────────────────────
     {
       id: 'ch17-sec02',
       title: 'Air Pollution',
       content: `
-<h2>Air Pollution (大气污染)</h2>
+<h2>Air Pollution </h2>
 <p>
   The atmosphere is a fragile chemical system. Combustion of fossil fuels,
   industrial processes, and transportation release pollutants that alter
@@ -818,13 +818,13 @@ window.CHAPTERS.push({
     },
 
     // ─────────────────────────────────────────────────────────────────────────
-    // Section 3: Solid Waste & Recycling (固体废物处理)
+ // Section 3: Solid Waste & Recycling
     // ─────────────────────────────────────────────────────────────────────────
     {
       id: 'ch17-sec03',
       title: 'Solid Waste Management',
       content: `
-<h2>Solid Waste Management (固体废物处理)</h2>
+<h2>Solid Waste Management </h2>
 <p>
   Modern society generates enormous quantities of solid waste. Chemistry is
   central to understanding how materials can be recycled, safely disposed of,
@@ -839,22 +839,22 @@ window.CHAPTERS.push({
   </thead>
   <tbody>
     <tr>
-      <td>Kitchen Waste (厨余垃圾)</td>
+ <td>Kitchen Waste </td>
       <td>Food scraps, vegetable peels</td>
       <td>Composting, anaerobic digestion (→ biogas)</td>
     </tr>
     <tr>
-      <td>Recyclables (可回收物)</td>
+ <td>Recyclables </td>
       <td>Paper, glass, metals, plastics</td>
       <td>Sorting & recycling</td>
     </tr>
     <tr>
-      <td>Hazardous Waste (有害垃圾)</td>
+ <td>Hazardous Waste </td>
       <td>Batteries, paint, pesticides, fluorescent tubes</td>
       <td>Special collection & treatment</td>
     </tr>
     <tr>
-      <td>Residual Waste (其他垃圾)</td>
+ <td>Residual Waste </td>
       <td>Mixed non-recyclable waste</td>
       <td>Incineration or landfill</td>
     </tr>
@@ -1204,7 +1204,7 @@ window.CHAPTERS.push({
         {
           question: 'Which waste category should batteries and fluorescent tubes be placed in (China classification)?',
           type: 'mcq',
-          options: ['Kitchen waste (厨余垃圾)', 'Recyclables (可回收物)', 'Hazardous waste (有害垃圾)', 'Residual waste (其他垃圾)'],
+ options: ['Kitchen waste','Recyclables','Hazardous waste','Residual waste'],
           answer: 2,
           explanation: 'Batteries and fluorescent tubes contain toxic metals (Pb, Hg) and must be collected as hazardous waste for special treatment.'
         },
@@ -1226,13 +1226,13 @@ window.CHAPTERS.push({
     },
 
     // ─────────────────────────────────────────────────────────────────────────
-    // Section 4: New Energy Sources (新能源)
+ // Section 4: New Energy Sources
     // ─────────────────────────────────────────────────────────────────────────
     {
       id: 'ch17-sec04',
       title: 'New Energy Sources',
       content: `
-<h2>New Energy Sources (新能源)</h2>
+<h2>New Energy Sources </h2>
 <p>
   Fossil fuels (coal, oil, natural gas) are finite and emit CO₂. The
   transition to sustainable energy systems requires chemistry at every step —
@@ -1448,20 +1448,20 @@ window.CHAPTERS.push({
     },
 
     // ─────────────────────────────────────────────────────────────────────────
-    // Section 5: New Materials (新材料)
+ // Section 5: New Materials
     // ─────────────────────────────────────────────────────────────────────────
     {
       id: 'ch17-sec05',
       title: 'Advanced Materials',
       content: `
-<h2>Advanced Materials (新材料)</h2>
+<h2>Advanced Materials </h2>
 <p>
   Materials chemistry drives technological innovation. From the plastic in
   your phone case to the superconductors in MRI machines, modern materials
   are designed at the molecular level.
 </p>
 
-<h3>Polymers (高分子材料)</h3>
+<h3>Polymers </h3>
 <p>
   Polymers are large molecules built from repeating monomer units. The
   properties of a polymer depend on the monomer, degree of polymerization,
@@ -1522,7 +1522,7 @@ window.CHAPTERS.push({
   (This forms Nylon-66)
 </div>
 
-<h3>Nanomaterials (纳米材料)</h3>
+<h3>Nanomaterials </h3>
 <p>
   Nanomaterials have at least one dimension between 1 and 100 nm. At this
   scale, quantum effects and surface-to-volume ratios dominate:
@@ -1570,7 +1570,7 @@ window.CHAPTERS.push({
   maglev trains.
 </p>
 
-<h3>Smart Materials (智能材料)</h3>
+<h3>Smart Materials </h3>
 
 <table class="data-table">
   <thead>

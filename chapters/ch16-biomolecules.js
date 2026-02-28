@@ -8,52 +8,52 @@ window.CHAPTERS.push({
     // ─── Section 1: Carbohydrates ───────────────────────────────────────────
     {
       id: 'ch16-sec01',
-      title: '糖类 — Carbohydrates',
+      title: 'Carbohydrates',
       content: `
-<h2>糖类 — Carbohydrates</h2>
-<p>糖类（碳水化合物）是生命能量的主要来源，通式为 \\((CH_2O)_n\\)，由碳、氢、氧三种元素组成。</p>
+<h2>Carbohydrates</h2>
+<p>Carbohydrates are the primary source of energy for life. Their general formula is \\((CH_2O)_n\\), composed of carbon, hydrogen, and oxygen.</p>
 
 <div class="info-box">
-<strong>分类一览</strong>
+<strong>Classification Overview</strong>
 <ul>
-  <li><strong>单糖（Monosaccharides）</strong>：不能水解的最简单糖。代表：葡萄糖 \\(C_6H_{12}O_6\\)、果糖 \\(C_6H_{12}O_6\\)（同分异构体）、核糖 \\(C_5H_{10}O_5\\)。</li>
-  <li><strong>二糖（Disaccharides）</strong>：两分子单糖脱水缩合。蔗糖（葡萄糖＋果糖）、麦芽糖（葡萄糖＋葡萄糖），分子式 \\(C_{12}H_{22}O_{11}\\)。</li>
-  <li><strong>多糖（Polysaccharides）</strong>：大量葡萄糖聚合，\\((C_6H_{10}O_5)_n\\)。淀粉（植物储能）、纤维素（植物细胞壁）、糖原（动物储能）。</li>
+  <li><strong>Monosaccharides</strong>: The simplest sugars that cannot be hydrolyzed further. Representatives: glucose \\(C_6H_{12}O_6\\), fructose \\(C_6H_{12}O_6\\) (structural isomers), ribose \\(C_5H_{10}O_5\\).</li>
+  <li><strong>Disaccharides</strong>: Formed by condensation of two monosaccharides. Sucrose (glucose + fructose), maltose (glucose + glucose), molecular formula \\(C_{12}H_{22}O_{11}\\).</li>
+  <li><strong>Polysaccharides</strong>: Polymers of many glucose units, \\((C_6H_{10}O_5)_n\\). Starch (plant energy storage), cellulose (plant cell walls), glycogen (animal energy storage).</li>
 </ul>
 </div>
 
-<h3>葡萄糖的结构</h3>
-<p>葡萄糖既有链式结构又有环式结构（Haworth投影）。在水溶液中以六元环（吡喃糖）为主要存在形式：</p>
-<p>链式：\\(CH_2OH{-}(CHOH)_4{-}CHO\\)（含醛基，属醛糖）</p>
-<p>环式：C1的醛基与C5的羟基关环，形成六元氧环。</p>
+<h3>Structure of Glucose</h3>
+<p>Glucose exists in both chain (open-chain) and ring (cyclic) forms (Haworth projection). In aqueous solution, the six-membered ring (pyranose) form predominates:</p>
+<p>Chain form: \\(CH_2OH{-}(CHOH)_4{-}CHO\\) (contains aldehyde group, an aldose)</p>
+<p>Ring form: The aldehyde at C1 reacts with the hydroxyl at C5 to form a six-membered oxygen-containing ring.</p>
 
 <div class="env-block experiment">
-<strong>葡萄糖的鉴别实验</strong>
+<strong>Identification Tests for Glucose</strong>
 <ul>
-  <li>银镜反应：与银氨溶液在水浴中反应，在试管壁生成光亮银镜。</li>
-  <li>与新制 \\(Cu(OH)_2\\) 反应：生成砖红色 \\(Cu_2O\\) 沉淀（加热条件）。</li>
-  <li>两个反应均体现葡萄糖中的<strong>醛基（–CHO）</strong>的还原性。</li>
+  <li>Silver mirror reaction: Reacts with Tollens' reagent (silver ammonia solution) in a water bath to form a bright silver mirror on the test tube wall.</li>
+  <li>Reaction with freshly prepared \\(Cu(OH)_2\\): Produces a brick-red \\(Cu_2O\\) precipitate upon heating.</li>
+  <li>Both reactions demonstrate the reducing property of the <strong>aldehyde group (–CHO)</strong> in glucose.</li>
 </ul>
 </div>
 
-<h3>蔗糖与麦芽糖</h3>
+<h3>Sucrose and Maltose</h3>
 <table class="data-table">
-  <tr><th></th><th>蔗糖</th><th>麦芽糖</th></tr>
-  <tr><td>分子式</td><td>\\(C_{12}H_{22}O_{11}\\)</td><td>\\(C_{12}H_{22}O_{11}\\)</td></tr>
-  <tr><td>水解产物</td><td>葡萄糖＋果糖</td><td>葡萄糖＋葡萄糖</td></tr>
-  <tr><td>银镜反应</td><td>不反应（非还原糖）</td><td>可反应（含游离醛基）</td></tr>
+  <tr><th></th><th>Sucrose</th><th>Maltose</th></tr>
+  <tr><td>Molecular formula</td><td>\\(C_{12}H_{22}O_{11}\\)</td><td>\\(C_{12}H_{22}O_{11}\\)</td></tr>
+  <tr><td>Hydrolysis products</td><td>Glucose + Fructose</td><td>Glucose + Glucose</td></tr>
+  <tr><td>Silver mirror test</td><td>No reaction (non-reducing sugar)</td><td>Positive (contains free aldehyde group)</td></tr>
 </table>
 
-<h3>淀粉与纤维素</h3>
-<p>淀粉与纤维素互为同分异构体（同为 \\((C_6H_{10}O_5)_n\\)），但 \\(n\\) 不同，且连接方式不同（\\(\\alpha\\)-糖苷键 vs \\(\\beta\\)-糖苷键），导致性质差异显著：</p>
+<h3>Starch and Cellulose</h3>
+<p>Starch and cellulose share the formula \\((C_6H_{10}O_5)_n\\), but differ in \\(n\\) and linkage type (\\(\\alpha\\)-glycosidic bonds vs \\(\\beta\\)-glycosidic bonds), leading to significantly different properties:</p>
 <ul>
-  <li>淀粉遇碘变蓝（用于鉴别）；纤维素不变色。</li>
-  <li>淀粉可被人体酶水解为葡萄糖；纤维素不能被人体消化。</li>
-  <li>纤维素可制造纸张、棉花、人造丝（黏胶纤维）。</li>
+  <li>Starch turns blue with iodine (used for identification); cellulose does not change color.</li>
+  <li>Starch can be hydrolyzed to glucose by human enzymes; cellulose cannot be digested by humans.</li>
+  <li>Cellulose is used to make paper, cotton, and rayon (viscose fiber).</li>
 </ul>
 
 <div class="env-block formula">
-水解总反应（酸催化）：
+Overall hydrolysis reaction (acid-catalyzed):
 \\[(C_6H_{10}O_5)_n + nH_2O \\xrightarrow{H^+, \\Delta} nC_6H_{12}O_6\\]
 </div>
       `,
@@ -69,7 +69,7 @@ window.CHAPTERS.push({
 
             function drawChain(alpha) {
               v.clear();
-              v.screenText('葡萄糖链式结构', v.width / 2, 22, v.colors.teal, 16);
+              v.screenText('Glucose Chain Structure', v.width / 2, 22, v.colors.teal, 16);
               // vertical carbon chain
               const cx = v.width * 0.5 * (1 - alpha) + v.width * 0.35 * alpha;
               const ys = [60, 105, 150, 195, 240, 285];
@@ -89,13 +89,13 @@ window.CHAPTERS.push({
               for (let i = 0; i < 6; i++) {
                 v.screenText('C' + (i + 1), cx - 50, ys[i], v.colors.text, 11);
               }
-              v.screenText('醛基 –CHO', cx + 80, ys[0], v.colors.orange, 11);
-              v.screenText('C5–OH 进攻 C1', cx + 90, ys[4], v.colors.yellow, 10);
+              v.screenText('Aldehyde –CHO', cx + 80, ys[0], v.colors.orange, 11);
+              v.screenText('C5–OH attacks C1', cx + 90, ys[4], v.colors.yellow, 10);
             }
 
             function drawRing() {
               v.clear();
-              v.screenText('葡萄糖环式结构 (Haworth投影)', v.width / 2, 22, v.colors.teal, 16);
+              v.screenText('Glucose Ring Structure (Haworth Projection)', v.width / 2, 22, v.colors.teal, 16);
               const cx = v.width / 2, cy = v.height / 2 + 20;
               const R = 90;
               // Draw oxygen in ring
@@ -131,8 +131,8 @@ window.CHAPTERS.push({
                 v.ctx.textAlign = 'center'; v.ctx.textBaseline = 'middle';
                 v.ctx.fillText(subs[i][0], ox, oy);
               }
-              v.screenText('α-D-葡萄糖 (六元吡喃环)', v.width / 2, v.height - 20, v.colors.text, 12);
-              v.screenText('C1–OH 在环平面下方 (α型)', v.width / 2, v.height - 40, v.colors.orange, 11);
+              v.screenText('\u03b1-D-Glucose (six-membered pyranose ring)', v.width / 2, v.height - 20, v.colors.text, 12);
+              v.screenText('C1\u2013OH below ring plane (\u03b1 form)', v.width / 2, v.height - 40, v.colors.orange, 11);
             }
 
             function render() {
@@ -150,7 +150,7 @@ window.CHAPTERS.push({
 
             const btn = document.createElement('button');
             btn.className = 'viz-btn';
-            btn.textContent = '切换链式 ↔ 环式';
+            btn.textContent = 'Toggle Chain \u2194 Ring';
             btn.onclick = () => { mode = 1; t = 0; };
             container.appendChild(btn);
 
@@ -221,53 +221,53 @@ window.CHAPTERS.push({
             drawArrow(W*0.2, 160, W*0.22, 221, C.blue);
 
             // Level 2 - Disaccharides
-            drawNode(W*0.42, 240, 110, 38, 'Sucrose', '蔗糖', C.orange);
-            drawNode(W*0.58, 240, 110, 38, 'Maltose', '麦芽糖', C.orange);
+            drawNode(W*0.42, 240, 110, 38, 'Sucrose', 'Glc + Fru', C.orange);
+            drawNode(W*0.58, 240, 110, 38, 'Maltose', 'Glc + Glc', C.orange);
             drawArrow(W*0.5, 160, W*0.42, 221, C.orange);
             drawArrow(W*0.5, 160, W*0.58, 221, C.orange);
 
             // Level 2 - Polysaccharides
-            drawNode(W*0.72, 240, 110, 38, 'Starch 淀粉', 'α-glucose', C.purple);
-            drawNode(W*0.88, 240, 110, 38, 'Cellulose 纤维素', 'β-glucose', C.purple);
+            drawNode(W*0.72, 240, 110, 38, 'Starch', 'α-glucose', C.purple);
+            drawNode(W*0.88, 240, 110, 38, 'Cellulose', 'β-glucose', C.purple);
             drawArrow(W*0.8, 160, W*0.72, 221, C.purple);
             drawArrow(W*0.8, 160, W*0.88, 221, C.purple);
 
             // Properties row
-            drawNode(W*0.72, 330, 110, 36, 'Digestible', '可消化，储能', C.green);
-            drawNode(W*0.88, 330, 110, 36, 'Not digestible', '细胞壁，纤维', C.red);
+            drawNode(W*0.72, 330, 110, 36, 'Digestible', 'Energy storage', C.green);
+            drawNode(W*0.88, 330, 110, 36, 'Not digestible', 'Cell walls, fiber', C.red);
             drawArrow(W*0.72, 259, W*0.72, 312, C.purple);
             drawArrow(W*0.88, 259, W*0.88, 312, C.purple);
 
             // Title
             ctx.fillStyle = C.text; ctx.font = '12px -apple-system,sans-serif';
             ctx.textAlign = 'center'; ctx.textBaseline = 'top';
-            ctx.fillText('糖类分类树 — Carbohydrate Classification Tree', W/2, H - 20);
+            ctx.fillText('Carbohydrate Classification Tree', W/2, H - 20);
           }
         }
       ],
       exercises: [
         {
           id: 'ch16-sec01-ex01',
-          question: '葡萄糖与果糖的分子式均为 \\(C_6H_{12}O_6\\)，它们的关系是（ ）',
+          question: 'Glucose and fructose both have the molecular formula \\(C_6H_{12}O_6\\). What is their relationship?',
           type: 'mcq',
-          options: ['同素异形体', '同位素', '同分异构体', '同种物质'],
+          options: ['Allotropes', 'Isotopes', 'Structural isomers', 'Same substance'],
           answer: 2,
-          explanation: '分子式相同但结构不同的化合物互称同分异构体。葡萄糖含醛基，果糖含酮基，结构不同，故选同分异构体。'
+          explanation: 'Compounds with the same molecular formula but different structures are structural isomers. Glucose contains an aldehyde group while fructose contains a ketone group.'
         },
         {
           id: 'ch16-sec01-ex02',
-          question: '下列关于淀粉和纤维素的说法，正确的是（ ）',
+          question: 'Which statement about starch and cellulose is correct?',
           type: 'mcq',
-          options: ['它们互为同分异构体', '遇碘均变蓝', '淀粉可被人体消化，纤维素不能被人体消化', '两者的水解产物不同'],
+          options: ['They are structural isomers', 'Both turn blue with iodine', 'Starch can be digested by humans but cellulose cannot', 'Their hydrolysis products are different'],
           answer: 2,
-          explanation: '淀粉与纤维素虽同为 (C₆H₁₀O₅)ₙ，但 n 值不同，不是同分异构体。只有淀粉遇碘变蓝。水解最终产物均为葡萄糖，但人体缺乏分解 β-糖苷键的酶，所以不能消化纤维素。'
+          explanation: 'Although both have formula (C\u2086H\u2081\u2080O\u2085)\u2099, their n values differ so they are not isomers. Only starch turns blue with iodine. Both ultimately hydrolyze to glucose, but humans lack enzymes to break \u03b2-glycosidic bonds.'
         },
         {
           id: 'ch16-sec01-ex03',
-          question: '将葡萄糖加入银氨溶液并水浴加热，可以在试管壁上产生银镜。该实验说明葡萄糖分子中含有________官能团。',
+          question: 'Adding glucose to silver ammonia solution and heating in a water bath produces a silver mirror. This shows glucose contains the ________ functional group.',
           type: 'short',
-          answer: '醛基（–CHO）',
-          explanation: '银镜反应是醛基的特征反应。葡萄糖链式结构中C1位含有醛基，能将银氨溶液中的 Ag⁺ 还原为 Ag，在试管壁形成银镜。'
+          answer: 'Aldehyde group (\u2013CHO)',
+          explanation: 'The silver mirror reaction is characteristic of the aldehyde group. The C1 position in the chain form of glucose contains an aldehyde group that reduces Ag\u207a to Ag.'
         }
       ]
     },
@@ -275,51 +275,51 @@ window.CHAPTERS.push({
     // ─── Section 2: Fats and Oils ────────────────────────────────────────────
     {
       id: 'ch16-sec02',
-      title: '油脂 — Fats and Oils',
+      title: 'Fats and Oils',
       content: `
-<h2>油脂 — Fats and Oils</h2>
-<p>油脂是高级脂肪酸与甘油生成的酯，化学名为<strong>三酰甘油（甘油三酯）</strong>，属于酯类化合物，不是高分子。</p>
+<h2>Fats and Oils</h2>
+<p>Fats and oils are esters formed from higher fatty acids and glycerol, chemically known as <strong>triacylglycerols (triglycerides)</strong>. They are ester compounds, not macromolecules.</p>
 
 <div class="env-block formula">
-结构通式（R 代表高级脂肪酸烃基）：
-\\[\\underbrace{C_3H_5(OH)_3}_{\\text{甘油}} + 3\\underbrace{RCOOH}_{\\text{高级脂肪酸}} \\rightleftharpoons \\underbrace{C_3H_5(OOCR)_3}_{\\text{甘油三酯}} + 3H_2O\\]
+General structural formula (R represents a fatty acid hydrocarbon chain):
+\\[\\underbrace{C_3H_5(OH)_3}_{\\text{glycerol}} + 3\\underbrace{RCOOH}_{\\text{fatty acid}} \\rightleftharpoons \\underbrace{C_3H_5(OOCR)_3}_{\\text{triglyceride}} + 3H_2O\\]
 </div>
 
-<h3>饱和脂肪酸与不饱和脂肪酸</h3>
+<h3>Saturated and Unsaturated Fatty Acids</h3>
 <table class="data-table">
-  <tr><th></th><th>饱和脂肪酸</th><th>不饱和脂肪酸</th></tr>
-  <tr><td>碳链</td><td>全部单键（–C–C–）</td><td>含碳碳双键（–C=C–）</td></tr>
-  <tr><td>举例</td><td>硬脂酸 \\(C_{17}H_{35}COOH\\)、软脂酸</td><td>油酸 \\(C_{17}H_{33}COOH\\)、亚油酸</td></tr>
-  <tr><td>状态（常温）</td><td>固态（脂肪）</td><td>液态（油）</td></tr>
-  <tr><td>来源</td><td>动物脂肪</td><td>植物油</td></tr>
+  <tr><th></th><th>Saturated Fatty Acids</th><th>Unsaturated Fatty Acids</th></tr>
+  <tr><td>Carbon chain</td><td>All single bonds (\u2013C\u2013C\u2013)</td><td>Contains C=C double bonds (\u2013C=C\u2013)</td></tr>
+  <tr><td>Examples</td><td>Stearic acid \\(C_{17}H_{35}COOH\\), palmitic acid</td><td>Oleic acid \\(C_{17}H_{33}COOH\\), linoleic acid</td></tr>
+  <tr><td>State (room temp)</td><td>Solid (fat)</td><td>Liquid (oil)</td></tr>
+  <tr><td>Source</td><td>Animal fats</td><td>Plant oils</td></tr>
 </table>
 
-<h3>油脂的化学性质</h3>
+<h3>Chemical Properties of Fats and Oils</h3>
 <ol>
-  <li><strong>氢化（硬化）</strong>：不饱和油脂中的碳碳双键加氢，变成固态脂肪。人造奶油（margarine）即此原理。
-    \\[\\text{液态油} + H_2 \\xrightarrow{Ni, \\Delta} \\text{固态脂肪}\\]
+  <li><strong>Hydrogenation (hardening)</strong>: C=C double bonds in unsaturated oils react with H&#x2082;, becoming solid fats. Margarine is made this way.
+    \\[\\text{liquid oil} + H_2 \\xrightarrow{Ni, \\Delta} \\text{solid fat}\\]
   </li>
-  <li><strong>皂化（Saponification）</strong>：油脂在碱（NaOH 或 KOH）水溶液中水解，生成高级脂肪酸钠（钾）盐（即肥皂）和甘油。
+  <li><strong>Saponification</strong>: Fats hydrolyze in aqueous NaOH or KOH to produce sodium (potassium) salts of fatty acids (soap) and glycerol.
     <div class="env-block formula">
     \\[C_3H_5(OOCR)_3 + 3NaOH \\xrightarrow{\\Delta} 3RCOONa + C_3H_5(OH)_3\\]
-    肥皂（硬脂酸钠等）的分子结构：亲水头（–COO⁻Na⁺）+ 疏水尾（长碳链），形成胶束去污。
+    Soap structure: hydrophilic head (\u2013COO\u207bNa\u207a) + hydrophobic tail (long carbon chain), forming micelles for cleaning.
     </div>
   </li>
 </ol>
 
 <div class="env-block note">
-<strong>肥皂 vs 合成洗涤剂</strong>
+<strong>Soap vs Synthetic Detergents</strong>
 <ul>
-  <li>肥皂：天然油脂皂化所得，可生物降解，在硬水中与Ca²⁺/Mg²⁺生成难溶皂，去污力下降。</li>
-  <li>合成洗涤剂（如十二烷基苯磺酸钠）：耐硬水，但部分不易降解。</li>
+  <li>Soap: Obtained from saponification of natural fats, biodegradable, but forms insoluble scum with Ca\u00b2\u207a/Mg\u00b2\u207a in hard water, reducing cleaning power.</li>
+  <li>Synthetic detergents (e.g., sodium dodecylbenzenesulfonate): resistant to hard water, but some are not easily biodegradable.</li>
 </ul>
 </div>
 
-<h3>油脂与人体健康</h3>
+<h3>Fats and Human Health</h3>
 <ul>
-  <li>油脂是能量最密集的营养素（约37 kJ/g），并帮助吸收脂溶性维生素 A、D、E、K。</li>
-  <li>反式脂肪酸（不完全氢化产生）增加心血管风险，应限制摄入。</li>
-  <li>必需脂肪酸（ω-3、ω-6）人体不能合成，须从食物中摄取。</li>
+  <li>Fats are the most energy-dense nutrient (~37 kJ/g) and help absorb fat-soluble vitamins A, D, E, K.</li>
+  <li>Trans fatty acids (from incomplete hydrogenation) increase cardiovascular risk and should be limited.</li>
+  <li>Essential fatty acids (\u03c9-3, \u03c9-6) cannot be synthesized by the body and must be obtained from food.</li>
 </ul>
       `,
       visualizations: [
@@ -339,23 +339,23 @@ window.CHAPTERS.push({
 
               if (phase === 0) {
                 // Left: triglyceride
-                v.screenText('甘油三酯（油脂）', 175, 28, v.colors.teal, 14);
+                v.screenText('Triglyceride (Fat/Oil)', 175, 28, v.colors.teal, 14);
                 v.ctx.fillStyle = v.colors.blue + 'cc';
                 v.ctx.fillRect(60, 55, 230, 220);
                 v.screenText('C₃H₅(OOCR)₃', 175, 165, v.colors.white, 16);
-                v.screenText('（三酰甘油）', 175, 190, v.colors.text, 12);
+                v.screenText('(Triacylglycerol)', 175, 190, v.colors.text, 12);
                 // Right: NaOH
-                v.screenText('NaOH 水溶液', 525, 28, v.colors.orange, 14);
+                v.screenText('NaOH Aqueous Solution', 525, 28, v.colors.orange, 14);
                 v.ctx.fillStyle = v.colors.orange + 'aa';
                 v.ctx.fillRect(410, 55, 230, 220);
                 v.screenText('3 NaOH(aq)', 525, 165, v.colors.white, 16);
                 // Plus sign
                 v.screenText('+', 350, 165, v.colors.yellow, 28);
-                v.screenText('← 点击"开始皂化"', 350, 290, v.colors.text, 12);
+                v.screenText('\u2190 Click "Start Saponification"', 350, 290, v.colors.text, 12);
 
               } else if (phase === 1) {
                 // Mixing animation
-                v.screenText('加热皂化中... Δ', v.width / 2, 28, v.colors.yellow, 15);
+                v.screenText('Heating for saponification... \u0394', v.width / 2, 28, v.colors.yellow, 15);
                 for (let i = 0; i < 12; i++) {
                   const angle = (i / 12) * Math.PI * 2 + tick * 0.04;
                   const r = 80 + 20 * Math.sin(tick * 0.07 + i);
@@ -365,31 +365,31 @@ window.CHAPTERS.push({
                   v.ctx.fillStyle = col + 'bb';
                   v.ctx.beginPath(); v.ctx.arc(px, py, 14, 0, Math.PI * 2); v.ctx.fill();
                 }
-                v.screenText('C₃H₅(OOCR)₃ + 3NaOH → 3RCOONa + 甘油', v.width / 2, v.height - 30, v.colors.text, 12);
+                v.screenText('C\u2083H\u2085(OOCR)\u2083 + 3NaOH \u2192 3RCOONa + Glycerol', v.width / 2, v.height - 30, v.colors.text, 12);
                 if (tick > 140) { phase = 2; tick = 0; }
 
               } else {
                 // Products
-                v.screenText('皂化完成！', v.width / 2, 22, v.colors.green, 16);
+                v.screenText('Saponification Complete!', v.width / 2, 22, v.colors.green, 16);
                 // Soap (sodium stearate)
                 v.ctx.fillStyle = v.colors.green + 'bb';
                 v.ctx.fillRect(40, 50, 240, 220);
-                v.screenText('肥皂', 160, 80, v.colors.white, 15);
+                v.screenText('Soap', 160, 80, v.colors.white, 15);
                 v.screenText('RCOONa', 160, 115, v.colors.white, 14);
-                v.screenText('（高级脂肪酸钠）', 160, 140, v.colors.text, 11);
+                v.screenText('(Sodium fatty acid salt)', 160, 140, v.colors.text, 11);
                 // Draw soap micelle symbol
                 v.ctx.fillStyle = v.colors.teal;
                 v.ctx.beginPath(); v.ctx.arc(160, 200, 20, 0, Math.PI * 2); v.ctx.fill();
-                v.screenText('胶束', 160, 200, v.colors.white, 11);
+                v.screenText('Micelle', 160, 200, v.colors.white, 11);
                 // Arrow
                 v.screenText('+', 350, 160, v.colors.yellow, 26);
                 // Glycerol
                 v.ctx.fillStyle = v.colors.purple + 'bb';
                 v.ctx.fillRect(420, 50, 240, 220);
-                v.screenText('甘油', 540, 80, v.colors.white, 15);
+                v.screenText('Glycerol', 540, 80, v.colors.white, 15);
                 v.screenText('C₃H₅(OH)₃', 540, 115, v.colors.white, 14);
-                v.screenText('（无色粘稠液体）', 540, 140, v.colors.text, 11);
-                v.screenText('用于护肤品、炸药等', 540, 200, v.colors.text, 11);
+                v.screenText('(Colorless viscous liquid)', 540, 140, v.colors.text, 11);
+                v.screenText('Used in cosmetics, explosives, etc.', 540, 200, v.colors.text, 11);
               }
             }
 
@@ -398,12 +398,12 @@ window.CHAPTERS.push({
 
             const btn = document.createElement('button');
             btn.className = 'viz-btn';
-            btn.textContent = '开始皂化';
+            btn.textContent = 'Start Saponification';
             btn.onclick = () => { phase = 1; tick = 0; };
             const btn2 = document.createElement('button');
             btn2.className = 'viz-btn';
             btn2.style.marginLeft = '8px';
-            btn2.textContent = '重置';
+            btn2.textContent = 'Reset';
             btn2.onclick = () => { phase = 0; tick = 0; };
             container.appendChild(btn);
             container.appendChild(btn2);
@@ -414,18 +414,18 @@ window.CHAPTERS.push({
       exercises: [
         {
           id: 'ch16-sec02-ex01',
-          question: '油脂皂化反应的本质是（ ）',
+          question: 'The essential nature of the saponification reaction of fats is:',
           type: 'mcq',
-          options: ['加成反应', '酯的碱性水解', '氧化反应', '中和反应'],
+          options: ['Addition reaction', 'Alkaline hydrolysis of an ester', 'Oxidation reaction', 'Neutralization reaction'],
           answer: 1,
-          explanation: '皂化反应是油脂（酯类）在碱性条件下的水解反应，即酯的碱性水解，生成高级脂肪酸盐和甘油。'
+          explanation: 'Saponification is the hydrolysis of fats (esters) under alkaline conditions, producing fatty acid salts and glycerol.'
         },
         {
           id: 'ch16-sec02-ex02',
-          question: '植物油在 Ni 催化下加氢变成固态脂肪，这个过程利用了不饱和脂肪酸中的________发生加氢反应。',
+          question: 'When plant oil is hydrogenated with Ni catalyst to become solid fat, this process utilizes the ________ in unsaturated fatty acids undergoing hydrogenation.',
           type: 'short',
-          answer: '碳碳双键（C=C）',
-          explanation: '不饱和脂肪酸含有碳碳双键，可以与氢气发生加成反应，使液态油变成固态脂肪，此过程称为油脂的氢化（硬化）。'
+          answer: 'Carbon-carbon double bond (C=C)',
+          explanation: 'Unsaturated fatty acids contain C=C double bonds that undergo addition reactions with hydrogen gas, converting liquid oils to solid fats (hydrogenation/hardening).'
         }
       ]
     },
@@ -433,53 +433,53 @@ window.CHAPTERS.push({
     // ─── Section 3: Proteins ─────────────────────────────────────────────────
     {
       id: 'ch16-sec03',
-      title: '蛋白质 — Proteins',
+      title: 'Proteins',
       content: `
-<h2>蛋白质 — Proteins</h2>
-<p>蛋白质是生命最重要的有机大分子，由20种氨基酸通过肽键连接而成，承担催化、运输、结构、信号传导等功能。</p>
+<h2>Proteins</h2>
+<p>Proteins are the most important organic macromolecules of life, composed of 20 types of amino acids linked by peptide bonds, performing functions such as catalysis, transport, structural support, and signal transduction.</p>
 
-<h3>氨基酸（Amino Acids）</h3>
-<p>氨基酸是蛋白质的基本单元，含有<strong>氨基（–NH₂）</strong>和<strong>羧基（–COOH）</strong>，连接在同一碳原子（α-碳）上：</p>
+<h3>Amino Acids</h3>
+<p>Amino acids are the building blocks of proteins, containing an <strong>amino group (\u2013NH\u2082)</strong> and a <strong>carboxyl group (\u2013COOH)</strong> attached to the same carbon atom (\u03b1-carbon):</p>
 <div class="env-block formula">
 \\[H_2N{-}\\underset{\\displaystyle |}{\\underset{R}{C}H}{-}COOH\\]
-R 代表各氨基酸的侧链（决定氨基酸种类）。
+R represents the side chain of each amino acid (determines amino acid identity).
 </div>
-<p>氨基酸的两性：既能与酸反应（–NH₂ 接受质子），又能与碱反应（–COOH 失去质子）。</p>
+<p>Amino acids are amphoteric: they can react with acids (\u2013NH\u2082 accepts a proton) and with bases (\u2013COOH loses a proton).</p>
 
-<h3>肽键与肽链</h3>
+<h3>Peptide Bonds and Peptide Chains</h3>
 <div class="env-block formula">
-两氨基酸脱水缩合，形成<strong>肽键（–CO–NH–）</strong>：
+Two amino acids undergo condensation (dehydration), forming a <strong>peptide bond (\u2013CO\u2013NH\u2013)</strong>:
 \\[{-}NH_2 + HOOC{-} \\rightarrow {-}CO{-}NH{-} + H_2O\\]
-含 n 个氨基酸的肽链：脱去 (n-1) 个水分子，含 (n-1) 个肽键。
+A peptide chain of n amino acids: (n-1) water molecules are removed, forming (n-1) peptide bonds.
 </div>
 
-<h3>蛋白质的四级结构</h3>
+<h3>Four Levels of Protein Structure</h3>
 <ol>
-  <li><strong>一级结构</strong>：氨基酸序列（肽键相连）</li>
-  <li><strong>二级结构</strong>：α-螺旋、β-折叠（氢键维持）</li>
-  <li><strong>三级结构</strong>：整体三维折叠（各种弱相互作用）</li>
-  <li><strong>四级结构</strong>：多条肽链的组合（如血红蛋白）</li>
+  <li><strong>Primary structure</strong>: Amino acid sequence (linked by peptide bonds)</li>
+  <li><strong>Secondary structure</strong>: \u03b1-helix, \u03b2-sheet (maintained by hydrogen bonds)</li>
+  <li><strong>Tertiary structure</strong>: Overall 3D folding (various weak interactions)</li>
+  <li><strong>Quaternary structure</strong>: Assembly of multiple peptide chains (e.g., hemoglobin)</li>
 </ol>
 
-<h3>蛋白质的变性（Denaturation）</h3>
-<p>高温、强酸、强碱、重金属离子、有机溶剂等可破坏蛋白质的空间结构，使其失活：</p>
+<h3>Protein Denaturation</h3>
+<p>High temperature, strong acids/bases, heavy metal ions, and organic solvents can disrupt the spatial structure of proteins, causing loss of function:</p>
 <ul>
-  <li>变性是不可逆的（煮熟的鸡蛋无法复原）。</li>
-  <li>变性不改变蛋白质的一级结构（氨基酸序列不变）。</li>
-  <li>酶在高温下变性失活，故生物体内酶促反应有最适温度。</li>
+  <li>Denaturation is irreversible (a cooked egg cannot be uncooked).</li>
+  <li>Denaturation does not change the primary structure (amino acid sequence remains intact).</li>
+  <li>Enzymes denature at high temperatures, which is why enzyme-catalyzed reactions have an optimal temperature.</li>
 </ul>
 
-<h3>蛋白质的鉴别反应</h3>
+<h3>Identification Reactions for Proteins</h3>
 <table class="data-table">
-  <tr><th>反应</th><th>试剂</th><th>现象</th><th>原理</th></tr>
-  <tr><td>双缩脲反应</td><td>NaOH + CuSO₄</td><td>紫色</td><td>肽键与Cu²⁺形成紫色络合物（需≥2个肽键）</td></tr>
-  <tr><td>黄色反应</td><td>浓硝酸，加热</td><td>黄色</td><td>含苯环的氨基酸（苯丙氨酸、酪氨酸）发生硝化</td></tr>
-  <tr><td>灼烧</td><td>火焰</td><td>烧焦羽毛气味</td><td>含S、N元素，区别蚕丝与合成纤维</td></tr>
+  <tr><th>Reaction</th><th>Reagent</th><th>Observation</th><th>Principle</th></tr>
+  <tr><td>Biuret test</td><td>NaOH + CuSO\u2084</td><td>Purple</td><td>Peptide bonds form purple complex with Cu\u00b2\u207a (requires \u22652 peptide bonds)</td></tr>
+  <tr><td>Xanthoproteic test</td><td>Concentrated HNO\u2083, heat</td><td>Yellow</td><td>Aromatic amino acids (phenylalanine, tyrosine) undergo nitration</td></tr>
+  <tr><td>Burn test</td><td>Flame</td><td>Burnt feather smell</td><td>Contains S and N; distinguishes silk from synthetic fibers</td></tr>
 </table>
 
 <div class="env-block experiment">
-<strong>实验：蛋白质的双缩脲鉴定</strong>
-向蛋清溶液中先加 NaOH 溶液，再滴加少量 CuSO₄ 溶液，振荡，溶液变为<strong>紫色</strong>，证明含蛋白质。
+<strong>Experiment: Biuret Test for Proteins</strong>
+Add NaOH solution to egg white solution first, then add a few drops of CuSO\u2084 solution. Shake\u2014the solution turns <strong>purple</strong>, confirming the presence of protein.
 </div>
       `,
       visualizations: [
@@ -539,18 +539,18 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               tick++;
 
               if (phase === 0) {
-                v.screenText('两个氨基酸（未反应）', v.width / 2, 22, v.colors.teal, 15);
-                drawAminoAcid(ctx, 180, 180, '氨基酸 1', v.colors.blue, true, true);
-                drawAminoAcid(ctx, 540, 180, '氨基酸 2', v.colors.orange, true, true);
-                v.screenText('点击"脱水缩合"查看肽键形成', v.width / 2, 330, v.colors.text, 12);
+                v.screenText('Two Amino Acids (Unreacted)', v.width / 2, 22, v.colors.teal, 15);
+                drawAminoAcid(ctx, 180, 180, 'Amino Acid 1', v.colors.blue, true, true);
+                drawAminoAcid(ctx, 540, 180, 'Amino Acid 2', v.colors.orange, true, true);
+                v.screenText('Click "Condensation" to see peptide bond formation', v.width / 2, 330, v.colors.text, 12);
 
               } else if (phase === 1) {
                 progress = Math.min(1, progress + 0.015);
-                v.screenText('脱水缩合反应进行中...', v.width / 2, 22, v.colors.yellow, 15);
+                v.screenText('Condensation reaction in progress...', v.width / 2, 22, v.colors.yellow, 15);
                 const aa1x = 180 + progress * 80;
                 const aa2x = 540 - progress * 80;
-                drawAminoAcid(ctx, aa1x, 180, '氨基酸 1', v.colors.blue, true, false);
-                drawAminoAcid(ctx, aa2x, 180, '氨基酸 2', v.colors.orange, false, true);
+                drawAminoAcid(ctx, aa1x, 180, 'Amino Acid 1', v.colors.blue, true, false);
+                drawAminoAcid(ctx, aa2x, 180, 'Amino Acid 2', v.colors.orange, false, true);
                 // Water molecule flying out
                 const wx = v.width / 2 + progress * 50;
                 const wy = 180 - progress * 80;
@@ -563,10 +563,10 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
                 if (progress >= 1) { phase = 2; }
 
               } else {
-                v.screenText('二肽（肽键 –CO–NH– 已形成）', v.width / 2, 22, v.colors.green, 15);
+                v.screenText('Dipeptide (Peptide bond \u2013CO\u2013NH\u2013 formed)', v.width / 2, 22, v.colors.green, 15);
                 // Draw dipeptide
-                drawAminoAcid(ctx, 200, 180, '残基 1', v.colors.blue, true, false);
-                drawAminoAcid(ctx, 520, 180, '残基 2', v.colors.orange, false, true);
+                drawAminoAcid(ctx, 200, 180, 'Residue 1', v.colors.blue, true, false);
+                drawAminoAcid(ctx, 520, 180, 'Residue 2', v.colors.orange, false, true);
                 // Peptide bond in center
                 ctx.fillStyle = v.colors.green;
                 ctx.beginPath(); ctx.arc(360, 180, 26, 0, Math.PI * 2); ctx.fill();
@@ -577,7 +577,7 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
                 ctx.strokeStyle = v.colors.green; ctx.lineWidth = 2.5;
                 ctx.beginPath(); ctx.moveTo(222, 180); ctx.lineTo(334, 180); ctx.stroke();
                 ctx.beginPath(); ctx.moveTo(386, 180); ctx.lineTo(498, 180); ctx.stroke();
-                v.screenText('肽键（–CO–NH–）', 360, 230, v.colors.green, 13);
+                v.screenText('Peptide bond (\u2013CO\u2013NH\u2013)', 360, 230, v.colors.green, 13);
               }
             }
 
@@ -586,12 +586,12 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
 
             const btn = document.createElement('button');
             btn.className = 'viz-btn';
-            btn.textContent = '脱水缩合';
+            btn.textContent = 'Condensation';
             btn.onclick = () => { if (phase === 0) { phase = 1; progress = 0; } };
             const btn2 = document.createElement('button');
             btn2.className = 'viz-btn';
             btn2.style.marginLeft = '8px';
-            btn2.textContent = '重置';
+            btn2.textContent = 'Reset';
             btn2.onclick = () => { phase = 0; progress = 0; tick = 0; };
             container.appendChild(btn);
             container.appendChild(btn2);
@@ -660,23 +660,23 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               if (denatured && animProgress < 1) animProgress = Math.min(1, animProgress + 0.015);
 
               const p = animProgress;
-              v.screenText('蛋白质变性模拟', v.width / 2, 24, v.colors.teal, 15);
+              v.screenText('Protein Denaturation Simulation', v.width / 2, 24, v.colors.teal, 15);
               if (p < 0.05) {
-                v.screenText('正常蛋白质（有序空间结构）', v.width / 2, 55, v.colors.blue, 13);
+                v.screenText('Normal Protein (Ordered 3D Structure)', v.width / 2, 55, v.colors.blue, 13);
               } else if (p < 0.8) {
-                v.screenText('加热/酸碱破坏氢键和空间结构...', v.width / 2, 55, v.colors.yellow, 13);
+                v.screenText('Heat/acid/base disrupting hydrogen bonds and structure...', v.width / 2, 55, v.colors.yellow, 13);
               } else {
-                v.screenText('蛋白质变性！空间结构破坏，活性丧失（不可逆）', v.width / 2, 55, v.colors.red, 13);
+                v.screenText('Protein denatured! Structure destroyed, activity lost (irreversible)', v.width / 2, 55, v.colors.red, 13);
               }
               drawProtein(v.width / 2, v.height / 2 + 20, p);
 
               if (p > 0.5) {
-                v.screenText('一级结构（氨基酸序列）未变', v.width / 2, v.height - 30, v.colors.text, 12);
+                v.screenText('Primary structure (amino acid sequence) unchanged', v.width / 2, v.height - 30, v.colors.text, 12);
               }
 
               // Temperature indicator
               const temp = Math.round(25 + p * 75);
-              v.screenText('温度: ' + temp + '°C', 80, 90, p > 0.5 ? v.colors.red : v.colors.green, 13);
+              v.screenText('Temperature: ' + temp + '°C', 80, 90, p > 0.5 ? v.colors.red : v.colors.green, 13);
             }
 
             function loop() { render(); animId = requestAnimationFrame(loop); }
@@ -684,12 +684,12 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
 
             const btn = document.createElement('button');
             btn.className = 'viz-btn';
-            btn.textContent = '加热变性';
+            btn.textContent = 'Heat Denature';
             btn.onclick = () => { denatured = true; };
             const btn2 = document.createElement('button');
             btn2.className = 'viz-btn';
             btn2.style.marginLeft = '8px';
-            btn2.textContent = '重置';
+            btn2.textContent = 'Reset';
             btn2.onclick = () => { denatured = false; animProgress = 0; };
             container.appendChild(btn);
             container.appendChild(btn2);
@@ -700,33 +700,33 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
       exercises: [
         {
           id: 'ch16-sec03-ex01',
-          question: '含有100个氨基酸的蛋白质，若只有一条肽链，则含有肽键的数目为（ ）',
+          question: 'A protein containing 100 amino acids in a single peptide chain has how many peptide bonds?',
           type: 'mcq',
-          options: ['100个', '99个', '101个', '98个'],
+          options: ['100', '99', '101', '98'],
           answer: 1,
-          explanation: 'n个氨基酸缩合成一条肽链，形成(n-1)个肽键，脱去(n-1)个水分子。所以100个氨基酸形成99个肽键。'
+          explanation: 'n amino acids condensing into one peptide chain form (n-1) peptide bonds and release (n-1) water molecules. So 100 amino acids form 99 peptide bonds.'
         },
         {
           id: 'ch16-sec03-ex02',
-          question: '将蛋清加热后再冷却，不能恢复蛋清溶液的原有性质，这说明蛋白质的变性是（ ）',
+          question: 'After heating and then cooling egg white, the original properties cannot be restored. This shows that protein denaturation is:',
           type: 'mcq',
-          options: ['可逆的', '不可逆的', '物理变化', '颜色反应'],
+          options: ['Reversible', 'Irreversible', 'Physical change', 'Color reaction'],
           answer: 1,
-          explanation: '蛋白质变性是指空间结构被破坏，性质改变，且通常不可逆。煮熟的鸡蛋（蛋清固化）无法复原。'
+          explanation: 'Protein denaturation means the spatial structure is destroyed and properties change, typically irreversibly. A cooked egg (solidified egg white) cannot be restored.'
         },
         {
           id: 'ch16-sec03-ex03',
-          question: '双缩脲反应所需试剂是________，反应现象是________，可用于鉴别含________个以上肽键的蛋白质。',
+          question: 'The biuret test requires ________ reagents, produces ________ as the observation, and can identify proteins containing more than ________ peptide bonds.',
           type: 'short',
-          answer: 'NaOH 和 CuSO₄；溶液变紫色；2个',
-          explanation: '双缩脲反应：向蛋白质溶液中先加NaOH，再加CuSO₄，Cu²⁺与两个以上肽键形成紫色络合物，用于检验蛋白质。'
+          answer: 'NaOH and CuSO\u2084; solution turns purple; 2',
+          explanation: 'Biuret test: Add NaOH to protein solution first, then add CuSO\u2084. Cu\u00b2\u207a forms a purple complex with 2 or more peptide bonds, used to detect proteins.'
         },
         {
           id: 'ch16-sec03-ex04',
-          question: '氨基酸具有两性的原因是分子中含有________和________两种官能团。',
+          question: 'Amino acids are amphoteric because they contain the ________ and ________ functional groups.',
           type: 'short',
-          answer: '氨基（–NH₂）；羧基（–COOH）',
-          explanation: '氨基可与酸反应（–NH₂ + HCl → –NH₃⁺Cl⁻），羧基可与碱反应（–COOH + NaOH → –COONa + H₂O），因此氨基酸具有两性。'
+          answer: 'Amino group (\u2013NH\u2082); Carboxyl group (\u2013COOH)',
+          explanation: 'The amino group reacts with acids (\u2013NH\u2082 + HCl \u2192 \u2013NH\u2083\u207aCl\u207b), and the carboxyl group reacts with bases (\u2013COOH + NaOH \u2192 \u2013COONa + H\u2082O), so amino acids are amphoteric.'
         }
       ]
     },
@@ -734,53 +734,53 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
     // ─── Section 4: Nucleic Acids ─────────────────────────────────────────────
     {
       id: 'ch16-sec04',
-      title: '核酸 — Nucleic Acids',
+      title: 'Nucleic Acids',
       content: `
-<h2>核酸 — Nucleic Acids</h2>
-<p>核酸是携带遗传信息的生物大分子，分为<strong>DNA</strong>（脱氧核糖核酸）和<strong>RNA</strong>（核糖核酸）两大类。</p>
+<h2>Nucleic Acids</h2>
+<p>Nucleic acids are biological macromolecules that carry genetic information, divided into <strong>DNA</strong> (deoxyribonucleic acid) and <strong>RNA</strong> (ribonucleic acid).</p>
 
-<h3>核苷酸（Nucleotides）</h3>
-<p>核酸的基本单元是核苷酸，每个核苷酸由三部分组成：</p>
+<h3>Nucleotides</h3>
+<p>The basic unit of nucleic acids is the nucleotide, composed of three parts:</p>
 <div class="env-block formula">
-核苷酸 ＝ <strong>磷酸</strong>（H₃PO₄）＋ <strong>五碳糖</strong> ＋ <strong>含氮碱基</strong>
+Nucleotide = <strong>Phosphate</strong> (H\u2083PO\u2084) + <strong>Pentose sugar</strong> + <strong>Nitrogenous base</strong>
 </div>
 
 <table class="data-table">
   <tr><th></th><th>DNA</th><th>RNA</th></tr>
-  <tr><td>五碳糖</td><td>脱氧核糖（–OH → –H）</td><td>核糖</td></tr>
-  <tr><td>碱基</td><td>A（腺嘌呤）、T（胸腺嘧啶）、G（鸟嘌呤）、C（胞嘧啶）</td><td>A、U（尿嘧啶）、G、C</td></tr>
-  <tr><td>链数</td><td>双链（双螺旋）</td><td>单链</td></tr>
-  <tr><td>功能</td><td>遗传信息储存</td><td>遗传信息传递与翻译</td></tr>
+  <tr><td>Pentose sugar</td><td>Deoxyribose (\u2013OH \u2192 \u2013H)</td><td>Ribose</td></tr>
+  <tr><td>Bases</td><td>A (adenine), T (thymine), G (guanine), C (cytosine)</td><td>A, U (uracil), G, C</td></tr>
+  <tr><td>Strands</td><td>Double-stranded (double helix)</td><td>Single-stranded</td></tr>
+  <tr><td>Function</td><td>Genetic information storage</td><td>Genetic information transfer and translation</td></tr>
 </table>
 
-<h3>DNA 双螺旋结构</h3>
-<p>1953年，Watson 和 Crick 根据 Franklin 的 X 射线衍射数据提出 DNA 双螺旋模型：</p>
+<h3>DNA Double Helix Structure</h3>
+<p>In 1953, Watson and Crick proposed the DNA double helix model based on Franklin's X-ray diffraction data:</p>
 <ul>
-  <li>两条反向平行的多核苷酸链绕同一中心轴旋转形成右手双螺旋。</li>
-  <li>磷酸–脱氧核糖骨架在外侧；碱基朝内，通过<strong>氢键</strong>配对：
+  <li>Two antiparallel polynucleotide chains wind around a common axis to form a right-handed double helix.</li>
+  <li>The phosphate-deoxyribose backbone is on the outside; bases face inward, paired by <strong>hydrogen bonds</strong>:
     <ul>
-      <li>A — T（腺嘌呤 — 胸腺嘧啶）：2个氢键</li>
-      <li>G ≡ C（鸟嘌呤 — 胞嘧啶）：3个氢键</li>
+      <li>A \u2014 T (adenine \u2014 thymine): 2 hydrogen bonds</li>
+      <li>G \u2261 C (guanine \u2014 cytosine): 3 hydrogen bonds</li>
     </ul>
   </li>
-  <li>碱基互补配对原则决定了DNA的复制精确性。</li>
+  <li>The base complementary pairing principle ensures accurate DNA replication.</li>
 </ul>
 
 <div class="env-block formula">
-碱基互补：若DNA中A的比例为 x，则 T 也为 x，G = C = \\(\\dfrac{1-2x}{2}\\)。
+Base complementarity: If the proportion of A in DNA is x, then T is also x, and G = C = \\(\\dfrac{1-2x}{2}\\).
 </div>
 
-<h3>遗传信息的流动（中心法则）</h3>
+<h3>Flow of Genetic Information (Central Dogma)</h3>
 <div class="env-block formula">
-\\[DNA \\xrightarrow{\\text{转录（transcription）}} mRNA \\xrightarrow{\\text{翻译（translation）}} \\text{蛋白质}\\]
+\\[DNA \\xrightarrow{\\text{transcription}} mRNA \\xrightarrow{\\text{translation}} \\text{protein}\\]
 </div>
-<p>每3个连续碱基（密码子）编码一种氨基酸，共有 \\(4^3 = 64\\) 种密码子，编码20种氨基酸（有冗余）。</p>
+<p>Every 3 consecutive bases (codon) encode one amino acid. There are \\(4^3 = 64\\) possible codons encoding 20 amino acids (with redundancy).</p>
 
-<h3>RNA 的种类</h3>
+<h3>Types of RNA</h3>
 <ul>
-  <li><strong>mRNA</strong>（信使RNA）：携带遗传信息从细胞核到核糖体。</li>
-  <li><strong>tRNA</strong>（转运RNA）：识别密码子，携带对应氨基酸。</li>
-  <li><strong>rRNA</strong>（核糖体RNA）：构成核糖体的结构成分。</li>
+  <li><strong>mRNA</strong> (messenger RNA): Carries genetic information from the nucleus to the ribosome.</li>
+  <li><strong>tRNA</strong> (transfer RNA): Recognizes codons and carries the corresponding amino acid.</li>
+  <li><strong>rRNA</strong> (ribosomal RNA): Structural component of the ribosome.</li>
 </ul>
       `,
       visualizations: [
@@ -811,8 +811,8 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               const cx = v.width / 2, baseY = 60, pitch = 38 * zoomLevel;
               const radius = 60 * zoomLevel;
 
-              v.screenText('DNA 双螺旋结构', cx, 22, v.colors.teal, 15);
-              v.screenText('A-T: 2氢键  |  G-C: 3氢键', cx, 42, v.colors.text, 11);
+              v.screenText('DNA Double Helix Structure', cx, 22, v.colors.teal, 15);
+              v.screenText('A-T: 2 H-bonds | G-C: 3 H-bonds', cx, 42, v.colors.text, 11);
 
               for (let i = 0; i < basePairs.length; i++) {
                 const y = baseY + i * pitch;
@@ -860,12 +860,12 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               }
 
               // Legend
-              v.screenText('←  5\' 磷酸骨架 3\' →', cx - 170, v.height - 28, v.colors.text, 10);
-              v.screenText('←  3\' 磷酸骨架 5\' →', cx + 100, v.height - 28, v.colors.text, 10);
+              v.screenText('\u2190 5\' Phosphate Backbone 3\' \u2192', cx - 170, v.height - 28, v.colors.text, 10);
+              v.screenText('\u2190 3\' Phosphate Backbone 5\' \u2192', cx + 100, v.height - 28, v.colors.text, 10);
 
               // Color legend
               const lx = 20, ly = v.height - 70;
-              [['A(蓝)', v.colors.blue], ['T(橙)', v.colors.orange], ['G(绿)', v.colors.green], ['C(紫)', v.colors.purple]].forEach(([label, col], i) => {
+              [['A', v.colors.blue], ['T', v.colors.orange], ['G', v.colors.green], ['C', v.colors.purple]].forEach(([label, col], i) => {
                 ctx.fillStyle = col;
                 ctx.beginPath(); ctx.arc(lx + 10, ly + i * 18, 7, 0, Math.PI * 2); ctx.fill();
                 ctx.fillStyle = v.colors.text; ctx.font = '10px sans-serif';
@@ -879,12 +879,12 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
 
             const zoomIn = document.createElement('button');
             zoomIn.className = 'viz-btn';
-            zoomIn.textContent = '放大 +';
+            zoomIn.textContent = 'Zoom In +';
             zoomIn.onclick = () => { zoomLevel = Math.min(1.5, zoomLevel + 0.15); };
             const zoomOut = document.createElement('button');
             zoomOut.className = 'viz-btn';
             zoomOut.style.marginLeft = '8px';
-            zoomOut.textContent = '缩小 –';
+            zoomOut.textContent = 'Zoom Out \u2013';
             zoomOut.onclick = () => { zoomLevel = Math.max(0.6, zoomLevel - 0.15); };
             container.appendChild(zoomIn);
             container.appendChild(zoomOut);
@@ -916,7 +916,7 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               // Title
               ctx.fillStyle = C.teal; ctx.font = 'bold 14px -apple-system,sans-serif';
               ctx.textAlign = 'center'; ctx.textBaseline = 'top';
-              ctx.fillText('DNA碱基配对练习 — Base-Pair Matcher', W/2, 12);
+              ctx.fillText('DNA Base-Pair Matcher', W/2, 12);
 
               const cy = H / 2;
               const lx = W * 0.28, rx = W * 0.72;
@@ -972,7 +972,7 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
                 ctx.setLineDash([]);
                 ctx.fillStyle = C.yellow; ctx.font = '11px -apple-system,sans-serif';
                 ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-                ctx.fillText(nb + ' 氢键 (H-bonds)', mx, cy + lr + 16);
+                ctx.fillText(nb + ' H-bonds', mx, cy + lr + 16);
               } else {
                 ctx.strokeStyle = C.red; ctx.lineWidth = 3;
                 ctx.beginPath();
@@ -989,7 +989,7 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               // Instruction
               ctx.fillStyle = C.text; ctx.font = '12px -apple-system,sans-serif';
               ctx.textBaseline = 'top';
-              ctx.fillText('选择左右链上的碱基来测试配对', W/2, H - 36);
+              ctx.fillText('Select bases on left and right strands to test pairing', W/2, H - 36);
             }
 
             drawStrand();
@@ -999,7 +999,7 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
             ctrl.style.cssText = 'display:flex;gap:16px;justify-content:center;margin-top:6px;flex-wrap:wrap;';
 
             const leftLabel = document.createElement('span');
-            leftLabel.textContent = '左链 Left: ';
+            leftLabel.textContent = 'Left: ';
             leftLabel.style.color = '#8b949e';
             ctrl.appendChild(leftLabel);
 
@@ -1009,7 +1009,7 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               btn.style.cssText = 'padding:4px 12px;border:2px solid ' + baseColors[b] + ';border-radius:4px;background:' + baseColors[b] + '33;color:' + baseColors[b] + ';font-weight:bold;cursor:pointer;';
               btn.addEventListener('click', () => {
                 leftBase = b;
-                feedback = pairs[b] === rightBase ? '正确配对！' + b + '-' + rightBase + ' (' + hbonds[b] + ' 氢键)' : '不是有效配对！';
+                feedback = pairs[b] === rightBase ? 'Correct pair! ' + b + '-' + rightBase + ' (' + hbonds[b] + ' H-bonds)' : 'Not a valid pair!';
                 feedbackColor = pairs[b] === rightBase ? '#3fb950' : '#f85149';
                 drawStrand();
               });
@@ -1017,7 +1017,7 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
             });
 
             const sep = document.createElement('span');
-            sep.textContent = ' | 右链 Right: ';
+            sep.textContent = ' | Right: ';
             sep.style.color = '#8b949e';
             ctrl.appendChild(sep);
 
@@ -1027,7 +1027,7 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               btn.style.cssText = 'padding:4px 12px;border:2px solid ' + baseColors[b] + ';border-radius:4px;background:' + baseColors[b] + '33;color:' + baseColors[b] + ';font-weight:bold;cursor:pointer;';
               btn.addEventListener('click', () => {
                 rightBase = b;
-                feedback = pairs[leftBase] === b ? '正确配对！' + leftBase + '-' + b + ' (' + hbonds[leftBase] + ' 氢键)' : '不是有效配对！';
+                feedback = pairs[leftBase] === b ? 'Correct pair! ' + leftBase + '-' + b + ' (' + hbonds[leftBase] + ' H-bonds)' : 'Not a valid pair!';
                 feedbackColor = pairs[leftBase] === b ? '#3fb950' : '#f85149';
                 drawStrand();
               });
@@ -1041,26 +1041,26 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
       exercises: [
         {
           id: 'ch16-sec04-ex01',
-          question: 'DNA与RNA在组成上的主要区别是（多选）（ ）',
+          question: 'What are the main differences in composition between DNA and RNA? (multiple choice)',
           type: 'mcq',
-          options: ['五碳糖不同（脱氧核糖 vs 核糖）', '碱基中DNA有T而RNA有U', 'DNA为双链RNA为单链', 'DNA含磷酸而RNA不含'],
+          options: ['Different pentose sugars (deoxyribose vs ribose)', 'DNA has T while RNA has U', 'DNA is double-stranded while RNA is single-stranded', 'DNA contains phosphate but RNA does not'],
           answer: '0,1,2',
-          explanation: 'DNA与RNA的区别：五碳糖（脱氧核糖 vs 核糖）、特有碱基（T vs U）、链数（双链 vs 单链）。两者均含磷酸。'
+          explanation: 'Differences between DNA and RNA: pentose sugar (deoxyribose vs ribose), unique base (T vs U), strand number (double vs single). Both contain phosphate.'
         },
         {
           id: 'ch16-sec04-ex02',
-          question: '某DNA分子中，G+C占碱基总数的40%，则A占碱基总数的百分比为（ ）',
+          question: 'In a DNA molecule, G+C makes up 40% of all bases. What percentage does A represent?',
           type: 'mcq',
           options: ['40%', '20%', '30%', '60%'],
           answer: 2,
-          explanation: '由于A=T，G=C（碱基互补原则），G+C=40%则A+T=60%，所以A=T=30%。'
+          explanation: 'Since A=T and G=C (base complementarity), if G+C=40% then A+T=60%, so A=T=30%.'
         },
         {
           id: 'ch16-sec04-ex03',
-          question: '3个碱基组成一个密码子，4种碱基共可组成________种密码子，但只编码________种氨基酸。',
+          question: '3 bases form one codon. 4 types of bases can form ________ codons, but only encode ________ types of amino acids.',
           type: 'short',
-          answer: '64种；20种',
-          explanation: '4种碱基排列成三联体：4³=64种密码子，但编码20种氨基酸（有冗余），其中3个密码子为终止密码子，不编码氨基酸。'
+          answer: '64; 20',
+          explanation: '4 bases arranged in triplets: 4\u00b3=64 codons, encoding 20 amino acids (with redundancy). 3 codons are stop codons that do not encode any amino acid.'
         }
       ]
     },
@@ -1068,58 +1068,58 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
     // ─── Section 5: Biomolecules and Health ──────────────────────────────────
     {
       id: 'ch16-sec05',
-      title: '生物大分子与健康',
+      title: 'Biomolecules and Health',
       content: `
-<h2>生物大分子与健康</h2>
-<p>生物大分子是生命活动的物质基础，合理摄入各类营养素是健康的关键。</p>
+<h2>Biomolecules and Health</h2>
+<p>Biological macromolecules are the material basis of life activities. Balanced intake of nutrients is key to health.</p>
 
-<h3>六大营养素</h3>
+<h3>Six Major Nutrients</h3>
 <table class="data-table">
-  <tr><th>营养素</th><th>化学本质</th><th>主要功能</th><th>缺乏症</th></tr>
-  <tr><td>糖类</td><td>多糖、单糖</td><td>提供能量（4 kJ/g）</td><td>低血糖、乏力</td></tr>
-  <tr><td>蛋白质</td><td>氨基酸聚合物</td><td>结构、催化、运输</td><td>营养不良、水肿</td></tr>
-  <tr><td>脂肪</td><td>甘油三酯</td><td>储能（9 kJ/g）、保温</td><td>脂溶性维生素缺乏</td></tr>
-  <tr><td>维生素</td><td>小分子有机物</td><td>辅酶组分</td><td>各种维生素缺乏症</td></tr>
-  <tr><td>无机盐</td><td>矿物质离子</td><td>调节体液平衡</td><td>贫血（缺Fe）、骨质疏松（缺Ca）</td></tr>
-  <tr><td>水</td><td>H₂O</td><td>溶剂、体温调节</td><td>脱水</td></tr>
+  <tr><th>Nutrient</th><th>Chemical Nature</th><th>Main Function</th><th>Deficiency</th></tr>
+  <tr><td>Carbohydrates</td><td>Polysaccharides, monosaccharides</td><td>Energy supply (4 kJ/g)</td><td>Hypoglycemia, fatigue</td></tr>
+  <tr><td>Protein</td><td>Amino acid polymer</td><td>Structure, catalysis, transport</td><td>Malnutrition, edema</td></tr>
+  <tr><td>Fat</td><td>Triglycerides</td><td>Energy storage (9 kJ/g), insulation</td><td>Fat-soluble vitamin deficiency</td></tr>
+  <tr><td>Vitamins</td><td>Small organic molecules</td><td>Coenzyme components</td><td>Various vitamin deficiencies</td></tr>
+  <tr><td>Minerals</td><td>Mineral ions</td><td>Regulate fluid balance</td><td>Anemia (Fe deficiency), osteoporosis (Ca deficiency)</td></tr>
+  <tr><td>Water</td><td>H\u2082O</td><td>Solvent, temperature regulation</td><td>Dehydration</td></tr>
 </table>
 
-<h3>酶——生物催化剂</h3>
-<p>酶是具有催化功能的蛋白质（极少数为RNA），具有以下特点：</p>
+<h3>Enzymes -- Biological Catalysts</h3>
+<p>Enzymes are proteins with catalytic function (a few are RNA), with the following characteristics:</p>
 <ul>
-  <li><strong>高效性</strong>：催化效率比无机催化剂高 \\(10^7 \\sim 10^{13}\\) 倍。</li>
-  <li><strong>专一性</strong>：一种酶只催化一种或一类反应（"锁与钥匙"模型）。</li>
-  <li><strong>温和性</strong>：在常温、常压、中性 pH 下发挥作用。</li>
-  <li><strong>可调节性</strong>：受温度、pH、抑制剂等调控。</li>
+  <li><strong>High efficiency</strong>: Catalytic efficiency is \\(10^7 \\sim 10^{13}\\) times higher than inorganic catalysts.</li>
+  <li><strong>Specificity</strong>: Each enzyme catalyzes only one type of reaction ("lock-and-key" model).</li>
+  <li><strong>Mild conditions</strong>: Functions at room temperature, atmospheric pressure, and neutral pH.</li>
+  <li><strong>Regulable</strong>: Controlled by temperature, pH, inhibitors, etc.</li>
 </ul>
 
 <div class="env-block formula">
-酶促反应示意：
-\\[\\text{底物（S）} + \\text{酶（E）} \\rightleftharpoons \\text{酶-底物复合物（ES）} \\rightarrow \\text{产物（P）} + \\text{酶（E）}\\]
+Enzyme-catalyzed reaction scheme:
+\\[\\text{Substrate (S)} + \\text{Enzyme (E)} \\rightleftharpoons \\text{Enzyme-Substrate (ES)} \\rightarrow \\text{Product (P)} + \\text{Enzyme (E)}\\]
 </div>
 
-<h3>淀粉消化——多步水解</h3>
-<p>食物中淀粉的消化过程：</p>
+<h3>Starch Digestion -- Multi-Step Hydrolysis</h3>
+<p>Digestion process of dietary starch:</p>
 <div class="env-block formula">
-\\[(C_6H_{10}O_5)_n \\xrightarrow{唾液淀粉酶} \\text{麦芽糖} (C_{12}H_{22}O_{11}) \\xrightarrow{麦芽糖酶} \\text{葡萄糖} (C_6H_{12}O_6)\\]
+\\[(C_6H_{10}O_5)_n \\xrightarrow{\\text{salivary amylase}} \\text{maltose} (C_{12}H_{22}O_{11}) \\xrightarrow{\\text{maltase}} \\text{glucose} (C_6H_{12}O_6)\\]
 </div>
 
-<h3>化学与营养健康</h3>
+<h3>Chemistry and Nutritional Health</h3>
 <ul>
-  <li><strong>均衡饮食</strong>：糖类约60%、蛋白质约15%、脂肪约25%（按能量比）。</li>
-  <li><strong>食品添加剂</strong>：防腐剂（苯甲酸钠）、抗氧化剂（维生素C、E）、色素等须在安全剂量下使用。</li>
-  <li><strong>重金属危害</strong>：Hg²⁺、Pb²⁺ 等与蛋白质结合使酶变性失活，导致中毒。</li>
-  <li><strong>膳食纤维</strong>：纤维素不能消化，但促进肠道蠕动、预防便秘、降低结肠癌风险。</li>
+  <li><strong>Balanced diet</strong>: ~60% carbohydrates, ~15% protein, ~25% fat (by energy ratio).</li>
+  <li><strong>Food additives</strong>: Preservatives (sodium benzoate), antioxidants (vitamins C, E), colorants, etc. must be used within safe dosage limits.</li>
+  <li><strong>Heavy metal toxicity</strong>: Hg\u00b2\u207a, Pb\u00b2\u207a, etc. bind to proteins, denaturing enzymes and causing poisoning.</li>
+  <li><strong>Dietary fiber</strong>: Cellulose cannot be digested but promotes intestinal motility, prevents constipation, and reduces colon cancer risk.</li>
 </ul>
 
 <div class="env-block note">
-<strong>中国居民膳食宝塔（主要层次）</strong>
+<strong>Dietary Pyramid (Main Levels)</strong>
 <ol>
-  <li>谷薯类（主食，250–400g/天）</li>
-  <li>蔬菜水果（300–500g + 200–350g/天）</li>
-  <li>动物性食物（鱼禽蛋肉，120–200g/天）</li>
-  <li>大豆坚果奶类（25+25+300g/天）</li>
-  <li>油盐（25–30g油，5g以下食盐/天）</li>
+  <li>Grains and tubers (staple food, 250\u2013400g/day)</li>
+  <li>Vegetables and fruits (300\u2013500g + 200\u2013350g/day)</li>
+  <li>Animal products (fish, poultry, eggs, meat, 120\u2013200g/day)</li>
+  <li>Soy, nuts, dairy (25+25+300g/day)</li>
+  <li>Oil and salt (25\u201330g oil, \u22645g salt/day)</li>
 </ol>
 </div>
       `,
@@ -1135,10 +1135,10 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
             let autoPlay = false;
 
             const stages = [
-              {label: '淀粉 (C₆H₁₀O₅)ₙ', color: '#3fb9a0', desc: '多糖：大量葡萄糖单元以α-1,4糖苷键连接', n: 8},
-              {label: '糊精 / 较短多糖', color: '#58a6ff', desc: '淀粉酶开始切断链内糖苷键，链变短', n: 4},
-              {label: '麦芽糖 C₁₂H₂₂O₁₁', color: '#d29922', desc: '进一步水解：每两个葡萄糖一组的麦芽糖', n: 2},
-              {label: '葡萄糖 C₆H₁₂O₆', color: '#3fb950', desc: '完全水解：单个葡萄糖可被人体直接吸收', n: 1}
+              {label: 'Starch (C\u2086H\u2081\u2080O\u2085)\u2099', color: '#3fb9a0', desc: 'Polysaccharide: glucose units linked by \u03b1-1,4 glycosidic bonds', n: 8},
+              {label: 'Dextrin / shorter polysaccharide', color: '#58a6ff', desc: 'Amylase cleaves internal glycosidic bonds, shortening chains', n: 4},
+              {label: 'Maltose C\u2081\u2082H\u2082\u2082O\u2081\u2081', color: '#d29922', desc: 'Further hydrolysis: pairs of glucose form maltose', n: 2},
+              {label: 'Glucose C\u2086H\u2081\u2082O\u2086', color: '#3fb950', desc: 'Complete hydrolysis: individual glucose absorbed by the body', n: 1}
             ];
 
             function drawChain(n, color, cx, cy) {
@@ -1163,8 +1163,8 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               v.clear();
               tick++;
               const s = stages[step];
-              v.screenText('淀粉水解示意图', v.width / 2, 24, v.colors.teal, 15);
-              v.screenText('步骤 ' + (step + 1) + '/4: ' + s.label, v.width / 2, 52, s.color, 14);
+              v.screenText('Starch Hydrolysis Diagram', v.width / 2, 24, v.colors.teal, 15);
+              v.screenText('Step ' + (step + 1) + '/4: ' + s.label, v.width / 2, 52, s.color, 14);
               v.screenText(s.desc, v.width / 2, 75, v.colors.text, 12);
 
               if (step === 0) {
@@ -1187,12 +1187,12 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
                     ctx.beginPath(); ctx.moveTo(x + 20, y); ctx.lineTo(nx - 20, ny); ctx.stroke();
                   }
                 }
-                v.screenText('...（更多葡萄糖单元）...', v.width / 2, 230, v.colors.text, 11);
+                v.screenText('...(more glucose units)...', v.width / 2, 230, v.colors.text, 11);
               } else if (step === 1) {
                 // Two shorter chains
                 drawChain(5, s.color, v.width / 2 - 90, 165);
                 drawChain(4, s.color, v.width / 2 + 100, 195);
-                v.screenText('唾液淀粉酶', v.width / 2, 260, v.colors.yellow, 12);
+                v.screenText('Salivary amylase', v.width / 2, 260, v.colors.yellow, 12);
               } else if (step === 2) {
                 // Several maltose (pairs)
                 for (let m = 0; m < 4; m++) {
@@ -1205,9 +1205,9 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
                   v.ctx.fillStyle = '#0c0c20'; v.ctx.font = 'bold 9px sans-serif';
                   v.ctx.textAlign = 'center'; v.ctx.textBaseline = 'middle';
                   v.ctx.fillText('Glc', mx, my); v.ctx.fillText('Glc', mx + 44, my);
-                  v.screenText('麦芽糖', mx + 22, my + 35, s.color, 10);
+                  v.screenText('Maltose', mx + 22, my + 35, s.color, 10);
                 }
-                v.screenText('麦芽糖酶', v.width / 2, 270, v.colors.yellow, 12);
+                v.screenText('Maltase', v.width / 2, 270, v.colors.yellow, 12);
               } else {
                 // Individual glucose
                 for (let g = 0; g < 8; g++) {
@@ -1218,12 +1218,12 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
                   v.ctx.textAlign = 'center'; v.ctx.textBaseline = 'middle';
                   v.ctx.fillText('Glc', gx, gy);
                 }
-                v.screenText('可被肠壁直接吸收进入血液！', v.width / 2, 260, v.colors.green, 13);
+                v.screenText('Can be directly absorbed into blood!', v.width / 2, 260, v.colors.green, 13);
               }
 
               // Enzyme indicator on bottom
-              const enzymes = ['唾液淀粉酶（口腔）', '胰淀粉酶（小肠）', '麦芽糖酶（小肠）', '完成！'];
-              v.screenText('催化酶：' + enzymes[step], v.width / 2, v.height - 18, v.colors.teal, 11);
+              const enzymes = ['Salivary amylase (mouth)', 'Pancreatic amylase (small intestine)', 'Maltase (small intestine)', 'Complete!'];
+              v.screenText('Enzyme: ' + enzymes[step], v.width / 2, v.height - 18, v.colors.teal, 11);
 
               if (autoPlay && tick % 90 === 0) {
                 step = (step + 1) % stages.length;
@@ -1235,18 +1235,18 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
 
             const btnNext = document.createElement('button');
             btnNext.className = 'viz-btn';
-            btnNext.textContent = '下一步';
+            btnNext.textContent = 'Next';
             btnNext.onclick = () => { step = Math.min(stages.length - 1, step + 1); tick = 0; };
             const btnAuto = document.createElement('button');
             btnAuto.className = 'viz-btn';
             btnAuto.style.marginLeft = '8px';
-            btnAuto.textContent = '自动播放';
-            btnAuto.onclick = () => { autoPlay = !autoPlay; btnAuto.textContent = autoPlay ? '停止' : '自动播放'; };
+            btnAuto.textContent = 'Auto Play';
+            btnAuto.onclick = () => { autoPlay = !autoPlay; btnAuto.textContent = autoPlay ? 'Stop' : 'Auto Play'; };
             const btnReset = document.createElement('button');
             btnReset.className = 'viz-btn';
             btnReset.style.marginLeft = '8px';
-            btnReset.textContent = '重置';
-            btnReset.onclick = () => { step = 0; tick = 0; autoPlay = false; btnAuto.textContent = '自动播放'; };
+            btnReset.textContent = 'Reset';
+            btnReset.onclick = () => { step = 0; tick = 0; autoPlay = false; btnAuto.textContent = 'Auto Play'; };
             container.appendChild(btnNext);
             container.appendChild(btnAuto);
             container.appendChild(btnReset);
@@ -1298,9 +1298,9 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
 
               ctx.fillStyle = C.blue; ctx.font = 'bold 14px -apple-system,sans-serif';
               ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-              ctx.fillText('酶 Enzyme', ex - 20, ey);
+              ctx.fillText('Enzyme', ex - 20, ey);
               ctx.fillStyle = C.teal; ctx.font = '11px -apple-system,sans-serif';
-              ctx.fillText('活性位点', ex + er * 0.55, ey + 28);
+              ctx.fillText('Active site', ex + er * 0.55, ey + 28);
 
               // Substrate position based on phase
               let cycle = t % 4;
@@ -1352,9 +1352,9 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
 
               // Phase label
               let phaseText = '';
-              if (cycle < 1.5) phaseText = '底物靠近活性位点...';
-              else if (cycle < 2.5) phaseText = '酶-底物复合物形成！';
-              else phaseText = '产物释放，酶不变！';
+              if (cycle < 1.5) phaseText = 'Substrate approaching active site...';
+              else if (cycle < 2.5) phaseText = 'Enzyme-substrate complex formed!';
+              else phaseText = 'Product released, enzyme unchanged!';
 
               ctx.fillStyle = C.text; ctx.font = '13px -apple-system,sans-serif';
               ctx.textAlign = 'center'; ctx.textBaseline = 'bottom';
@@ -1363,14 +1363,14 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
               // Title
               ctx.fillStyle = C.teal; ctx.font = 'bold 14px -apple-system,sans-serif';
               ctx.textAlign = 'center'; ctx.textBaseline = 'top';
-              ctx.fillText('锁钥模型 — Lock-and-Key Model of Enzyme Action', W/2, 12);
+              ctx.fillText('Lock-and-Key Model of Enzyme Action', W/2, 12);
 
               // Legend
               ctx.font = '11px -apple-system,sans-serif';
               ctx.textAlign = 'left'; ctx.textBaseline = 'middle';
-              ctx.fillStyle = C.blue; ctx.fillText('酶 Enzyme', 14, H - 44);
-              ctx.fillStyle = C.orange; ctx.fillText('底物(S) → 产物(P)', 14, H - 28);
-              ctx.fillStyle = C.yellow; ctx.fillText('氢键 Hydrogen bonds', 14, H - 12);
+              ctx.fillStyle = C.blue; ctx.fillText('Enzyme', 14, H - 44);
+              ctx.fillStyle = C.orange; ctx.fillText('Substrate(S) \u2192 Product(P)', 14, H - 28);
+              ctx.fillStyle = C.yellow; ctx.fillText('Hydrogen bonds', 14, H - 12);
             });
           }
         }
@@ -1378,42 +1378,42 @@ R 代表各氨基酸的侧链（决定氨基酸种类）。
       exercises: [
         {
           id: 'ch16-sec05-ex01',
-          question: '酶与无机催化剂相比，最主要的特点是（ ）',
+          question: 'Compared to inorganic catalysts, the most important characteristics of enzymes are:',
           type: 'mcq',
-          options: ['能加快反应速率', '反应后自身不变', '具有专一性、高效性、温和性', '只在细胞内起作用'],
+          options: ['Can speed up reaction rate', 'Remain unchanged after reaction', 'Have specificity, high efficiency, and mild conditions', 'Only work inside cells'],
           answer: 2,
-          explanation: '酶与无机催化剂最大的区别在于酶具有高效性（催化效率极高）、专一性（一种酶只催化特定反应）和温和性（在常温常压下起作用）三大特点。'
+          explanation: 'The main difference is that enzymes have high efficiency, specificity (each enzyme catalyzes a specific reaction), and work under mild conditions (room temperature and pressure).'
         },
         {
           id: 'ch16-sec05-ex02',
-          question: '重金属离子（如 Hg²⁺）对人体的危害，主要是因为它能（ ）',
+          question: 'Heavy metal ions (e.g., Hg\u00b2\u207a) are harmful to the body mainly because they can:',
           type: 'mcq',
-          options: ['与氨基酸反应破坏氨基', '使蛋白质变性，导致酶失活', '与葡萄糖反应消耗能量', '破坏DNA碱基配对'],
+          options: ['React with amino acids to destroy amino groups', 'Denature proteins, causing enzyme inactivation', 'React with glucose to consume energy', 'Destroy DNA base pairing'],
           answer: 1,
-          explanation: '重金属离子能与蛋白质中的–SH、–NH₂等基团结合，破坏蛋白质（酶）的空间结构，导致变性失活，这是重金属中毒的主要机制。'
+          explanation: 'Heavy metal ions bind to \u2013SH, \u2013NH\u2082 groups in proteins, destroying the spatial structure of proteins (enzymes), causing denaturation and inactivation.'
         },
         {
           id: 'ch16-sec05-ex03',
-          question: '下列关于膳食纤维（纤维素）的说法，不正确的是（ ）',
+          question: 'Which statement about dietary fiber (cellulose) is INCORRECT?',
           type: 'mcq',
-          options: ['人体不能消化纤维素', '纤维素可促进肠道蠕动', '纤维素水解的最终产物是葡萄糖', '纤维素是人体所需能量的主要来源'],
+          options: ['Humans cannot digest cellulose', 'Cellulose promotes intestinal motility', 'The final hydrolysis product of cellulose is glucose', 'Cellulose is the main source of energy for humans'],
           answer: 3,
-          explanation: '人体缺乏分解β-糖苷键的酶，所以不能消化纤维素，因此纤维素不能作为人体的能量来源。其他说法均正确。'
+          explanation: 'Humans lack enzymes to break \u03b2-glycosidic bonds, so cellulose cannot be digested and thus cannot serve as an energy source. The other statements are correct.'
         },
         {
           id: 'ch16-sec05-ex04',
-          question: '淀粉在人体消化过程中最终水解成________，写出完全水解的化学方程式。',
+          question: 'Starch is ultimately hydrolyzed to ________ during human digestion. Write the complete hydrolysis equation.',
           type: 'short',
-          answer: '葡萄糖；(C₆H₁₀O₅)ₙ + nH₂O →(酶)→ nC₆H₁₂O₆',
-          explanation: '淀粉在唾液淀粉酶、胰淀粉酶等作用下逐步水解，最终产物为葡萄糖，可被肠壁直接吸收进入血液。'
+          answer: 'Glucose; (C\u2086H\u2081\u2080O\u2085)\u2099 + nH\u2082O \u2192(enzyme)\u2192 nC\u2086H\u2081\u2082O\u2086',
+          explanation: 'Starch is gradually hydrolyzed by salivary amylase, pancreatic amylase, etc. The final product is glucose, which can be directly absorbed through the intestinal wall into the blood.'
         },
         {
           id: 'ch16-sec05-ex05',
-          question: '下列营养素中，提供能量最高（每克）的是（ ）',
+          question: 'Which nutrient provides the most energy per gram?',
           type: 'mcq',
-          options: ['糖类（约4 kJ/g）', '蛋白质（约4 kJ/g）', '脂肪（约9 kJ/g）', '维生素（不提供能量）'],
+          options: ['Carbohydrates (~4 kJ/g)', 'Protein (~4 kJ/g)', 'Fat (~9 kJ/g)', 'Vitamins (do not provide energy)'],
           answer: 2,
-          explanation: '脂肪是能量最密集的营养素，每克脂肪提供约9 kJ能量，远高于糖类和蛋白质（各约4 kJ/g）。维生素不提供能量。'
+          explanation: 'Fat is the most energy-dense nutrient, providing ~9 kJ per gram, far more than carbohydrates and protein (~4 kJ/g each). Vitamins do not provide energy.'
         }
       ]
     }
