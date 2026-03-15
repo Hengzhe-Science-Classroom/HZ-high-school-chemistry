@@ -13,9 +13,7 @@ window.CHAPTERS.push({
             id: 'ch06-sec01',
             title: 'Ionic Bonds',
             content: `
- <div class="env-block intuition"><div class="env-title">From Periodic Trends to Chemical Bonds</div><div class="env-body"><p>In Chapter 5, you learned how atomic structure creates periodic trends in properties like ionization energy and electronegativity. These trends determine how atoms interact when they come together. Metals with low ionization energies readily give up electrons; nonmetals with high electronegativities readily accept them. This chapter explores the three main types of chemical bonds (ionic, covalent, and metallic) and the intermolecular forces that arise from them, explaining everything from why salt is brittle to why water is liquid at room temperature.</p></div></div>
-<h2>Ionic Bonds </h2>
-<p class="section-roadmap"><em>In this section, you will learn how ionic bonds form through electron transfer between metals and nonmetals, creating crystal lattices held together by electrostatic attraction.</em></p>
+ <h2>Ionic Bonds </h2>
 
                 <p>Atoms are social creatures — they rarely exist alone! When atoms combine, they form <strong>chemical bonds</strong>. The first type we'll explore is the <strong>ionic bond</strong>, where one atom hands off an electron to another, creating an electrostatic attraction between the resulting ions.</p>
 
@@ -92,8 +90,7 @@ window.CHAPTERS.push({
                         <p>Ionic bonds typically form when the electronegativity difference between the two atoms is large (generally \\(\\Delta\\chi > 1.7\\)). The bigger the difference, the more ionic the bond.</p>
                     </div>
                 </div>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Ionic bonds involve complete electron transfer. But what happens when two nonmetals meet, neither willing to give up electrons entirely? They compromise by sharing electrons, forming covalent bonds.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'ionic-crystal-builder',
@@ -206,7 +203,6 @@ window.CHAPTERS.push({
             title: 'Covalent Bonds',
             content: `
  <h2>Covalent Bonds </h2>
-<p class="section-roadmap"><em>In this section, you will explore covalent bonds, where atoms share electrons, and learn to distinguish polar from nonpolar bonds using electronegativity differences.</em></p>
 
                 <p>Not all atoms want to give or take electrons. When two nonmetal atoms meet, it's more efficient to <strong>share</strong> electrons. The result is a <strong>covalent bond</strong> — the backbone of most of chemistry's most important molecules.</p>
 
@@ -293,8 +289,7 @@ window.CHAPTERS.push({
 
                 <div class="viz-placeholder" data-viz="lewis-dot-drawer"></div>
                 <div class="viz-placeholder" data-viz="bond-polarity-viz"></div>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Covalent bonding explains molecular substances, but metals do not form discrete molecules. How do billions of metal atoms stick together? The answer is the metallic bond, our next topic.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'lewis-dot-drawer',
@@ -499,7 +494,6 @@ window.CHAPTERS.push({
             title: 'Metallic Bonds',
             content: `
  <h2>Metallic Bonds </h2>
-<p class="section-roadmap"><em>In this section, you will discover the metallic bond, where a "sea" of delocalized electrons explains the conductivity, malleability, and luster of metals.</em></p>
 
                 <p>When metal atoms pack together, neither ionic nor covalent bonding fully explains what holds them together. The answer is the <strong>metallic bond</strong> — a unique type of bonding where valence electrons become free to roam throughout the entire metal.</p>
 
@@ -563,8 +557,7 @@ window.CHAPTERS.push({
                         </table>
                     </div>
                 </div>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Ionic, covalent, and metallic bonds hold atoms together within a substance. But there are also weaker forces between molecules that explain why molecular substances can be solids, liquids, or gases. These intermolecular forces are the focus of the next section.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'electron-sea-animation',
@@ -688,7 +681,6 @@ window.CHAPTERS.push({
             title: 'Intermolecular Forces',
             content: `
  <h2>Intermolecular Forces </h2>
-<p class="section-roadmap"><em>In this section, you will study intermolecular forces (van der Waals, dipole-dipole, and hydrogen bonding) that act between molecules and determine physical properties like boiling point.</em></p>
 
                 <p>Inside molecules, atoms are held together by strong intramolecular bonds. But what holds <em>molecules</em> to each other? These weaker forces, called <strong>intermolecular forces (IMF)</strong>, determine whether a substance is a gas, liquid, or solid at room temperature.</p>
 
@@ -739,8 +731,7 @@ window.CHAPTERS.push({
                         <p><strong>Boiling water</strong> breaks hydrogen bonds between H₂O molecules (IMF). H-O bonds inside each water molecule remain intact. Hydrogen bonds are ~5-10% as strong as covalent bonds.</p>
                     </div>
                 </div>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>We have examined the forces between atoms and between molecules. The final piece of the bonding puzzle is molecular shape: how do electron pairs arrange themselves in three dimensions? VSEPR theory provides the answer.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'boiling-point-chart',
@@ -900,7 +891,6 @@ window.CHAPTERS.push({
             title: 'Molecular Geometry',
             content: `
  <h2>Molecular Geometry </h2>
-<p class="section-roadmap"><em>In this section, you will use VSEPR theory to predict the three-dimensional shapes of molecules from their Lewis structures.</em></p>
 
                 <p>Molecules aren't flat! The three-dimensional shape of a molecule determines its polarity, reactivity, and biological function. The <strong>VSEPR theory</strong> (Valence Shell Electron Pair Repulsion) gives us a simple, powerful way to predict molecular shapes.</p>
 
@@ -944,8 +934,7 @@ window.CHAPTERS.push({
                         <p>This polarity makes water an excellent solvent for ionic compounds ("like dissolves like").</p>
                     </div>
                 </div>
-            
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>With Chapters 4 through 6 complete, you now understand the microscopic world: atomic structure, periodic trends, and chemical bonding. These three chapters explain why substances have the properties they do. Now we shift our focus to a new question: what drives chemical reactions? In Chapter 7, we explore the energy changes that accompany reactions, discovering why some reactions release heat while others absorb it, and how to calculate enthalpy changes.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'vsepr-shape-rotator',

@@ -8,9 +8,7 @@ window.CHAPTERS.push({
         {
             id: 'ch00-sec01',
             title: 'What Is Chemistry?',
- content:`<div class="env-block intuition"><div class="env-title">Welcome to Chemistry</div><div class="env-body"><p>This is where your chemistry journey begins. Before we can explore the fascinating world of chemical reactions, atomic structure, and molecular bonding, we need to build a foundation: the practical skills and safety knowledge that every chemist relies on. Think of this chapter as your passport to the chemistry laboratory.</p></div></div>
-<h2>What Is Chemistry?</h2>
-<p class="section-roadmap"><em>In this section, you will discover what chemistry is, why it matters, and get a preview of the entire course ahead.</em></p>
+ content:`<h2>What Is Chemistry?</h2>
                 <p>Chemistry is the science of <strong>matter</strong> — its composition, structure, properties, and transformations. Everything around you — the air you breathe, the water you drink, the food you eat — is made of chemicals. Chemistry helps us understand these substances and create new ones.</p>
                 <div class="env-block definition">
                     <div class="env-title">Definition (Chemistry)</div>
@@ -42,8 +40,7 @@ window.CHAPTERS.push({
                     <li>Important element groups and organic chemistry</li>
                 </ul>
                 <div class="viz-placeholder" data-viz="viz-chemistry-timeline"></div>
-                <div class="viz-placeholder" data-viz="viz-chem-overview"></div>
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Now that you understand what chemistry is and why it matters, the next step is ensuring you can work safely in the laboratory. Safety is not just a set of rules; it is the foundation that makes every experiment possible.</p></div></div>`,
+                <div class="viz-placeholder" data-viz="viz-chem-overview"></div>`,
             visualizations: [
             {
                 id: 'viz-chemistry-timeline',
@@ -336,7 +333,6 @@ window.CHAPTERS.push({
             id: 'ch00-sec02',
             title: 'Laboratory Safety',
  content:`<h2>Laboratory Safety</h2>
-<p class="section-roadmap"><em>In this section, you will learn the essential safety rules and equipment that protect you in the laboratory, so that every experiment you conduct is both productive and safe.</em></p>
                 <p>Chemistry is an experimental science. The laboratory is where ideas are tested and discoveries are made — but it can also be dangerous if proper precautions are not followed. Safety is always the first priority.</p>
                 <div class="env-block warning">
                     <div class="env-title">Warning: General Lab Rules</div>
@@ -394,8 +390,7 @@ window.CHAPTERS.push({
                     <div class="env-title">Important: Diluting Sulfuric Acid</div>
  <div class="env-body"><p>When diluting concentrated sulfuric acid, always add the acid slowly to water, never water to acid. This is because dissolution releases enormous heat. Adding water to acid can cause violent boiling and splashing of the corrosive acid. Remember:"Add acid to water, like you oughta" .</p></div>
                 </div>
-                <div class="viz-placeholder" data-viz="viz-lab-safety"></div>
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>With safety knowledge in hand, you are ready to perform your first laboratory techniques. We begin with the simplest and most common methods: filtration and evaporation.</p></div></div>`,
+                <div class="viz-placeholder" data-viz="viz-lab-safety"></div>`,
             visualizations: [{
                 id: 'viz-lab-safety',
                 title: 'Lab Safety Equipment — Interactive Guide',
@@ -695,7 +690,6 @@ window.CHAPTERS.push({
             id: 'ch00-sec03',
             title: 'Filtration and Evaporation',
  content:`<h2>Filtration and Evaporation</h2>
-<p class="section-roadmap"><em>In this section, you will master two fundamental separation techniques, filtration and evaporation, that exploit differences in solubility and volatility.</em></p>
                 <p>Two of the most fundamental separation techniques in chemistry involve exploiting differences in <strong>solubility</strong> and <strong>boiling point</strong>. In this section we examine filtration and evaporation/crystallization.</p>
  <h3>Filtration</h3>
  <p>Filtration separates an <strong>insoluble solid</strong> from a liquid. The mixture is poured through filter paper held in a funnel. The liquid (filtrate) passes through; the solid (residue) is retained on the paper.</p>
@@ -736,8 +730,7 @@ window.CHAPTERS.push({
  <p>Use <strong>cooling crystallization</strong> for salts like KNO₃ whose solubility drops greatly at lower temperatures.</p>
                     </div>
                 </div>
-                <div class="viz-placeholder" data-viz="viz-filtration"></div>
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Filtration and evaporation work well for simple mixtures, but what if both components are liquids that mix together? That is where distillation and extraction come in.</p></div></div>`,
+                <div class="viz-placeholder" data-viz="viz-filtration"></div>`,
             visualizations: [{
                 id: 'viz-filtration',
                 title: 'Filtration Process',
@@ -953,7 +946,6 @@ window.CHAPTERS.push({
             id: 'ch00-sec04',
             title: 'Distillation and Extraction',
  content:`<h2>Distillation and Extraction</h2>
-<p class="section-roadmap"><em>In this section, you will explore two more advanced separation methods, distillation and extraction, that handle miscible liquids and dissolved solutes.</em></p>
                 <p>When two miscible liquids are mixed, or when a solid is dissolved in a solvent and we need to recover a pure compound from a mixture of solvents, more advanced separation techniques are required.</p>
  <h3>Distillation</h3>
                 <p>Distillation separates <strong>miscible liquids</strong> that have sufficiently different boiling points. The mixture is heated; the component with the lower boiling point vaporizes preferentially, the vapor travels through a condenser where it is cooled and condensed back to liquid, and is collected separately.</p>
@@ -997,8 +989,7 @@ window.CHAPTERS.push({
  <p>Bromine (Br₂) dissolves in both water and organic solvents. Since Br₂ is much more soluble in CCl₄ than in water, adding CCl₄ to bromine-water causes Br₂ to transfer into the CCl₄ layer. After shaking and separation: the lower CCl₄ layer is orange-red (Br₂-rich), the upper water layer becomes nearly colorless.</p>
                     </div>
                 </div>
-                <div class="viz-placeholder" data-viz="viz-extraction"></div>
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You have now learned four powerful separation techniques individually. In the final section, we bring them all together into a unified decision framework.</p></div></div>`,
+                <div class="viz-placeholder" data-viz="viz-extraction"></div>`,
             visualizations: [
                 {
                     id: 'viz-distillation',
@@ -1373,7 +1364,6 @@ window.CHAPTERS.push({
             id: 'ch00-sec05',
             title: 'Separation Methods Compared',
  content:`<h2>Comparing Separation Methods</h2>
-<p class="section-roadmap"><em>In this section, you will compare all four separation methods side by side, learning how to choose the right technique for any given mixture.</em></p>
                 <p>Choosing the right separation technique depends on the physical properties of the substances involved. The four core methods are related to different physical properties that allow the components to be separated.</p>
                 <div class="env-block definition">
                     <div class="env-title">The Four Core Methods</div>
@@ -1453,8 +1443,7 @@ window.CHAPTERS.push({
  <li><strong>Separating funnel </strong>: Extraction and layer separation.</li>
  <li><strong>Condenser </strong>: Converts vapor back to liquid in distillation.</li>
  <li><strong>Crucible </strong>: High-temperature reactions; ignition of substances.</li>
-                </ul>
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You now have the laboratory toolkit every chemist needs: safety awareness and four core separation techniques. In the next chapter, we put these skills to use as we learn to classify the substances we encounter in the lab, dividing matter into pure substances and mixtures, elements and compounds, acids, bases, and salts. Classification is the first step toward understanding chemical reactions.</p></div></div>`,
+                </ul>`,
             visualizations: [{
                 id: 'viz-methods-comparison',
                 title: 'Four Separation Methods — Side by Side',

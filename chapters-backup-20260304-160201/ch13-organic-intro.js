@@ -9,9 +9,7 @@ window.CHAPTERS.push({
             id: 'ch13-sec01',
  title:'',
             content: `
-<div class="env-block intuition"><div class="env-title">From Inorganic to Organic Chemistry</div><div class="env-body"><p>Chapters 11 and 12 explored the descriptive chemistry of metals and nonmetals. Now we enter a new realm: organic chemistry, the chemistry of carbon compounds. Carbon is extraordinary because it can form four strong covalent bonds and link to itself in chains, rings, and branched structures of virtually unlimited complexity. This is why there are over 30 million known organic compounds, vastly outnumbering all inorganic compounds. This chapter introduces the fundamental concepts you need to navigate this vast landscape.</p></div></div>
 <h2>Characteristics of Organic Compounds </h2>
-<p class="section-roadmap"><em>In this section, you will learn what distinguishes organic compounds from inorganic ones, and explore the key properties that organic compounds share.</em></p>
 
 <p>Organic chemistry is the branch of chemistry that studies carbon-containing compounds. The vast majority of compounds containing carbon are classified as <strong>organic compounds </strong>. Today there are over 30 million known organic compounds — far more than all inorganic compounds combined.</p>
 
@@ -50,8 +48,7 @@ Carbon and hydrogen in the organic compound are oxidised to CO₂ and H₂O resp
 </ul>
 
 <p>The interactive visualization below compares the melting points and solubilities of representative organic and inorganic compounds — notice the striking contrast.</p>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You now know what makes organic compounds special. The next section examines carbon's bonding in detail: its ability to form single, double, and triple bonds, and to build chains and rings that are the skeleton of all organic molecules.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'viz-organic-properties',
@@ -190,7 +187,6 @@ Carbon and hydrogen in the organic compound are oxidised to CO₂ and H₂O resp
  title:'',
             content: `
 <h2>Carbon Bonding </h2>
-<p class="section-roadmap"><em>In this section, you will discover why carbon's bonding versatility (single, double, triple bonds and ring formation) is the basis for organic chemistry's enormous diversity.</em></p>
 
 <p>Carbon is element number 6. Its electron configuration is \\(1s^22s^22p^2\\), giving it <strong>four valence electrons</strong> and a valence of four. This means every carbon atom forms exactly four covalent bonds — the cornerstone of organic chemistry.</p>
 
@@ -224,8 +220,7 @@ Carbon and hydrogen in the organic compound are oxidised to CO₂ and H₂O resp
 </ul>
 
 <p>Use the interactive Carbon Bonding Explorer below to see how CH₄, C₂H₄, and C₂H₂ differ in geometry and bond character.</p>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Carbon can build an astonishing variety of molecular frameworks. To communicate about these structures clearly, we need systematic ways to represent them. The next section introduces the formulas and notations used in organic chemistry.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'viz-carbon-bonding',
@@ -376,7 +371,6 @@ Carbon and hydrogen in the organic compound are oxidised to CO₂ and H₂O resp
  title:'',
             content: `
 <h2>Representing Organic Compounds </h2>
-<p class="section-roadmap"><em>In this section, you will master the different ways to represent organic molecules: molecular formulas, structural formulas, condensed formulas, and skeletal structures.</em></p>
 
 <p>Chemists use several complementary notations to describe organic molecules. Each reveals different information. You need to be comfortable converting between all four.</p>
 
@@ -415,8 +409,7 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
 </table>
 
 <p>The visualization below lets you explore how these four representations look for several simple organic molecules.</p>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>The same molecular formula can correspond to different structural arrangements, a phenomenon called isomerism. Understanding isomers is critical because different structures mean different properties. The next section explores this concept.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'viz-formula-converter',
@@ -577,7 +570,6 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
  title:'',
             content: `
 <h2>Structural Isomers </h2>
-<p class="section-roadmap"><em>In this section, you will explore structural isomerism, learning that molecules with the same molecular formula can have completely different structures and properties.</em></p>
 
 <p><strong>Structural isomers </strong> — also called constitutional isomers — are compounds that share the same molecular formula but differ in the connectivity of their atoms (i.e., they have different structural formulas). They are different compounds with different properties.</p>
 
@@ -627,8 +619,7 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
 <p>C₅H₁₂ has exactly <strong>3</strong> structural isomers: n-pentane, isopentane, neopentane.</p>
 
 <p>The Isomer Generator below draws all structural isomers of C₄H₁₀ and C₅H₁₂ side by side.</p>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>With millions of organic compounds to discuss, we need a systematic naming convention. The IUPAC nomenclature system, covered in the final section, gives every organic compound a unique, unambiguous name based on its structure.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'viz-isomer-generator',
@@ -829,7 +820,6 @@ Example: A zigzag line with 3 interior vertices and 2 endpoints = butane (C₄H�
  title:'(IUPAC)',
             content: `
 <h2>Naming Organic Compounds — Alkanes </h2>
-<p class="section-roadmap"><em>In this section, you will learn the IUPAC naming system, the universal language that lets chemists communicate unambiguously about organic structures.</em></p>
 
 <p>The IUPAC (International Union of Pure and Applied Chemistry) naming system provides a universal language for organic compounds. For Chinese high-school chemistry, the key focus is on <strong>alkane nomenclature</strong> .</p>
 
@@ -892,8 +882,7 @@ Name: <strong>2,2-dimethylpropane (2,2-)</strong>
 </div>
 
 <p>Use the interactive Naming Practice Tool below to test your naming skills.</p>
-            
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You now have the foundational tools of organic chemistry: you can identify organic compounds, understand carbon bonding, draw structural formulas, recognize isomers, and name simple molecules. In Chapter 14, we apply these tools to the simplest organic family: hydrocarbons. From the saturated alkanes to the reactive alkenes and the aromatic benzene ring, hydrocarbons are the starting point for all organic synthesis.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'viz-naming-practice',

@@ -10,9 +10,7 @@ window.CHAPTERS.push({
       id: 'ch11-sec01',
       title: 'Sodium & Its Compounds',
       content: `
-<div class="env-block intuition"><div class="env-title">From Principles to Practice: The Metals</div><div class="env-body"><p>Chapters 7 through 10 gave you the theoretical tools of reaction chemistry: energy, rates, equilibrium, and electrochemistry. Now it is time to see these principles in action with real elements. This chapter focuses on three of the most important metals: sodium, aluminum, and iron. Each demonstrates different aspects of metallic chemistry, from the explosive reactivity of an alkali metal to the amphoteric behavior of aluminum to the variable oxidation states of iron.</p></div></div>
 <h2>Sodium and Its Compounds</h2>
-<p class="section-roadmap"><em>In this section, you will explore sodium and its compounds, discovering why alkali metals are so reactive and how sodium's compounds are used in industry and daily life.</em></p>
 
 <p>Sodium (Na) is the quintessential alkali metal: soft, silvery, and intensely reactive with water and air. Understanding Na and its key compounds is a cornerstone of Chinese high-school chemistry.</p>
 
@@ -82,8 +80,7 @@ window.CHAPTERS.push({
 <p><strong>Interconversions:</strong></p>
 \\[ \\text{Na}_2\\text{CO}_3 + \\text{CO}_2 + \\text{H}_2\\text{O} \\longrightarrow 2\\text{NaHCO}_3 \\]
 \\[ 2\\text{NaHCO}_3 \\xrightarrow{\\Delta} \\text{Na}_2\\text{CO}_3 + \\text{H}_2\\text{O} + \\text{CO}_2\\uparrow \\]
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Sodium showed us the extreme reactivity of alkali metals. Aluminum, in the next section, presents a fascinating contrast: a reactive metal that appears unreactive because of its protective oxide layer, with the added twist of amphoteric behavior.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-na-water',
@@ -249,7 +246,6 @@ window.CHAPTERS.push({
       title: 'Aluminum & Its Compounds',
       content: `
 <h2>Aluminum and Its Compounds</h2>
-<p class="section-roadmap"><em>In this section, you will study aluminum, the most abundant metal in the Earth's crust, and learn about its unique amphoteric properties.</em></p>
 
 <p>Aluminum is the most abundant metal in Earth's crust and a marvel of modern materials science. Its key chemical trait is <strong>amphotericity </strong> — it can react with both acids <em>and</em> bases.</p>
 
@@ -301,8 +297,7 @@ window.CHAPTERS.push({
   <li>With excess NaOH: \\(\\text{Al(OH)}_3 + \\text{OH}^- \\to \\text{AlO}_2^- + 2\\text{H}_2\\text{O}\\) (precipitate dissolves)</li>
 </ol>
 <p>Conversely: adding AlCl₃ to NaOH — the first AlCl₃ dissolves immediately (excess NaOH), precipitate only forms later.</p>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Aluminum has one stable oxidation state (Al3+). Iron is different: it commonly exists as both Fe2+ and Fe3+, and the chemistry of interconverting these states is central to understanding corrosion, biology, and industry.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-al-amphoteric',
@@ -451,7 +446,6 @@ window.CHAPTERS.push({
       title: 'Iron & Its Compounds',
       content: `
 <h2>Iron and Its Compounds</h2>
-<p class="section-roadmap"><em>In this section, you will investigate iron chemistry, focusing on its two common oxidation states (Fe2+ and Fe3+) and the reactions that interconvert them.</em></p>
 
 <p>Iron is the most used structural metal on Earth. Its chemistry is dominated by two oxidation states: <strong>Fe²⁺</strong> (ferrous) and <strong>Fe³⁺</strong> (ferric). Knowing how to interconvert and identify them is essential.</p>
 
@@ -513,8 +507,7 @@ window.CHAPTERS.push({
   <li><strong>NaOH test:</strong> White precipitate = Fe²⁺ (Fe(OH)₂); Red-brown precipitate = Fe³⁺ (Fe(OH)₃)</li>
   <li><strong>Sequence:</strong> Add KSCN first to detect Fe³⁺, then add excess NaOH — if color disappears = no Fe³⁺</li>
 </ol>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You have studied three specific metals in depth. The next section zooms out to examine general metallic properties and the activity series, a ranking that predicts which metals can displace which from solution.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-fe-color',
@@ -638,7 +631,6 @@ window.CHAPTERS.push({
       title: 'General Metallic Properties',
       content: `
 <h2>General Properties of Metals</h2>
-<p class="section-roadmap"><em>In this section, you will examine general metallic properties and the activity series, which ranks metals by their tendency to lose electrons.</em></p>
 
 <p>Metals share a characteristic set of physical and chemical properties, rooted in the presence of a"sea" of delocalized electrons (metallic bonding).</p>
 
@@ -692,8 +684,7 @@ window.CHAPTERS.push({
     <tr><td>Cu, Ag, Au, Pt</td><td>No reaction with water or steam</td><td>—</td></tr>
   </tbody>
 </table>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Pure metals have limitations: iron rusts, aluminum is soft. By combining metals into alloys and extracting them efficiently from ores, we create the materials that build our civilization. The final section explores metallurgy and alloy science.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-activity-series',
@@ -930,7 +921,6 @@ window.CHAPTERS.push({
       title: 'Alloys & Metallurgy',
       content: `
 <h2>Alloys and Metallurgy</h2>
-<p class="section-roadmap"><em>In this section, you will learn about alloys and metallurgy, seeing how metals are extracted from ores and combined to create materials with enhanced properties.</em></p>
 
 <p>Pure metals are often too soft or too reactive for practical applications. Alloys — mixtures of a metal with other elements — dramatically improve mechanical, electrical, and chemical properties.</p>
 
@@ -995,8 +985,7 @@ window.CHAPTERS.push({
 <p>Al cannot be smelted with carbon because Al₂O₃ + C → only at extremely high temperatures, and AlC product forms. Instead, electrolysis is used:</p>
 \\[ 2\\text{Al}_2\\text{O}_3 \\xrightarrow{\\text{electrolysis, cryolite}} 4\\text{Al} + 3\\text{O}_2 \\]
 <p>Cryolite (Na₃AlF₆) is added to lower the melting point of Al₂O₃ from 2072°C to ~960°C.</p>
-
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You have seen how the chemistry of real metals illustrates the principles of reactivity, oxidation states, and electrochemistry. In Chapter 12, we turn to the other side of the periodic table: nonmetals. Silicon, chlorine, sulfur, and nitrogen each have rich and distinctive chemistry that impacts industry, agriculture, and the environment.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-thermite',

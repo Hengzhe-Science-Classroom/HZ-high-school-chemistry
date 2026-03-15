@@ -10,9 +10,7 @@ window.CHAPTERS.push({
             id: 'ch05-sec01',
             title: 'Structure of the Periodic Table',
             content: `
-<div class="env-block intuition"><div class="env-title">From Atomic Structure to Periodic Patterns</div><div class="env-body"><p>In Chapter 4, you discovered how electrons are arranged in shells and sublevels around the nucleus. Now comes the payoff: when elements are arranged by atomic number, their properties repeat in a periodic pattern. This is because elements with similar electron configurations exhibit similar chemical behavior. The periodic table, built on this insight, is the chemist's most powerful reference tool. In this chapter, you will learn to read the table, understand its trends, and use it to predict element properties.</p></div></div>
 <h2>(Structure of the Periodic Table)</h2>
-<p class="section-roadmap"><em>In this section, you will learn how the periodic table is organized into periods and groups, and how its structure directly reflects electron configuration.</em></p>
 
 <p>The periodic table arranges all known elements in order of increasing <strong>atomic number</strong> (proton number), revealing the periodic pattern of element properties.</p>
 
@@ -45,8 +43,7 @@ window.CHAPTERS.push({
 
 <h3>Metal / Nonmetal Boundary</h3>
 <p>A diagonal staircase along B–Si–As–Te–At divides metals (left) from nonmetals (right). Elements along the boundary (Si, Ge, As, etc.) are <strong>metalloids </strong> — crucial for modern electronics.</p>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You now understand the table's architecture. The next step is to explore the first major periodic trend: atomic radius. Why do atoms shrink across a period but grow down a group?</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'ch05-viz01',
@@ -233,7 +230,6 @@ window.CHAPTERS.push({
             title: 'Atomic Radius Trends',
             content: `
 <h2>(Trends in Atomic Radius)</h2>
-<p class="section-roadmap"><em>In this section, you will explore how atomic radius changes across periods and down groups, and understand the competing forces that control atom size.</em></p>
 
 <p>Atomic radius is governed by two competing effects:</p>
 
@@ -267,8 +263,7 @@ window.CHAPTERS.push({
     <tr><td>Radius (pm)</td><td>152</td><td>186</td><td>227</td><td>248</td><td>265</td></tr>
   </tbody>
 </table>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Atomic radius tells us about atom size, but chemical reactivity depends on how tightly electrons are held. Next, we examine ionization energy, the energy needed to remove an electron, and how it correlates with metallic character.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'ch05-viz02',
@@ -384,7 +379,6 @@ window.CHAPTERS.push({
             title: 'Ionization Energy & Metallic/Nonmetallic Character',
             content: `
 <h2>Ionization Energy & Metallic/Nonmetallic Character</h2>
-<p class="section-roadmap"><em>In this section, you will study ionization energy and metallic/nonmetallic character, learning how easily atoms lose or gain electrons across the table.</em></p>
 
 <p><strong>Metallic character :</strong> tendency to <em>lose</em> electrons. <strong>Nonmetallic character :</strong> tendency to <em>gain</em> electrons. Both are quantified by ionization energy and electronegativity.</p>
 
@@ -411,8 +405,7 @@ window.CHAPTERS.push({
   </tbody>
 </table>
 <p>Rule: EN increases left→right and bottom→top. Difference > 1.7 → ionic bond; < 1.7 → covalent bond.</p>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You have learned individual trends in isolation. In the next section, we bring them together to make predictions about unfamiliar elements, just as Mendeleev did when he predicted the properties of undiscovered elements.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'ch05-viz03',
@@ -555,7 +548,6 @@ window.CHAPTERS.push({
             title: 'Periodic Trends — Predicting Element Properties',
             content: `
 <h2>Periodic Trends — Predicting Element Properties</h2>
-<p class="section-roadmap"><em>In this section, you will synthesize all the periodic trends to predict unknown element properties, a key skill for solving chemistry problems.</em></p>
 
 <p>The periodic law states: <strong>properties of elements vary periodically with increasing atomic number.</strong></p>
 
@@ -582,8 +574,7 @@ window.CHAPTERS.push({
     <tr><td>B / Si</td><td>Both semiconductors; form similar oxoacids</td></tr>
   </tbody>
 </table>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>With a full understanding of periodic trends, you are ready for the ultimate test: using clues about an element's properties to identify it on the table. The final section challenges you with exactly that.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'ch05-viz04',
@@ -687,7 +678,6 @@ window.CHAPTERS.push({
             title: 'Element Identification & Periodic Law Applications',
             content: `
 <h2>Element Identification & Applications of the Periodic Law</h2>
-<p class="section-roadmap"><em>In this section, you will apply periodic law to identify elements and solve problems, putting your trend knowledge to the test.</em></p>
 
 <p>With the periodic law, we can:</p>
 <ol>
@@ -715,8 +705,7 @@ window.CHAPTERS.push({
     <tr><td>HNO₃ vs H₃PO₄</td><td>HNO₃ stronger acid</td><td>N nonmetallic > P</td></tr>
   </tbody>
 </table>
-            
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You can now read the periodic table like a map, predicting properties from position alone. The natural next question is: what happens when atoms interact? In Chapter 6, we explore chemical bonds, the forces that hold atoms together in molecules, ionic crystals, and metallic solids. Bonding is where atomic structure meets the macroscopic world of materials.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'ch05-viz05',

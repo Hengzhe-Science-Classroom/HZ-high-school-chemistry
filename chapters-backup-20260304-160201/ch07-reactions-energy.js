@@ -10,9 +10,7 @@ window.CHAPTERS.push({
       id: 'ch07-sec01',
  title:'',
       content: `
-<div class="env-block intuition"><div class="env-title">From Bonding to Energy</div><div class="env-body"><p>In Chapter 6, you learned that forming bonds releases energy while breaking bonds requires energy. This simple observation has profound consequences: it means every chemical reaction involves an energy exchange with the surroundings. Some reactions release so much energy they can power rockets; others absorb energy and feel ice-cold to the touch. This chapter develops the thermodynamic framework for understanding, measuring, and predicting these energy changes.</p></div></div>
 <h2>Energy Changes in Chemical Reactions</h2>
-<p class="section-roadmap"><em>In this section, you will learn the fundamental distinction between exothermic and endothermic reactions, and see how enthalpy change quantifies the energy released or absorbed.</em></p>
 
 <p>Every chemical reaction involves a rearrangement of chemical bonds — and bonds store energy. When old bonds break and new bonds form, energy is either <strong>released to the surroundings</strong> or <strong>absorbed from the surroundings</strong>. This is why some reactions feel hot and others feel cold.</p>
 
@@ -65,8 +63,7 @@ window.CHAPTERS.push({
   </tbody>
 </table>
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You now understand the direction of energy flow in reactions. But where exactly does the energy come from? The next section connects enthalpy changes to the breaking and forming of specific chemical bonds.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch07-viz01',
@@ -270,7 +267,6 @@ window.CHAPTERS.push({
  title:'',
       content: `
 <h2>Bond Energy and Reaction Enthalpy</h2>
-<p class="section-roadmap"><em>In this section, you will discover how to calculate enthalpy changes from bond energies, connecting the microscopic world of bond breaking and forming to measurable heat flow.</em></p>
 
 <p>Bond energy is the energy required to break one mole of a particular covalent bond in the gaseous phase, producing gaseous atoms. It is always a <strong>positive value</strong> (breaking bonds takes energy).</p>
 
@@ -313,8 +309,7 @@ window.CHAPTERS.push({
   <li>This method gives ΔH for <strong>gaseous</strong> reactants and products only.</li>
   <li>If liquid or solid phases appear, latent heats must also be included.</li>
 </ol>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Bond energy calculations give us a general approach. Next, we examine specific reaction types and their characteristic energy profiles to build intuition about which reactions are exothermic and which are endothermic.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch07-viz02',
@@ -495,7 +490,6 @@ window.CHAPTERS.push({
  title:'',
       content: `
 <h2>Thermochemical Equations</h2>
-<p class="section-roadmap"><em>In this section, you will explore specific reaction types and their characteristic energy profiles, from neutralization to combustion.</em></p>
 
 <p>A <strong>thermochemical equation</strong> is a balanced chemical equation that also specifies:</p>
 <ol>
@@ -537,8 +531,7 @@ window.CHAPTERS.push({
   <li>Glucose: −2803 kJ/mol</li>
 </ul>
 <p>Standard enthalpy of neutralisation (strong acid + strong base, dilute aqueous): ΔH = −57.3 kJ/mol. This value is essentially constant regardless of which strong acid or base is used (since only H⁺ and OH⁻ react). Weak acids or bases give a less negative value because extra energy is needed to ionize them.</p>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Sometimes we cannot measure a reaction's enthalpy change directly. Hess's Law provides an elegant workaround: we can calculate any enthalpy change by combining known reactions. This is one of the most powerful tools in thermochemistry.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch07-viz03',
@@ -833,7 +826,6 @@ window.CHAPTERS.push({
  title:'',
       content: `
 <h2>Hess's Law</h2>
-<p class="section-roadmap"><em>In this section, you will learn Hess's Law, a powerful shortcut that lets you calculate enthalpy changes for reactions that are difficult to measure directly.</em></p>
 
 <p>Hess's Law states: <strong>The enthalpy change of a reaction is independent of the pathway taken</strong> — it depends only on the initial and final states.</p>
 
@@ -869,8 +861,7 @@ window.CHAPTERS.push({
 
 <h3>Born–Haber Cycles</h3>
 <p>An important application of Hess's Law in ionic chemistry is the Born–Haber cycle, which links lattice energy, ionization energy, electron affinity, and enthalpy of formation into a closed thermodynamic cycle.</p>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Theory is only as good as our ability to verify it. In the final section, you will learn how calorimetry, the experimental measurement of heat, provides the data that underpins all of thermochemistry.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch07-viz04',
@@ -1029,7 +1020,6 @@ window.CHAPTERS.push({
  title:'',
       content: `
 <h2>Energy Sources and Society</h2>
-<p class="section-roadmap"><em>In this section, you will see how calorimetry allows us to measure enthalpy changes experimentally, connecting theory to laboratory practice.</em></p>
 
 <p>Human civilization runs on energy. Chemistry provides the tools to understand, compare, and improve the energy sources we use.</p>
 
@@ -1070,8 +1060,7 @@ window.CHAPTERS.push({
   <li>Energy-efficient industrial chemistry (catalysis, process intensification)</li>
   <li><strong>Synthetic fuels (e-fuels):</strong> CO₂ + H₂ → hydrocarbons via Fischer-Tropsch chemistry</li>
 </ul>
-      
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You now understand why reactions release or absorb energy, how to calculate enthalpy changes, and how to measure them experimentally. Energy determines whether a reaction is favorable, but it does not tell us how fast the reaction occurs. A match head contains enough energy to burn, yet it sits safely until struck. In Chapter 8, we explore reaction rates and the factors that control how quickly reactions proceed.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch07-viz05',

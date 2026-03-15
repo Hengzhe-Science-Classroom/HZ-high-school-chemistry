@@ -12,9 +12,7 @@ sections: [
 id: 'ch15-sec01',
 title:'Halogenated Hydrocarbons',
 content: `
-<div class="env-block intuition"><div class="env-title">From Hydrocarbons to Functional Groups</div><div class="env-body"><p>In Chapter 14, you studied hydrocarbons, molecules built from only carbon and hydrogen. Now we introduce functional groups: specific arrangements of atoms (often containing oxygen, nitrogen, or halogens) that are grafted onto the hydrocarbon skeleton. Functional groups are what give organic molecules their characteristic chemical behavior. An alcohol (-OH) makes a molecule water-soluble and reactive; a carboxylic acid (-COOH) makes it acidic. This chapter traces the progression from halogenated hydrocarbons through alcohols, aldehydes, carboxylic acids, and esters, building a complete map of organic reactivity.</p></div></div>
 <h2>Hydrocarbon Derivatives — Overview of Functional Groups</h2>
-<p class="section-roadmap"><em>In this section, you will study halogenated hydrocarbons (haloalkanes), where a halogen atom replaces hydrogen, and learn about nucleophilic substitution and elimination reactions.</em></p>
 
 <p>A <strong>hydrocarbon derivative</strong> is formed when one or more hydrogen atoms in a hydrocarbon are replaced by other atoms or groups. These substituted groups are called <strong>functional groups</strong> — they determine the chemical behavior of the molecule.</p>
 
@@ -93,8 +91,7 @@ content: `
  <li>(hydrolysis) — reaction with water (or aqueous NaOH)</li>
 </ul>
 </div>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Halogenated hydrocarbons can be converted to alcohols by replacing the halogen with -OH. Alcohols are among the most important organic compounds, and their oxidation chemistry is the thread that connects the remaining sections of this chapter.</p></div></div>`,
+`,
 visualizations: [
 {
   id: 'ch15-viz01',
@@ -281,7 +278,6 @@ id: 'ch15-sec02',
 title:'Alcohols',
 content: `
 <h2>Alcohols — The Hydroxyl Functional Group</h2>
-<p class="section-roadmap"><em>In this section, you will explore alcohols, especially ethanol, and learn the oxidation pathway that converts alcohols to aldehydes and then to carboxylic acids.</em></p>
 
 <div class="env-definition">
 <strong>Definition:</strong> An <strong>alcohol </strong> is an organic compound containing one or more hydroxyl groups (–OH) bonded directly to a saturated carbon atom. The general formula for monohydric alcohols is CₙH₂ₙ₊₁OH.
@@ -325,8 +321,7 @@ content: `
 <p>Ethanol sits in the middle of an oxidation ladder:</p>
 <p style="text-align:center;">\\( \\text{CH}_3\\text{CH}_3 \\rightarrow \\text{CH}_3\\text{CH}_2\\text{OH} \\rightarrow \\text{CH}_3\\text{CHO} \\rightarrow \\text{CH}_3\\text{COOH} \\)</p>
 <p>Each arrow represents a 2-electron oxidation (loss of H₂ or addition of O).</p>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>When an alcohol is oxidized, it first becomes an aldehyde. Aldehydes are reactive intermediates with distinctive test reactions that you will learn in the next section.</p></div></div>`,
+`,
 visualizations: [
 {
   id: 'ch15-viz04',
@@ -490,7 +485,6 @@ id: 'ch15-sec03',
 title:'Aldehydes',
 content: `
 <h2>Aldehydes — The –CHO Functional Group</h2>
-<p class="section-roadmap"><em>In this section, you will study aldehydes and their characteristic reactions, including the silver mirror test and Fehling's test that detect the aldehyde functional group.</em></p>
 
 <div class="env-definition">
 <strong>Definition:</strong> An <strong>aldehyde </strong> contains the formyl group –CHO, where a carbonyl carbon (C=O) is bonded to at least one hydrogen. The simplest aldehyde is methanal (HCHO, formaldehyde); the most important at this level is ethanal (CH₃CHO, acetaldehyde).
@@ -532,8 +526,7 @@ content: `
   <li>Ketones: neither test gives a positive result</li>
 </ul>
 </div>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Further oxidation of an aldehyde produces a carboxylic acid. These organic acids are the end point of the oxidation pathway and the starting materials for making esters, our next topic.</p></div></div>`,
+`,
 visualizations: [
 {
   id: 'ch15-viz03',
@@ -687,7 +680,6 @@ id: 'ch15-sec04',
 title:'Carboxylic Acids',
 content: `
 <h2>Carboxylic Acids — The –COOH Functional Group</h2>
-<p class="section-roadmap"><em>In this section, you will learn about carboxylic acids, organic acids that combine the reactivity of both the -OH and C=O groups, and see how they react with bases, metals, and alcohols.</em></p>
 
 <div class="env-definition">
 <strong>Definition:</strong> A <strong>carboxylic acid </strong> contains the carboxyl group –COOH, which consists of a carbonyl (C=O) and a hydroxyl (–OH) on the same carbon. General formula for monocarboxylic acids: CₙH₂ₙ₊₁COOH.
@@ -731,8 +723,7 @@ The –OH is lost from the carboxylic acid side, and H is lost from the alcohol'
 <div class="env-warning">
 <strong>Exam Tip:</strong> The double arrow ⇌ indicates the reaction is reversible. To improve yield: (1) use excess of one reactant, (2) remove water (or ester) as it forms, (3) use a catalyst. Le Chatelier's principle applies here.
 </div>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Carboxylic acids react with alcohols to form esters in a condensation reaction. The final section explores esters and then maps out the complete network of organic reactions, showing how all functional groups interconnect.</p></div></div>`,
+`,
 visualizations: [],
 exercises: [
 {
@@ -761,7 +752,6 @@ id: 'ch15-sec05',
 title:'Esters & Organic Reaction Map',
 content: `
 <h2>Esters — Formation, Properties, and Applications</h2>
-<p class="section-roadmap"><em>In this section, you will discover esters, the fragrant products of acid-alcohol reactions, and see the complete organic reaction map that connects all functional groups.</em></p>
 
 <div class="env-definition">
 <strong>Definition:</strong> An <strong>ester </strong> is an organic compound formed by the condensation of a carboxylic acid and an alcohol, with the elimination of water. The general structure is R–COO–R', where the –COO– linkage is the ester functional group.
@@ -837,8 +827,7 @@ Base hydrolysis: irreversible →, goes to completion
 <div class="env-warning">
 <strong>Key Diagnostic Tip:</strong> NaHCO₃ distinguishes carboxylic acids (reacts, CO₂ produced) from alcohols and phenols (no reaction). This is because carboxylic acids (Ka ≈ 10⁻⁵) are stronger acids than H₂CO₃ (Ka₁ ≈ 4.3×10⁻⁷), while alcohols and phenols are weaker than H₂CO₃.
 </div>
-
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You have now traced the chain of organic transformations from halogenated hydrocarbons through alcohols, aldehydes, carboxylic acids, and esters. These functional groups and their reactions are the language of organic chemistry. In Chapter 16, we scale up dramatically: biological macromolecules (carbohydrates, fats, proteins, and nucleic acids) are built from these same functional groups, but assembled into structures of breathtaking complexity that make life possible.</p></div></div>`,
+`,
 visualizations: [
 {
   id: 'ch15-viz02',

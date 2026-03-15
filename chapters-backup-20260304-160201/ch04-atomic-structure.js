@@ -13,9 +13,7 @@ window.CHAPTERS.push({
       id: 'ch04-sec01',
       title: 'Atomic Composition',
       content: `
-<div class="env-block intuition"><div class="env-title">From Macroscopic Reactions to Atomic Structure</div><div class="env-body"><p>Chapters 0 through 3 built your macroscopic chemistry toolkit: lab techniques, classification, stoichiometry, and ionic reactions. But all of these macroscopic phenomena ultimately arise from the behavior of atoms. Why does sodium react violently with water while neon is completely inert? Why do some elements form ions while others share electrons? The answers lie in atomic structure. In this chapter, we journey inside the atom to discover how protons, neutrons, and electrons determine an element's identity and chemical behavior.</p></div></div>
 <h2>Atomic Composition</h2>
-<p class="section-roadmap"><em>In this section, you will explore the basic building blocks of the atom, protons, neutrons, and electrons, and learn how their arrangement defines each element.</em></p>
 
 <p>Every atom consists of a tiny, dense <strong>nucleus</strong> surrounded by rapidly moving <strong>electrons</strong>.</p>
 
@@ -63,8 +61,7 @@ window.CHAPTERS.push({
   <li><strong>Anion (negative ion)</strong>: gains electrons, e.g. Cl → Cl⁻ gains 1 e⁻</li>
 </ul>
 <p>The number of protons never changes in a chemical reaction — only electrons are transferred.</p>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You now know what the atom is made of. The next question is: how are the electrons arranged? Electron shell configurations explain why elements have the chemical properties they do.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-atom-structure',
@@ -219,7 +216,6 @@ window.CHAPTERS.push({
       title: 'Electron Shell Configuration',
       content: `
 <h2>Electron Shell Configuration</h2>
-<p class="section-roadmap"><em>In this section, you will learn how electrons fill concentric shells around the nucleus, following specific rules that explain why elements in the same group behave similarly.</em></p>
 
 <p>Electrons in atoms are arranged in concentric <strong>shells</strong>, labeled K, L, M, N … (or n = 1, 2, 3, 4 …) in order of increasing distance from the nucleus.</p>
 
@@ -271,8 +267,7 @@ window.CHAPTERS.push({
 </ul>
 
 <div class="viz-container" id="viz-shell-filling"></div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Shell configurations give us a good first approximation, but within each shell there are sublevels and orbitals with different shapes and energies. The next section refines our picture of electron arrangement.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-shell-filling',
@@ -434,7 +429,6 @@ window.CHAPTERS.push({
       title: 'Energy Levels and Orbitals',
       content: `
 <h2>Energy Levels and Orbitals</h2>
-<p class="section-roadmap"><em>In this section, you will go beyond simple shells to discover energy sublevels and orbitals, gaining a more detailed picture of where electrons reside.</em></p>
 
 <p>Within each electron shell, electrons occupy <strong>subshells</strong> labeled s, p, d, f, and within subshells they occupy individual <strong>orbitals</strong>.</p>
 
@@ -498,8 +492,7 @@ window.CHAPTERS.push({
 </table>
 
 <div class="viz-container" id="viz-orbital-energy"></div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Orbitals describe where electrons are likely to be found, but how did scientists arrive at this picture? The next section traces the evolution of atomic models from solid spheres to probability clouds.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-orbital-energy',
@@ -652,7 +645,6 @@ window.CHAPTERS.push({
       title: 'Electron Clouds and Atomic Models',
       content: `
 <h2>Electron Clouds and Atomic Models</h2>
-<p class="section-roadmap"><em>In this section, you will see how the atomic model evolved from a solid sphere to the modern electron cloud, and understand what probability distributions tell us about electron location.</em></p>
 
 <h3>The History of Atomic Models</h3>
 
@@ -696,8 +688,7 @@ window.CHAPTERS.push({
 
 <div class="viz-container" id="viz-electron-cloud"></div>
 <div class="viz-container" id="viz-atomic-models"></div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>So far we have assumed all atoms of an element are identical. In reality, atoms of the same element can differ in their number of neutrons. These isotopes have the same chemistry but different masses, and they play important roles in science and technology.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-electron-cloud',
@@ -997,7 +988,6 @@ window.CHAPTERS.push({
       title: 'Isotopes and Nuclides',
       content: `
 <h2>Isotopes and Nuclides</h2>
-<p class="section-roadmap"><em>In this section, you will learn about isotopes, atoms of the same element with different numbers of neutrons, and see how they are used in medicine, archaeology, and energy production.</em></p>
 
 <h3>Definitions</h3>
 
@@ -1048,8 +1038,7 @@ window.CHAPTERS.push({
 </ul>
 
 <div class="viz-container" id="viz-isotope-explorer"></div>
-      
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You have now explored the interior of the atom, from its nuclear composition to the arrangement of electrons in shells and orbitals. This knowledge is the key to understanding why the periodic table is organized the way it is. In Chapter 5, we will see how atomic structure gives rise to periodic trends in element properties, creating the single most powerful organizational tool in all of chemistry.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-isotope-explorer',

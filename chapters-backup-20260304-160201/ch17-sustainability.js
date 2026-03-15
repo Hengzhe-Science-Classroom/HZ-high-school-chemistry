@@ -12,9 +12,7 @@ window.CHAPTERS.push({
       id: 'ch17-sec01',
       title: 'Water Pollution & Treatment',
       content: `
-<div class="env-block intuition"><div class="env-title">Chemistry Meets the Real World</div><div class="env-body"><p>Throughout this course, you have built a powerful understanding of chemistry, from atomic structure and bonding to reaction dynamics and organic synthesis. In this final chapter, we bring everything full circle by examining how chemistry interacts with the environment and society. Water pollution, air quality, waste management, energy production, and advanced materials are all chemical challenges. The tools you have learned, equilibrium, kinetics, electrochemistry, organic reactions, are exactly what scientists and engineers use to build a more sustainable future.</p></div></div>
 <h2>Water Pollution & Treatment </h2>
-<p class="section-roadmap"><em>In this section, you will examine water pollution sources and treatment methods, seeing how chemical processes like coagulation, filtration, and disinfection make water safe.</em></p>
 <p>
   Water is fundamental to all life, yet rapid industrialization and agriculture
   have introduced a wide range of pollutants into freshwater and marine systems.
@@ -113,8 +111,7 @@ window.CHAPTERS.push({
   The colloidal Al(OH)₃ has a large surface area and opposite charge to
   suspended particles, causing them to coagulate and settle.
 </div>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Clean water is essential, but the atmosphere is equally important. The next section examines air pollution: the chemical reactions that produce smog, acid rain, and greenhouse gases, and the strategies for controlling them.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'water-treatment-viz',
@@ -388,7 +385,6 @@ window.CHAPTERS.push({
       title: 'Air Pollution',
       content: `
 <h2>Air Pollution </h2>
-<p class="section-roadmap"><em>In this section, you will study air pollution, from the greenhouse effect and climate change to acid rain and ozone depletion, and learn the chemistry behind each phenomenon.</em></p>
 <p>
   The atmosphere is a fragile chemical system. Combustion of fossil fuels,
   industrial processes, and transportation release pollutants that alter
@@ -498,8 +494,7 @@ window.CHAPTERS.push({
     <tr><td>301–500</td><td>Hazardous</td><td>250.5+</td></tr>
   </tbody>
 </table>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Air pollution produces harmful gases. Solid waste produces a different challenge: physical accumulation of materials, especially plastics, in the environment. The next section explores chemical approaches to waste management.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'greenhouse-simulator',
@@ -830,7 +825,6 @@ window.CHAPTERS.push({
       title: 'Solid Waste Management',
       content: `
 <h2>Solid Waste Management </h2>
-<p class="section-roadmap"><em>In this section, you will explore solid waste management, including recycling, composting, and the chemistry of biodegradable materials.</em></p>
 <p>
   Modern society generates enormous quantities of solid waste. Chemistry is
   central to understanding how materials can be recycled, safely disposed of,
@@ -941,8 +935,7 @@ window.CHAPTERS.push({
   \\[\\text{CH}_3\\text{COOH} \\xrightarrow{\\text{methanogens}} \\text{CH}_4 + \\text{CO}_2\\]
   Biogas is typically 60% CH₄, 40% CO₂ — a renewable fuel.
 </div>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Reducing waste is important, but so is finding cleaner energy sources to replace fossil fuels. The next section explores new energy technologies, from fuel cells to advanced batteries, all rooted in the electrochemistry you learned in Chapter 10.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'carbon-footprint-calculator',
@@ -1240,7 +1233,6 @@ window.CHAPTERS.push({
       title: 'New Energy Sources',
       content: `
 <h2>New Energy Sources </h2>
-<p class="section-roadmap"><em>In this section, you will investigate new energy sources, from solar cells and hydrogen fuel cells to advanced batteries, and understand the electrochemistry that makes them work.</em></p>
 <p>
   Fossil fuels (coal, oil, natural gas) are finite and emit CO₂. The
   transition to sustainable energy systems requires chemistry at every step —
@@ -1320,8 +1312,7 @@ window.CHAPTERS.push({
   \\[x\\text{Li}^+ + xe^- + 6\\text{C} \\rightarrow x\\text{LiC}_6\\]
   Discharging reverses both reactions, releasing stored energy.
 </div>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Clean energy is part of the solution. The other part is developing better materials, ones that are stronger, lighter, more efficient, and environmentally friendly. The final section explores the cutting-edge materials that chemistry is creating.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'battery-comparison',
@@ -1464,7 +1455,6 @@ window.CHAPTERS.push({
       title: 'Advanced Materials',
       content: `
 <h2>Advanced Materials </h2>
-<p class="section-roadmap"><em>In this section, you will discover advanced materials, polymers, nanomaterials, and composites, that are pushing the boundaries of what chemistry can create.</em></p>
 <p>
   Materials chemistry drives technological innovation. From the plastic in
   your phone case to the superconductors in MRI machines, modern materials
@@ -1613,8 +1603,7 @@ window.CHAPTERS.push({
     </tr>
   </tbody>
 </table>
-
-<div class="env-block intuition"><div class="env-title">Course Complete: The Journey Ahead</div><div class="env-body"><p>Congratulations! You have completed the entire High School Chemistry course. From your first laboratory safety lesson to advanced materials and sustainability, you have built a comprehensive understanding of how matter behaves at every scale. The principles you have learned, atomic structure, bonding, thermodynamics, kinetics, equilibrium, electrochemistry, organic chemistry, and biochemistry, form the foundation for further study in university chemistry, biochemistry, materials science, environmental science, and chemical engineering. Chemistry is not just a subject to study; it is a lens through which to understand and improve the world around you.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'polymer-gallery',

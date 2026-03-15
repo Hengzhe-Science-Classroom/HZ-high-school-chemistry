@@ -12,9 +12,7 @@ window.CHAPTERS.push({
       id: 'ch14-sec01',
  title:'Alkanes',
       content: `
-<div class="env-block intuition"><div class="env-title">From Foundations to Hydrocarbons</div><div class="env-body"><p>In Chapter 13, you learned the basics of organic chemistry: carbon bonding, structural formulas, isomerism, and IUPAC nomenclature. Now we apply these tools to the simplest and most fundamental class of organic compounds: hydrocarbons, molecules made of only carbon and hydrogen. From the methane in natural gas to the ethylene that makes plastics to the benzene ring that anchors countless compounds, hydrocarbons are both industrially essential and the starting point for understanding all other organic chemistry.</p></div></div>
 <h2>Alkanes — Saturated Hydrocarbons</h2>
-<p class="section-roadmap"><em>In this section, you will study alkanes, the simplest hydrocarbons, with all single bonds, and learn about their characteristic substitution reactions.</em></p>
 <p>
   Alkanes are hydrocarbons containing only C–C single bonds and C–H bonds.
   Because every carbon is bonded to the maximum number of atoms, alkanes are called
@@ -96,8 +94,7 @@ window.CHAPTERS.push({
  \\(CH_4 + 2O_2 \\xrightarrow{} CO_2 + 2H_2O\\)
 </div>
 <p>All hydrocarbons burn in oxygen to produce CO₂ and H₂O (complete combustion).</p>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Alkanes, with their single bonds, are relatively unreactive. What happens when we introduce a carbon-carbon double bond? Alkenes are far more reactive, undergoing addition reactions that are the basis of polymer chemistry.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-ch14-substitution',
@@ -388,7 +385,6 @@ window.CHAPTERS.push({
  title:'Alkenes',
       content: `
 <h2>Alkenes — The Carbon–Carbon Double Bond</h2>
-<p class="section-roadmap"><em>In this section, you will explore alkenes, hydrocarbons with carbon-carbon double bonds, and discover the addition reactions and polymerization that make them so industrially important.</em></p>
 <p>
   Alkenes contain at least one C=C double bond. The double bond consists of one
   \\(\\sigma\\)-bond and one \\(\\pi\\)-bond. The \\(\\pi\\)-bond is weaker and more reactive,
@@ -454,8 +450,7 @@ window.CHAPTERS.push({
 <div class="equation-box">
  \\(C_2H_4 + 3O_2 \\xrightarrow{} 2CO_2 + 2H_2O\\)
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Alkenes have one degree of unsaturation. Alkynes go further with a triple bond, making them even more reactive and versatile. The next section explores these highly unsaturated hydrocarbons.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-ch14-addition',
@@ -757,7 +752,6 @@ window.CHAPTERS.push({
  title:'Alkynes',
       content: `
 <h2>Alkynes — The Carbon–Carbon Triple Bond</h2>
-<p class="section-roadmap"><em>In this section, you will study alkynes, hydrocarbons with triple bonds, and see how their increased unsaturation leads to even greater reactivity.</em></p>
 <p>
   Alkynes contain a C≡C triple bond (one \\(\\sigma\\)-bond and two \\(\\pi\\)-bonds).
  The simplest alkyne is acetylene (C₂H₂), a linear molecule.
@@ -833,8 +827,7 @@ window.CHAPTERS.push({
     <tr><td>AgNO₃/NH₃</td><td>No reaction</td><td>No reaction</td><td>White ppt (terminal alkynes)</td></tr>
   </tbody>
 </table>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Linear hydrocarbons can be saturated or unsaturated. But some hydrocarbons form rings, and one ring in particular, benzene, has properties that defy simple classification. Its delocalized electrons create unique stability and reactivity.</p></div></div>`,
+      `,
       visualizations: [],
       exercises: [
         {
@@ -864,7 +857,6 @@ window.CHAPTERS.push({
  title:'Benzene and Aromatics',
       content: `
 <h2>Benzene — A Special Ring Structure</h2>
-<p class="section-roadmap"><em>In this section, you will meet benzene and aromatic compounds, whose delocalized electron ring gives them unique stability and distinctive substitution chemistry.</em></p>
 <p>
  Benzene (C₆H₆) has a regular hexagonal ring of 6 carbon atoms.
   Its structure puzzled chemists for decades. In 1865, August Kekulé proposed
@@ -935,8 +927,7 @@ window.CHAPTERS.push({
 <p>
  Benzene burns with a very sooty flame because of its high carbon-to-hydrogen ratio.
 </p>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>All the hydrocarbons we have studied come from somewhere. In the final section, we explore petroleum and natural gas, the fossil fuel sources that provide the raw materials for the entire petrochemical industry.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-ch14-benzene',
@@ -1107,7 +1098,6 @@ window.CHAPTERS.push({
  title:'Petroleum and Natural Gas',
       content: `
 <h2>Petroleum — A Mixture of Hydrocarbons</h2>
-<p class="section-roadmap"><em>In this section, you will learn about petroleum and natural gas, the primary sources of hydrocarbons, and the refining processes that turn crude oil into useful products.</em></p>
 <p>
  Crude oil is not a pure substance — it is a complex mixture of hundreds of
   different hydrocarbons, primarily alkanes, cycloalkanes, and aromatic hydrocarbons.
@@ -1194,8 +1184,7 @@ window.CHAPTERS.push({
   <li><strong>SO₂</strong>: from sulfur impurities in fuel; acid rain</li>
   <li><strong>Particulate matter</strong>: soot from aromatic combustion; respiratory hazard</li>
 </ul>
-      
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You now know the four major families of hydrocarbons and their characteristic reactions. But hydrocarbons are just the beginning. When we replace hydrogen atoms with functional groups containing oxygen, nitrogen, or halogens, we get hydrocarbon derivatives with dramatically different properties. Chapter 15 explores these functional groups, from alcohols and aldehydes to carboxylic acids and esters.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-ch14-distillation',

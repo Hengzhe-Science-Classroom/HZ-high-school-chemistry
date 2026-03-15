@@ -10,9 +10,7 @@ window.CHAPTERS.push({
       id: 'ch01-sec01',
       title: '1. Pure Substances & Mixtures',
       content: `
-<div class="env-block intuition"><div class="env-title">From Lab Skills to Classifying Matter</div><div class="env-body"><p>In Chapter 0, you learned how to separate mixtures using filtration, distillation, and other techniques. But before we can separate or transform substances, we need a system for organizing them. This chapter introduces the classification framework that chemists use to sort all matter into meaningful categories, from pure substances versus mixtures all the way to acid-base-salt systems and colloidal dispersions.</p></div></div>
 <h2>Pure Substances & Mixtures</h2>
-<p class="section-roadmap"><em>In this section, you will learn the fundamental distinction between pure substances and mixtures, and discover how to identify each type based on their physical properties.</em></p>
 
 <div class="definition">
  <strong>Pure Substance </strong>: Matter composed of only one kind of particle (one element or one compound).
@@ -114,8 +112,7 @@ window.CHAPTERS.push({
     </tr>
   </tbody>
 </table>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Now that you can distinguish pure substances from mixtures, the next question is: what types of pure substances exist? Elements and compounds behave very differently, and understanding this distinction is key to predicting chemical behavior.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-classification-tree',
@@ -262,7 +259,6 @@ window.CHAPTERS.push({
       title: '2. Elements & Compounds',
       content: `
 <h2>Elements & Compounds</h2>
-<p class="section-roadmap"><em>In this section, you will dive deeper into pure substances, distinguishing elements from compounds, and see how the same element can exist in different allotropic forms.</em></p>
 
 <div class="definition">
  <strong>Element (elemental form)</strong>: A pure substance made of only <em>one</em> kind of element.
@@ -336,8 +332,7 @@ window.CHAPTERS.push({
 <div class="warning">
   <strong>Be careful!</strong> H₂O₂ (hydrogen peroxide) and H₂O (water) both contain only hydrogen and oxygen, but they are <em>different compounds</em> with different formulas, properties, and uses. Same elements, different ratios → different compounds.
 </div>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Elements and compounds give us a broad classification. But compounds themselves can be further sorted into acids, bases, salts, and oxides, each with distinctive properties and reaction patterns.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-allotropes',
@@ -521,7 +516,6 @@ window.CHAPTERS.push({
       title: '3. Acid–Base–Salt–Oxide System',
       content: `
 <h2>The Acid–Base–Salt–Oxide Classification System</h2>
-<p class="section-roadmap"><em>In this section, you will learn the acid-base-salt-oxide classification system, which organizes compounds by their chemical behavior and sets the stage for understanding reactions.</em></p>
 
 <p>Compounds in chemistry are classified into four major categories based on their composition and properties:</p>
 
@@ -606,8 +600,7 @@ window.CHAPTERS.push({
 <div class="remark">
   <strong>Memory Aid:</strong> Think of acids as "H-donors" and bases as "OH-donors". When they meet, H and OH combine to make water, leaving the remaining ions to form a salt.
 </div>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Knowing the categories of substances is useful, but the real power comes from understanding how substances transform between categories. Next, we map out these transformation pathways.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-acid-base-salt-map',
@@ -756,7 +749,6 @@ window.CHAPTERS.push({
       title: '4. Transformation Relationships',
       content: `
 <h2>Transformation Relationships Between Substances</h2>
-<p class="section-roadmap"><em>In this section, you will explore how different classes of substances transform into one another through chemical reactions, revealing the web of connections in chemistry.</em></p>
 
 <p>One of the most powerful ideas in chemistry is that substances can be <em>interconverted</em> through chemical reactions.
 Understanding these pathways is essential for both predicting reactions and for industrial synthesis.</p>
@@ -847,8 +839,7 @@ Understanding these pathways is essential for both predicting reactions and for 
   <strong>CO₂ + Ca(OH)₂ → white precipitate</strong> is a classic test for CO₂ in the lab. The white solid is CaCO₃ (limestone). If excess CO₂ is added, the precipitate dissolves:
   \\[\\text{CaCO}_3 + \\text{CO}_2 + \\text{H}_2\\text{O} \\rightarrow \\text{Ca(HCO}_3)_2 \\text{ (soluble)}\\]
 </div>
-
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>We have classified substances by composition and explored their transformations. There is one more important category of matter to examine: dispersions and colloids, which sit between true solutions and visible suspensions.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-transformation-network',
@@ -992,7 +983,6 @@ Understanding these pathways is essential for both predicting reactions and for 
       title: '5. Dispersions & Colloids',
       content: `
 <h2>Dispersions and Colloids</h2>
-<p class="section-roadmap"><em>In this section, you will study dispersions and colloids, a special class of mixtures with particles between molecular and bulk scale, and learn about the Tyndall effect.</em></p>
 
 <p>When one substance is spread through another, we call the system a <strong>dispersion </strong>.
 The substance being dispersed is the <em>dispersed phase </em>,
@@ -1090,8 +1080,7 @@ and the medium it's spread in is the <em>dispersion medium </em>.</p>
  <tr><td style="padding:8px;border:1px solid #30363d;">Emulsion </td><td style="padding:8px;border:1px solid #30363d;">Milk, mayonnaise</td></tr>
   </tbody>
 </table>
-
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You can now classify any substance you encounter and predict how different types of matter interconvert. In the next chapter, we tackle a fundamental question: how do chemists count atoms and molecules? The mole concept and stoichiometry give us the quantitative language we need to describe chemical reactions precisely.</p></div></div>`,
+`,
       visualizations: [
         {
           id: 'viz-tyndall',

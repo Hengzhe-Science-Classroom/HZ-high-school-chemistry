@@ -12,9 +12,7 @@ window.CHAPTERS.push({
       id: 'ch03-sec01',
       title: 'Electrolytes & Non-Electrolytes',
       content: `
-<div class="env-block intuition"><div class="env-title">From Counting to Reacting in Solution</div><div class="env-body"><p>In Chapter 2, you mastered stoichiometry, the art of counting atoms and molecules. Now we ask: what actually happens when ionic compounds dissolve in water? The answer reveals a hidden world of free-moving ions that drives most of the chemistry you will encounter in aqueous solutions. This chapter takes you from electrolytes and ionization to the powerful tool of net ionic equations.</p></div></div>
 <h2>Electrolytes and Non-Electrolytes</h2>
-<p class="section-roadmap"><em>In this section, you will learn the distinction between electrolytes and non-electrolytes, and understand why some dissolved substances conduct electricity while others do not.</em></p>
 
 <p>When a substance is dissolved in water (or melted), it may or may not allow electric current to pass. This fundamental distinction defines <strong>electrolytes</strong> and <strong>non-electrolytes</strong>.</p>
 
@@ -71,8 +69,7 @@ Record your observations and explain each result using the concept of ionization
   <li>Mixtures are neither electrolytes nor non-electrolytes (e.g., seawater, salt solution).</li>
 </ul>
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Now you know which substances produce ions in solution. The next step is writing out exactly which ions appear, using ionization equations.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch03-viz01',
@@ -265,7 +262,6 @@ Record your observations and explain each result using the concept of ionization
       title: 'Ionization Equations',
       content: `
 <h2>Ionization Equations</h2>
-<p class="section-roadmap"><em>In this section, you will write ionization equations that show exactly which ions are produced when electrolytes dissolve, the first step toward understanding reactions in solution.</em></p>
 
 <p>An <strong>ionization equation</strong> shows how an electrolyte breaks apart into ions in aqueous solution.</p>
 
@@ -319,8 +315,7 @@ Record your observations and explain each result using the concept of ionization
 </div>
 
 <p>The animation below shows NaCl dissolving — watch how the ionic lattice breaks apart as water molecules surround and separate the ions.</p>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>With ionization equations in hand, we can now examine what happens when two ionic solutions are mixed. Do the ions simply coexist, or do they react? The next section explores ionic reactions.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch03-viz02',
@@ -519,7 +514,6 @@ Record your observations and explain each result using the concept of ionization
       title: 'Ionic Reactions',
       content: `
 <h2>Ionic Reactions</h2>
-<p class="section-roadmap"><em>In this section, you will discover that reactions in solution are driven by ion interactions, and learn to identify when a reaction actually occurs.</em></p>
 
 <p>When electrolyte solutions are mixed, the ions present may react with each other. Such reactions are called <strong>ionic reactions</strong> .</p>
 
@@ -565,8 +559,7 @@ Record your observations and explain each result using the concept of ionization
 </div>
 
 <p>The visualization below simulates mixing two solutions and watching a precipitate form at the molecular level.</p>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You have seen that ionic reactions occur when ions combine to form precipitates, gases, or water. The next step is to write these reactions more efficiently using net ionic equations, which strip away the spectator ions.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch03-viz03',
@@ -775,7 +768,6 @@ Record your observations and explain each result using the concept of ionization
       title: 'Net Ionic Equations',
       content: `
 <h2>Writing Net Ionic Equations</h2>
-<p class="section-roadmap"><em>In this section, you will master net ionic equations, the concise way to represent only the species that actually participate in a reaction.</em></p>
 
 <p>A <strong>net ionic equation</strong> shows only the ions and molecules that actually participate in the reaction — spectator ions are omitted.</p>
 
@@ -836,8 +828,7 @@ Record your observations and explain each result using the concept of ionization
 </div>
 
 <p>Use the interactive equation builder below to practice!</p>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Net ionic equations show us which ions react. But sometimes we need to know the reverse: which ions can peacefully coexist in the same solution? The final section tackles ion coexistence rules.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch03-viz04',
@@ -987,7 +978,6 @@ Record your observations and explain each result using the concept of ionization
       title: 'Ion Coexistence',
       content: `
 <h2>Ion Coexistence in Solution</h2>
-<p class="section-roadmap"><em>In this section, you will learn the rules for determining which ions can coexist peacefully in the same solution, a skill essential for predicting reactions.</em></p>
 
 <p>Not all ions can coexist peacefully in the same solution. Two ions <strong>cannot coexist</strong> if they would react with each other to form a precipitate, gas, or weak electrolyte.</p>
 
@@ -1035,8 +1025,7 @@ Record your observations and explain each result using the concept of ionization
 </div>
 
 <p>Use the Ion Coexistence Checker below to test combinations interactively!</p>
-      
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You now understand reactions at the ionic level, a perspective that will serve you throughout chemistry. With Chapters 0 through 3 complete, you have built a solid macroscopic foundation: lab skills, classification, stoichiometry, and ionic reactions. Now it is time to zoom in to the atomic scale. In Chapter 4, we explore atomic structure, discovering how protons, neutrons, and electrons are arranged and why this arrangement determines everything about an element's behavior.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch03-viz05',

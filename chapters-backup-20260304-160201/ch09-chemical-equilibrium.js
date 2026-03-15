@@ -10,9 +10,7 @@ window.CHAPTERS.push({
       id: 'ch09-sec01',
       title: 'Reversible Reactions',
       content: `
-<div class="env-block intuition"><div class="env-title">From Reaction Rates to Equilibrium</div><div class="env-body"><p>In Chapter 8, you learned about the factors that control how fast reactions proceed. But there is something we have not yet addressed: many reactions are reversible. They do not simply go to completion; instead, the forward and reverse reactions both occur simultaneously. When these two rates become equal, the system reaches chemical equilibrium, a dynamic state where concentrations stop changing even though both reactions continue. This chapter explores what equilibrium means, how to quantify it, and how to shift it.</p></div></div>
 <h2>Reversible Reactions </h2>
-<p class="section-roadmap"><em>In this section, you will learn what makes a reaction reversible and see experimental evidence that both forward and reverse reactions occur simultaneously.</em></p>
 
 <p>Many chemical reactions can proceed in <strong>both directions</strong> simultaneously — forward and reverse. These are called <em>reversible reactions</em> .</p>
 
@@ -60,8 +58,7 @@ window.CHAPTERS.push({
   <tr><td>Example</td><td>Burning wood</td><td>Haber process</td></tr>
 </tbody>
 </table>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You have seen that reversible reactions exist. But what exactly does it mean to be "at equilibrium"? The next section defines the equilibrium state precisely and identifies its key characteristics.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch09-viz01',
@@ -267,7 +264,6 @@ window.CHAPTERS.push({
       title: 'Chemical Equilibrium State',
       content: `
 <h2>Chemical Equilibrium State </h2>
-<p class="section-roadmap"><em>In this section, you will study the defining characteristics of chemical equilibrium and understand the difference between static and dynamic balance.</em></p>
 
 <p>When a reversible reaction is placed in a closed container and allowed to proceed, eventually it reaches a state called <strong>chemical equilibrium</strong> .</p>
 
@@ -308,8 +304,7 @@ window.CHAPTERS.push({
   <li>✓ The ratio [SO₂]:[O₂]:[SO₃] remains constant</li>
   <li>✗ Rate of SO₂ consumption = rate of O₂ consumption (different stoichiometry — this does NOT indicate equilibrium!)</li>
 </ul>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You now understand what equilibrium looks like qualitatively. To work with it quantitatively, we need the equilibrium constant K, a single number that encodes the position of equilibrium for any reaction.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch09-viz02',
@@ -529,7 +524,6 @@ window.CHAPTERS.push({
       title: 'Equilibrium Constant K',
       content: `
 <h2>Equilibrium Constant K </h2>
-<p class="section-roadmap"><em>In this section, you will learn to write and calculate the equilibrium constant K, the number that quantifies where the equilibrium position lies.</em></p>
 
 <p>For any reversible reaction at equilibrium, there is a specific mathematical relationship between the concentrations of products and reactants — the <strong>equilibrium constant K</strong>.</p>
 
@@ -574,8 +568,7 @@ window.CHAPTERS.push({
   <li>If <strong>Q = K</strong>: system is at equilibrium</li>
   <li>If <strong>Q &gt; K</strong>: reaction proceeds in reverse (←) to reach equilibrium</li>
 </ul>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>The equilibrium constant tells us where equilibrium lies. But in practical applications, we often want to know the conversion rate: what fraction of our starting material actually becomes product? The next section connects K to conversion calculations.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch09-viz04',
@@ -920,7 +913,6 @@ window.CHAPTERS.push({
       title: 'Conversion Rate',
       content: `
 <h2>Conversion Rate </h2>
-<p class="section-roadmap"><em>In this section, you will master conversion rate calculations, connecting equilibrium constants to the practical question of how much product you actually get.</em></p>
 
 <p>The <strong>conversion rate</strong> tells us what fraction of a reactant has been consumed when equilibrium is reached.</p>
 
@@ -965,8 +957,7 @@ window.CHAPTERS.push({
 <br><br>
 \\( \\alpha(A) = \\frac{0.30}{1.0} \\times 100\\% = 30\\% \\)
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>We can now calculate equilibrium positions, but what if we want to change them? Le Chatelier's Principle tells us exactly how to shift equilibrium by adjusting temperature, pressure, or concentration. This principle is the cornerstone of industrial chemistry.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch09-viz06',
@@ -1073,7 +1064,6 @@ window.CHAPTERS.push({
       title: "Le Chatelier's Principle & Industrial Applications",
       content: `
 <h2>Le Chatelier's Principle </h2>
-<p class="section-roadmap"><em>In this section, you will discover Le Chatelier's Principle and see how it guides industrial processes like the Haber synthesis of ammonia.</em></p>
 
 <p>When an equilibrium system is subjected to a stress (disturbance), it responds by <strong>shifting in the direction that partially relieves the stress</strong>.</p>
 
@@ -1127,8 +1117,7 @@ window.CHAPTERS.push({
 </ul>
 
 <p>This reaction is central to global food production — ammonia is the basis of nitrogen fertilizers that feed billions of people. It is estimated that half the nitrogen atoms in your body came through the Haber process!</p>
-      
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You have mastered chemical equilibrium, from the concept of reversibility to the quantitative tools of K and Le Chatelier's Principle. With Chapters 7 through 9 complete, you understand the energetics, kinetics, and equilibrium of chemical reactions. In Chapter 10, we explore a special class of reactions where electron transfer is harnessed to produce electricity (or where electricity drives non-spontaneous reactions): electrochemistry.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch09-viz07',

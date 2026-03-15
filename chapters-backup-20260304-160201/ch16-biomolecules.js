@@ -10,9 +10,7 @@ window.CHAPTERS.push({
       id: 'ch16-sec01',
       title: 'Carbohydrates',
       content: `
-<div class="env-block intuition"><div class="env-title">From Small Molecules to the Chemistry of Life</div><div class="env-body"><p>In Chapters 13 through 15, you learned organic chemistry at the molecular level: functional groups, reactions, and naming conventions. Now we see where all of that leads in biology. Living organisms are built from four classes of large organic molecules (macromolecules): carbohydrates, fats, proteins, and nucleic acids. Each is assembled from small monomer units using the same functional group chemistry you already know, ester bonds, amide bonds, and glycosidic linkages. This chapter reveals the chemistry that underlies life itself.</p></div></div>
 <h2>Carbohydrates</h2>
-<p class="section-roadmap"><em>In this section, you will study carbohydrates, from simple sugars like glucose to complex polysaccharides like starch and cellulose, and learn how glycosidic bonds link them together.</em></p>
 <p>Carbohydrates are the primary source of energy for life. Their general formula is \\((CH_2O)_n\\), composed of carbon, hydrogen, and oxygen.</p>
 
 <div class="info-box">
@@ -58,8 +56,7 @@ window.CHAPTERS.push({
 Overall hydrolysis reaction (acid-catalyzed):
 \\[(C_6H_{10}O_5)_n + nH_2O \\xrightarrow{H^+, \\Delta} nC_6H_{12}O_6\\]
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Carbohydrates provide energy and structural material. But organisms also need a concentrated energy reserve and waterproof barriers. That is the role of fats and oils, built from the ester bond chemistry you learned in Chapter 15.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-glucose-ring',
@@ -281,7 +278,6 @@ Overall hydrolysis reaction (acid-catalyzed):
       title: 'Fats and Oils',
       content: `
 <h2>Fats and Oils</h2>
-<p class="section-roadmap"><em>In this section, you will explore fats and oils, understanding how ester bonds form between glycerol and fatty acids, and the chemistry of saponification (soap making).</em></p>
 <p>Fats and oils are esters formed from higher fatty acids and glycerol, chemically known as <strong>triacylglycerols (triglycerides)</strong>. They are ester compounds, not macromolecules.</p>
 
 <div class="env-block formula">
@@ -325,8 +321,7 @@ General structural formula (R represents a fatty acid hydrocarbon chain):
   <li>Trans fatty acids (from incomplete hydrogenation) increase cardiovascular risk and should be limited.</li>
   <li>Essential fatty acids (\u03c9-3, \u03c9-6) cannot be synthesized by the body and must be obtained from food.</li>
 </ul>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Fats store energy. Proteins, the next macromolecule class, do everything else: they catalyze reactions, transport molecules, provide structural support, and defend against pathogens. Their versatility comes from the 20 different amino acid building blocks.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-saponification',
@@ -441,7 +436,6 @@ General structural formula (R represents a fatty acid hydrocarbon chain):
       title: 'Proteins',
       content: `
 <h2>Proteins</h2>
-<p class="section-roadmap"><em>In this section, you will study proteins, polymers of amino acids linked by peptide (amide) bonds, and learn about their structure, denaturation, and detection.</em></p>
 <p>Proteins are the most important organic macromolecules of life, composed of 20 types of amino acids linked by peptide bonds, performing functions such as catalysis, transport, structural support, and signal transduction.</p>
 
 <h3>Amino Acids</h3>
@@ -487,8 +481,7 @@ A peptide chain of n amino acids: (n-1) water molecules are removed, forming (n-
 <strong>Experiment: Biuret Test for Proteins</strong>
 Add NaOH solution to egg white solution first, then add a few drops of CuSO\u2084 solution. Shake\u2014the solution turns <strong>purple</strong>, confirming the presence of protein.
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Proteins carry out the instructions for building an organism. But where are those instructions stored? In nucleic acids, DNA and RNA, whose base-pair complementarity enables the faithful transmission of genetic information.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-peptide-bond',
@@ -744,7 +737,6 @@ Add NaOH solution to egg white solution first, then add a few drops of CuSO\u208
       title: 'Nucleic Acids',
       content: `
 <h2>Nucleic Acids</h2>
-<p class="section-roadmap"><em>In this section, you will discover nucleic acids (DNA and RNA), the molecular carriers of genetic information, built from nucleotide monomers held together by phosphodiester bonds.</em></p>
 <p>Nucleic acids are biological macromolecules that carry genetic information, divided into <strong>DNA</strong> (deoxyribonucleic acid) and <strong>RNA</strong> (ribonucleic acid).</p>
 
 <h3>Nucleotides</h3>
@@ -790,8 +782,7 @@ Base complementarity: If the proportion of A in DNA is x, then T is also x, and 
   <li><strong>tRNA</strong> (transfer RNA): Recognizes codons and carries the corresponding amino acid.</li>
   <li><strong>rRNA</strong> (ribosomal RNA): Structural component of the ribosome.</li>
 </ul>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You have now studied all four classes of biological macromolecules. The final section brings them together in the context of nutrition and health, showing how enzyme catalysis and balanced nutrition depend on the chemistry you have learned.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-dna-helix',
@@ -1080,7 +1071,6 @@ Base complementarity: If the proportion of A in DNA is x, then T is also x, and 
       title: 'Biomolecules and Health',
       content: `
 <h2>Biomolecules and Health</h2>
-<p class="section-roadmap"><em>In this section, you will connect biomolecule chemistry to nutrition and health, seeing how enzymes catalyze biochemical reactions and why a balanced diet matters chemically.</em></p>
 <p>Biological macromolecules are the material basis of life activities. Balanced intake of nutrients is key to health.</p>
 
 <h3>Six Major Nutrients</h3>
@@ -1132,8 +1122,7 @@ Enzyme-catalyzed reaction scheme:
   <li>Oil and salt (25\u201330g oil, \u22645g salt/day)</li>
 </ol>
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You have seen how functional group chemistry scales up to create the molecules of life. With 16 chapters of chemistry behind you, one question remains: how do we use all of this knowledge responsibly? In the final chapter, we explore chemistry and sustainability, examining how green chemistry, renewable energy, and advanced materials can address the environmental challenges facing our world.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-starch-hydrolysis',

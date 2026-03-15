@@ -13,9 +13,7 @@ window.CHAPTERS.push({
             id: 'ch12-sec01',
             title: 'Silicon & Its Compounds',
             content: `
-                <div class="env-block intuition"><div class="env-title">From Metals to Nonmetals</div><div class="env-body"><p>In Chapter 11, you explored the chemistry of sodium, aluminum, and iron, seeing how metals lose electrons to form cations. Now we cross to the right side of the periodic table, where nonmetals dominate. Nonmetals tend to gain or share electrons, forming covalent compounds and polyatomic anions. This chapter examines four essential nonmetallic elements, silicon, chlorine, sulfur, and nitrogen, whose compounds are central to industry, technology, agriculture, and environmental science.</p></div></div>
-<h2>Silicon &amp; Its Compounds</h2>
-<p class="section-roadmap"><em>In this section, you will study silicon and its compounds, from the network covalent structure of SiO2 to the silicates that make up most of the Earth's crust.</em></p>
+                <h2>Silicon &amp; Its Compounds</h2>
 
                 <p>Silicon (Si) is the second most abundant element in Earth's crust — only oxygen is more plentiful. Yet pure silicon almost never appears in nature; instead, it forms stable compounds that make up rocks, sand, glass, and ceramics.</p>
 
@@ -88,8 +86,7 @@ window.CHAPTERS.push({
                 <p>Pure elemental silicon (Si) is a metalloid semiconductor used in computer chips. It is obtained by reducing SiO₂:</p>
                 <p>\\(\\text{SiO}_2 + 2\\text{C} \\xrightarrow{\\text{high T}} \\text{Si} + 2\\text{CO}\\uparrow\\)</p>
                 <p>Further purification to "electronic-grade silicon" (99.9999999% pure!) uses the Siemens process.</p>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Silicon forms giant covalent structures that are hard and high-melting. Chlorine, by contrast, exists as a diatomic gas and is one of the most reactive elements. The next section explores the chemistry of this essential halogen.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'silicon-network-viz',
@@ -226,7 +223,6 @@ window.CHAPTERS.push({
             title: 'Chlorine & Its Compounds',
             content: `
                 <h2>Chlorine &amp; Its Compounds</h2>
-<p class="section-roadmap"><em>In this section, you will explore chlorine, a highly reactive halogen, and its compounds, including hydrochloric acid and bleach, along with industrial chlorine production.</em></p>
 
                 <p>Chlorine (Cl₂) is a yellow-green, toxic gas with a suffocating odor. It is one of the most important industrial chemicals — used to make PVC plastics, pharmaceuticals, disinfectants, and paper. Understanding chlorine chemistry is central to high school chemistry.</p>
 
@@ -292,8 +288,7 @@ window.CHAPTERS.push({
                         <p>The most common in high school are −1, 0, and +1.</p>
                     </div>
                 </div>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Chlorine showed us halogen chemistry. Sulfur, in the next section, introduces a nonmetal with multiple oxidation states and a critically important industrial compound: sulfuric acid.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'cl2-electrolysis-viz',
@@ -469,7 +464,6 @@ window.CHAPTERS.push({
             title: 'Sulfur & Its Compounds',
             content: `
                 <h2>Sulfur &amp; Its Compounds</h2>
-<p class="section-roadmap"><em>In this section, you will investigate sulfur chemistry, from elemental sulfur through SO2 and SO3 to the industrial production of sulfuric acid via the Contact Process.</em></p>
 
                 <p>Sulfur (S) is a yellow nonmetal solid found in nature as the free element and in many compounds. Its chemistry spans a wide range of oxidation states (−2, 0, +4, +6), giving rise to important compounds like H₂S, SO₂, SO₃, and H₂SO₄.</p>
 
@@ -551,8 +545,7 @@ window.CHAPTERS.push({
                         <p>Always add acid to water — NEVER add water to concentrated H₂SO₄. Mixing releases enormous heat, and adding water to acid causes violent boiling and spattering of corrosive liquid. Remember: "A to W" (Acid to Water).</p>
                     </div>
                 </div>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Sulfur's chemistry centers on its oxides and oxoacids. Nitrogen, the next element we study, has an even wider range of oxidation states (from -3 to +5) and equally important industrial applications.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'contact-process-viz',
@@ -899,7 +892,6 @@ window.CHAPTERS.push({
             title: 'Nitrogen & Its Compounds',
             content: `
                 <h2>Nitrogen &amp; Its Compounds</h2>
-<p class="section-roadmap"><em>In this section, you will study nitrogen and its compounds, from the inert N2 molecule to the reactive nitrogen oxides and the industrially vital nitric acid.</em></p>
 
                 <p>Nitrogen makes up 78% of our atmosphere as N₂. Yet it is surprisingly inert at room temperature — the triple bond (N≡N, bond energy 945 kJ/mol) is the strongest diatomic bond, making N₂ very stable. "Fixing" atmospheric nitrogen into reactive compounds is one of chemistry's greatest industrial achievements.</p>
 
@@ -961,8 +953,7 @@ window.CHAPTERS.push({
                 </div>
 
                 <div class="viz-placeholder" data-viz="nitrogen-cycle-viz"></div>
-            
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>The chemistry of chlorine, sulfur, and nitrogen has enormous industrial value, but it also creates environmental challenges. The final section examines acid rain, ozone depletion, and other issues where nonmetal chemistry meets the real world.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'nitrogen-cycle-viz',
@@ -1182,7 +1173,6 @@ window.CHAPTERS.push({
             title: 'Environmental Issues',
             content: `
                 <h2>Environmental Issues: Acid Rain, Ozone, and Smog</h2>
-<p class="section-roadmap"><em>In this section, you will see how nonmetal chemistry connects to environmental issues: acid rain, ozone depletion, and water pollution.</em></p>
 
                 <p>The nonmetals we have studied — sulfur, nitrogen, and chlorine — are also central players in serious environmental problems. Understanding the chemistry helps us understand both the problems and potential solutions.</p>
 
@@ -1273,8 +1263,7 @@ window.CHAPTERS.push({
                         <p>O₃ in the stratosphere is beneficial — it shields us from UV radiation. But O₃ at ground level (troposphere) is a pollutant — it irritates the respiratory system, damages crops, and degrades rubber and plastics. Same molecule, very different context!</p>
                     </div>
                 </div>
-            
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>With Chapters 11 and 12, you have completed your survey of descriptive inorganic chemistry. You have seen how the principles from earlier chapters play out in the real chemistry of metals and nonmetals. Now we enter the world of organic chemistry. In Chapter 13, you will discover why carbon is unique among the elements, forming more compounds than all other elements combined, and learn the foundational concepts that make organic chemistry possible.</p></div></div>`,
+            `,
             visualizations: [
                 {
                     id: 'acid-rain-viz',

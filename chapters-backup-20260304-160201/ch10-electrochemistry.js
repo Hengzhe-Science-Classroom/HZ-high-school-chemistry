@@ -10,8 +10,6 @@ window.CHAPTERS.push({
       id: 'ch10-sec01',
       title: 'Redox Reactions Review',
       content: `
-<div class="env-block intuition"><div class="env-title">From Equilibrium to Electron Transfer</div><div class="env-body"><p>In Chapter 9, you studied equilibrium in reactions that proceed in both directions. Many of those reactions involved the exchange of ions or protons. Now we focus on a different type of exchange: the transfer of electrons. Redox reactions, where one species loses electrons and another gains them, are the foundation of electrochemistry. By separating the electron-losing and electron-gaining halves of a redox reaction, we can force electrons to flow through a wire, generating electricity. This is how batteries, fuel cells, and corrosion work.</p></div></div>
-<p class="section-roadmap"><em>In this section, you will review oxidation and reduction, learn to assign oxidation states, and identify which species gains and loses electrons in a redox reaction.</em></p>
 <div class="env-definition">
 <strong>Oxidation-Reduction (Redox) Reactions</strong><br>
 A <em>redox reaction</em> is any chemical reaction in which electrons are transferred between species. Two complementary processes always occur simultaneously:
@@ -83,8 +81,7 @@ Overall: \\[ \\text{MnO}_4^- + 5\\text{Fe}^{2+} + 8\\text{H}^+ \\rightarrow \\te
 <div class="env-intuition">
 <strong>Intuition:</strong> Think of electron transfer like money transfer — what one person loses, another gains. In every redox reaction, the total "electron debt" is zero. The oxidizing agent is like a bank that collects electrons; the reducing agent is like a customer paying in electrons.
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You can now identify electron transfer in redox reactions. The next step is to harness that electron transfer: by forcing electrons to travel through an external wire, we create a galvanic cell that produces electricity.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch10-viz-redox',
@@ -271,7 +268,6 @@ Overall: \\[ \\text{MnO}_4^- + 5\\text{Fe}^{2+} + 8\\text{H}^+ \\rightarrow \\te
       id: 'ch10-sec02',
  title:'Galvanic Cells',
       content: `
-<p class="section-roadmap"><em>In this section, you will see how spontaneous redox reactions can be harnessed in galvanic cells to generate electrical energy, using the Daniell cell as a model.</em></p>
 <div class="env-definition">
 <strong>Galvanic Cell (/ Voltaic Cell)</strong><br>
 A <em>galvanic cell</em> is a device that converts chemical energy from a spontaneous redox reaction into electrical energy. It consists of two <strong>electrodes</strong> (conductors) immersed in <strong>electrolyte</strong> solutions, connected externally by a wire and internally by a <strong>salt bridge</strong>.
@@ -359,8 +355,7 @@ Overall cell reaction: \\[ \\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\rightarrow \\te
 <div class="env-warning">
 <strong>Key Distinction:</strong> In external circuit — <em>electrons</em> flow from negative to positive (anode to cathode). In the electrolyte solution — <em>ions</em> carry current. Never mix these up in exam answers!
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Galvanic cells convert chemical energy to electrical energy spontaneously. But what if we run the process in reverse, using electricity to drive a non-spontaneous reaction? That is electrolysis, our next topic.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch10-viz-galvanic',
@@ -616,7 +611,6 @@ Overall cell reaction: \\[ \\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\rightarrow \\te
       id: 'ch10-sec03',
  title:'Electrolytic Cells',
       content: `
-<p class="section-roadmap"><em>In this section, you will explore electrolytic cells, where electrical energy drives non-spontaneous reactions, enabling processes like electroplating and aluminum production.</em></p>
 <div class="env-definition">
 <strong>Electrolytic Cell </strong><br>
 An <em>electrolytic cell</em> uses an external electrical energy source to force a <em>non-spontaneous</em> redox reaction to occur. This process is called <strong>electrolysis </strong>. Unlike galvanic cells, electrolytic cells consume electrical energy to produce chemical change.
@@ -704,8 +698,7 @@ where:
  <li><strong>Electrorefining :</strong> Purify metals. Crude copper anode dissolves; pure copper deposits at cathode.</li>
   <li><strong>Aluminum production (Hall-Héroult process):</strong> Electrolysis of Al₂O₃ dissolved in molten cryolite (Na₃AlF₆) at ~950°C.</li>
 </ul>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Electrolysis is a powerful industrial tool, but electrochemistry also has an unwanted side: corrosion. Metals exposed to moisture undergo spontaneous electrochemical reactions that destroy them. Understanding corrosion lets us prevent it.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch10-viz-electrolysis',
@@ -940,7 +933,6 @@ where:
       id: 'ch10-sec04',
  title:'Metal Corrosion & Protection',
       content: `
-<p class="section-roadmap"><em>In this section, you will learn why metals corrode and how electrochemical principles are used to protect them through galvanization, sacrificial anodes, and cathodic protection.</em></p>
 <div class="env-definition">
 <strong>Metal Corrosion </strong><br>
 Corrosion is the spontaneous oxidation of metals caused by their reaction with environmental substances (oxygen, water, acids, etc.). It is an electrochemical process in which the metal acts as the anode of a microscopic galvanic cell formed at the metal surface.
@@ -991,8 +983,7 @@ Corrosion is the spontaneous oxidation of metals caused by their reaction with e
 Galvanized iron (Zn coating): Zn is MORE active than Fe. Even if scratched, Zn corrodes first (sacrificial anode), protecting Fe.<br>
 Tin-plated iron (Sn coating): Sn is LESS active than Fe. If the coating is intact, Fe is isolated. But if scratched, Fe becomes the anode and corrodes FASTER than without the tin!
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You now understand both the constructive and destructive sides of electrochemistry. The final section brings it all together by surveying the battery technologies that store and deliver electrical energy in everyday life.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch10-viz-corrosion',
@@ -1158,7 +1149,6 @@ Tin-plated iron (Sn coating): Sn is LESS active than Fe. If the coating is intac
       id: 'ch10-sec05',
  title:'Battery Technology',
       content: `
-<p class="section-roadmap"><em>In this section, you will survey modern battery technologies, from lead-acid to lithium-ion to hydrogen fuel cells, and see how electrochemistry powers the modern world.</em></p>
 <div class="env-definition">
 <strong>Battery</strong><br>
 A battery is one or more electrochemical cells that convert stored chemical energy into electrical energy. <em>Primary batteries</em> are non-rechargeable; <em>secondary batteries</em> are rechargeable; <em>fuel cells</em> convert fuel energy continuously.
@@ -1255,8 +1245,7 @@ Only product is water — zero emissions!
     <td style="padding:8px;border:1px solid #30363d;">Transport, space</td>
   </tr>
 </table>
-      
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>Electrochemistry completes our study of reaction principles (energy, rates, equilibrium, and electron transfer). Starting with Chapter 11, we shift to descriptive chemistry: studying the specific properties and reactions of important element groups. First up are the metals, sodium, aluminum, and iron, whose chemistry illustrates all the principles you have learned.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'ch10-viz-battery-comparison',

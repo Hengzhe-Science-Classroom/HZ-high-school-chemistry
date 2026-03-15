@@ -12,9 +12,7 @@ window.CHAPTERS.push({
       id: 'ch08-sec01',
       title: 'Expressing Reaction Rate',
       content: `
-<div class="env-block intuition"><div class="env-title">From Energy to Speed</div><div class="env-body"><p>In Chapter 7, you learned that thermodynamics tells us whether a reaction releases or absorbs energy. But thermodynamics says nothing about how fast the reaction occurs. Diamond is thermodynamically unstable relative to graphite, yet diamonds last effectively forever. Hydrogen and oxygen can release enormous energy when they combine, yet a mixture of these gases can sit unchanged for years without a spark. This chapter explores kinetics: the study of reaction rates and the factors that control them.</p></div></div>
 <h2>How Fast Is the Reaction?</h2>
-<p class="section-roadmap"><em>In this section, you will learn how to express reaction rate quantitatively, using changes in concentration over time.</em></p>
 <p>
   When a chemical reaction occurs, the concentrations of reactants decrease
  and products increase over time. <strong>Reaction rate</strong>
@@ -74,8 +72,7 @@ window.CHAPTERS.push({
   at a single moment: \\(v = \\left|\\dfrac{dc}{dt}\\right|\\).
   As \\(\\Delta t \\to 0\\), the average rate approaches the instantaneous rate.
 </p>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>You can now measure and express reaction rates. But what determines how fast a reaction goes at the molecular level? The next section introduces collision theory and activation energy, the microscopic foundation of kinetics.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-rate-data-plotter',
@@ -247,7 +244,6 @@ window.CHAPTERS.push({
       title: 'Collision Theory & Activation Energy',
       content: `
 <h2>Collision Theory </h2>
-<p class="section-roadmap"><em>In this section, you will discover collision theory and activation energy, the microscopic explanation for why reactions occur at the rates they do.</em></p>
 <p>
   The <strong>collision theory</strong> explains reaction rates at the molecular level.
   For a reaction to occur, reactant molecules must:
@@ -325,8 +321,7 @@ window.CHAPTERS.push({
     </tr>
   </tbody>
 </table>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Collision theory tells us that more frequent, energetic collisions mean faster reactions. The next section examines two practical ways to increase collision frequency: raising the concentration of reactants and increasing the pressure for gas-phase reactions.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-maxwell-boltzmann-dual',
@@ -528,7 +523,6 @@ window.CHAPTERS.push({
       title: 'Concentration & Pressure Effects',
       content: `
 <h2>How Concentration Affects Rate</h2>
-<p class="section-roadmap"><em>In this section, you will explore how changing concentration and pressure affects reaction rate, and understand the molecular reasoning behind these effects.</em></p>
 <p>
   Increasing the concentration of a reactant generally <strong>increases</strong>
   the reaction rate. More particles per unit volume means more frequent collisions.
@@ -575,8 +569,7 @@ window.CHAPTERS.push({
     liquids, because their concentrations are essentially fixed.
   </p>
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Concentration and pressure affect collision frequency. Temperature does something even more powerful: it increases the fraction of molecules with enough energy to react. The next section explores temperature effects and surface area.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-reaction-progress-monitor',
@@ -748,7 +741,6 @@ window.CHAPTERS.push({
       title: 'Temperature & Surface Area',
       content: `
 <h2>Why Does Heating Speed Up Reactions?</h2>
-<p class="section-roadmap"><em>In this section, you will investigate how temperature and surface area influence reaction speed, and learn the quantitative Arrhenius relationship.</em></p>
 <p>
   Temperature has a dramatic effect on reaction rate. A common rule of thumb
   used in Chinese high school chemistry is:
@@ -812,8 +804,7 @@ window.CHAPTERS.push({
     allowing rapid oxidation by atmospheric O₂.
   </p>
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>All the factors we have discussed so far (concentration, pressure, temperature, surface area) change reaction conditions. Catalysts take a fundamentally different approach: they lower the activation energy itself, opening a faster pathway without being consumed. This is the subject of our final section.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-arrhenius-plot',
@@ -1062,7 +1053,6 @@ window.CHAPTERS.push({
       title: 'Catalysts',
       content: `
 <h2>Catalysts: Lowering the Energy Barrier</h2>
-<p class="section-roadmap"><em>In this section, you will learn how catalysts speed up reactions without being consumed, and discover why enzymes are nature's most remarkable catalysts.</em></p>
 <p>
  A <strong>catalyst</strong> is a substance that <em>increases</em> the
   reaction rate without itself being consumed in the overall reaction.
@@ -1135,8 +1125,7 @@ window.CHAPTERS.push({
     <tr><td style="padding:8px;border:1px solid #30363d;">Catalyst</td><td style="padding:8px;border:1px solid #30363d;">Added</td><td style="padding:8px;border:1px solid #30363d;">↑ Rate</td><td style="padding:8px;border:1px solid #30363d;">Lower Ea pathway</td></tr>
   </tbody>
 </table>
-      
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You now understand what controls how fast reactions proceed. But many reactions do not go to completion; instead, they reach a dynamic balance between forward and reverse processes. In Chapter 9, we explore chemical equilibrium, the state where reaction rates in both directions are equal, and learn how to shift the balance using Le Chatelier's Principle.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-enzyme-catalysis',

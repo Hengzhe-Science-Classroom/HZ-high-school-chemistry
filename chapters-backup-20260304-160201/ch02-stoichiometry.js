@@ -12,9 +12,7 @@ window.CHAPTERS.push({
       id: 'ch02-sec01',
       title: '1. The Mole Concept',
       content: `
-<div class="env-block intuition"><div class="env-title">From Classification to Counting</div><div class="env-body"><p>In Chapter 1, you learned to classify matter into elements, compounds, and mixtures. But chemistry is not just about what substances are; it is about how much. When a pharmacist prepares a medicine or an engineer designs a battery, exact quantities matter. This chapter introduces the mole, the chemist's counting unit, along with molar mass, molar volume, and molar concentration, giving you the quantitative toolkit that underlies all of chemistry.</p></div></div>
 <h2>Amount of Substance and the Mole</h2>
-<p class="section-roadmap"><em>In this section, you will meet the mole concept and Avogadro's number, learning how chemists bridge the gap between individual atoms and laboratory-scale quantities.</em></p>
 
 <div class="env-intuition">
 <strong>Why do we need the mole?</strong><br>
@@ -68,8 +66,7 @@ The SI unit of amount of substance is the <strong>mole (mol)</strong>.
 </ul>
 Always multiply the subscript by the number of moles.
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>The mole lets us count particles. But in the lab, we measure grams on a balance, not moles directly. The next section introduces molar mass, the bridge between counting and weighing.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-mole-counter',
@@ -284,7 +281,6 @@ Always multiply the subscript by the number of moles.
       title: '2. Molar Mass',
       content: `
 <h2>Molar Mass</h2>
-<p class="section-roadmap"><em>In this section, you will connect moles to grams through molar mass, the conversion factor that makes the mole concept practical for laboratory work.</em></p>
 
 <div class="env-intuition">
 <strong>The key connection:</strong> Avogadro's number links particles to moles. Molar mass links moles to <em>grams</em> — the unit we can actually measure on a balance.
@@ -343,8 +339,7 @@ Units: g/mol (or kg/mol in SI). Numerically, \\(M\\) in g/mol equals the atomic/
 \\[ n = \\frac{m\\,(\\text{g})}{M\\,(\\text{g/mol})} = \\text{mol} \\checkmark \\]
 If you get g²/mol or other nonsense, you multiplied when you should have divided.
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Molar mass connects moles to mass for solids and liquids. But gases behave differently: their volume, not mass, is what we measure most easily. Next, we explore the elegant simplicity of molar volume.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-mass-mole-converter',
@@ -547,7 +542,6 @@ If you get g²/mol or other nonsense, you multiplied when you should have divide
       title: '3. Molar Volume of Gases',
       content: `
 <h2>Molar Volume of Gases</h2>
-<p class="section-roadmap"><em>In this section, you will discover that all ideal gases occupy the same volume per mole at standard conditions, a remarkable fact that simplifies gas-phase calculations.</em></p>
 
 <h3>Avogadro's Law</h3>
 
@@ -606,8 +600,7 @@ Gas molecules at room temperature are so far apart that the actual size of the m
   <li>O₂: \\(\\rho = 32.0/22.4 = 1.43\\,\\text{g/L}\\)</li>
   <li>CO₂: \\(\\rho = 44.0/22.4 = 1.96\\,\\text{g/L}\\) (heavier than air)</li>
 </ul>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>We can now convert between moles, mass, and gas volume. Many reactions happen in solution, though, so we need one more tool: molar concentration, which tells us how many moles of solute are dissolved per liter.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-gas-volume-stp',
@@ -769,7 +762,6 @@ Gas molecules at room temperature are so far apart that the actual size of the m
       title: '4. Molar Concentration',
       content: `
 <h2>Molar Concentration</h2>
-<p class="section-roadmap"><em>In this section, you will learn how to express the concentration of solutions using moles per liter, enabling precise quantitative work with dissolved substances.</em></p>
 
 <div class="env-definition">
 <strong>Definition — Molar Concentration :</strong><br>
@@ -828,8 +820,7 @@ Consider 1 L (1000 mL) of solution:
 \\[ n_{\\text{HCl}} = \\frac{424.8}{36.5} = 11.64\\,\\text{mol} \\]
 \\[ c = \\frac{11.64\\,\\text{mol}}{1\\,\\text{L}} = 11.64\\,\\text{mol/L} \\approx 11.6\\,\\text{mol/L} \\]
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Looking Ahead</div><div class="env-body"><p>Understanding molar concentration is one thing; preparing an accurate solution in the lab is another. The final section walks you through the precise procedure for making a standard solution.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-dilution-calculator',
@@ -1050,7 +1041,6 @@ Consider 1 L (1000 mL) of solution:
       title: '5. Solution Preparation',
       content: `
 <h2>Solution Preparation Procedure</h2>
-<p class="section-roadmap"><em>In this section, you will put everything together by learning the step-by-step procedure for preparing a standard solution using a volumetric flask.</em></p>
 
 <p>Preparing a solution of precisely known concentration is a fundamental lab skill. The key tool is the <strong>volumetric flask</strong> — a flask calibrated to contain an exact volume at a specific temperature.</p>
 
@@ -1110,8 +1100,7 @@ Consider 1 L (1000 mL) of solution:
 <strong>Why is precision important?</strong><br>
 In a research lab, a 1% error in concentration can lead to completely wrong experimental results. In a pharmaceutical lab, a 5% concentration error in medication could harm patients. Learning to prepare solutions precisely is one of the most important practical chemistry skills.
 </div>
-      
-<div class="env-block intuition"><div class="env-title">Chapter Complete: Looking Forward</div><div class="env-body"><p>You now command the quantitative language of chemistry: moles, molar mass, molar volume, and molar concentration. These tools allow you to describe any reaction in precise numerical terms. In the next chapter, we explore what happens when ionic compounds dissolve in water, revealing the hidden world of ions in solution and the ionic equations that describe aqueous reactions.</p></div></div>`,
+      `,
       visualizations: [
         {
           id: 'viz-solution-prep',
